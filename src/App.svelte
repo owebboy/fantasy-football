@@ -2,6 +2,7 @@
   import players, { type Player } from "./players";
   import { stores } from "./lib/stores";
   import { derived } from "svelte/store";
+  import RankingArrow from "./lib/RankingArrow.svelte";
   import {
     calculatePositionColor,
     chunkedPlayers,
@@ -70,21 +71,28 @@
         </button>
       {/each}
     </nav>
-    <nav>
-      <button
-        disabled={!$keepers.length}
-        on:click={() =>
-          confirm(`Clear all Keepers? (This will delete ${$keepers.length})`) &&
-          ($keepers = [])}>Clear Keepers</button
-      >
-      <button
-        disabled={!$draft.length}
-        on:click={() =>
-          confirm(
-            `Clear all Drafted Players? (This will delete ${$draft.length})`
-          ) && ($draft = [])}>Clear Draft</button
-      >
-    </nav>
+    <div class="header-right">
+      <div class="legend-text">
+        <span><strong>Arrows:</strong> Show disagreement</span>
+        <span>•</span>
+        <span>Longer = more variance</span>
+      </div>
+      <nav>
+        <button
+          disabled={!$keepers.length}
+          on:click={() =>
+            confirm(`Clear all Keepers? (This will delete ${$keepers.length})`) &&
+            ($keepers = [])}>Clear Keepers</button
+        >
+        <button
+          disabled={!$draft.length}
+          on:click={() =>
+            confirm(
+              `Clear all Drafted Players? (This will delete ${$draft.length})`
+            ) && ($draft = [])}>Clear Draft</button
+        >
+      </nav>
+    </div>
   </header>
   <main>
     <div class="grid">
@@ -102,16 +110,28 @@
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
+            title="{player.name} - Variance: {player.variance || 0}{player.rankings ? ` | FF: ${player.rankings.ff || 'N/A'} | ESPN: ${player.rankings.espn || 'N/A'} | FP: ${player.rankings.fp || 'N/A'}` : ''}"
           >
-            <div class="player-meta">
-              <p class="player-rank">
-                #{player.rank}
-              </p>
-              <p class="player-position">{player.position.position}</p>
+            <div class="player-top">
+              <div class="player-meta">
+                <p class="player-rank">
+                  #{player.rank}
+                </p>
+                <p class="player-position">{player.position.position}</p>
+              </div>
             </div>
-            <p class="player-name">{player.name}</p>
-            <div>
+            <div class="player-center">
+              <p class="player-name">{player.name}</p>
+            </div>
+            <div class="player-bottom">
               <p>{player.team}</p>
+              <div class="compass-container">
+                <RankingArrow 
+                  vector={player.vector} 
+                  consensusStrength={player.consensusStrength}
+                  size={32}
+                />
+              </div>
             </div>
           </button>
         {/each}
@@ -123,9 +143,16 @@
           <h2>Keepers ({$keepers.length})</h2>
           <div class="draft">
             {#each $keepers as player}
-              <div class="draft-player">
+              <div class="draft-player" title="Variance: {player.variance || 0}">
                 <div class="rank">{player.rank}</div>
                 <div class="name">{player.name}</div>
+                <div class="compass-small">
+                  <RankingArrow 
+                    vector={player.vector} 
+                    consensusStrength={player.consensusStrength}
+                    size={14}
+                  />
+                </div>
               </div>
             {/each}
           </div>
@@ -141,9 +168,16 @@
 
           <div class="draft">
             {#each $draft as player, idx}
-              <div class="draft-player">
+              <div class="draft-player" title="Variance: {player.variance || 0}">
                 <div class="rank">{idx + 1}</div>
                 <div class="name">{player.name}</div>
+                <div class="compass-small">
+                  <RankingArrow 
+                    vector={player.vector} 
+                    consensusStrength={player.consensusStrength}
+                    size={14}
+                  />
+                </div>
               </div>
             {/each}
           </div>
@@ -208,7 +242,8 @@
     padding: 0.1rem;
     border: 1px solid #444;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    gap: 0.2rem;
   }
 
   aside .draft-player .name {
@@ -216,13 +251,17 @@
     text-align: center;
     font-size: 0.8rem;
     line-height: 1;
-    align-self: center;
+    flex: 1;
   }
 
   aside .draft-player .rank {
     font-size: 0.7rem;
-    margin-right: 0.1rem;
     font-weight: 500;
+  }
+
+  aside .draft-player .compass-small {
+    display: flex;
+    align-items: center;
   }
 
   @media (max-width: 1092px) {
@@ -259,36 +298,79 @@
     color: #fff;
     height: 90px;
     width: 90px;
-
     appearance: none;
-    padding: 5px;
+    padding: 0;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
     border: 1px solid #222;
     margin: 0px;
     cursor: pointer;
     background: transparent;
+    position: relative;
   }
   .player-selected {
     filter: grayscale(0.5) brightness(0.6);
   }
 
-  .player > p {
-    font-size: 0.9rem;
-    text-align: center;
+  .player-top {
+    height: 16px;
+    padding: 4px 4px 0 4px;
+  }
+  
+  .player-center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
   }
 
   .player-name {
     font-weight: 500;
+    font-size: 0.85rem;
+    text-align: center;
+    word-break: break-word;
+    hyphens: auto;
+    margin: 0;
+    line-height: 1.1;
   }
 
   .player-meta {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 0.8rem;
+    align-items: flex-start;
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+  
+  .player-meta p {
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .player-bottom {
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 4px 4px 4px;
+  }
+  
+  .player-bottom > p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .compass-container {
+    position: absolute;
+    right: -8px;
+    bottom: -8px;
+    width: 32px;
+    height: 32px;
+    pointer-events: none;
+    z-index: 1;
   }
 
   header {
@@ -298,6 +380,26 @@
     border-bottom: 2px solid #444;
     margin-top: 1rem;
     flex-wrap: nowrap;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .legend-text {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: #aaa;
+    align-items: center;
+    padding: 0 1rem;
+    border-left: 1px solid #444;
+  }
+  
+  .legend-text strong {
+    color: #fff;
   }
 
   nav {
@@ -335,14 +437,22 @@
       height: 60px;
       width: 60px;
       padding: 2px;
-      font-size: 0.5rem;
     }
-    .player > p {
-      font-size: 0.7rem;
-      font-weight: 400;
+    .player-name {
+      font-size: 0.65rem;
     }
     .player-meta {
       font-size: 0.5rem;
+    }
+    .player-bottom > p {
+      font-size: 0.55rem;
+    }
+    .player-bottom {
+      height: 20px;
+    }
+    .compass-container {
+      right: -2px;
+      bottom: -2px;
     }
   }
 </style>
