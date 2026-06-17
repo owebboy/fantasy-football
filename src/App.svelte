@@ -535,6 +535,23 @@ const clearDraft = () => {
     .grid {
       margin: 0.25rem;
     }
+
+    .player-name {
+      font-stretch: normal;
+      letter-spacing: normal;
+      font-size: clamp(0.5rem, 2.5vw, 0.7rem);
+    }
+
+    .player-ranks {
+      display: none;
+    }
+
+    .player {
+      grid-template-rows: auto 1fr;
+      grid-template-areas:
+        "meta"
+        "name";
+    }
   }
 
   @media (min-width: 1100px) {
