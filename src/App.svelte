@@ -232,23 +232,23 @@ const undoClear = (which: 'keepers' | 'draft') => {
   [role="tablist"] button {
     border: 0;
     background: transparent;
-    color: #aaa;
-    padding: 0.35rem 0.75rem;
-    font-size: 0.8rem;
+    color: #888;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.78rem;
     cursor: pointer;
     font-weight: 500;
-    text-transform: lowercase;
-    transition: color 0.15s, background 0.15s;
-    border-radius: 3px 3px 0 0;
+    transition: color 0.15s, box-shadow 0.15s;
+    border-radius: 4px;
+    margin-right: 2px;
   }
 
   [role="tablist"] button:hover {
-    color: #fff;
+    color: #ccc;
   }
 
   [role="tablist"] button.selected {
-    background: #444;
     color: #fff;
+    box-shadow: inset 0 -2px 0 #fff;
   }
 
   .header-right {
@@ -260,23 +260,24 @@ const undoClear = (which: 'keepers' | 'draft') => {
   .legend-toggle {
     background: none;
     border: 1px solid #555;
-    color: #aaa;
-    width: 22px;
-    height: 22px;
+    color: #999;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 0.65rem;
+    font-weight: 500;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
+    line-height: 1;
     transition: color 0.15s, border-color 0.15s;
   }
 
   .legend-toggle:hover {
     color: #fff;
-    border-color: #888;
+    border-color: #999;
   }
 
   nav {
@@ -284,23 +285,19 @@ const undoClear = (which: 'keepers' | 'draft') => {
   }
 
   nav button {
-    border: 0;
-    font-size: 0.75rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 0.72rem;
     background: transparent;
-    border-top: 2px solid #444;
-    border-left: 2px solid #444;
-    padding: 0.35rem 0.6rem;
+    padding: 0.3rem 0.6rem;
     cursor: pointer;
-    color: #aaa;
-    transition: color 0.15s;
-  }
-
-  nav button:last-child {
-    border-right: 2px solid #444;
+    color: #999;
+    transition: color 0.15s, border-color 0.15s;
   }
 
   nav button:hover:not(:disabled) {
     color: #fff;
+    border-color: #777;
   }
 
   /* ---- main layout ---- */
