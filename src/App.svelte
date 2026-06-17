@@ -91,7 +91,7 @@ const clearDraft = () => {
     </div>
   </header>
   <main>
-    <div class="grid">
+    <div class="grid" class:grid-readonly={$currentTab === "all players"}>
       {#each $currentPlayerSet as round}
         {#each round as player (player.rank)}
           <button
@@ -321,6 +321,15 @@ const clearDraft = () => {
     outline: 2px solid #fff;
     outline-offset: 2px;
     z-index: 3;
+  }
+
+  .grid-readonly .player {
+    cursor: default;
+  }
+
+  .grid-readonly .player:hover {
+    filter: none;
+    box-shadow: none;
   }
 
   .player-meta {
