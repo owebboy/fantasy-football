@@ -129,7 +129,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
-            aria-label="{player.name}, {player.position.position}, rank {player.rank}, {player.team}"
             title="{player.name} - Variance: {player.variance || 0}{player.rankings ? ` | FF: ${player.rankings.ff || 'N/A'} | ESPN: ${player.rankings.espn || 'N/A'} | FP: ${player.rankings.fp || 'N/A'}` : ''}"
           >
             <div class="player-top">
