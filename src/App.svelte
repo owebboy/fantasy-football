@@ -138,11 +138,18 @@ const undoClear = (which: 'keepers' | 'draft') => {
               <span class="player-team">{player.team}</span>
             </span>
             <span class="player-name">{player.name}</span>
+            <span class="player-ranks">
+              {#if player.rankings}
+                <span>FF {player.rankings.ff ?? '—'}</span>
+                <span>ESPN {player.rankings.espn ?? '—'}</span>
+                <span>FP {player.rankings.fp ?? '—'}</span>
+              {/if}
+            </span>
             <span class="compass-container">
               <RankingArrow 
                 vector={player.vector} 
                 consensusStrength={player.consensusStrength}
-                size={22}
+                size={30}
               />
             </span>
           </button>
@@ -311,7 +318,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     margin: 0.5rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 1px;
+    gap: 2px;
     place-items: stretch;
     flex: 1;
   }
@@ -323,18 +330,24 @@ const undoClear = (which: 'keepers' | 'draft') => {
     appearance: none;
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "meta compass"
-      "name compass";
+      "name compass"
+      "ranks compass";
     border: 1px solid rgba(255,255,255,0.08);
     margin: 0;
-    padding: 2px 4px;
+    padding: 3px 5px;
     cursor: pointer;
     background: transparent;
     position: relative;
     aspect-ratio: 1;
     transition: filter 0.15s, box-shadow 0.15s;
+    font-family: 'Barlow Condensed', 'Inter', system-ui, sans-serif;
+  }
+
+  .player:nth-child(12n) {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
   }
 
   .player:hover {
@@ -354,7 +367,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     display: flex;
     gap: 0.3rem;
     align-items: center;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
@@ -375,20 +388,36 @@ const undoClear = (which: 'keepers' | 'draft') => {
 
   .player-name {
     grid-area: name;
-    font-weight: 500;
-    font-size: 0.75rem;
-    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-align: center;
     line-height: 1.15;
     align-self: center;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    letter-spacing: 0.01em;
+  }
+
+  .player-ranks {
+    grid-area: ranks;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.52rem;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 1;
+    padding-top: 1px;
+  }
+
+  .player-ranks span {
+    white-space: nowrap;
   }
 
   .compass-container {
     grid-area: compass;
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     align-self: start;
     justify-self: end;
     position: relative;
@@ -510,7 +539,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     }
 
     .player-name {
-      font-size: 0.6rem;
+      font-size: 0.65rem;
     }
 
     .player-meta {
@@ -518,9 +547,13 @@ const undoClear = (which: 'keepers' | 'draft') => {
       gap: 0.15rem;
     }
 
+    .player-ranks {
+      font-size: 0.44rem;
+    }
+
     .compass-container {
-      width: 16px;
-      height: 16px;
+      width: 20px;
+      height: 20px;
     }
 
     [role="tablist"] button {
@@ -573,7 +606,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     }
 
     .player-name {
-      font-size: 0.52rem;
+      font-size: 0.55rem;
     }
 
     .player-meta {
@@ -581,9 +614,13 @@ const undoClear = (which: 'keepers' | 'draft') => {
       gap: 0.1rem;
     }
 
+    .player-ranks {
+      font-size: 0.38rem;
+    }
+
     .compass-container {
-      width: 12px;
-      height: 12px;
+      width: 14px;
+      height: 14px;
     }
 
     .grid {
