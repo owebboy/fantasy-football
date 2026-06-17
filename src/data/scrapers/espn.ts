@@ -8,6 +8,7 @@ const INPUT_GLOB = "data/cache/espn-input.*";
 /** Find the user-provided ESPN input file (any extension) */
 function findInputFile(): string | null {
   const dir = path.dirname(INPUT_GLOB);
+  if (!fs.existsSync(dir)) return null;
   const files = fs.readdirSync(dir);
   const match = files.find((f) => f.startsWith("espn-input."));
   return match ? path.join(dir, match) : null;
@@ -45,7 +46,7 @@ function parseCSV(content: string): ScrapedPlayer[] {
   const headers = lines[0].split(delimiter).map((h) => h.trim().toLowerCase());
 
   // Find column indices
-  const rankIdx = headers.findIndex((h) => /^rank|overall|pos$/i.test(h));
+  const rankIdx = headers.findIndex((h) => /^(?:rank|overall)$/i.test(h));
   const nameIdx = headers.findIndex((h) => /^player|name$/i.test(h));
   const teamIdx = headers.findIndex((h) => /^team|tm$/i.test(h));
   const posIdx = headers.findIndex((h) => /^pos|position$/i.test(h));
