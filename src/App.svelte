@@ -357,7 +357,7 @@ const clearDraft = () => {
     font-weight: 600;
     font-stretch: condensed;
     font-feature-settings: "ss02", "cv12", "cv13";
-    font-size: calc(clamp(0.48rem, 1vw, 0.8rem) * var(--name-scale, 1));
+    font-size: calc(clamp(0.45rem, 0.95vw, 0.76rem) * var(--name-scale, 1));
     text-align: center;
     line-height: 1.15;
     align-self: center;
@@ -539,7 +539,7 @@ const clearDraft = () => {
 
   @media (min-width: 1100px) {
     .player-name {
-      font-size: calc(clamp(0.8rem, 1.6vw, 1.2rem) * var(--name-scale, 1));
+      font-size: calc(clamp(0.76rem, 1.5vw, 1.15rem) * var(--name-scale, 1));
     }
   }
 
