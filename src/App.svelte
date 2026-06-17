@@ -355,7 +355,7 @@ const clearDraft = () => {
   .player-name {
     grid-area: name;
     font-weight: 600;
-    font-size: clamp(0.5rem, 1.2vw, 0.9rem);
+    font-size: clamp(0.45rem, 1.1vw, 0.8rem);
     text-align: center;
     line-height: 1.15;
     align-self: center;
@@ -545,7 +545,7 @@ const clearDraft = () => {
 
   @media (min-width: 1100px) {
     .player-name {
-      font-size: clamp(0.9rem, 2vw, 1.4rem);
+      font-size: clamp(0.8rem, 1.8vw, 1.25rem);
     }
   }
 
