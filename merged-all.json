@@ -1216,24 +1216,6 @@
     "rankVariance": 2
   },
   {
-    "name": "Jaylen Warren",
-    "team": "PIT",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 64,
-    "fantasyprosId": 24209,
-    "averageRank": 64,
-    "rankVariance": 0
-  },
-  {
     "name": "Marvin Harrison Jr.",
     "team": "ARI",
     "position": "WR",
@@ -1251,24 +1233,6 @@
     "fantasyprosId": 23064,
     "averageRank": 66,
     "rankVariance": 0.71
-  },
-  {
-    "name": "Tucker Kraft",
-    "team": "GB",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 65,
-    "fantasyprosId": 25298,
-    "averageRank": 65,
-    "rankVariance": 0
   },
   {
     "name": "Courtland Sutton",
@@ -1309,24 +1273,6 @@
     "rankVariance": 3
   },
   {
-    "name": "Caleb Williams",
-    "team": "CHI",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 67,
-    "fantasyprosId": 23084,
-    "averageRank": 67,
-    "rankVariance": 0
-  },
-  {
     "name": "DK Metcalf",
     "team": "PIT",
     "position": "WR",
@@ -1363,24 +1309,6 @@
     "fantasyprosId": 23886,
     "averageRank": 64,
     "rankVariance": 5.52
-  },
-  {
-    "name": "Justin Herbert",
-    "team": "LAC",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 69,
-    "fantasyprosId": 18635,
-    "averageRank": 69,
-    "rankVariance": 0
   },
   {
     "name": "Jordyn Tyson",
@@ -1497,24 +1425,6 @@
     "rankVariance": 0.71
   },
   {
-    "name": "RJ Harvey",
-    "team": "DEN",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 75,
-    "fantasyprosId": 27142,
-    "averageRank": 75,
-    "rankVariance": 0
-  },
-  {
     "name": "Parker Washington",
     "team": "JAX",
     "position": "WR",
@@ -1553,24 +1463,6 @@
     "rankVariance": 13.51
   },
   {
-    "name": "Chris Godwin Jr.",
-    "team": "TB",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 77,
-    "fantasyprosId": 16406,
-    "averageRank": 77,
-    "rankVariance": 0
-  },
-  {
     "name": "Michael Pittman Jr.",
     "team": "PIT",
     "position": "WR",
@@ -1588,24 +1480,6 @@
     "fantasyprosId": 19278,
     "averageRank": 82,
     "rankVariance": 3.54
-  },
-  {
-    "name": "Michael Wilson",
-    "team": "ARI",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 78,
-    "fantasyprosId": 25333,
-    "averageRank": 78,
-    "rankVariance": 0
   },
   {
     "name": "Brian Thomas Jr.",
@@ -1627,24 +1501,6 @@
     "rankVariance": 6.52
   },
   {
-    "name": "Trevor Lawrence",
-    "team": "JAX",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 79,
-    "fantasyprosId": 19780,
-    "averageRank": 79,
-    "rankVariance": 0
-  },
-  {
     "name": "Matthew Golden",
     "team": "GB",
     "position": "WR",
@@ -1664,33 +1520,54 @@
     "rankVariance": 28
   },
   {
-    "name": "Chuba Hubbard",
-    "team": "CAR",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Jakobi Meyers",
+    "team": "JAX",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 81,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 80,
-    "fantasyprosId": 19792,
-    "averageRank": 80,
-    "rankVariance": 0
+    "fantasyprosRank": 88,
+    "fantasyprosId": 18598,
+    "averageRank": 85,
+    "rankVariance": 3.54
+  },
+  {
+    "name": "Trevor Lawrence",
+    "team": "JAX",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 82,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 79,
+    "fantasyprosId": 19780,
+    "averageRank": 81,
+    "rankVariance": 1.58
   },
   {
     "name": "Dak Prescott",
     "team": "DAL",
     "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 83,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
@@ -1700,663 +1577,814 @@
     "rankVariance": 0
   },
   {
-    "name": "Rhamondre Stevenson",
-    "team": "NE",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Bo Nix",
+    "team": "DEN",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 84,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 84,
-    "fantasyprosId": 22726,
-    "averageRank": 84,
-    "rankVariance": 0
-  },
-  {
-    "name": "Rico Dowdle",
-    "team": "PIT",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 86,
-    "fantasyprosId": 19647,
-    "averageRank": 86,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jakobi Meyers",
-    "team": "JAX",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 88,
-    "fantasyprosId": 18598,
-    "averageRank": 88,
-    "rankVariance": 0
-  },
-  {
-    "name": "Wan'Dale Robinson",
-    "team": "TEN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 89,
-    "fantasyprosId": 22985,
-    "averageRank": 89,
-    "rankVariance": 0
+    "fantasyprosRank": 104,
+    "fantasyprosId": 22910,
+    "averageRank": 94,
+    "rankVariance": 10
   },
   {
     "name": "Brock Purdy",
     "team": "SF",
     "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 85,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 93,
     "fantasyprosId": 19797,
-    "averageRank": 93,
-    "rankVariance": 0
+    "averageRank": 89,
+    "rankVariance": 4
+  },
+  {
+    "name": "Matthew Stafford",
+    "team": "LAR",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 86,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 105,
+    "fantasyprosId": 9451,
+    "averageRank": 96,
+    "rankVariance": 9.51
+  },
+  {
+    "name": "Caleb Williams",
+    "team": "CHI",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 87,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 67,
+    "fantasyprosId": 23084,
+    "averageRank": 77,
+    "rankVariance": 10
   },
   {
     "name": "Makai Lemon",
     "team": "PHI",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 88,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 94,
     "fantasyprosId": 25420,
-    "averageRank": 94,
-    "rankVariance": 0
-  },
-  {
-    "name": "Kyle Monangai",
-    "team": "CHI",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 96,
-    "fantasyprosId": 27131,
-    "averageRank": 96,
-    "rankVariance": 0
+    "averageRank": 91,
+    "rankVariance": 3
   },
   {
     "name": "Ricky Pearsall",
     "team": "SF",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 89,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 97,
     "fantasyprosId": 26214,
-    "averageRank": 97,
-    "rankVariance": 0
+    "averageRank": 93,
+    "rankVariance": 4
   },
   {
-    "name": "Josh Downs",
-    "team": "IND",
+    "name": "Jordan Addison",
+    "team": "MIN",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 90,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 98,
-    "fantasyprosId": 24706,
+    "fantasyprosRank": 106,
+    "fantasyprosId": 23107,
     "averageRank": 98,
-    "rankVariance": 0
+    "rankVariance": 8
   },
   {
-    "name": "Patrick Mahomes II",
-    "team": "KC",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Michael Wilson",
+    "team": "ARI",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 91,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 78,
+    "fantasyprosId": 25333,
+    "averageRank": 85,
+    "rankVariance": 6.52
+  },
+  {
+    "name": "KC Concepcion",
+    "team": "CLE",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 92,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 129,
+    "fantasyprosId": 27331,
+    "averageRank": 111,
+    "rankVariance": 18.51
+  },
+  {
+    "name": "Justin Herbert",
+    "team": "LAC",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 93,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 69,
+    "fantasyprosId": 18635,
+    "averageRank": 81,
+    "rankVariance": 12
+  },
+  {
+    "name": "Patrick Mahomes",
+    "team": "KC",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 94,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 99,
     "fantasyprosId": 16413,
-    "averageRank": 99,
-    "rankVariance": 0
+    "averageRank": 97,
+    "rankVariance": 2.55
   },
   {
-    "name": "Kenneth Gainwell",
-    "team": "TB",
+    "name": "Rico Dowdle",
+    "team": "PIT",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 95,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 100,
-    "fantasyprosId": 23310,
-    "averageRank": 100,
-    "rankVariance": 0
+    "fantasyprosRank": 86,
+    "fantasyprosId": 19647,
+    "averageRank": 91,
+    "rankVariance": 4.53
+  },
+  {
+    "name": "Rhamondre Stevenson",
+    "team": "NE",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 96,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 84,
+    "fantasyprosId": 22726,
+    "averageRank": 90,
+    "rankVariance": 6
+  },
+  {
+    "name": "Jaylen Warren",
+    "team": "PIT",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 97,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 64,
+    "fantasyprosId": 24209,
+    "averageRank": 81,
+    "rankVariance": 16.51
+  },
+  {
+    "name": "Chuba Hubbard",
+    "team": "CAR",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 98,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 80,
+    "fantasyprosId": 19792,
+    "averageRank": 89,
+    "rankVariance": 9
+  },
+  {
+    "name": "J.K. Dobbins",
+    "team": "DEN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 99,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 108,
+    "fantasyprosId": 19245,
+    "averageRank": 104,
+    "rankVariance": 4.53
   },
   {
     "name": "Aaron Jones Sr.",
     "team": "MIN",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 100,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 101,
     "fantasyprosId": 16673,
     "averageRank": 101,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jake Ferguson",
-    "team": "DAL",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 102,
-    "fantasyprosId": 22718,
-    "averageRank": 102,
-    "rankVariance": 0
-  },
-  {
-    "name": "Travis Kelce",
-    "team": "KC",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 103,
-    "fantasyprosId": 11594,
-    "averageRank": 103,
-    "rankVariance": 0
-  },
-  {
-    "name": "Bo Nix",
-    "team": "DEN",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 104,
-    "fantasyprosId": 22910,
-    "averageRank": 104,
-    "rankVariance": 0
-  },
-  {
-    "name": "Matthew Stafford",
-    "team": "LAR",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 105,
-    "fantasyprosId": 9451,
-    "averageRank": 105,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jordan Addison",
-    "team": "MIN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 106,
-    "fantasyprosId": 23107,
-    "averageRank": 106,
-    "rankVariance": 0
-  },
-  {
-    "name": "Dalton Kincaid",
-    "team": "BUF",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 107,
-    "fantasyprosId": 25247,
-    "averageRank": 107,
-    "rankVariance": 0
-  },
-  {
-    "name": "J.K. Dobbins",
-    "team": "DEN",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 108,
-    "fantasyprosId": 19245,
-    "averageRank": 108,
-    "rankVariance": 0
-  },
-  {
-    "name": "Blake Corum",
-    "team": "LAR",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 109,
-    "fantasyprosId": 23013,
-    "averageRank": 109,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jared Goff",
-    "team": "DET",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 110,
-    "fantasyprosId": 15501,
-    "averageRank": 110,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jayden Reed",
-    "team": "GB",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 111,
-    "fantasyprosId": 23020,
-    "averageRank": 111,
-    "rankVariance": 0
-  },
-  {
-    "name": "Khalil Shakir",
-    "team": "BUF",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 112,
-    "fantasyprosId": 23748,
-    "averageRank": 112,
-    "rankVariance": 0
-  },
-  {
-    "name": "Kyler Murray",
-    "team": "MIN",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 113,
-    "fantasyprosId": 18600,
-    "averageRank": 113,
-    "rankVariance": 0
-  },
-  {
-    "name": "Quentin Johnston",
-    "team": "LAC",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 114,
-    "fantasyprosId": 23123,
-    "averageRank": 114,
-    "rankVariance": 0
-  },
-  {
-    "name": "Rachaad White",
-    "team": "WAS",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 115,
-    "fantasyprosId": 23891,
-    "averageRank": 115,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jordan Love",
-    "team": "GB",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 116,
-    "fantasyprosId": 19246,
-    "averageRank": 116,
-    "rankVariance": 0
-  },
-  {
-    "name": "George Kittle",
-    "team": "SF",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 117,
-    "fantasyprosId": 16499,
-    "averageRank": 117,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jayden Higgins",
-    "team": "HOU",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 118,
-    "fantasyprosId": 27077,
-    "averageRank": 118,
-    "rankVariance": 0
-  },
-  {
-    "name": "Baker Mayfield",
-    "team": "TB",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 119,
-    "fantasyprosId": 17237,
-    "averageRank": 119,
-    "rankVariance": 0
+    "rankVariance": 0.71
   },
   {
     "name": "Dallas Goedert",
     "team": "PHI",
     "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 101,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 120,
     "fantasyprosId": 17270,
-    "averageRank": 120,
-    "rankVariance": 0
+    "averageRank": 111,
+    "rankVariance": 9.51
   },
   {
-    "name": "Tyler Shough",
-    "team": "NO",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "George Kittle",
+    "team": "SF",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 102,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 121,
-    "fantasyprosId": 23096,
-    "averageRank": 121,
-    "rankVariance": 0
+    "fantasyprosRank": 117,
+    "fantasyprosId": 16499,
+    "averageRank": 110,
+    "rankVariance": 7.52
   },
   {
-    "name": "Xavier Worthy",
+    "name": "Mark Andrews",
+    "team": "BAL",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 103,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 134,
+    "fantasyprosId": 17269,
+    "averageRank": 119,
+    "rankVariance": 15.51
+  },
+  {
+    "name": "Travis Kelce",
     "team": "KC",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 104,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 122,
-    "fantasyprosId": 23019,
-    "averageRank": 122,
-    "rankVariance": 0
+    "fantasyprosRank": 103,
+    "fantasyprosId": 11594,
+    "averageRank": 104,
+    "rankVariance": 0.71
+  },
+  {
+    "name": "Kenneth Gainwell",
+    "team": "TB",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 105,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 100,
+    "fantasyprosId": 23310,
+    "averageRank": 103,
+    "rankVariance": 2.55
+  },
+  {
+    "name": "Rachaad White",
+    "team": "WAS",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 106,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 115,
+    "fantasyprosId": 23891,
+    "averageRank": 111,
+    "rankVariance": 4.53
+  },
+  {
+    "name": "Kyle Monangai",
+    "team": "CHI",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 107,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 96,
+    "fantasyprosId": 27131,
+    "averageRank": 102,
+    "rankVariance": 5.52
+  },
+  {
+    "name": "RJ Harvey",
+    "team": "DEN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 108,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 75,
+    "fantasyprosId": 27142,
+    "averageRank": 92,
+    "rankVariance": 16.51
+  },
+  {
+    "name": "Tucker Kraft",
+    "team": "GB",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 109,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 65,
+    "fantasyprosId": 25298,
+    "averageRank": 87,
+    "rankVariance": 22
+  },
+  {
+    "name": "Jake Ferguson",
+    "team": "DAL",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 110,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 102,
+    "fantasyprosId": 22718,
+    "averageRank": 106,
+    "rankVariance": 4
+  },
+  {
+    "name": "Dalton Kincaid",
+    "team": "BUF",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 111,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 107,
+    "fantasyprosId": 25247,
+    "averageRank": 109,
+    "rankVariance": 2
+  },
+  {
+    "name": "Wan'Dale Robinson",
+    "team": "TEN",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 112,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 89,
+    "fantasyprosId": 22985,
+    "averageRank": 101,
+    "rankVariance": 11.51
+  },
+  {
+    "name": "Chris Godwin Jr.",
+    "team": "TB",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 113,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 77,
+    "fantasyprosId": 16406,
+    "averageRank": 95,
+    "rankVariance": 18
+  },
+  {
+    "name": "Jayden Reed",
+    "team": "GB",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 114,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 111,
+    "fantasyprosId": 23020,
+    "averageRank": 113,
+    "rankVariance": 1.58
   },
   {
     "name": "Jacory Croskey-Merritt",
     "team": "WAS",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 115,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 123,
     "fantasyprosId": 27316,
-    "averageRank": 123,
-    "rankVariance": 0
+    "averageRank": 119,
+    "rankVariance": 4
+  },
+  {
+    "name": "Kenyon Sadiq",
+    "team": "NYJ",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 116,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 188,
+    "fantasyprosId": 26055,
+    "averageRank": 152,
+    "rankVariance": 36
   },
   {
     "name": "Isaiah Likely",
     "team": "NYG",
     "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 117,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 124,
     "fantasyprosId": 23781,
-    "averageRank": 124,
-    "rankVariance": 0
+    "averageRank": 121,
+    "rankVariance": 3.54
   },
   {
-    "name": "Tyrone Tracy Jr.",
-    "team": "NYG",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Hunter Henry",
+    "team": "NE",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 118,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 125,
-    "fantasyprosId": 22980,
-    "averageRank": 125,
-    "rankVariance": 0
+    "fantasyprosRank": 154,
+    "fantasyprosId": 15561,
+    "averageRank": 136,
+    "rankVariance": 18
+  },
+  {
+    "name": "T.J. Hockenson",
+    "team": "MIN",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 119,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 177,
+    "fantasyprosId": 18290,
+    "averageRank": 148,
+    "rankVariance": 29
+  },
+  {
+    "name": "Jonathon Brooks",
+    "team": "CAR",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 120,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 145,
+    "fantasyprosId": 26148,
+    "averageRank": 133,
+    "rankVariance": 12.51
+  },
+  {
+    "name": "Blake Corum",
+    "team": "LAR",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 121,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 109,
+    "fantasyprosId": 23013,
+    "averageRank": 115,
+    "rankVariance": 6
+  },
+  {
+    "name": "Woody Marks",
+    "team": "HOU",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 122,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 132,
+    "fantasyprosId": 27520,
+    "averageRank": 127,
+    "rankVariance": 5
+  },
+  {
+    "name": "Jordan Mason",
+    "team": "MIN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 123,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 128,
+    "fantasyprosId": 22969,
+    "averageRank": 126,
+    "rankVariance": 2.55
+  },
+  {
+    "name": "Khalil Shakir",
+    "team": "BUF",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 124,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 112,
+    "fantasyprosId": 23748,
+    "averageRank": 118,
+    "rankVariance": 6
+  },
+  {
+    "name": "Josh Downs",
+    "team": "IND",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 125,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 98,
+    "fantasyprosId": 24706,
+    "averageRank": 112,
+    "rankVariance": 13.51
   },
   {
     "name": "Romeo Doubs",
     "team": "NE",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 126,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
@@ -2366,87 +2394,92 @@
     "rankVariance": 0
   },
   {
-    "name": "Malik Willis",
-    "team": "MIA",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Xavier Worthy",
+    "team": "KC",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 127,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 127,
-    "fantasyprosId": 23499,
-    "averageRank": 127,
-    "rankVariance": 0
+    "fantasyprosRank": 122,
+    "fantasyprosId": 23019,
+    "averageRank": 125,
+    "rankVariance": 2.55
   },
   {
-    "name": "Jordan Mason",
-    "team": "MIN",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Quentin Johnston",
+    "team": "LAC",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 128,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 128,
-    "fantasyprosId": 22969,
-    "averageRank": 128,
-    "rankVariance": 0
+    "fantasyprosRank": 114,
+    "fantasyprosId": 23123,
+    "averageRank": 121,
+    "rankVariance": 7
   },
   {
-    "name": "KC Concepcion",
+    "name": "Jayden Higgins",
+    "team": "HOU",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 129,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 118,
+    "fantasyprosId": 27077,
+    "averageRank": 124,
+    "rankVariance": 5.52
+  },
+  {
+    "name": "Jerry Jeudy",
     "team": "CLE",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 130,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 129,
-    "fantasyprosId": 27331,
-    "averageRank": 129,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tyler Allgeier",
-    "team": "ARI",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 130,
-    "fantasyprosId": 24172,
-    "averageRank": 130,
-    "rankVariance": 0
+    "fantasyprosRank": 148,
+    "fantasyprosId": 19201,
+    "averageRank": 139,
+    "rankVariance": 9
   },
   {
     "name": "Jalen Coker",
     "team": "CAR",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 131,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
@@ -2456,526 +2489,593 @@
     "rankVariance": 0
   },
   {
-    "name": "Woody Marks",
-    "team": "HOU",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Rashid Shaheed",
+    "team": "SEA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 132,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 132,
-    "fantasyprosId": 27520,
-    "averageRank": 132,
-    "rankVariance": 0
+    "fantasyprosRank": 149,
+    "fantasyprosId": 24687,
+    "averageRank": 141,
+    "rankVariance": 8.51
   },
   {
-    "name": "C.J. Stroud",
-    "team": "HOU",
+    "name": "Kyler Murray",
+    "team": "MIN",
     "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 133,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 133,
-    "fantasyprosId": 23071,
-    "averageRank": 133,
-    "rankVariance": 0
+    "fantasyprosRank": 113,
+    "fantasyprosId": 18600,
+    "averageRank": 123,
+    "rankVariance": 10
   },
   {
-    "name": "Mark Andrews",
-    "team": "BAL",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Tyler Shough",
+    "team": "NO",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 134,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 134,
-    "fantasyprosId": 17269,
-    "averageRank": 134,
-    "rankVariance": 0
+    "fantasyprosRank": 121,
+    "fantasyprosId": 23096,
+    "averageRank": 128,
+    "rankVariance": 6.52
+  },
+  {
+    "name": "Daniel Jones",
+    "team": "IND",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 135,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 158,
+    "fantasyprosId": 18232,
+    "averageRank": 147,
+    "rankVariance": 11.51
+  },
+  {
+    "name": "Jared Goff",
+    "team": "DET",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 136,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 110,
+    "fantasyprosId": 15501,
+    "averageRank": 123,
+    "rankVariance": 13
   },
   {
     "name": "Zach Charbonnet",
     "team": "SEA",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 137,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 135,
     "fantasyprosId": 23152,
-    "averageRank": 135,
-    "rankVariance": 0
+    "averageRank": 136,
+    "rankVariance": 1
   },
   {
-    "name": "Juwan Johnson",
-    "team": "NO",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 137,
-    "fantasyprosId": 19562,
-    "averageRank": 137,
-    "rankVariance": 0
-  },
-  {
-    "name": "Sam Darnold",
-    "team": "SEA",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 138,
-    "fantasyprosId": 17236,
-    "averageRank": 138,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tyjae Spears",
-    "team": "TEN",
+    "name": "Isiah Pacheco",
+    "team": "DET",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 138,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 139,
-    "fantasyprosId": 25323,
-    "averageRank": 139,
-    "rankVariance": 0
+    "fantasyprosRank": 147,
+    "fantasyprosId": 24333,
+    "averageRank": 143,
+    "rankVariance": 4.53
   },
   {
     "name": "Alvin Kamara",
     "team": "NO",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 139,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 140,
     "fantasyprosId": 16421,
     "averageRank": 140,
-    "rankVariance": 0
-  },
-  {
-    "name": "Oronde Gadsden II",
-    "team": "LAC",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 141,
-    "fantasyprosId": 25997,
-    "averageRank": 141,
-    "rankVariance": 0
-  },
-  {
-    "name": "Brenton Strange",
-    "team": "JAX",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 142,
-    "fantasyprosId": 25345,
-    "averageRank": 142,
-    "rankVariance": 0
-  },
-  {
-    "name": "Dylan Sampson",
-    "team": "CLE",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 143,
-    "fantasyprosId": 27102,
-    "averageRank": 143,
-    "rankVariance": 0
-  },
-  {
-    "name": "Cam Ward",
-    "team": "TEN",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 144,
-    "fantasyprosId": 24755,
-    "averageRank": 144,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jonathon Brooks",
-    "team": "CAR",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 145,
-    "fantasyprosId": 26148,
-    "averageRank": 145,
-    "rankVariance": 0
+    "rankVariance": 0.71
   },
   {
     "name": "Chris Rodriguez Jr.",
     "team": "JAX",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 140,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 146,
     "fantasyprosId": 22986,
-    "averageRank": 146,
-    "rankVariance": 0
-  },
-  {
-    "name": "Isiah Pacheco",
-    "team": "DET",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 147,
-    "fantasyprosId": 24333,
-    "averageRank": 147,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jerry Jeudy",
-    "team": "CLE",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 148,
-    "fantasyprosId": 19201,
-    "averageRank": 148,
-    "rankVariance": 0
-  },
-  {
-    "name": "Rashid Shaheed",
-    "team": "SEA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 149,
-    "fantasyprosId": 24687,
-    "averageRank": 149,
-    "rankVariance": 0
-  },
-  {
-    "name": "James Conner",
-    "team": "ARI",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 150,
-    "fantasyprosId": 16447,
-    "averageRank": 150,
-    "rankVariance": 0
-  },
-  {
-    "name": "Denzel Boston",
-    "team": "CLE",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 151,
-    "fantasyprosId": 27339,
-    "averageRank": 151,
-    "rankVariance": 0
-  },
-  {
-    "name": "Bryce Young",
-    "team": "CAR",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 152,
-    "fantasyprosId": 22900,
-    "averageRank": 152,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jauan Jennings",
-    "team": "MIN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 153,
-    "fantasyprosId": 19590,
-    "averageRank": 153,
-    "rankVariance": 0
-  },
-  {
-    "name": "Hunter Henry",
-    "team": "NE",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 154,
-    "fantasyprosId": 15561,
-    "averageRank": 154,
-    "rankVariance": 0
-  },
-  {
-    "name": "Travis Hunter",
-    "team": "JAX",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 155,
-    "fantasyprosId": 26034,
-    "averageRank": 155,
-    "rankVariance": 0
-  },
-  {
-    "name": "Omar Cooper Jr.",
-    "team": "NYJ",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 156,
-    "fantasyprosId": 28127,
-    "averageRank": 156,
-    "rankVariance": 0
-  },
-  {
-    "name": "Keaton Mitchell",
-    "team": "LAC",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 157,
-    "fantasyprosId": 25360,
-    "averageRank": 157,
-    "rankVariance": 0
-  },
-  {
-    "name": "Daniel Jones",
-    "team": "IND",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 158,
-    "fantasyprosId": 18232,
-    "averageRank": 158,
-    "rankVariance": 0
+    "averageRank": 143,
+    "rankVariance": 3
   },
   {
     "name": "Braelon Allen",
     "team": "NYJ",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 141,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 159,
     "fantasyprosId": 24346,
-    "averageRank": 159,
-    "rankVariance": 0
+    "averageRank": 150,
+    "rankVariance": 9
   },
   {
-    "name": "Brian Robinson Jr.",
-    "team": "ATL",
+    "name": "Tank Bigsby",
+    "team": "PHI",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 142,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 160,
-    "fantasyprosId": 20094,
-    "averageRank": 160,
-    "rankVariance": 0
+    "fantasyprosRank": 174,
+    "fantasyprosId": 22908,
+    "averageRank": 158,
+    "rankVariance": 16
+  },
+  {
+    "name": "Jalen McMillan",
+    "team": "TB",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 143,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 165,
+    "fantasyprosId": 23179,
+    "averageRank": 154,
+    "rankVariance": 11
+  },
+  {
+    "name": "Calvin Ridley",
+    "team": "TEN",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 144,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 186,
+    "fantasyprosId": 17258,
+    "averageRank": 165,
+    "rankVariance": 21
+  },
+  {
+    "name": "Denzel Boston",
+    "team": "CLE",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 145,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 151,
+    "fantasyprosId": 27339,
+    "averageRank": 148,
+    "rankVariance": 3
+  },
+  {
+    "name": "Travis Hunter",
+    "team": "JAX",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 146,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 155,
+    "fantasyprosId": 26034,
+    "averageRank": 151,
+    "rankVariance": 4.53
+  },
+  {
+    "name": "Germie Bernard",
+    "team": "PIT",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 147,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 244,
+    "fantasyprosId": 26039,
+    "averageRank": 196,
+    "rankVariance": 48.5
+  },
+  {
+    "name": "Antonio Williams",
+    "team": "WAS",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 148,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 213,
+    "fantasyprosId": 25418,
+    "averageRank": 181,
+    "rankVariance": 32.5
+  },
+  {
+    "name": "Baker Mayfield",
+    "team": "TB",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 149,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 119,
+    "fantasyprosId": 17237,
+    "averageRank": 134,
+    "rankVariance": 15
+  },
+  {
+    "name": "Malik Willis",
+    "team": "MIA",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 150,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 127,
+    "fantasyprosId": 23499,
+    "averageRank": 139,
+    "rankVariance": 11.51
+  },
+  {
+    "name": "Darnell Mooney",
+    "team": "NYG",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 151,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 198,
+    "fantasyprosId": 19810,
+    "averageRank": 175,
+    "rankVariance": 23.51
+  },
+  {
+    "name": "Omar Cooper Jr.",
+    "team": "NYJ",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 152,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 156,
+    "fantasyprosId": 28127,
+    "averageRank": 154,
+    "rankVariance": 2
   },
   {
     "name": "Adonai Mitchell",
     "team": "NYJ",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 153,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 161,
     "fantasyprosId": 24357,
-    "averageRank": 161,
-    "rankVariance": 0
+    "averageRank": 157,
+    "rankVariance": 4
+  },
+  {
+    "name": "Mike Washington Jr.",
+    "team": "LV",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 154,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 202,
+    "fantasyprosId": 28108,
+    "averageRank": 178,
+    "rankVariance": 24
+  },
+  {
+    "name": "Ray Davis",
+    "team": "BUF",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 155,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 199,
+    "fantasyprosId": 26191,
+    "averageRank": 177,
+    "rankVariance": 22
+  },
+  {
+    "name": "Tyrone Tracy Jr.",
+    "team": "NYG",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 156,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 125,
+    "fantasyprosId": 22980,
+    "averageRank": 141,
+    "rankVariance": 15.51
+  },
+  {
+    "name": "Brian Robinson Jr.",
+    "team": "ATL",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 157,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 160,
+    "fantasyprosId": 20094,
+    "averageRank": 159,
+    "rankVariance": 1.58
+  },
+  {
+    "name": "Tyjae Spears",
+    "team": "TEN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 158,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 139,
+    "fantasyprosId": 25323,
+    "averageRank": 149,
+    "rankVariance": 9.51
+  },
+  {
+    "name": "Brenton Strange",
+    "team": "JAX",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 159,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 142,
+    "fantasyprosId": 25345,
+    "averageRank": 151,
+    "rankVariance": 8.51
+  },
+  {
+    "name": "Terrance Ferguson",
+    "team": "LAR",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 160,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 234,
+    "fantasyprosId": 23091,
+    "averageRank": 197,
+    "rankVariance": 37
+  },
+  {
+    "name": "Tre Tucker",
+    "team": "LV",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 161,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 173,
+    "fantasyprosId": 25337,
+    "averageRank": 167,
+    "rankVariance": 6
+  },
+  {
+    "name": "Jalen Nailor",
+    "team": "LV",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 162,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 228,
+    "fantasyprosId": 24177,
+    "averageRank": 195,
+    "rankVariance": 33
   },
   {
     "name": "Houston Texans",
@@ -2996,165 +3096,189 @@
     "rankVariance": 0
   },
   {
-    "name": "Dalton Schultz",
-    "team": "HOU",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Rashod Bateman",
+    "team": "BAL",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 163,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 163,
-    "fantasyprosId": 17349,
-    "averageRank": 163,
-    "rankVariance": 0
+    "fantasyprosRank": 231,
+    "fantasyprosId": 19794,
+    "averageRank": 197,
+    "rankVariance": 34
   },
   {
-    "name": "Jonah Coleman",
-    "team": "DEN",
+    "name": "Jauan Jennings",
+    "team": "MIN",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 164,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 153,
+    "fantasyprosId": 19590,
+    "averageRank": 159,
+    "rankVariance": 5.52
+  },
+  {
+    "name": "Chris Bell",
+    "team": "MIA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 165,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 259,
+    "fantasyprosId": 26038,
+    "averageRank": 212,
+    "rankVariance": 47
+  },
+  {
+    "name": "Tyler Allgeier",
+    "team": "ARI",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 166,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 164,
-    "fantasyprosId": 27320,
-    "averageRank": 164,
-    "rankVariance": 0
+    "fantasyprosRank": 130,
+    "fantasyprosId": 24172,
+    "averageRank": 148,
+    "rankVariance": 18
   },
   {
-    "name": "Jalen McMillan",
-    "team": "TB",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "James Conner",
+    "team": "ARI",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 167,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 165,
-    "fantasyprosId": 23179,
-    "averageRank": 165,
-    "rankVariance": 0
+    "fantasyprosRank": 150,
+    "fantasyprosId": 16447,
+    "averageRank": 159,
+    "rankVariance": 8.51
   },
   {
-    "name": "Deebo Samuel Sr.",
-    "team": "FA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 166,
-    "fantasyprosId": 18244,
-    "averageRank": 166,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tre' Harris",
+    "name": "Keaton Mitchell",
     "team": "LAC",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 168,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 167,
-    "fantasyprosId": 26215,
-    "averageRank": 167,
-    "rankVariance": 0
+    "fantasyprosRank": 157,
+    "fantasyprosId": 25360,
+    "averageRank": 163,
+    "rankVariance": 5.52
   },
   {
-    "name": "Chig Okonkwo",
-    "team": "WAS",
-    "position": "TE",
+    "name": "Broncos D/ST",
+    "team": "DEN",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 169,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 168,
-    "fantasyprosId": 23982,
-    "averageRank": 168,
-    "rankVariance": 0
-  },
-  {
-    "name": "Kayshon Boutte",
-    "team": "NE",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 169,
-    "fantasyprosId": 22989,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 169,
     "rankVariance": 0
   },
   {
-    "name": "Emanuel Wilson",
-    "team": "SEA",
-    "position": "RB",
+    "name": "Texans D/ST",
+    "team": "HOU",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 170,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 170,
-    "fantasyprosId": 25885,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 170,
     "rankVariance": 0
   },
   {
-    "name": "Stefon Diggs",
-    "team": "FA",
-    "position": "WR",
+    "name": "Steelers D/ST",
+    "team": "PIT",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 171,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 171,
-    "fantasyprosId": 13981,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 171,
+    "rankVariance": 0
+  },
+  {
+    "name": "Seahawks D/ST",
+    "team": "SEA",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 172,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 172,
     "rankVariance": 0
   },
   {
@@ -3176,57 +3300,75 @@
     "rankVariance": 0
   },
   {
-    "name": "Tre Tucker",
-    "team": "LV",
-    "position": "WR",
+    "name": "Rams D/ST",
+    "team": "LAR",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 173,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 173,
-    "fantasyprosId": 25337,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 173,
     "rankVariance": 0
   },
   {
-    "name": "Tank Bigsby",
-    "team": "PHI",
-    "position": "RB",
+    "name": "Ravens D/ST",
+    "team": "BAL",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 174,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 174,
-    "fantasyprosId": 22908,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 174,
     "rankVariance": 0
   },
   {
-    "name": "Brandon Aiyuk",
-    "team": "SF",
-    "position": "WR",
+    "name": "Eagles D/ST",
+    "team": "PHI",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 175,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 175,
-    "fantasyprosId": 19252,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 175,
+    "rankVariance": 0
+  },
+  {
+    "name": "Browns D/ST",
+    "team": "CLE",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 176,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 176,
     "rankVariance": 0
   },
   {
@@ -3248,21 +3390,39 @@
     "rankVariance": 0
   },
   {
-    "name": "T.J. Hockenson",
-    "team": "MIN",
-    "position": "TE",
+    "name": "Patriots D/ST",
+    "team": "NE",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 177,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 177,
-    "fantasyprosId": 18290,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 177,
+    "rankVariance": 0
+  },
+  {
+    "name": "Lions D/ST",
+    "team": "DET",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 178,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 178,
     "rankVariance": 0
   },
   {
@@ -3284,6 +3444,24 @@
     "rankVariance": 0
   },
   {
+    "name": "Chiefs D/ST",
+    "team": "KC",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 179,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 179,
+    "rankVariance": 0
+  },
+  {
     "name": "Los Angeles Rams",
     "team": "LAR",
     "position": "DST",
@@ -3302,22 +3480,41 @@
     "rankVariance": 0
   },
   {
-    "name": "Kimani Vidal",
+    "name": "Chargers D/ST",
     "team": "LAC",
-    "position": "RB",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 180,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 180,
-    "fantasyprosId": 26355,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 180,
     "rankVariance": 0
+  },
+  {
+    "name": "Brandon Aubrey",
+    "team": "DAL",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 181,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 192,
+    "fantasyprosId": 26068,
+    "averageRank": 187,
+    "rankVariance": 5.52
   },
   {
     "name": "Jaylin Noel",
@@ -3338,22 +3535,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Ryan Flournoy",
-    "team": "DAL",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Cameron Dicker",
+    "team": "LAC",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 182,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 182,
-    "fantasyprosId": 26398,
-    "averageRank": 182,
-    "rankVariance": 0
+    "fantasyprosRank": 201,
+    "fantasyprosId": 23901,
+    "averageRank": 192,
+    "rankVariance": 9.51
+  },
+  {
+    "name": "Jason Myers",
+    "team": "SEA",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 183,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 204,
+    "fantasyprosId": 14003,
+    "averageRank": 194,
+    "rankVariance": 10.51
   },
   {
     "name": "Philadelphia Eagles",
@@ -3374,112 +3591,137 @@
     "rankVariance": 0
   },
   {
-    "name": "Jacoby Brissett",
-    "team": "ARI",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Harrison Mevis",
+    "team": "LAR",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 184,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 184,
-    "fantasyprosId": 15642,
-    "averageRank": 184,
-    "rankVariance": 0
+    "fantasyprosRank": 252,
+    "fantasyprosId": 26638,
+    "averageRank": 218,
+    "rankVariance": 34
   },
   {
-    "name": "Emmett Johnson",
+    "name": "Ka'imi Fairbairn",
+    "team": "HOU",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 185,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 203,
+    "fantasyprosId": 15756,
+    "averageRank": 194,
+    "rankVariance": 9
+  },
+  {
+    "name": "Eddy Pineiro",
+    "team": "SF",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 186,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 212,
+    "fantasyprosId": 17575,
+    "averageRank": 199,
+    "rankVariance": 13
+  },
+  {
+    "name": "Harrison Butker",
     "team": "KC",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 187,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 185,
-    "fantasyprosId": 28107,
-    "averageRank": 185,
-    "rankVariance": 0
+    "fantasyprosRank": 243,
+    "fantasyprosId": 16712,
+    "averageRank": 215,
+    "rankVariance": 28
   },
   {
-    "name": "Calvin Ridley",
-    "team": "TEN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Cam Little",
+    "team": "JAX",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 188,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 186,
-    "fantasyprosId": 17258,
-    "averageRank": 186,
-    "rankVariance": 0
+    "fantasyprosRank": 206,
+    "fantasyprosId": 26475,
+    "averageRank": 197,
+    "rankVariance": 9
   },
   {
-    "name": "Pat Bryant",
-    "team": "DEN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 187,
-    "fantasyprosId": 27211,
-    "averageRank": 187,
-    "rankVariance": 0
-  },
-  {
-    "name": "Kenyon Sadiq",
-    "team": "NYJ",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 188,
-    "fantasyprosId": 26055,
-    "averageRank": 188,
-    "rankVariance": 0
-  },
-  {
-    "name": "Isaac TeSlaa",
+    "name": "Jake Bates",
     "team": "DET",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 189,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 189,
-    "fantasyprosId": 27446,
-    "averageRank": 189,
-    "rankVariance": 0
+    "fantasyprosRank": 235,
+    "fantasyprosId": 26075,
+    "averageRank": 212,
+    "rankVariance": 23
+  },
+  {
+    "name": "Tyler Loop",
+    "team": "BAL",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 190,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 215,
+    "fantasyprosId": 27534,
+    "averageRank": 203,
+    "rankVariance": 12.51
   },
   {
     "name": "Sean Tucker",
@@ -3500,40 +3742,61 @@
     "rankVariance": 0
   },
   {
-    "name": "AJ Barner",
-    "team": "SEA",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Cairo Santos",
+    "team": "CHI",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 191,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 191,
-    "fantasyprosId": 26335,
-    "averageRank": 191,
-    "rankVariance": 0
+    "fantasyprosRank": 223,
+    "fantasyprosId": 13731,
+    "averageRank": 207,
+    "rankVariance": 16
   },
   {
-    "name": "Brandon Aubrey",
-    "team": "DAL",
+    "name": "Will Reichard",
+    "team": "MIN",
     "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 192,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 192,
-    "fantasyprosId": 26068,
-    "averageRank": 192,
-    "rankVariance": 0
+    "fantasyprosRank": 293,
+    "fantasyprosId": 26341,
+    "averageRank": 243,
+    "rankVariance": 50.5
+  },
+  {
+    "name": "Justice Hill",
+    "team": "BAL",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 193,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 253,
+    "fantasyprosId": 18256,
+    "averageRank": 223,
+    "rankVariance": 30
   },
   {
     "name": "New England Patriots",
@@ -3554,6 +3817,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Juwan Johnson",
+    "team": "NO",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 194,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 137,
+    "fantasyprosId": 19562,
+    "averageRank": 166,
+    "rankVariance": 28.5
+  },
+  {
     "name": "Pittsburgh Steelers",
     "team": "PIT",
     "position": "DST",
@@ -3570,6 +3852,25 @@
     "fantasyprosId": 8240,
     "averageRank": 194,
     "rankVariance": 0
+  },
+  {
+    "name": "Jordan James",
+    "team": "SF",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 195,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 289,
+    "fantasyprosId": 27310,
+    "averageRank": 242,
+    "rankVariance": 47
   },
   {
     "name": "Jacksonville Jaguars",
@@ -3590,6 +3891,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Kaelon Black",
+    "team": "SF",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 196,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 317,
+    "fantasyprosId": 28401,
+    "averageRank": 257,
+    "rankVariance": 60.5
+  },
+  {
     "name": "Minnesota Vikings",
     "team": "MIN",
     "position": "DST",
@@ -3606,6 +3926,25 @@
     "fantasyprosId": 8170,
     "averageRank": 196,
     "rankVariance": 0
+  },
+  {
+    "name": "Jack Bech",
+    "team": "LV",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 197,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 246,
+    "fantasyprosId": 27224,
+    "averageRank": 222,
+    "rankVariance": 24.51
   },
   {
     "name": "Chimere Dike",
@@ -3626,40 +3965,61 @@
     "rankVariance": 0
   },
   {
-    "name": "Darnell Mooney",
-    "team": "NYG",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Jordan Love",
+    "team": "GB",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 198,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 198,
-    "fantasyprosId": 19810,
-    "averageRank": 198,
-    "rankVariance": 0
+    "fantasyprosRank": 116,
+    "fantasyprosId": 19246,
+    "averageRank": 157,
+    "rankVariance": 41
   },
   {
-    "name": "Ray Davis",
-    "team": "BUF",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Cam Ward",
+    "team": "TEN",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 199,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 199,
-    "fantasyprosId": 26191,
-    "averageRank": 199,
-    "rankVariance": 0
+    "fantasyprosRank": 144,
+    "fantasyprosId": 24755,
+    "averageRank": 172,
+    "rankVariance": 27.5
+  },
+  {
+    "name": "C.J. Stroud",
+    "team": "HOU",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 200,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 133,
+    "fantasyprosId": 23071,
+    "averageRank": 167,
+    "rankVariance": 33.5
   },
   {
     "name": "Los Angeles Chargers",
@@ -3680,112 +4040,137 @@
     "rankVariance": 0
   },
   {
-    "name": "Cameron Dicker",
-    "team": "LAC",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 201,
-    "fantasyprosId": 23901,
-    "averageRank": 201,
-    "rankVariance": 0
-  },
-  {
-    "name": "Mike Washington Jr.",
-    "team": "LV",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 202,
-    "fantasyprosId": 28108,
-    "averageRank": 202,
-    "rankVariance": 0
-  },
-  {
-    "name": "Ka'imi Fairbairn",
+    "name": "Tank Dell",
     "team": "HOU",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 201,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 203,
-    "fantasyprosId": 15756,
-    "averageRank": 203,
-    "rankVariance": 0
+    "fantasyprosRank": 230,
+    "fantasyprosId": 25361,
+    "averageRank": 216,
+    "rankVariance": 14.51
   },
   {
-    "name": "Jason Myers",
-    "team": "SEA",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Brandon Aiyuk",
+    "team": "SF",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 202,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 204,
-    "fantasyprosId": 14003,
-    "averageRank": 204,
-    "rankVariance": 0
+    "fantasyprosRank": 175,
+    "fantasyprosId": 19252,
+    "averageRank": 189,
+    "rankVariance": 13.51
   },
   {
-    "name": "Gunnar Helm",
-    "team": "TEN",
+    "name": "Deebo Samuel Sr.",
+    "team": "FA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 203,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 166,
+    "fantasyprosId": 18244,
+    "averageRank": 185,
+    "rankVariance": 18.51
+  },
+  {
+    "name": "Stefon Diggs",
+    "team": "FA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 204,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 171,
+    "fantasyprosId": 13981,
+    "averageRank": 188,
+    "rankVariance": 16.51
+  },
+  {
+    "name": "Tre Harris",
+    "team": "LAC",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 205,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 167,
+    "fantasyprosId": 26215,
+    "averageRank": 186,
+    "rankVariance": 19
+  },
+  {
+    "name": "Pat Freiermuth",
+    "team": "PIT",
     "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 206,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 205,
-    "fantasyprosId": 27109,
-    "averageRank": 205,
-    "rankVariance": 0
+    "fantasyprosRank": 240,
+    "fantasyprosId": 20163,
+    "averageRank": 223,
+    "rankVariance": 17
   },
   {
-    "name": "Cam Little",
-    "team": "JAX",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Dalton Schultz",
+    "team": "HOU",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 207,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 206,
-    "fantasyprosId": 26475,
-    "averageRank": 206,
-    "rankVariance": 0
+    "fantasyprosRank": 163,
+    "fantasyprosId": 17349,
+    "averageRank": 185,
+    "rankVariance": 22
   },
   {
     "name": "Green Bay Packers",
@@ -3806,40 +4191,61 @@
     "rankVariance": 0
   },
   {
-    "name": "Dontayvion Wicks",
-    "team": "PHI",
+    "name": "Isaac TeSlaa",
+    "team": "DET",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 208,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 208,
-    "fantasyprosId": 24354,
-    "averageRank": 208,
-    "rankVariance": 0
+    "fantasyprosRank": 189,
+    "fantasyprosId": 27446,
+    "averageRank": 199,
+    "rankVariance": 9.51
   },
   {
-    "name": "Kaytron Allen",
-    "team": "WAS",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Caleb Douglas",
+    "team": "MIA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 209,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 209,
-    "fantasyprosId": 24362,
-    "averageRank": 209,
-    "rankVariance": 0
+    "fantasyprosRank": 355,
+    "fantasyprosId": 28135,
+    "averageRank": 282,
+    "rankVariance": 73
+  },
+  {
+    "name": "Cooper Kupp",
+    "team": "SEA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 210,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 225,
+    "fantasyprosId": 16433,
+    "averageRank": 218,
+    "rankVariance": 7.52
   },
   {
     "name": "Kansas City Chiefs",
@@ -3860,94 +4266,118 @@
     "rankVariance": 0
   },
   {
+    "name": "Ryan Flournoy",
+    "team": "DAL",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 211,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 182,
+    "fantasyprosId": 26398,
+    "averageRank": 197,
+    "rankVariance": 14.51
+  },
+  {
+    "name": "Kaytron Allen",
+    "team": "WAS",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 212,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 209,
+    "fantasyprosId": 24362,
+    "averageRank": 211,
+    "rankVariance": 1.58
+  },
+  {
     "name": "Nicholas Singleton",
     "team": "TEN",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 213,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 211,
     "fantasyprosId": 24343,
-    "averageRank": 211,
-    "rankVariance": 0
-  },
-  {
-    "name": "Eddy Pineiro",
-    "team": "SF",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 212,
-    "fantasyprosId": 17575,
     "averageRank": 212,
-    "rankVariance": 0
+    "rankVariance": 1
   },
   {
-    "name": "Antonio Williams",
-    "team": "WAS",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Demond Claiborne",
+    "team": "MIN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 214,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 213,
-    "fantasyprosId": 25418,
-    "averageRank": 213,
-    "rankVariance": 0
+    "fantasyprosRank": 278,
+    "fantasyprosId": 28084,
+    "averageRank": 246,
+    "rankVariance": 32
   },
   {
-    "name": "Malik Washington",
-    "team": "MIA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Oronde Gadsden",
+    "team": "LAC",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 215,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 214,
-    "fantasyprosId": 26314,
-    "averageRank": 214,
-    "rankVariance": 0
+    "fantasyprosRank": 141,
+    "fantasyprosId": 25997,
+    "averageRank": 178,
+    "rankVariance": 37
   },
   {
-    "name": "Tyler Loop",
-    "team": "BAL",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Gunnar Helm",
+    "team": "TEN",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 216,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 215,
-    "fantasyprosId": 27534,
-    "averageRank": 215,
-    "rankVariance": 0
+    "fantasyprosRank": 205,
+    "fantasyprosId": 27109,
+    "averageRank": 211,
+    "rankVariance": 5.52
   },
   {
     "name": "Baltimore Ravens",
@@ -3968,40 +4398,61 @@
     "rankVariance": 0
   },
   {
-    "name": "Evan McPherson",
-    "team": "CIN",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "AJ Barner",
+    "team": "SEA",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 217,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 217,
-    "fantasyprosId": 23297,
-    "averageRank": 217,
-    "rankVariance": 0
+    "fantasyprosRank": 191,
+    "fantasyprosId": 26335,
+    "averageRank": 204,
+    "rankVariance": 13
   },
   {
-    "name": "Jaylen Wright",
-    "team": "MIA",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Sam Darnold",
+    "team": "SEA",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 218,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 218,
-    "fantasyprosId": 25987,
-    "averageRank": 218,
-    "rankVariance": 0
+    "fantasyprosRank": 138,
+    "fantasyprosId": 17236,
+    "averageRank": 178,
+    "rankVariance": 40
+  },
+  {
+    "name": "Bryce Young",
+    "team": "CAR",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 219,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 152,
+    "fantasyprosId": 22900,
+    "averageRank": 186,
+    "rankVariance": 33.5
   },
   {
     "name": "Elic Ayomanor",
@@ -4022,6 +4473,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Fernando Mendoza",
+    "team": "LV",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 220,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 229,
+    "fantasyprosId": 28013,
+    "averageRank": 225,
+    "rankVariance": 4.53
+  },
+  {
     "name": "Cleveland Browns",
     "team": "CLE",
     "position": "DST",
@@ -4040,22 +4510,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Tyreek Hill",
-    "team": "FA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Jonah Coleman",
+    "team": "DEN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 221,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 221,
-    "fantasyprosId": 15802,
-    "averageRank": 221,
-    "rankVariance": 0
+    "fantasyprosRank": 164,
+    "fantasyprosId": 27320,
+    "averageRank": 193,
+    "rankVariance": 28.5
+  },
+  {
+    "name": "Seth McGowan",
+    "team": "IND",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 222,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 280,
+    "fantasyprosId": 23079,
+    "averageRank": 251,
+    "rankVariance": 29
   },
   {
     "name": "Andy Borregales",
@@ -4076,22 +4566,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Cairo Santos",
-    "team": "CHI",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Emmett Johnson",
+    "team": "KC",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 223,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 223,
-    "fantasyprosId": 13731,
-    "averageRank": 223,
-    "rankVariance": 0
+    "fantasyprosRank": 185,
+    "fantasyprosId": 28107,
+    "averageRank": 204,
+    "rankVariance": 19
+  },
+  {
+    "name": "Malik Washington",
+    "team": "MIA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 224,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 214,
+    "fantasyprosId": 26314,
+    "averageRank": 219,
+    "rankVariance": 5
   },
   {
     "name": "Detroit Lions",
@@ -4112,201 +4622,229 @@
     "rankVariance": 0
   },
   {
-    "name": "Cooper Kupp",
-    "team": "SEA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Dylan Sampson",
+    "team": "CLE",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 225,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 225,
-    "fantasyprosId": 16433,
-    "averageRank": 225,
-    "rankVariance": 0
+    "fantasyprosRank": 143,
+    "fantasyprosId": 27102,
+    "averageRank": 184,
+    "rankVariance": 41
   },
   {
-    "name": "David Njoku",
-    "team": "LAC",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Samaje Perine",
+    "team": "CIN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 226,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 226,
-    "fantasyprosId": 16399,
-    "averageRank": 226,
-    "rankVariance": 0
+    "fantasyprosRank": 287,
+    "fantasyprosId": 16423,
+    "averageRank": 257,
+    "rankVariance": 30.5
+  },
+  {
+    "name": "Tyreek Hill",
+    "team": "FA",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 227,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 221,
+    "fantasyprosId": 15802,
+    "averageRank": 224,
+    "rankVariance": 3
   },
   {
     "name": "De'Zhaun Stribling",
     "team": "SF",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 228,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 227,
     "fantasyprosId": 28138,
-    "averageRank": 227,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jalen Nailor",
-    "team": "LV",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 228,
-    "fantasyprosId": 24177,
     "averageRank": 228,
-    "rankVariance": 0
+    "rankVariance": 0.71
   },
   {
-    "name": "Fernando Mendoza",
-    "team": "LV",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 229,
-    "fantasyprosId": 28013,
-    "averageRank": 229,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tank Dell",
-    "team": "HOU",
+    "name": "Jalen Tolbert",
+    "team": "MIA",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 229,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 230,
-    "fantasyprosId": 25361,
-    "averageRank": 230,
-    "rankVariance": 0
+    "fantasyprosRank": 348,
+    "fantasyprosId": 23770,
+    "averageRank": 289,
+    "rankVariance": 59.5
   },
   {
-    "name": "Rashod Bateman",
-    "team": "BAL",
+    "name": "Christian Kirk",
+    "team": "SF",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 230,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 231,
-    "fantasyprosId": 19794,
-    "averageRank": 231,
-    "rankVariance": 0
+    "fantasyprosRank": 256,
+    "fantasyprosId": 17268,
+    "averageRank": 243,
+    "rankVariance": 13
   },
   {
-    "name": "Chase McLaughlin",
+    "name": "Savion Williams",
+    "team": "GB",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 231,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 389,
+    "fantasyprosId": 27144,
+    "averageRank": 310,
+    "rankVariance": 79
+  },
+  {
+    "name": "Chris Brazzell II",
+    "team": "CAR",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 232,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 290,
+    "fantasyprosId": 28047,
+    "averageRank": 261,
+    "rankVariance": 29
+  },
+  {
+    "name": "Xavier Legette",
+    "team": "CAR",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 233,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 279,
+    "fantasyprosId": 26136,
+    "averageRank": 256,
+    "rankVariance": 23
+  },
+  {
+    "name": "Keon Coleman",
+    "team": "BUF",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 234,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 255,
+    "fantasyprosId": 26019,
+    "averageRank": 245,
+    "rankVariance": 10.51
+  },
+  {
+    "name": "Buccaneers D/ST",
     "team": "TB",
-    "position": "K",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 235,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 232,
-    "fantasyprosId": 19058,
-    "averageRank": 232,
-    "rankVariance": 0
-  },
-  {
-    "name": "Geno Smith",
-    "team": "NYJ",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 233,
-    "fantasyprosId": 11687,
-    "averageRank": 233,
-    "rankVariance": 0
-  },
-  {
-    "name": "Terrance Ferguson",
-    "team": "LAR",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 234,
-    "fantasyprosId": 23091,
-    "averageRank": 234,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jake Bates",
-    "team": "DET",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 235,
-    "fantasyprosId": 26075,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 235,
+    "rankVariance": 0
+  },
+  {
+    "name": "Packers D/ST",
+    "team": "GB",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 236,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 236,
     "rankVariance": 0
   },
   {
@@ -4328,40 +4866,61 @@
     "rankVariance": 0
   },
   {
-    "name": "Ollie Gordon II",
-    "team": "MIA",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Chris Boswell",
+    "team": "PIT",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 237,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 237,
-    "fantasyprosId": 25984,
-    "averageRank": 237,
-    "rankVariance": 0
+    "fantasyprosRank": 254,
+    "fantasyprosId": 13029,
+    "averageRank": 246,
+    "rankVariance": 8.51
   },
   {
-    "name": "Cade Otton",
+    "name": "Chase McLaughlin",
     "team": "TB",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 238,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 238,
-    "fantasyprosId": 23181,
-    "averageRank": 238,
-    "rankVariance": 0
+    "fantasyprosRank": 232,
+    "fantasyprosId": 19058,
+    "averageRank": 235,
+    "rankVariance": 3
+  },
+  {
+    "name": "LeQuint Allen",
+    "team": "JAX",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 239,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 288,
+    "fantasyprosId": 27285,
+    "averageRank": 264,
+    "rankVariance": 24.51
   },
   {
     "name": "Devin Neal",
@@ -4382,22 +4941,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Pat Freiermuth",
-    "team": "PIT",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Jaylen Wright",
+    "team": "MIA",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 240,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 240,
-    "fantasyprosId": 20163,
-    "averageRank": 240,
-    "rankVariance": 0
+    "fantasyprosRank": 218,
+    "fantasyprosId": 25987,
+    "averageRank": 229,
+    "rankVariance": 11
+  },
+  {
+    "name": "Ollie Gordon II",
+    "team": "MIA",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 241,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 237,
+    "fantasyprosId": 25984,
+    "averageRank": 239,
+    "rankVariance": 2
   },
   {
     "name": "Mason Taylor",
@@ -4418,112 +4997,137 @@
     "rankVariance": 0
   },
   {
-    "name": "Ted Hurst III",
-    "team": "TB",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Kimani Vidal",
+    "team": "LAC",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 242,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 242,
-    "fantasyprosId": 28130,
-    "averageRank": 242,
-    "rankVariance": 0
+    "fantasyprosRank": 180,
+    "fantasyprosId": 26355,
+    "averageRank": 211,
+    "rankVariance": 31
   },
   {
-    "name": "Harrison Butker",
+    "name": "Brashard Smith",
     "team": "KC",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 243,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 243,
-    "fantasyprosId": 16712,
-    "averageRank": 243,
-    "rankVariance": 0
+    "fantasyprosRank": 276,
+    "fantasyprosId": 27259,
+    "averageRank": 260,
+    "rankVariance": 16.51
   },
   {
-    "name": "Germie Bernard",
-    "team": "PIT",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Adam Randall",
+    "team": "BAL",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 244,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 244,
-    "fantasyprosId": 26039,
-    "averageRank": 244,
-    "rankVariance": 0
+    "fantasyprosRank": 305,
+    "fantasyprosId": 24367,
+    "averageRank": 275,
+    "rankVariance": 30.5
+  },
+  {
+    "name": "Trey Benson",
+    "team": "ARI",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 245,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 249,
+    "fantasyprosId": 25388,
+    "averageRank": 247,
+    "rankVariance": 2
   },
   {
     "name": "Kaleb Johnson",
     "team": "PIT",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 246,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 245,
     "fantasyprosId": 27165,
-    "averageRank": 245,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jack Bech",
-    "team": "LV",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 246,
-    "fantasyprosId": 27224,
     "averageRank": 246,
-    "rankVariance": 0
+    "rankVariance": 0.71
   },
   {
-    "name": "Aaron Rodgers",
-    "team": "PIT",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Ty Johnson",
+    "team": "BUF",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 247,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 247,
-    "fantasyprosId": 9001,
-    "averageRank": 247,
-    "rankVariance": 0
+    "fantasyprosRank": 265,
+    "fantasyprosId": 18406,
+    "averageRank": 256,
+    "rankVariance": 9
+  },
+  {
+    "name": "MarShawn Lloyd",
+    "team": "GB",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 248,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 268,
+    "fantasyprosId": 23118,
+    "averageRank": 258,
+    "rankVariance": 10
   },
   {
     "name": "Zachariah Branch",
@@ -4544,22 +5148,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Trey Benson",
-    "team": "ARI",
+    "name": "Emari Demercado",
+    "team": "KC",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 249,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 249,
-    "fantasyprosId": 25388,
-    "averageRank": 249,
-    "rankVariance": 0
+    "fantasyprosRank": 307,
+    "fantasyprosId": 25654,
+    "averageRank": 278,
+    "rankVariance": 29
+  },
+  {
+    "name": "Malik Davis",
+    "team": "DAL",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 250,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 283,
+    "fantasyprosId": 24205,
+    "averageRank": 267,
+    "rankVariance": 16.51
   },
   {
     "name": "Colby Parkinson",
@@ -4580,6 +5204,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Kyle Juszczyk",
+    "team": "SF",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 251,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 420,
+    "fantasyprosId": 11798,
+    "averageRank": 336,
+    "rankVariance": 84.5
+  },
+  {
     "name": "Theo Johnson",
     "team": "NYG",
     "position": "TE",
@@ -4598,166 +5241,192 @@
     "rankVariance": 0
   },
   {
-    "name": "Harrison Mevis",
-    "team": "LAR",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 252,
-    "fantasyprosId": 26638,
-    "averageRank": 252,
-    "rankVariance": 0
-  },
-  {
-    "name": "Justice Hill",
-    "team": "BAL",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 253,
-    "fantasyprosId": 18256,
-    "averageRank": 253,
-    "rankVariance": 0
-  },
-  {
-    "name": "Chris Boswell",
-    "team": "PIT",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 254,
-    "fantasyprosId": 13029,
-    "averageRank": 254,
-    "rankVariance": 0
-  },
-  {
-    "name": "Keon Coleman",
-    "team": "BUF",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 255,
-    "fantasyprosId": 26019,
-    "averageRank": 255,
-    "rankVariance": 0
-  },
-  {
-    "name": "Christian Kirk",
-    "team": "SF",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 256,
-    "fantasyprosId": 17268,
-    "averageRank": 256,
-    "rankVariance": 0
-  },
-  {
-    "name": "Isaiah Davis",
-    "team": "NYJ",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 257,
-    "fantasyprosId": 25977,
-    "averageRank": 257,
-    "rankVariance": 0
-  },
-  {
-    "name": "Evan Engram",
+    "name": "Pat Bryant",
     "team": "DEN",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 258,
-    "fantasyprosId": 16411,
-    "averageRank": 258,
-    "rankVariance": 0
-  },
-  {
-    "name": "Chris Bell",
-    "team": "MIA",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 252,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 259,
-    "fantasyprosId": 26038,
-    "averageRank": 259,
-    "rankVariance": 0
+    "fantasyprosRank": 187,
+    "fantasyprosId": 27211,
+    "averageRank": 220,
+    "rankVariance": 32.5
   },
   {
     "name": "Tory Horton",
     "team": "SEA",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 253,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 260,
     "fantasyprosId": 26022,
-    "averageRank": 260,
+    "averageRank": 257,
+    "rankVariance": 3.54
+  },
+  {
+    "name": "Jaguars D/ST",
+    "team": "JAX",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 254,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 254,
     "rankVariance": 0
+  },
+  {
+    "name": "Colts D/ST",
+    "team": "IND",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 255,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 255,
+    "rankVariance": 0
+  },
+  {
+    "name": "Evan McPherson",
+    "team": "CIN",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 256,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 217,
+    "fantasyprosId": 23297,
+    "averageRank": 237,
+    "rankVariance": 19.51
+  },
+  {
+    "name": "Nick Folk",
+    "team": "ATL",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 257,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 373,
+    "fantasyprosId": 9491,
+    "averageRank": 315,
+    "rankVariance": 58
+  },
+  {
+    "name": "Chig Okonkwo",
+    "team": "WAS",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 258,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 168,
+    "fantasyprosId": 23982,
+    "averageRank": 213,
+    "rankVariance": 45
+  },
+  {
+    "name": "Jake Tonges",
+    "team": "SF",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 259,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 309,
+    "fantasyprosId": 24778,
+    "averageRank": 284,
+    "rankVariance": 25
+  },
+  {
+    "name": "Greg Dulcich",
+    "team": "MIA",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 260,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 312,
+    "fantasyprosId": 23153,
+    "averageRank": 286,
+    "rankVariance": 26
+  },
+  {
+    "name": "Kayshon Boutte",
+    "team": "NE",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 261,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 169,
+    "fantasyprosId": 22989,
+    "averageRank": 215,
+    "rankVariance": 46
   },
   {
     "name": "Michael Penix Jr.",
@@ -4778,6 +5447,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Ja'Kobi Lane",
+    "team": "BAL",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 262,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 319,
+    "fantasyprosId": 27337,
+    "averageRank": 291,
+    "rankVariance": 28.5
+  },
+  {
     "name": "Marvin Mims Jr.",
     "team": "DEN",
     "position": "WR",
@@ -4794,6 +5482,25 @@
     "fantasyprosId": 23080,
     "averageRank": 262,
     "rankVariance": 0
+  },
+  {
+    "name": "Ted Hurst",
+    "team": "TB",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 263,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 242,
+    "fantasyprosId": 28130,
+    "averageRank": 253,
+    "rankVariance": 10.51
   },
   {
     "name": "Eli Stowers",
@@ -4814,6 +5521,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Elijah Sarratt",
+    "team": "BAL",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 264,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 270,
+    "fantasyprosId": 27463,
+    "averageRank": 267,
+    "rankVariance": 3
+  },
+  {
     "name": "Kendre Miller",
     "team": "NO",
     "position": "RB",
@@ -4832,22 +5558,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Ty Johnson",
-    "team": "BUF",
+    "name": "Chris Brooks",
+    "team": "GB",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 265,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 265,
-    "fantasyprosId": 18406,
-    "averageRank": 265,
-    "rankVariance": 0
+    "fantasyprosRank": 269,
+    "fantasyprosId": 25823,
+    "averageRank": 267,
+    "rankVariance": 2
+  },
+  {
+    "name": "George Holani",
+    "team": "SEA",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 266,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 297,
+    "fantasyprosId": 22915,
+    "averageRank": 282,
+    "rankVariance": 15.51
   },
   {
     "name": "Mack Hollins",
@@ -4868,6 +5614,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Geno Smith",
+    "team": "NYJ",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 267,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 233,
+    "fantasyprosId": 11687,
+    "averageRank": 250,
+    "rankVariance": 17
+  },
+  {
     "name": "Malachi Fields",
     "team": "NYG",
     "position": "WR",
@@ -4886,76 +5651,99 @@
     "rankVariance": 0
   },
   {
-    "name": "MarShawn Lloyd",
-    "team": "GB",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Aaron Rodgers",
+    "team": "PIT",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 268,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 268,
-    "fantasyprosId": 23118,
-    "averageRank": 268,
-    "rankVariance": 0
+    "fantasyprosRank": 247,
+    "fantasyprosId": 9001,
+    "averageRank": 258,
+    "rankVariance": 10.51
   },
   {
-    "name": "Chris Brooks",
-    "team": "GB",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Deshaun Watson",
+    "team": "CLE",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 269,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 269,
-    "fantasyprosId": 25823,
-    "averageRank": 269,
-    "rankVariance": 0
+    "fantasyprosRank": 308,
+    "fantasyprosId": 16398,
+    "averageRank": 289,
+    "rankVariance": 19.51
   },
   {
-    "name": "Elijah Sarratt",
-    "team": "BAL",
+    "name": "Jacoby Brissett",
+    "team": "ARI",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 270,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 184,
+    "fantasyprosId": 15642,
+    "averageRank": 227,
+    "rankVariance": 43
+  },
+  {
+    "name": "Dontayvion Wicks",
+    "team": "PHI",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 271,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 270,
-    "fantasyprosId": 27463,
-    "averageRank": 270,
-    "rankVariance": 0
+    "fantasyprosRank": 208,
+    "fantasyprosId": 24354,
+    "averageRank": 240,
+    "rankVariance": 31.5
   },
   {
-    "name": "Jaydon Blue",
-    "team": "DAL",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Nick Westbrook-Ikhine",
+    "team": "IND",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 272,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 271,
-    "fantasyprosId": 24344,
-    "averageRank": 271,
-    "rankVariance": 0
+    "fantasyprosRank": 392,
+    "fantasyprosId": 19747,
+    "averageRank": 332,
+    "rankVariance": 60
   },
   {
     "name": "Kyle Williams",
@@ -4979,12 +5767,13 @@
     "name": "Darius Slayton",
     "team": "NYG",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 273,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
@@ -4994,58 +5783,80 @@
     "rankVariance": 0
   },
   {
+    "name": "Dyami Brown",
+    "team": "WAS",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 274,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 427,
+    "fantasyprosId": 20113,
+    "averageRank": 351,
+    "rankVariance": 76.5
+  },
+  {
+    "name": "Jahan Dotson",
+    "team": "ATL",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 275,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 334,
+    "fantasyprosId": 23101,
+    "averageRank": 305,
+    "rankVariance": 29.5
+  },
+  {
+    "name": "Isaiah Davis",
+    "team": "NYJ",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 276,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 257,
+    "fantasyprosId": 25977,
+    "averageRank": 267,
+    "rankVariance": 9.51
+  },
+  {
     "name": "DJ Giddens",
     "team": "IND",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 277,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 274,
     "fantasyprosId": 27097,
-    "averageRank": 274,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tua Tagovailoa",
-    "team": "ATL",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 275,
-    "fantasyprosId": 19198,
-    "averageRank": 275,
-    "rankVariance": 0
-  },
-  {
-    "name": "Brashard Smith",
-    "team": "KC",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 276,
-    "fantasyprosId": 27259,
     "averageRank": 276,
-    "rankVariance": 0
+    "rankVariance": 1.58
   },
   {
     "name": "Keenan Allen",
@@ -5066,58 +5877,80 @@
     "rankVariance": 0
   },
   {
-    "name": "Demond Claiborne",
-    "team": "MIN",
+    "name": "Jaydon Blue",
+    "team": "DAL",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 278,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 278,
-    "fantasyprosId": 28084,
-    "averageRank": 278,
-    "rankVariance": 0
+    "fantasyprosRank": 271,
+    "fantasyprosId": 24344,
+    "averageRank": 275,
+    "rankVariance": 3.54
   },
   {
-    "name": "Xavier Legette",
+    "name": "Trevor Etienne",
     "team": "CAR",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 279,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 279,
-    "fantasyprosId": 26136,
-    "averageRank": 279,
-    "rankVariance": 0
+    "fantasyprosRank": 310,
+    "fantasyprosId": 25393,
+    "averageRank": 295,
+    "rankVariance": 15.51
   },
   {
-    "name": "Seth McGowan",
-    "team": "IND",
+    "name": "Emanuel Wilson",
+    "team": "SEA",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 280,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 280,
-    "fantasyprosId": 23079,
-    "averageRank": 280,
-    "rankVariance": 0
+    "fantasyprosRank": 170,
+    "fantasyprosId": 25885,
+    "averageRank": 225,
+    "rankVariance": 55
+  },
+  {
+    "name": "Will Shipley",
+    "team": "PHI",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 281,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 331,
+    "fantasyprosId": 22930,
+    "averageRank": 306,
+    "rankVariance": 25
   },
   {
     "name": "Wil Lutz",
@@ -5138,6 +5971,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Tyler Badie",
+    "team": "DEN",
+    "position": "RB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 282,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 439,
+    "fantasyprosId": 23812,
+    "averageRank": 361,
+    "rankVariance": 78.5
+  },
+  {
     "name": "Atlanta Falcons",
     "team": "ATL",
     "position": "DST",
@@ -5156,22 +6008,42 @@
     "rankVariance": 0
   },
   {
-    "name": "Malik Davis",
-    "team": "DAL",
+    "name": "Devin Singletary",
+    "team": "NYG",
     "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 283,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 283,
-    "fantasyprosId": 24205,
-    "averageRank": 283,
-    "rankVariance": 0
+    "fantasyprosRank": 298,
+    "fantasyprosId": 18280,
+    "averageRank": 291,
+    "rankVariance": 7.52
+  },
+  {
+    "name": "Andrei Iosivas",
+    "team": "CIN",
+    "position": "WR",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 284,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 320,
+    "fantasyprosId": 25335,
+    "averageRank": 302,
+    "rankVariance": 18
   },
   {
     "name": "Devaughn Vele",
@@ -5189,6 +6061,24 @@
     "fantasyprosRank": 284,
     "fantasyprosId": 26409,
     "averageRank": 284,
+    "rankVariance": 0
+  },
+  {
+    "name": "Bengals D/ST",
+    "team": "CIN",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 285,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 285,
     "rankVariance": 0
   },
   {
@@ -5210,6 +6100,24 @@
     "rankVariance": 0
   },
   {
+    "name": "Bears D/ST",
+    "team": "CHI",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 286,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 286,
+    "rankVariance": 0
+  },
+  {
     "name": "Najee Harris",
     "team": "LAC",
     "position": "RB",
@@ -5228,76 +6136,99 @@
     "rankVariance": 0
   },
   {
-    "name": "Samaje Perine",
+    "name": "Trey Smack",
+    "team": "GB",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 287,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 434,
+    "fantasyprosId": 28507,
+    "averageRank": 361,
+    "rankVariance": 73.5
+  },
+  {
+    "name": "Jake Elliott",
+    "team": "PHI",
+    "position": "K",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 288,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 375,
+    "fantasyprosId": 16540,
+    "averageRank": 332,
+    "rankVariance": 43.5
+  },
+  {
+    "name": "Mike Gesicki",
     "team": "CIN",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 289,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 287,
-    "fantasyprosId": 16423,
-    "averageRank": 287,
-    "rankVariance": 0
+    "fantasyprosRank": 306,
+    "fantasyprosId": 17272,
+    "averageRank": 298,
+    "rankVariance": 8.51
   },
   {
-    "name": "LeQuint Allen Jr.",
-    "team": "JAX",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Cade Otton",
+    "team": "TB",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 290,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 288,
-    "fantasyprosId": 27285,
-    "averageRank": 288,
-    "rankVariance": 0
+    "fantasyprosRank": 238,
+    "fantasyprosId": 23181,
+    "averageRank": 264,
+    "rankVariance": 26
   },
   {
-    "name": "Jordan James",
-    "team": "SF",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "name": "Evan Engram",
+    "team": "DEN",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 291,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 289,
-    "fantasyprosId": 27310,
-    "averageRank": 289,
-    "rankVariance": 0
-  },
-  {
-    "name": "Chris Brazzell II",
-    "team": "CAR",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 290,
-    "fantasyprosId": 28047,
-    "averageRank": 290,
-    "rankVariance": 0
+    "fantasyprosRank": 258,
+    "fantasyprosId": 16411,
+    "averageRank": 275,
+    "rankVariance": 16.51
   },
   {
     "name": "Jaleel McLaughlin",
@@ -5318,40 +6249,61 @@
     "rankVariance": 0
   },
   {
+    "name": "David Njoku",
+    "team": "LAC",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 292,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 226,
+    "fantasyprosId": 16399,
+    "averageRank": 259,
+    "rankVariance": 33
+  },
+  {
+    "name": "Michael Mayer",
+    "team": "LV",
+    "position": "TE",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 293,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 358,
+    "fantasyprosId": 23056,
+    "averageRank": 326,
+    "rankVariance": 32.5
+  },
+  {
     "name": "Tyquan Thornton",
     "team": "KC",
     "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
     "sources": [
+      "espn",
       "fantasypros"
     ],
-    "espnRank": null,
+    "espnRank": 294,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
     "fantasyprosRank": 292,
     "fantasyprosId": 22913,
-    "averageRank": 292,
-    "rankVariance": 0
-  },
-  {
-    "name": "Will Reichard",
-    "team": "MIN",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 293,
-    "fantasyprosId": 26341,
     "averageRank": 293,
-    "rankVariance": 0
+    "rankVariance": 1
   },
   {
     "name": "Jerome Ford",
@@ -5369,6 +6321,24 @@
     "fantasyprosRank": 294,
     "fantasyprosId": 22921,
     "averageRank": 294,
+    "rankVariance": 0
+  },
+  {
+    "name": "Van Jefferson",
+    "team": "WAS",
+    "position": "WR",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 295,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 295,
     "rankVariance": 0
   },
   {
@@ -5390,6 +6360,25 @@
     "rankVariance": 0
   },
   {
+    "name": "Tua Tagovailoa",
+    "team": "ATL",
+    "position": "QB",
+    "matchConfidence": 0.6666666666666666,
+    "status": "matched_two",
+    "sources": [
+      "espn",
+      "fantasypros"
+    ],
+    "espnRank": 296,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": 275,
+    "fantasyprosId": 19198,
+    "averageRank": 286,
+    "rankVariance": 10.51
+  },
+  {
     "name": "San Francisco 49ers",
     "team": "SF",
     "position": "DST",
@@ -5408,39 +6397,57 @@
     "rankVariance": 0
   },
   {
-    "name": "George Holani",
-    "team": "SEA",
-    "position": "RB",
+    "name": "49ers D/ST",
+    "team": "SF",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 297,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 297,
-    "fantasyprosId": 22915,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 297,
     "rankVariance": 0
   },
   {
-    "name": "Devin Singletary",
-    "team": "NYG",
-    "position": "RB",
+    "name": "Jets D/ST",
+    "team": "NYJ",
+    "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
     "sources": [
-      "fantasypros"
+      "espn"
     ],
-    "espnRank": null,
+    "espnRank": 298,
     "espnId": null,
     "fleaflickerRank": null,
     "fleaflickerId": null,
-    "fantasyprosRank": 298,
-    "fantasyprosId": 18280,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
     "averageRank": 298,
+    "rankVariance": 0
+  },
+  {
+    "name": "Saints D/ST",
+    "team": "NO",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 299,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 299,
     "rankVariance": 0
   },
   {
@@ -5459,6 +6466,24 @@
     "fantasyprosRank": 299,
     "fantasyprosId": 18226,
     "averageRank": 299,
+    "rankVariance": 0
+  },
+  {
+    "name": "Panthers D/ST",
+    "team": "CAR",
+    "position": "DST",
+    "matchConfidence": 0.3333333333333333,
+    "status": "matched_one",
+    "sources": [
+      "espn"
+    ],
+    "espnRank": 300,
+    "espnId": null,
+    "fleaflickerRank": null,
+    "fleaflickerId": null,
+    "fantasyprosRank": null,
+    "fantasyprosId": null,
+    "averageRank": 300,
     "rankVariance": 0
   },
   {
@@ -5552,114 +6577,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Adam Randall",
-    "team": "BAL",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 305,
-    "fantasyprosId": 24367,
-    "averageRank": 305,
-    "rankVariance": 0
-  },
-  {
-    "name": "Mike Gesicki",
-    "team": "CIN",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 306,
-    "fantasyprosId": 17272,
-    "averageRank": 306,
-    "rankVariance": 0
-  },
-  {
-    "name": "Emari Demercado",
-    "team": "KC",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 307,
-    "fantasyprosId": 25654,
-    "averageRank": 307,
-    "rankVariance": 0
-  },
-  {
-    "name": "Deshaun Watson",
-    "team": "CLE",
-    "position": "QB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 308,
-    "fantasyprosId": 16398,
-    "averageRank": 308,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jake Tonges",
-    "team": "SF",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 309,
-    "fantasyprosId": 24778,
-    "averageRank": 309,
-    "rankVariance": 0
-  },
-  {
-    "name": "Trevor Etienne",
-    "team": "CAR",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 310,
-    "fantasyprosId": 25393,
-    "averageRank": 310,
-    "rankVariance": 0
-  },
-  {
     "name": "Isaac Guerendo",
     "team": "SF",
     "position": "RB",
@@ -5675,24 +6592,6 @@
     "fantasyprosRank": 311,
     "fantasyprosId": 26392,
     "averageRank": 311,
-    "rankVariance": 0
-  },
-  {
-    "name": "Greg Dulcich",
-    "team": "MIA",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 312,
-    "fantasyprosId": 23153,
-    "averageRank": 312,
     "rankVariance": 0
   },
   {
@@ -5768,24 +6667,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Kaelon Black",
-    "team": "SF",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 317,
-    "fantasyprosId": 28401,
-    "averageRank": 317,
-    "rankVariance": 0
-  },
-  {
     "name": "Audric Estime",
     "team": "NO",
     "position": "RB",
@@ -5801,42 +6682,6 @@
     "fantasyprosRank": 318,
     "fantasyprosId": 23054,
     "averageRank": 318,
-    "rankVariance": 0
-  },
-  {
-    "name": "Ja'Kobi Lane",
-    "team": "BAL",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 319,
-    "fantasyprosId": 27337,
-    "averageRank": 319,
-    "rankVariance": 0
-  },
-  {
-    "name": "Andrei Iosivas",
-    "team": "CIN",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 320,
-    "fantasyprosId": 25335,
-    "averageRank": 320,
     "rankVariance": 0
   },
   {
@@ -6020,24 +6865,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Will Shipley",
-    "team": "PHI",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 331,
-    "fantasyprosId": 22930,
-    "averageRank": 331,
-    "rankVariance": 0
-  },
-  {
     "name": "Luke McCaffrey",
     "team": "WAS",
     "position": "WR",
@@ -6071,24 +6898,6 @@
     "fantasyprosRank": 333,
     "fantasyprosId": 22967,
     "averageRank": 333,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jahan Dotson",
-    "team": "ATL",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 334,
-    "fantasyprosId": 23101,
-    "averageRank": 334,
     "rankVariance": 0
   },
   {
@@ -6326,24 +7135,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Jalen Tolbert",
-    "team": "MIA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 348,
-    "fantasyprosId": 23770,
-    "averageRank": 348,
-    "rankVariance": 0
-  },
-  {
     "name": "Dallas Cowboys",
     "team": "DAL",
     "position": "DST",
@@ -6452,24 +7243,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Caleb Douglas",
-    "team": "MIA",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 355,
-    "fantasyprosId": 28135,
-    "averageRank": 355,
-    "rankVariance": 0
-  },
-  {
     "name": "Nick Chubb",
     "team": "FA",
     "position": "RB",
@@ -6503,24 +7276,6 @@
     "fantasyprosRank": 357,
     "fantasyprosId": 24334,
     "averageRank": 357,
-    "rankVariance": 0
-  },
-  {
-    "name": "Michael Mayer",
-    "team": "LV",
-    "position": "TE",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 358,
-    "fantasyprosId": 23056,
-    "averageRank": 358,
     "rankVariance": 0
   },
   {
@@ -6776,24 +7531,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Nick Folk",
-    "team": "ATL",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 373,
-    "fantasyprosId": 9491,
-    "averageRank": 373,
-    "rankVariance": 0
-  },
-  {
     "name": "John Bates",
     "team": "WAS",
     "position": "TE",
@@ -6809,24 +7546,6 @@
     "fantasyprosRank": 374,
     "fantasyprosId": 22833,
     "averageRank": 374,
-    "rankVariance": 0
-  },
-  {
-    "name": "Jake Elliott",
-    "team": "PHI",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 375,
-    "fantasyprosId": 16540,
-    "averageRank": 375,
     "rankVariance": 0
   },
   {
@@ -7064,24 +7783,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Savion Williams",
-    "team": "GB",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 389,
-    "fantasyprosId": 27144,
-    "averageRank": 389,
-    "rankVariance": 0
-  },
-  {
     "name": "Noah Fant",
     "team": "NO",
     "position": "TE",
@@ -7115,24 +7816,6 @@
     "fantasyprosRank": 391,
     "fantasyprosId": 28154,
     "averageRank": 391,
-    "rankVariance": 0
-  },
-  {
-    "name": "Nick Westbrook-Ikhine",
-    "team": "IND",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 392,
-    "fantasyprosId": 19747,
-    "averageRank": 392,
     "rankVariance": 0
   },
   {
@@ -7622,24 +8305,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Kyle Juszczyk",
-    "team": "SF",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 420,
-    "fantasyprosId": 11798,
-    "averageRank": 420,
-    "rankVariance": 0
-  },
-  {
     "name": "Khalil Herbert",
     "team": "FA",
     "position": "RB",
@@ -7745,24 +8410,6 @@
     "fantasyprosRank": 426,
     "fantasyprosId": 18585,
     "averageRank": 426,
-    "rankVariance": 0
-  },
-  {
-    "name": "Dyami Brown",
-    "team": "WAS",
-    "position": "WR",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 427,
-    "fantasyprosId": 20113,
-    "averageRank": 427,
     "rankVariance": 0
   },
   {
@@ -7874,24 +8521,6 @@
     "rankVariance": 0
   },
   {
-    "name": "Trey Smack",
-    "team": "GB",
-    "position": "K",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 434,
-    "fantasyprosId": 28507,
-    "averageRank": 434,
-    "rankVariance": 0
-  },
-  {
     "name": "Mitch Tinsley",
     "team": "CIN",
     "position": "WR",
@@ -7961,24 +8590,6 @@
     "fantasyprosRank": 438,
     "fantasyprosId": 19471,
     "averageRank": 438,
-    "rankVariance": 0
-  },
-  {
-    "name": "Tyler Badie",
-    "team": "DEN",
-    "position": "RB",
-    "matchConfidence": 0.3333333333333333,
-    "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
-    "espnRank": null,
-    "espnId": null,
-    "fleaflickerRank": null,
-    "fleaflickerId": null,
-    "fantasyprosRank": 439,
-    "fantasyprosId": 23812,
-    "averageRank": 439,
     "rankVariance": 0
   },
   {

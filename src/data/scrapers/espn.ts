@@ -91,20 +91,21 @@ async function parsePDF(filePath: string): Promise<ScrapedPlayer[]> {
   const text = result.text;
 
   const players: ScrapedPlayer[] = [];
-  const lines = text.split("\n").filter(Boolean);
+  // Each PDF line contains up to 4 player entries, e.g.:
+  // "1. (RB1) Jahmyr Gibbs, DET $57 6 81. (WR40) Jakobi Meyers, JAC $4 7"
+  const playerRegex = /(\d+)\.\s+\(([A-Z]{1,4})(\d+)\)\s+(.+?),\s*([A-Z]{2,4})\s+\$\d+/g;
 
-  for (const line of lines) {
-    // Match: rank. (POSrank) PlayerName, TEAM ...
-    const match = line.match(/^\s*(\d+)\.\s+\(([A-Z]+)(\d+)\)\s+(.+?),\s*([A-Z]{2,3})\s+\$\d+/);
-    if (!match) continue;
+  for (const line of text.split("\n")) {
+    const matches = line.matchAll(playerRegex);
+    for (const match of matches) {
+      const rank = parseInt(match[1], 10);
+      const position = match[2]; // e.g., "RB", "WR", "DST"
+      const name = match[4].trim();
+      const team = normalizeTeam(match[5]);
 
-    const rank = parseInt(match[1], 10);
-    const position = match[2]; // e.g., "RB", "WR"
-    const name = match[4].trim();
-    const team = normalizeTeam(match[5]);
-
-    if (name) {
-      players.push({ name, team, position, rank });
+      if (name && rank > 0 && rank <= 300) {
+        players.push({ name, team, position, rank });
+      }
     }
   }
 
