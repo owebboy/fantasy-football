@@ -1,31 +1,39 @@
 <script lang="ts">
-  import type { RankingVector } from "../players";
+import type { RankingVector } from '../players';
 
-  let { vector, consensusStrength, size = 20 }: {
-    vector: RankingVector;
-    consensusStrength: number;
-    size?: number;
-  } = $props();
+let {
+  vector,
+  consensusStrength,
+  size = 20,
+}: {
+  vector: RankingVector;
+  consensusStrength: number;
+  size?: number;
+} = $props();
 
-  // Calculate arrow rotation based on vector direction
-  // Math.atan2 gives angle where 0° = right, but we want 0° = up
-  // So we rotate by 90° to make up = 0°
-  let rotation = $derived(vector.angle + 90);
-  
-  // Show arrow only when there's actual disagreement between multiple sources
-  let showArrow = $derived(consensusStrength > 0 && consensusStrength < 0.75 && vector.magnitude > 0.1);
-  
-  // Fixed circle radius for consistent appearance (slightly smaller proportion for larger sizes)
-  let circleRadius = $derived(size * 0.3);
-  
-  // Scale arrow size to fit within the circle (leave room for arrow head)
-  let arrowLength = $derived(showArrow ? Math.min((1 - consensusStrength) * circleRadius * 0.8, circleRadius - 4) : 0);
-  
-  // Opacity based on variance magnitude
-  let opacity = $derived(showArrow ? 0.5 + (1 - consensusStrength) * 0.5 : 0);
+// Calculate arrow rotation based on vector direction
+// Math.atan2 gives angle where 0° = right, but we want 0° = up
+// So we rotate by 90° to make up = 0°
+let rotation = $derived(vector.angle + 90);
 
-  // Use white for the arrow
-  let color = $derived("#ffffff");
+// Show arrow only when there's actual disagreement between multiple sources
+let showArrow = $derived(
+  consensusStrength > 0 && consensusStrength < 0.75 && vector.magnitude > 0.1,
+);
+
+// Fixed circle radius for consistent appearance (slightly smaller proportion for larger sizes)
+let circleRadius = $derived(size * 0.3);
+
+// Scale arrow size to fit within the circle (leave room for arrow head)
+let arrowLength = $derived(
+  showArrow ? Math.min((1 - consensusStrength) * circleRadius * 0.8, circleRadius - 4) : 0,
+);
+
+// Opacity based on variance magnitude
+let opacity = $derived(showArrow ? 0.5 + (1 - consensusStrength) * 0.5 : 0);
+
+// Use white for the arrow
+let color = $derived('#ffffff');
 </script>
 
 <svg width={size} height={size} viewBox="0 0 {size} {size}" style="opacity: {opacity}">

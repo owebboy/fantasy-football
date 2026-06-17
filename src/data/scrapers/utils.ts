@@ -1,43 +1,76 @@
-import fs from "fs";
-import path from "path";
-import type { CacheFile, ScrapedPlayer } from "../types";
+import fs from 'node:fs';
+import path from 'node:path';
+import type { CacheFile, ScrapedPlayer } from '../types';
 
-const CACHE_DIR = "data/cache";
+const CACHE_DIR = 'data/cache';
 
 // Standard team abbreviation map (full name → code, code → code)
 export const TEAM_ABBREV: Record<string, string> = {
-  "arizona cardinals": "ARI", "ari": "ARI",
-  "atlanta falcons": "ATL", "atl": "ATL",
-  "baltimore ravens": "BAL", "bal": "BAL",
-  "buffalo bills": "BUF", "buf": "BUF",
-  "carolina panthers": "CAR", "car": "CAR",
-  "chicago bears": "CHI", "chi": "CHI",
-  "cincinnati bengals": "CIN", "cin": "CIN",
-  "cleveland browns": "CLE", "cle": "CLE",
-  "dallas cowboys": "DAL", "dal": "DAL",
-  "denver broncos": "DEN", "den": "DEN",
-  "detroit lions": "DET", "det": "DET",
-  "green bay packers": "GB", "gb": "GB",
-  "houston texans": "HOU", "hou": "HOU",
-  "indianapolis colts": "IND", "ind": "IND",
-  "jacksonville jaguars": "JAX", "jax": "JAX", "jac": "JAX",
-  "kansas city chiefs": "KC", "kc": "KC",
-  "las vegas raiders": "LV", "lv": "LV",
-  "los angeles chargers": "LAC", "lac": "LAC",
-  "los angeles rams": "LAR", "lar": "LAR",
-  "miami dolphins": "MIA", "mia": "MIA",
-  "minnesota vikings": "MIN", "min": "MIN",
-  "new england patriots": "NE", "ne": "NE",
-  "new orleans saints": "NO", "no": "NO",
-  "new york giants": "NYG", "nyg": "NYG",
-  "new york jets": "NYJ", "nyj": "NYJ",
-  "philadelphia eagles": "PHI", "phi": "PHI",
-  "pittsburgh steelers": "PIT", "pit": "PIT",
-  "san francisco 49ers": "SF", "sf": "SF",
-  "seattle seahawks": "SEA", "sea": "SEA",
-  "tampa bay buccaneers": "TB", "tb": "TB",
-  "tennessee titans": "TEN", "ten": "TEN",
-  "washington commanders": "WAS", "was": "WAS",
+  'arizona cardinals': 'ARI',
+  ari: 'ARI',
+  'atlanta falcons': 'ATL',
+  atl: 'ATL',
+  'baltimore ravens': 'BAL',
+  bal: 'BAL',
+  'buffalo bills': 'BUF',
+  buf: 'BUF',
+  'carolina panthers': 'CAR',
+  car: 'CAR',
+  'chicago bears': 'CHI',
+  chi: 'CHI',
+  'cincinnati bengals': 'CIN',
+  cin: 'CIN',
+  'cleveland browns': 'CLE',
+  cle: 'CLE',
+  'dallas cowboys': 'DAL',
+  dal: 'DAL',
+  'denver broncos': 'DEN',
+  den: 'DEN',
+  'detroit lions': 'DET',
+  det: 'DET',
+  'green bay packers': 'GB',
+  gb: 'GB',
+  'houston texans': 'HOU',
+  hou: 'HOU',
+  'indianapolis colts': 'IND',
+  ind: 'IND',
+  'jacksonville jaguars': 'JAX',
+  jax: 'JAX',
+  jac: 'JAX',
+  'kansas city chiefs': 'KC',
+  kc: 'KC',
+  'las vegas raiders': 'LV',
+  lv: 'LV',
+  'los angeles chargers': 'LAC',
+  lac: 'LAC',
+  'los angeles rams': 'LAR',
+  lar: 'LAR',
+  'miami dolphins': 'MIA',
+  mia: 'MIA',
+  'minnesota vikings': 'MIN',
+  min: 'MIN',
+  'new england patriots': 'NE',
+  ne: 'NE',
+  'new orleans saints': 'NO',
+  no: 'NO',
+  'new york giants': 'NYG',
+  nyg: 'NYG',
+  'new york jets': 'NYJ',
+  nyj: 'NYJ',
+  'philadelphia eagles': 'PHI',
+  phi: 'PHI',
+  'pittsburgh steelers': 'PIT',
+  pit: 'PIT',
+  'san francisco 49ers': 'SF',
+  sf: 'SF',
+  'seattle seahawks': 'SEA',
+  sea: 'SEA',
+  'tampa bay buccaneers': 'TB',
+  tb: 'TB',
+  'tennessee titans': 'TEN',
+  ten: 'TEN',
+  'washington commanders': 'WAS',
+  was: 'WAS',
 };
 
 export function normalizeTeam(raw: string): string {
@@ -49,7 +82,7 @@ export function normalizeTeam(raw: string): string {
 export function readCache(source: string): CacheFile | null {
   const filePath = path.join(CACHE_DIR, `${source}.json`);
   if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
 export function writeCache(source: string, players: ScrapedPlayer[]): void {
@@ -58,8 +91,30 @@ export function writeCache(source: string, players: ScrapedPlayer[]): void {
     scrapedAt: new Date().toISOString(),
     players,
   };
-  fs.writeFileSync(
-    path.join(CACHE_DIR, `${source}.json`),
-    JSON.stringify(cache, null, 2)
-  );
+  fs.writeFileSync(path.join(CACHE_DIR, `${source}.json`), JSON.stringify(cache, null, 2));
+}
+
+/** Run a scraper and write its cache when the file is invoked directly (not imported) */
+export function runIfMain(
+  modulePath: string,
+  name: string,
+  scrape: () => Promise<ScrapedPlayer[]>,
+): void {
+  const isMain =
+    process.argv[1]?.endsWith(`${modulePath}.ts`) || process.argv[1]?.endsWith(`${modulePath}.js`);
+  if (!isMain) return;
+
+  scrape()
+    .then((players) => {
+      if (players.length > 0) {
+        writeCache(name, players);
+        console.log(`[${name}] Cache written: ${players.length} players`);
+      } else {
+        console.log(`[${name}] No players — cache not updated.`);
+      }
+    })
+    .catch((err) => {
+      console.error(`[${name}] Failed:`, err.message);
+      process.exit(1);
+    });
 }
