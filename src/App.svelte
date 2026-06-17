@@ -312,9 +312,9 @@ const clearDraft = () => {
   }
 
   .player:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.08);
     z-index: 2;
-    box-shadow: 0 0 0 2px rgba(255,255,255,0.25);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
   }
 
   .player:focus-visible {
