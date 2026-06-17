@@ -310,7 +310,7 @@ const clearDraft = () => {
     aspect-ratio: 1;
     overflow: hidden;
     transition: filter 0.15s, box-shadow 0.15s;
-    font-family: 'Barlow Condensed', 'Inter', system-ui, sans-serif;
+    font-family: 'PT Sans Narrow', 'Inter', system-ui, sans-serif;
   }
 
   .player:nth-child(12n) {
@@ -335,7 +335,7 @@ const clearDraft = () => {
     gap: clamp(0.1rem, 0.5vw, 0.3rem);
     align-items: center;
     font-size: clamp(0.45rem, 1.8vw, 0.65rem);
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
     white-space: nowrap;
   }
@@ -355,7 +355,7 @@ const clearDraft = () => {
 
   .player-name {
     grid-area: name;
-    font-weight: 600;
+    font-weight: 700;
     font-size: calc(clamp(0.48rem, 1vw, 0.8rem) * var(--name-scale, 1));
     text-align: center;
     line-height: 1.15;
