@@ -355,7 +355,7 @@ const clearDraft = () => {
   .player-name {
     grid-area: name;
     font-weight: 600;
-    font-size: clamp(0.55rem, 6vw, 2rem);
+    font-size: clamp(0.55rem, 2.2vw, 2rem);
     text-align: center;
     line-height: 1.15;
     align-self: center;
