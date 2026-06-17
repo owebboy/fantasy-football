@@ -15,7 +15,7 @@ import players, { type Player } from './players';
 // biome-ignore lint/correctness/noUnusedVariables: used in template {#await ready}
 let { keepers, currentTab, draft, ready } = stores;
 
-const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[], players: Player[]) => {
+const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[]) => {
   if (!isDraft) {
     return players;
   }
@@ -26,14 +26,10 @@ const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[], pla
   ];
 };
 
-// Derived store for currentPlayerSet
 const currentPlayerSet = derived(
   [keepers, currentTab, draft],
-  (d) => {
-    // Return the chunked player list
-    return chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers, players));
-  },
-  [], // Initial value for currentPlayerSet
+  () => chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers)),
+  [],
 );
 
 const onClick = (player: Player) => () => {
@@ -49,33 +45,13 @@ const onClick = (player: Player) => () => {
 const clearKeepers = () => {
   if (!$keepers.length) return;
   if (!confirm(`Clear all Keepers? (This will delete ${$keepers.length})`)) return;
-  // Backup for one-shot undo
-  try {
-    sessionStorage.setItem('keepers-backup', JSON.stringify($keepers));
-  } catch {}
   $keepers = [];
 };
 
 const clearDraft = () => {
   if (!$draft.length) return;
   if (!confirm(`Clear all Drafted Players? (This will delete ${$draft.length})`)) return;
-  try {
-    sessionStorage.setItem('draft-backup', JSON.stringify($draft));
-  } catch {}
   $draft = [];
-};
-
-const undoClear = (which: 'keepers' | 'draft') => {
-  const key = `${which}-backup`;
-  try {
-    const backup = sessionStorage.getItem(key);
-    if (backup) {
-      const data = JSON.parse(backup);
-      if (which === 'keepers') $keepers = data;
-      else $draft = data;
-      sessionStorage.removeItem(key);
-    }
-  } catch {}
 };
 </script>
 
@@ -130,7 +106,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
-            title="{player.name} - Variance: {player.variance || 0}{player.rankings ? ` | FF: ${player.rankings.ff || 'N/A'} | ESPN: ${player.rankings.espn || 'N/A'} | FP: ${player.rankings.fp || 'N/A'}` : ''}"
+            title="{player.name} — Variance: {player.variance || 0}"
           >
             <span class="player-meta">
               <span class="player-rank">#{player.rank}</span>
@@ -172,9 +148,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
           </div>
         {/if}
         {#if $currentTab === "draft"}
-          <div class="tab-header">
-            <h2>Draft <span class="draft-info">R{currentRound($draft)} · P{currentPick($draft)}</span></h2>
-          </div>
+          <h2>Draft <span class="draft-info">R{currentRound($draft)} · P{currentPick($draft)}</span></h2>
 
           <div class="draft">
             {#each $draft as player, idx}
