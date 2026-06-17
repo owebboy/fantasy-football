@@ -545,7 +545,7 @@ const clearDraft = () => {
 
   @media (min-width: 1100px) {
     .player-name {
-      font-size: clamp(0.9rem, 2vw, 1.8rem);
+      font-size: clamp(0.9rem, 2vw, 1.4rem);
     }
   }
 
