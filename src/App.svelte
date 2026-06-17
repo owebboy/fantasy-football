@@ -329,7 +329,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
       "ranks";
     border: 1px solid rgba(255,255,255,0.08);
     margin: 0;
-    padding: 3px 5px;
+    padding: clamp(1px, 0.3vw, 4px) clamp(2px, 0.5vw, 5px);
     cursor: pointer;
     background: transparent;
     position: relative;
@@ -357,9 +357,9 @@ const undoClear = (which: 'keepers' | 'draft') => {
   .player-meta {
     grid-area: meta;
     display: flex;
-    gap: 0.3rem;
+    gap: clamp(0.1rem, 0.5vw, 0.3rem);
     align-items: center;
-    font-size: 0.65rem;
+    font-size: clamp(0.45rem, 1.8vw, 0.65rem);
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
@@ -397,7 +397,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     grid-area: ranks;
     display: flex;
     justify-content: space-around;
-    font-size: 0.52rem;
+    font-size: clamp(0.35rem, 1.4vw, 0.52rem);
     font-weight: 400;
     opacity: 0.6;
     line-height: 1;
@@ -519,19 +519,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
 
   /* ---- responsive ---- */
   @media (max-width: 800px) {
-    .player {
-      padding: 1px 3px;
-    }
-
-    .player-meta {
-      font-size: 0.5rem;
-      gap: 0.15rem;
-    }
-
-    .player-ranks {
-      font-size: 0.44rem;
-    }
-
     [role="tablist"] button {
       padding: 0.25rem 0.5rem;
       font-size: 0.7rem;
@@ -577,19 +564,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
   }
 
   @media (max-width: 500px) {
-    .player {
-      padding: 1px 2px;
-    }
-
-    .player-meta {
-      font-size: 0.45rem;
-      gap: 0.1rem;
-    }
-
-    .player-ranks {
-      font-size: 0.38rem;
-    }
-
     .grid {
       margin: 0.25rem;
     }
