@@ -15,7 +15,7 @@ import players, { type Player } from './players';
 // biome-ignore lint/correctness/noUnusedVariables: used in template {#await ready}
 let { keepers, currentTab, draft, ready } = stores;
 
-const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[], players: Player[]) => {
+const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[]) => {
   if (!isDraft) {
     return players;
   }
@@ -26,14 +26,10 @@ const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[], pla
   ];
 };
 
-// Derived store for currentPlayerSet
 const currentPlayerSet = derived(
   [keepers, currentTab, draft],
-  (d) => {
-    // Return the chunked player list
-    return chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers, players));
-  },
-  [], // Initial value for currentPlayerSet
+  () => chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers)),
+  [],
 );
 
 const onClick = (player: Player) => () => {
@@ -49,33 +45,13 @@ const onClick = (player: Player) => () => {
 const clearKeepers = () => {
   if (!$keepers.length) return;
   if (!confirm(`Clear all Keepers? (This will delete ${$keepers.length})`)) return;
-  // Backup for one-shot undo
-  try {
-    sessionStorage.setItem('keepers-backup', JSON.stringify($keepers));
-  } catch {}
   $keepers = [];
 };
 
 const clearDraft = () => {
   if (!$draft.length) return;
   if (!confirm(`Clear all Drafted Players? (This will delete ${$draft.length})`)) return;
-  try {
-    sessionStorage.setItem('draft-backup', JSON.stringify($draft));
-  } catch {}
   $draft = [];
-};
-
-const undoClear = (which: 'keepers' | 'draft') => {
-  const key = `${which}-backup`;
-  try {
-    const backup = sessionStorage.getItem(key);
-    if (backup) {
-      const data = JSON.parse(backup);
-      if (which === 'keepers') $keepers = data;
-      else $draft = data;
-      sessionStorage.removeItem(key);
-    }
-  } catch {}
 };
 </script>
 
@@ -96,25 +72,26 @@ const undoClear = (which: 'keepers' | 'draft') => {
       {/each}
     </div>
     <div class="header-right">
-      <div class="legend-text">
-        <span><strong>Arrows:</strong> Show disagreement</span>
-        <span>•</span>
-        <span>Longer = more variance</span>
-      </div>
-      <nav aria-label="Data actions">
-        <button
-          disabled={!$keepers.length}
-          onclick={clearKeepers}>Clear Keepers ({$keepers.length || 0})</button
-        >
-        <button
-          disabled={!$draft.length}
-          onclick={clearDraft}>Clear Draft ({$draft.length || 0})</button
-        >
-      </nav>
+      <button class="legend-toggle" title="Arrows show ranking disagreement between sources. Longer arrow = more variance." aria-label="Legend: arrows show ranking disagreement">?</button>
+      {#if $currentTab !== "all players"}
+        <nav aria-label="Data actions">
+          {#if $currentTab === "keepers"}
+            <button
+              disabled={!$keepers.length}
+              onclick={clearKeepers}>Clear ({$keepers.length || 0})</button
+            >
+          {:else if $currentTab === "draft"}
+            <button
+              disabled={!$draft.length}
+              onclick={clearDraft}>Clear ({$draft.length || 0})</button
+            >
+          {/if}
+        </nav>
+      {/if}
     </div>
   </header>
   <main>
-    <div class="grid">
+    <div class="grid" class:grid-readonly={$currentTab === "all players"}>
       {#each $currentPlayerSet as round}
         {#each round as player (player.rank)}
           <button
@@ -129,29 +106,14 @@ const undoClear = (which: 'keepers' | 'draft') => {
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
-            title="{player.name} - Variance: {player.variance || 0}{player.rankings ? ` | FF: ${player.rankings.ff || 'N/A'} | ESPN: ${player.rankings.espn || 'N/A'} | FP: ${player.rankings.fp || 'N/A'}` : ''}"
+            title="{player.name} — Variance: {player.variance || 0}"
           >
-            <div class="player-top">
-              <div class="player-meta">
-                <p class="player-rank">
-                  #{player.rank}
-                </p>
-                <p class="player-position">{player.position.position}</p>
-              </div>
-            </div>
-            <div class="player-center">
-              <p class="player-name">{player.name}</p>
-            </div>
-            <div class="player-bottom">
-              <p>{player.team}</p>
-              <div class="compass-container">
-                <RankingArrow 
-                  vector={player.vector} 
-                  consensusStrength={player.consensusStrength}
-                  size={32}
-                />
-              </div>
-            </div>
+            <span class="player-meta">
+              <span class="player-rank">#{player.rank}</span>
+              <span class="player-pos">{player.position.position}</span>
+              <span class="player-team">{player.team}</span>
+            </span>
+            <span class="player-name" style="--name-scale: {Math.max(0.75, 1 - (Math.max(...player.name.split(' ').map(w => w.length)) - 7) * 0.055)}">{player.name}</span>
           </button>
         {/each}
       {/each}
@@ -179,13 +141,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
           </div>
         {/if}
         {#if $currentTab === "draft"}
-          <div class="tab-header">
-            <h2>Draft</h2>
-            <div>
-              <p>Round: {currentRound($draft)}</p>
-              <p>Pick: {currentPick($draft)}</p>
-            </div>
-          </div>
+          <h2>Draft <span class="draft-info">R{currentRound($draft)} · P{currentPick($draft)}</span></h2>
 
           <div class="draft">
             {#each $draft as player, idx}
@@ -211,6 +167,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
 {/await}
 
 <style>
+  /* ---- reset ---- */
   button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -221,268 +178,372 @@ const undoClear = (which: 'keepers' | 'draft') => {
     margin: 0;
   }
 
+  /* ---- header ---- */
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid #444;
+    padding: 0.25rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #242424;
+    flex-wrap: nowrap;
+  }
+
+  [role="tablist"] {
+    display: flex;
+  }
+
+  [role="tablist"] button {
+    border: 0;
+    background: transparent;
+    color: #888;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.78rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.15s, box-shadow 0.15s;
+    border-radius: 4px;
+    margin-right: 2px;
+  }
+
+  [role="tablist"] button:hover {
+    color: #ccc;
+  }
+
+  [role="tablist"] button.selected {
+    color: #fff;
+    box-shadow: inset 0 -2px 0 #fff;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .legend-toggle {
+    background: none;
+    border: 1px solid #555;
+    color: #999;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.65rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .legend-toggle:hover {
+    color: #fff;
+    border-color: #999;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  nav button {
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    background: transparent;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  nav button:hover:not(:disabled) {
+    color: #fff;
+    border-color: #777;
+  }
+
+  /* ---- main layout ---- */
   main {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
   }
 
-  aside {
-    border-left: 2px solid #444;
-    padding: 1rem;
-    width: 20%;
-    background: rgba(2, 2, 2, 0.9);
-    backdrop-filter: blur(0.5px);
+  /* ---- grid ---- */
+  .grid {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2px;
+    place-items: stretch;
+    flex: 1;
+    min-width: 0;
   }
 
-  aside h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #444;
+  /* ---- player card ---- */
+  .player {
+    border-radius: 3px;
+    color: #fff;
+    appearance: none;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "meta"
+      "name";
+    border: 1px solid rgba(255,255,255,0.08);
+    margin: 0;
+    padding: clamp(1px, 0.3vw, 4px) clamp(2px, 0.5vw, 5px);
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    transition: filter 0.15s, box-shadow 0.15s;
+  }
+
+  .player:nth-child(12n) {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .player:hover {
+    filter: brightness(1.08);
+    z-index: 2;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
+  }
+
+  .player:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+    z-index: 3;
+  }
+
+  .grid-readonly .player {
+    cursor: default;
+  }
+
+  .grid-readonly .player:hover {
+    filter: none;
+    box-shadow: none;
+  }
+
+  .player-meta {
+    grid-area: meta;
     display: flex;
-    justify-content: space-between;
+    gap: clamp(0.1rem, 0.5vw, 0.3rem);
+    align-items: center;
+    font-size: clamp(0.45rem, 1.8vw, 0.65rem);
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .player-rank {
+    opacity: 0.75;
+  }
+
+  .player-pos {
+    opacity: 0.85;
+  }
+
+  .player-team {
+    opacity: 0.55;
+    margin-left: auto;
+  }
+
+  .player-name {
+    grid-area: name;
+    font-weight: 600;
+    font-stretch: condensed;
+    font-feature-settings: "ss02", "cv12", "cv13";
+    font-size: calc(clamp(0.45rem, 0.95vw, 0.76rem) * var(--name-scale, 1));
+    text-align: center;
+    line-height: 1.15;
+    align-self: center;
+    letter-spacing: -0.04em;
+    word-break: break-word;
+  }
+
+  /* ---- selected states ---- */
+  .player-selected {
+    opacity: 0.55;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
   }
 
   .player-keeper {
-    filter: grayscale(1) brightness(0.6);
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.7);
+    opacity: 0.5;
   }
-  .player-keeper::before {
-    content: "Keeper";
-    background: rgba(255, 255, 255, 0.6);
-    color: #000;
-    padding: 0;
-    font-size: 0.5rem;
-    width: 100%;
-    text-transform: uppercase;
+
+  .player-keeper::after {
+    content: "K";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: rgba(255,255,255,0.85);
+    color: #111;
+    font-size: 0.45rem;
+    font-weight: 700;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    line-height: 1;
   }
+
+  .player-drafted {
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
+    opacity: 0.5;
+  }
+
+  /* ---- sidebar ---- */
+  aside {
+    border-left: 1px solid #444;
+    padding: 0.75rem;
+    width: min(200px, 18%);
+    background: #1a1a1a;
+    flex-shrink: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  aside h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .draft-info {
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: #888;
+  }
+
   aside .draft {
     display: grid;
-
     width: 100%;
   }
 
   aside .draft-player {
-    padding: 0.1rem;
-    border: 1px solid #444;
+    padding: 2px 4px;
+    border: 1px solid #333;
     display: flex;
     align-items: center;
-    gap: 0.2rem;
+    gap: 0.3rem;
   }
 
   aside .draft-player .name {
     font-weight: 500;
     text-align: center;
-    font-size: 0.8rem;
-    line-height: 1;
+    font-size: 0.7rem;
+    line-height: 1.2;
     flex: 1;
+    min-width: 0;
+    word-break: break-word;
   }
 
   aside .draft-player .rank {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 500;
+    color: #888;
   }
 
   aside .draft-player .compass-small {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
   }
 
   .empty-hint {
-    color: #888;
-    font-size: 0.8rem;
+    color: #666;
+    font-size: 0.7rem;
     font-style: italic;
-    padding: 0.5rem 0;
+    padding: 0.35rem 0;
   }
 
-  @media (max-width: 1092px) {
+  /* ---- responsive ---- */
+  @media (max-width: 1091px) {
     main {
       flex-direction: column;
     }
 
     aside {
       border-left: 0;
-      border-top: 2px solid #444;
-      padding-top: 1rem;
-      width: calc(100% - 2rem);
+      border-top: 1px solid #444;
+      padding: 0.5rem 0.75rem;
+      width: calc(100% - 1.5rem);
       position: sticky;
       bottom: 0;
-      max-height: 20vh;
+      max-height: 15vh;
       overflow-y: auto;
+      background: #1a1a1a;
     }
+
+    aside h2 {
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
+      padding-bottom: 0.25rem;
+    }
+
     aside .draft {
       grid-auto-flow: column;
-      grid-template-rows: repeat(8, minmax(0, 1fr));
+      grid-template-rows: repeat(6, minmax(0, 1fr));
     }
-  }
 
-  .grid {
-    margin: 1rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1px;
-    place-items: center;
-  }
-
-  .player {
-    border-radius: 4px;
-    color: #fff;
-    height: 90px;
-    width: 90px;
-    appearance: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #222;
-    margin: 0px;
-    cursor: pointer;
-    background: transparent;
-    position: relative;
-  }
-  .player-selected {
-    filter: grayscale(0.5) brightness(0.6);
-  }
-
-  .player-top {
-    height: 16px;
-    padding: 4px 4px 0 4px;
-  }
-  
-  .player-center {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 4px;
-  }
-
-  .player-name {
-    font-weight: 500;
-    font-size: 0.85rem;
-    text-align: center;
-    word-break: break-word;
-    hyphens: auto;
-    margin: 0;
-    line-height: 1.1;
-  }
-
-  .player-meta {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    font-size: 0.7rem;
-    line-height: 1;
-  }
-  
-  .player-meta p {
-    margin: 0;
-    font-weight: 600;
-  }
-
-  .player-bottom {
-    height: 20px;
-    display: flex;
-    align-items: flex-end;
-    padding: 0 4px 4px 4px;
-  }
-  
-  .player-bottom > p {
-    font-size: 0.75rem;
-    font-weight: 400;
-    margin: 0;
-    line-height: 1;
-  }
-
-  .compass-container {
-    position: absolute;
-    right: -8px;
-    bottom: -8px;
-    width: 32px;
-    height: 32px;
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    border-bottom: 2px solid #444;
-    margin-top: 1rem;
-    flex-wrap: nowrap;
-  }
-  
-  .header-right {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .legend-text {
-    display: flex;
-    gap: 0.5rem;
-    font-size: 0.75rem;
-    color: #aaa;
-    align-items: center;
-    padding: 0 1rem;
-    border-left: 1px solid #444;
-  }
-  
-  .legend-text strong {
-    color: #fff;
-  }
-
-  nav {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    display: flex;
-  }
-
-  nav button {
-    border: 0;
-    font-size: large;
-    background: transparent;
-    border-top: 2px solid #444;
-    border-left: 2px solid #444;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    color: #fff;
-    text-transform: lowercase;
-  }
-
-  nav button:last-child {
-    border-right: 2px solid #444;
-  }
-
-  [role="tablist"] button.selected {
-    background: #444;
-  }
-
-  @media (max-width: 1091px) {
-    header nav button {
-      font-size: small;
-      padding: 0.5rem 0.5rem;
+    aside .draft-player .name {
+      font-size: 0.6rem;
     }
-    .player {
-      height: 60px;
-      width: 60px;
-      padding: 2px;
-    }
-    .player-name {
+
+    nav button {
       font-size: 0.65rem;
+      padding: 0.3rem 0.5rem;
     }
-    .player-meta {
-      font-size: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .grid {
+      margin: 0.25rem;
     }
-    .player-bottom > p {
-      font-size: 0.55rem;
+
+    .player-name {
+      font-stretch: normal;
+      letter-spacing: normal;
+      font-size: clamp(0.5rem, 2.5vw, 0.7rem);
     }
-    .player-bottom {
-      height: 20px;
+
+    [role="tablist"] button {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.7rem;
     }
-    .compass-container {
-      right: -2px;
-      bottom: -2px;
+  }
+
+  @media (min-width: 1100px) {
+    .player-name {
+      font-size: calc(clamp(0.76rem, 1.5vw, 1.15rem) * var(--name-scale, 1));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .player,
+    .player:hover,
+    nav button,
+    [role="tablist"] button,
+    .legend-toggle {
+      transition: none;
     }
   }
 </style>
