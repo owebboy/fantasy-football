@@ -394,9 +394,11 @@ const undoClear = (which: 'keepers' | 'draft') => {
     line-height: 1.15;
     align-self: center;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     letter-spacing: 0.01em;
+    word-break: break-word;
   }
 
   .player-ranks {
@@ -508,9 +510,11 @@ const undoClear = (which: 'keepers' | 'draft') => {
     line-height: 1.2;
     flex: 1;
     min-width: 0;
-    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
   }
 
   aside .draft-player .rank {
