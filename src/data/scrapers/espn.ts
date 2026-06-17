@@ -82,6 +82,37 @@ function parseCSV(content: string): ScrapedPlayer[] {
   return players;
 }
 
+/** Parse PDF: lines like "1. (RB1) Jahmyr Gibbs, DET $57 6" */
+async function parsePDF(filePath: string): Promise<ScrapedPlayer[]> {
+  const { PDFParse } = await import("pdf-parse");
+  const buf = fs.readFileSync(filePath);
+  const pdf = new PDFParse({ data: buf });
+  await pdf.load();
+  const result = await pdf.getText();
+  const text = result.text;
+
+  const players: ScrapedPlayer[] = [];
+  const lines = text.split("\n").filter(Boolean);
+
+  for (const line of lines) {
+    // Match: rank. (POSrank) PlayerName, TEAM ...
+    const match = line.match(/^\s*(\d+)\.\s+\(([A-Z]+)(\d+)\)\s+(.+?),\s*([A-Z]{2,3})\s+\$\d+/);
+    if (!match) continue;
+
+    const rank = parseInt(match[1], 10);
+    const position = match[2]; // e.g., "RB", "WR"
+    const name = match[4].trim();
+    const team = normalizeTeam(match[5]);
+
+    if (name) {
+      players.push({ name, team, position, rank });
+    }
+  }
+
+  console.log(`[espn] Parsed ${players.length} players from PDF`);
+  return players;
+}
+
 /** Parse plain text: lines like "1. Player Name - Team - QB" */
 function parseText(content: string): ScrapedPlayer[] {
   const lines = content.trim().split(/\r?\n/).filter(Boolean);
@@ -137,17 +168,21 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   }
 
   console.log(`[espn] Reading ${inputPath}...`);
-  const content = fs.readFileSync(inputPath, "utf8");
   const ext = path.extname(inputPath).toLowerCase();
 
   let players: ScrapedPlayer[] = [];
 
   // Auto-detect format and parse
-  if (ext === ".json") {
+  if (ext === ".pdf") {
+    players = await parsePDF(inputPath);
+  } else if (ext === ".json") {
+    const content = fs.readFileSync(inputPath, "utf8");
     players = parseJSON(content);
   } else if (ext === ".csv" || ext === ".tsv") {
+    const content = fs.readFileSync(inputPath, "utf8");
     players = parseCSV(content);
   } else if (ext === ".txt" || ext === ".html") {
+    const content = fs.readFileSync(inputPath, "utf8");
     // Try text first, fall back to CSV
     players = parseText(content);
     if (players.length === 0) {
@@ -155,6 +190,7 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
     }
   } else {
     // Unknown extension — try all parsers
+    const content = fs.readFileSync(inputPath, "utf8");
     players = parseCSV(content);
     if (players.length === 0) players = parseText(content);
     if (players.length === 0) {
