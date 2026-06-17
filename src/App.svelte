@@ -333,7 +333,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     cursor: pointer;
     background: transparent;
     position: relative;
-    min-height: 56px;
+    aspect-ratio: 1;
     transition: filter 0.15s, box-shadow 0.15s;
   }
 
@@ -438,6 +438,8 @@ const undoClear = (which: 'keepers' | 'draft') => {
     width: min(200px, 18%);
     background: #1a1a1a;
     flex-shrink: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   aside h2 {
@@ -476,6 +478,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     font-size: 0.7rem;
     line-height: 1.2;
     flex: 1;
+    min-width: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -503,7 +506,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
   /* ---- responsive ---- */
   @media (max-width: 800px) {
     .player {
-      min-height: 44px;
       padding: 1px 3px;
     }
 
@@ -567,7 +569,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
 
   @media (max-width: 500px) {
     .player {
-      min-height: 38px;
       padding: 1px 2px;
     }
 
