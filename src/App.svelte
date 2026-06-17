@@ -308,6 +308,7 @@ const clearDraft = () => {
     background: transparent;
     position: relative;
     aspect-ratio: 1;
+    overflow: hidden;
     transition: filter 0.15s, box-shadow 0.15s;
     font-family: 'Barlow Condensed', 'Inter', system-ui, sans-serif;
   }
@@ -355,14 +356,10 @@ const clearDraft = () => {
   .player-name {
     grid-area: name;
     font-weight: 600;
-    font-size: clamp(0.48rem, 1.1vw, 0.85rem);
+    font-size: clamp(0.48rem, 1vw, 0.8rem);
     text-align: center;
     line-height: 1.15;
     align-self: center;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     letter-spacing: 0.01em;
     word-break: break-word;
   }
@@ -465,10 +462,6 @@ const clearDraft = () => {
     line-height: 1.2;
     flex: 1;
     min-width: 0;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     word-break: break-word;
   }
 
@@ -545,7 +538,7 @@ const clearDraft = () => {
 
   @media (min-width: 1100px) {
     .player-name {
-      font-size: clamp(0.85rem, 1.9vw, 1.35rem);
+      font-size: clamp(0.8rem, 1.6vw, 1.2rem);
     }
   }
 
