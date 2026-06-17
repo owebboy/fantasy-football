@@ -113,7 +113,7 @@ const clearDraft = () => {
               <span class="player-pos">{player.position.position}</span>
               <span class="player-team">{player.team}</span>
             </span>
-            <span class="player-name" style="--name-scale: {Math.max(0.82, 1 - (player.name.length - 12) * 0.018)}">{player.name}</span>
+            <span class="player-name" style="--name-scale: {Math.max(0.82, 1 - (player.name.length - 12) * 0.02)}">{player.name}</span>
             <span class="player-ranks">
               {#if player.rankings}
                 <span>FF {player.rankings.ff ?? '—'}</span>
@@ -363,6 +363,7 @@ const clearDraft = () => {
     align-self: center;
     letter-spacing: -0.04em;
     word-break: break-word;
+    hyphens: auto;
   }
 
   .player-ranks {
