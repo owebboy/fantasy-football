@@ -3,6 +3,7 @@ export interface ScrapedPlayer {
   team: string;
   position: string;
   rank: number;
+  id?: string | number;
 }
 
 export interface CacheFile {

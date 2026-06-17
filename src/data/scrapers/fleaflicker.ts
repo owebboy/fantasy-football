@@ -71,7 +71,7 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
     const ecrRank = p.rank_ecr ?? p.stats?.rank_ecr?.rank ?? seq;
 
     if (name && position) {
-      players.push({ name, team, position, rank: ecrRank });
+      players.push({ name, team, position, rank: ecrRank, id: p.id });
     }
   }
 

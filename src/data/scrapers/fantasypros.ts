@@ -96,6 +96,7 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
               team: normalizeTeam(item.player_team_id || item.team || ""),
               position: (item.player_position_id || item.position || "").toUpperCase(),
               rank: parseInt(item.rank_ecr, 10),
+              id: item.player_id || item.id || undefined,
             });
           }
         }
