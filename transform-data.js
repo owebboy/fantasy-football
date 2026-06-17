@@ -1,11 +1,40 @@
-import fs from "fs";
+import fs from 'node:fs';
 
-// 2026 NFL bye weeks (update when schedule is released)
+// 2026 NFL bye weeks — sourced from Sharp Football Analysis (May 31, 2026)
+// https://www.sharpfootballanalysis.com/analysis/nfl-bye-weeks/
 const byeWeeks = {
-  ARI: 7, ATL: 7, BAL: 7, BUF: 7, CAR: 7, CHI: 7, CIN: 7, CLE: 7,
-  DAL: 7, DEN: 7, DET: 7, GB: 7, HOU: 7, IND: 7, JAC: 7, JAX: 7,
-  KC: 7, LAC: 7, LAR: 7, LV: 7, MIA: 7, MIN: 7, NE: 7, NO: 7,
-  NYG: 7, NYJ: 7, PHI: 7, PIT: 7, SEA: 7, SF: 7, TB: 7, TEN: 7, WAS: 7,
+  ARI: 14,
+  ATL: 11,
+  BAL: 13,
+  BUF: 7,
+  CAR: 5,
+  CHI: 10,
+  CIN: 6,
+  CLE: 11,
+  DAL: 14,
+  DEN: 10,
+  DET: 6,
+  GB: 11,
+  HOU: 8,
+  IND: 13,
+  JAX: 7,
+  KC: 5,
+  LAC: 7,
+  LAR: 11,
+  LV: 13,
+  MIA: 6,
+  MIN: 6,
+  NE: 11,
+  NO: 8,
+  NYG: 8,
+  NYJ: 13,
+  PHI: 10,
+  PIT: 9,
+  SEA: 11,
+  SF: 8,
+  TB: 10,
+  TEN: 9,
+  WAS: 7,
 };
 
 // Price calculation based on rank
@@ -22,23 +51,25 @@ function calculatePrice(rank) {
 
 // Calculate vector coordinates for ranking compass
 function calculateRankingVector(entry) {
-  // Get ranks, using 300 as default for missing values
-  const ffRank = entry.fleaflickerRank || 300;
-  const espnRank = entry.espnRank || 300;
-  const fpRank = entry.fantasyprosRank || 300;
+  // Get ranks, null if missing
+  const ffRank = entry.fleaflickerRank || null;
+  const espnRank = entry.espnRank || null;
+  const fpRank = entry.fantasyprosRank || null;
 
-  // Normalize ranks to 0-1 scale (worse rank = higher value for disagreement visualization)
+  // Normalize ranks to 0-1 scale (higher rank number → worse rank)
   const normalize = (rank) => (rank - 1) / 299;
 
-  const ffNorm = normalize(ffRank);
-  const espnNorm = normalize(espnRank);
-  const fpNorm = normalize(fpRank);
+  // Only include sources that have actual data
+  const ffNorm = ffRank !== null ? normalize(ffRank) : 0;
+  const espnNorm = espnRank !== null ? normalize(espnRank) : 0;
+  const fpNorm = fpRank !== null ? normalize(fpRank) : 0;
 
   // Calculate vector components
   // FF is North (up), ESPN is Southeast, FP is Southwest
-  const ffVector = { x: 0, y: -ffNorm }; // North (negative Y is up in standard coordinates)
-  const espnVector = { x: espnNorm * 0.707, y: espnNorm * 0.707 }; // SE (positive X, positive Y)
-  const fpVector = { x: -fpNorm * 0.707, y: fpNorm * 0.707 }; // SW (negative X, positive Y)
+  // Missing sources contribute zero (no pull in their direction)
+  const ffVector = { x: 0, y: -ffNorm };
+  const espnVector = { x: espnNorm * Math.SQRT1_2, y: espnNorm * Math.SQRT1_2 };
+  const fpVector = { x: -fpNorm * Math.SQRT1_2, y: fpNorm * Math.SQRT1_2 };
 
   // Sum vectors to get resultant
   const resultX = ffVector.x + espnVector.x + fpVector.x;
@@ -48,17 +79,14 @@ function calculateRankingVector(entry) {
   const magnitude = Math.sqrt(resultX * resultX + resultY * resultY);
   const angle = Math.atan2(resultY, resultX) * (180 / Math.PI);
 
-  // Calculate variance between sources
-  const ranks = [ffRank, espnRank, fpRank].filter((r) => r < 300);
+  // Calculate variance between available sources only
+  const ranks = [ffRank, espnRank, fpRank].filter((r) => r !== null);
   let variance = 0;
-  let averageRank = ffRank;
+  let averageRank = espnRank || fpRank || ffRank || 300;
 
   if (ranks.length > 1) {
     averageRank = Math.round(ranks.reduce((a, b) => a + b, 0) / ranks.length);
-    variance = Math.sqrt(
-      ranks.reduce((sum, r) => sum + Math.pow(r - averageRank, 2), 0) /
-        ranks.length,
-    );
+    variance = Math.sqrt(ranks.reduce((sum, r) => sum + (r - averageRank) ** 2, 0) / ranks.length);
   }
 
   // Determine consensus strength based on variance
@@ -94,7 +122,7 @@ function calculateRankingVector(entry) {
 }
 
 // Read and parse the merged data
-const mergedData = JSON.parse(fs.readFileSync("merged-all.json", "utf8"));
+const mergedData = JSON.parse(fs.readFileSync('merged-all.json', 'utf8'));
 
 // Filter for entries with ESPN rankings (ESPN is our primary source)
 const qualityEntries = mergedData
@@ -106,13 +134,13 @@ const qualityEntries = mergedData
 
 // Map position strings to valid positions
 const positionMap = {
-  QB: "QB",
-  RB: "RB",
-  WR: "WR",
-  TE: "TE",
-  K: "K",
-  DST: "DST",
-  "D/ST": "DST",
+  QB: 'QB',
+  RB: 'RB',
+  WR: 'WR',
+  TE: 'TE',
+  K: 'K',
+  DST: 'DST',
+  'D/ST': 'DST',
 };
 
 // Group by position to calculate position ranks
@@ -150,7 +178,7 @@ topPlayers.forEach((entry) => {
       rank: positionRanks[position],
     },
     price: calculatePrice(overallRank - 1),
-    bye: byeWeeks[entry.team] || 7,
+    bye: byeWeeks[entry.team] || 0,
     vector: rankingData.vector,
     consensusStrength: rankingData.consensusStrength,
     variance: rankingData.variance,
@@ -165,43 +193,6 @@ topPlayers.forEach((entry) => {
 
 // No need for hardcoded kickers/defenses - they're in the data in proper FF rank order
 
-// Generate TypeScript output
-const tsOutput = `export interface PlayerPosition {
-  position: "QB" | "RB" | "WR" | "TE" | "K" | "DST";
-  rank: number;
-}
-
-export interface PlayerRankings {
-  ff: number | null;
-  espn: number | null;
-  fp: number | null;
-  avg: number;
-}
-
-export interface RankingVector {
-  x: number;
-  y: number;
-  magnitude: number;
-  angle: number;
-}
-
-export interface Player {
-  rank: number;
-  name: string;
-  team: string;
-  position: PlayerPosition;
-  price: number;
-  bye: number;
-  vector: RankingVector;
-  consensusStrength: number; // 0-1 scale: 0=no data, 0.25=high variance, 0.5=weak, 0.75=moderate, 1=strong
-  variance: number;
-  rankings: PlayerRankings | null;
-}
-
-const players: Player[] = ${JSON.stringify(players.slice(0, 300), null, 2)};
-
-export default players;
-`;
-
-// Write to players.ts
-fs.writeFileSync("src/players.ts", tsOutput);
+// Write generated player data to JSON (interfaces live in src/player-types.ts)
+fs.writeFileSync('src/players.json', JSON.stringify(players.slice(0, 300), null, 2));
+console.log(`Wrote ${players.length} players to src/players.json`);

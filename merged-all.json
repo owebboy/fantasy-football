@@ -5,10 +5,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 1,
     "espnId": null,
     "fleaflickerRank": null,
@@ -24,10 +21,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 2,
     "espnId": null,
     "fleaflickerRank": null,
@@ -43,10 +37,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 3,
     "espnId": null,
     "fleaflickerRank": null,
@@ -62,10 +53,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 4,
     "espnId": null,
     "fleaflickerRank": null,
@@ -81,10 +69,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 5,
     "espnId": null,
     "fleaflickerRank": null,
@@ -100,10 +85,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 6,
     "espnId": null,
     "fleaflickerRank": null,
@@ -119,10 +101,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 7,
     "espnId": null,
     "fleaflickerRank": null,
@@ -138,10 +117,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 8,
     "espnId": null,
     "fleaflickerRank": null,
@@ -157,10 +133,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 9,
     "espnId": null,
     "fleaflickerRank": null,
@@ -176,10 +149,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 10,
     "espnId": null,
     "fleaflickerRank": null,
@@ -195,10 +165,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 11,
     "espnId": null,
     "fleaflickerRank": null,
@@ -214,10 +181,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 12,
     "espnId": null,
     "fleaflickerRank": null,
@@ -233,10 +197,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 13,
     "espnId": null,
     "fleaflickerRank": null,
@@ -252,10 +213,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 14,
     "espnId": null,
     "fleaflickerRank": null,
@@ -271,10 +229,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 15,
     "espnId": null,
     "fleaflickerRank": null,
@@ -290,10 +245,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 16,
     "espnId": null,
     "fleaflickerRank": null,
@@ -309,10 +261,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 17,
     "espnId": null,
     "fleaflickerRank": null,
@@ -328,10 +277,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 18,
     "espnId": null,
     "fleaflickerRank": null,
@@ -347,10 +293,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 19,
     "espnId": null,
     "fleaflickerRank": null,
@@ -366,10 +309,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 20,
     "espnId": null,
     "fleaflickerRank": null,
@@ -385,10 +325,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 21,
     "espnId": null,
     "fleaflickerRank": null,
@@ -404,10 +341,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 22,
     "espnId": null,
     "fleaflickerRank": null,
@@ -423,10 +357,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 23,
     "espnId": null,
     "fleaflickerRank": null,
@@ -442,10 +373,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 24,
     "espnId": null,
     "fleaflickerRank": null,
@@ -461,10 +389,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 25,
     "espnId": null,
     "fleaflickerRank": null,
@@ -480,10 +405,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 26,
     "espnId": null,
     "fleaflickerRank": null,
@@ -499,10 +421,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 27,
     "espnId": null,
     "fleaflickerRank": null,
@@ -518,10 +437,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 28,
     "espnId": null,
     "fleaflickerRank": null,
@@ -537,10 +453,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 29,
     "espnId": null,
     "fleaflickerRank": null,
@@ -556,10 +469,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 30,
     "espnId": null,
     "fleaflickerRank": null,
@@ -575,10 +485,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 31,
     "espnId": null,
     "fleaflickerRank": null,
@@ -594,10 +501,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 32,
     "espnId": null,
     "fleaflickerRank": null,
@@ -613,10 +517,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 33,
     "espnId": null,
     "fleaflickerRank": null,
@@ -632,10 +533,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 34,
     "espnId": null,
     "fleaflickerRank": null,
@@ -651,10 +549,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 35,
     "espnId": null,
     "fleaflickerRank": null,
@@ -670,10 +565,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 36,
     "espnId": null,
     "fleaflickerRank": null,
@@ -689,10 +581,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 37,
     "espnId": null,
     "fleaflickerRank": null,
@@ -708,10 +597,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 38,
     "espnId": null,
     "fleaflickerRank": null,
@@ -727,10 +613,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 39,
     "espnId": null,
     "fleaflickerRank": null,
@@ -746,10 +629,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 40,
     "espnId": null,
     "fleaflickerRank": null,
@@ -765,10 +645,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 41,
     "espnId": null,
     "fleaflickerRank": null,
@@ -784,10 +661,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 42,
     "espnId": null,
     "fleaflickerRank": null,
@@ -803,10 +677,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 43,
     "espnId": null,
     "fleaflickerRank": null,
@@ -822,10 +693,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 44,
     "espnId": null,
     "fleaflickerRank": null,
@@ -841,10 +709,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 45,
     "espnId": null,
     "fleaflickerRank": null,
@@ -860,10 +725,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 46,
     "espnId": null,
     "fleaflickerRank": null,
@@ -879,10 +741,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 47,
     "espnId": null,
     "fleaflickerRank": null,
@@ -898,10 +757,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 48,
     "espnId": null,
     "fleaflickerRank": null,
@@ -917,10 +773,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 49,
     "espnId": null,
     "fleaflickerRank": null,
@@ -936,10 +789,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 50,
     "espnId": null,
     "fleaflickerRank": null,
@@ -955,10 +805,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 51,
     "espnId": null,
     "fleaflickerRank": null,
@@ -974,10 +821,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 52,
     "espnId": null,
     "fleaflickerRank": null,
@@ -993,10 +837,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 53,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1012,10 +853,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 54,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1031,10 +869,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 55,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1050,10 +885,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 56,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1069,10 +901,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 57,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1088,10 +917,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 58,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1107,10 +933,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 59,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1126,10 +949,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 60,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1145,10 +965,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 61,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1164,10 +981,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 62,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1183,10 +997,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 63,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1202,10 +1013,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 64,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1221,10 +1029,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 65,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1240,10 +1045,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 66,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1259,10 +1061,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 67,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1278,10 +1077,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 68,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1297,10 +1093,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 69,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1316,10 +1109,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 70,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1335,10 +1125,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 71,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1354,10 +1141,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 72,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1373,10 +1157,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 73,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1392,10 +1173,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 74,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1411,10 +1189,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 75,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1430,10 +1205,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 76,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1449,10 +1221,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 77,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1468,10 +1237,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 78,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1487,10 +1253,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 79,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1506,10 +1269,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 80,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1525,10 +1285,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 81,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1544,10 +1301,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 82,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1563,10 +1317,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 83,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1582,10 +1333,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 84,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1601,10 +1349,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 85,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1620,10 +1365,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 86,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1639,10 +1381,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 87,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1658,10 +1397,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 88,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1677,10 +1413,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 89,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1696,10 +1429,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 90,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1715,10 +1445,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 91,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1734,10 +1461,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 92,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1753,10 +1477,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 93,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1772,10 +1493,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 94,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1791,10 +1509,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 95,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1810,10 +1525,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 96,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1829,10 +1541,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 97,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1848,10 +1557,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 98,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1867,10 +1573,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 99,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1886,10 +1589,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 100,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1905,10 +1605,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 101,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1924,10 +1621,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 102,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1943,10 +1637,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 103,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1962,10 +1653,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 104,
     "espnId": null,
     "fleaflickerRank": null,
@@ -1981,10 +1669,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 105,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2000,10 +1685,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 106,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2019,10 +1701,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 107,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2038,10 +1717,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 108,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2057,10 +1733,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 109,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2076,10 +1749,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 110,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2095,10 +1765,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 111,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2114,10 +1781,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 112,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2133,10 +1797,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 113,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2152,10 +1813,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 114,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2171,10 +1829,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 115,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2190,10 +1845,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 116,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2209,10 +1861,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 117,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2228,10 +1877,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 118,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2247,10 +1893,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 119,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2266,10 +1909,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 120,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2285,10 +1925,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 121,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2304,10 +1941,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 122,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2323,10 +1957,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 123,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2342,10 +1973,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 124,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2361,10 +1989,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 125,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2380,10 +2005,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 126,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2399,10 +2021,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 127,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2418,10 +2037,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 128,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2437,10 +2053,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 129,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2456,10 +2069,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 130,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2475,10 +2085,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 131,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2494,10 +2101,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 132,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2513,10 +2117,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 133,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2532,10 +2133,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 134,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2551,10 +2149,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 135,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2570,10 +2165,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 136,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2589,10 +2181,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 137,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2608,10 +2197,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 138,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2627,10 +2213,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 139,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2646,10 +2229,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 140,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2665,10 +2245,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 141,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2684,10 +2261,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 142,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2703,10 +2277,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 143,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2722,10 +2293,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 144,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2741,10 +2309,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 145,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2760,10 +2325,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 146,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2779,10 +2341,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 147,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2798,10 +2357,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 148,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2817,10 +2373,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 149,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2836,10 +2389,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 150,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2855,10 +2405,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 151,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2874,10 +2421,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 152,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2893,10 +2437,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 153,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2912,10 +2453,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 154,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2931,10 +2469,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 155,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2950,10 +2485,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 156,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2969,10 +2501,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 157,
     "espnId": null,
     "fleaflickerRank": null,
@@ -2988,10 +2517,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 158,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3007,10 +2533,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 159,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3026,10 +2549,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 160,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3045,10 +2565,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 161,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3064,10 +2581,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 162,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3083,9 +2597,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3101,10 +2613,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 163,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3120,10 +2629,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 164,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3139,10 +2645,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 165,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3158,10 +2661,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 166,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3177,10 +2677,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 167,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3196,10 +2693,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 168,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3215,9 +2709,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 169,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3233,9 +2725,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 170,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3251,9 +2741,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 171,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3269,9 +2757,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 172,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3287,9 +2773,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3305,9 +2789,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 173,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3323,9 +2805,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 174,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3341,9 +2821,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 175,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3359,9 +2837,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 176,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3377,9 +2853,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3395,9 +2869,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 177,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3413,9 +2885,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 178,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3431,9 +2901,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3449,9 +2917,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 179,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3467,9 +2933,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3485,9 +2949,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 180,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3503,10 +2965,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 181,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3522,9 +2981,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3540,10 +2997,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 182,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3559,10 +3013,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 183,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3578,9 +3029,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3596,10 +3045,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 184,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3615,10 +3061,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 185,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3634,10 +3077,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 186,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3653,10 +3093,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 187,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3672,10 +3109,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 188,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3691,10 +3125,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 189,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3710,10 +3141,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 190,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3729,9 +3157,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3747,10 +3173,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 191,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3766,10 +3189,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 192,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3785,10 +3205,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 193,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3804,9 +3221,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3822,10 +3237,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 194,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3841,9 +3253,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3859,10 +3269,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 195,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3878,9 +3285,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3896,10 +3301,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 196,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3915,9 +3317,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3933,10 +3333,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 197,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3952,9 +3349,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3970,10 +3365,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 198,
     "espnId": null,
     "fleaflickerRank": null,
@@ -3989,10 +3381,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 199,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4008,10 +3397,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 200,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4027,9 +3413,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4045,10 +3429,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 201,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4064,10 +3445,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 202,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4083,10 +3461,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 203,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4102,10 +3477,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 204,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4121,10 +3493,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 205,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4140,10 +3509,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 206,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4159,10 +3525,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 207,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4178,9 +3541,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4196,10 +3557,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 208,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4215,10 +3573,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 209,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4234,10 +3589,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 210,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4253,9 +3605,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4271,10 +3621,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 211,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4290,10 +3637,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 212,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4309,10 +3653,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 213,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4328,10 +3669,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 214,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4347,10 +3685,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 215,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4366,10 +3701,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 216,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4385,9 +3717,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4403,10 +3733,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 217,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4422,10 +3749,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 218,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4441,10 +3765,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 219,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4460,9 +3781,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4478,10 +3797,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 220,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4497,9 +3813,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4515,10 +3829,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 221,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4534,10 +3845,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 222,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4553,9 +3861,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4571,10 +3877,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 223,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4590,10 +3893,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 224,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4609,9 +3909,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4627,10 +3925,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 225,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4646,10 +3941,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 226,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4665,10 +3957,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 227,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4684,10 +3973,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 228,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4703,10 +3989,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 229,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4722,10 +4005,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 230,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4741,10 +4021,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 231,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4760,10 +4037,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 232,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4779,10 +4053,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 233,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4798,10 +4069,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 234,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4817,9 +4085,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 235,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4835,9 +4101,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 236,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4853,9 +4117,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4871,10 +4133,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 237,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4890,10 +4149,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 238,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4909,10 +4165,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 239,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4928,9 +4181,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4946,10 +4197,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 240,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4965,10 +4213,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 241,
     "espnId": null,
     "fleaflickerRank": null,
@@ -4984,9 +4229,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5002,10 +4245,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 242,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5021,10 +4261,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 243,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5040,10 +4277,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 244,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5059,10 +4293,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 245,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5078,10 +4309,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 246,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5097,10 +4325,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 247,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5116,10 +4341,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 248,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5135,9 +4357,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5153,10 +4373,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 249,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5172,10 +4389,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 250,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5191,9 +4405,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5209,10 +4421,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 251,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5228,9 +4437,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5246,10 +4453,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 252,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5265,10 +4469,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 253,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5284,9 +4485,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 254,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5302,9 +4501,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 255,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5320,10 +4517,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 256,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5339,10 +4533,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 257,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5358,10 +4549,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 258,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5377,10 +4565,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 259,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5396,10 +4581,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 260,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5415,10 +4597,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 261,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5434,9 +4613,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5452,10 +4629,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 262,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5471,9 +4645,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5489,10 +4661,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 263,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5508,9 +4677,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5526,10 +4693,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 264,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5545,9 +4709,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5563,10 +4725,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 265,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5582,10 +4741,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 266,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5601,9 +4757,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5619,10 +4773,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 267,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5638,9 +4789,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5656,10 +4805,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 268,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5675,10 +4821,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 269,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5694,10 +4837,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 270,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5713,10 +4853,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 271,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5732,10 +4869,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 272,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5751,9 +4885,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5769,10 +4901,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 273,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5788,10 +4917,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 274,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5807,10 +4933,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 275,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5826,10 +4949,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 276,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5845,10 +4965,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 277,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5864,9 +4981,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5882,10 +4997,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 278,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5901,10 +5013,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 279,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5920,10 +5029,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 280,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5939,10 +5045,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 281,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5958,9 +5061,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5976,10 +5077,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 282,
     "espnId": null,
     "fleaflickerRank": null,
@@ -5995,9 +5093,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6013,10 +5109,7 @@
     "position": "RB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 283,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6032,10 +5125,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 284,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6051,9 +5141,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6069,9 +5157,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 285,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6087,9 +5173,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6105,9 +5189,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 286,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6123,9 +5205,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6141,10 +5221,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 287,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6160,10 +5237,7 @@
     "position": "K",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 288,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6179,10 +5253,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 289,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6198,10 +5269,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 290,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6217,10 +5285,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 291,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6236,9 +5301,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6254,10 +5317,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 292,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6273,10 +5333,7 @@
     "position": "TE",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 293,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6292,10 +5349,7 @@
     "position": "WR",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 294,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6311,9 +5365,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6329,9 +5381,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 295,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6347,9 +5397,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6365,10 +5413,7 @@
     "position": "QB",
     "matchConfidence": 0.6666666666666666,
     "status": "matched_two",
-    "sources": [
-      "espn",
-      "fantasypros"
-    ],
+    "sources": ["espn", "fantasypros"],
     "espnRank": 296,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6384,9 +5429,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6402,9 +5445,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 297,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6420,9 +5461,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 298,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6438,9 +5477,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 299,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6456,9 +5493,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6474,9 +5509,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "espn"
-    ],
+    "sources": ["espn"],
     "espnRank": 300,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6492,9 +5525,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6510,9 +5541,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6528,9 +5557,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6546,9 +5573,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6564,9 +5589,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6582,9 +5605,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6600,9 +5621,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6618,9 +5637,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6636,9 +5653,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6654,9 +5669,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6672,9 +5685,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6690,9 +5701,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6708,9 +5717,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6726,9 +5733,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6744,9 +5749,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6762,9 +5765,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6780,9 +5781,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6798,9 +5797,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6816,9 +5813,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6834,9 +5829,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6852,9 +5845,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6870,9 +5861,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6888,9 +5877,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6906,9 +5893,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6924,9 +5909,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6942,9 +5925,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6960,9 +5941,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6978,9 +5957,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -6996,9 +5973,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7014,9 +5989,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7032,9 +6005,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7050,9 +6021,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7068,9 +6037,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7086,9 +6053,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7104,9 +6069,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7122,9 +6085,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7140,9 +6101,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7158,9 +6117,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7176,9 +6133,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7194,9 +6149,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7212,9 +6165,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7230,9 +6181,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7248,9 +6197,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7266,9 +6213,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7284,9 +6229,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7302,9 +6245,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7320,9 +6261,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7338,9 +6277,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7356,9 +6293,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7374,9 +6309,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7392,9 +6325,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7410,9 +6341,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7428,9 +6357,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7446,9 +6373,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7464,9 +6389,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7482,9 +6405,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7500,9 +6421,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7518,9 +6437,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7536,9 +6453,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7554,9 +6469,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7572,9 +6485,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7590,9 +6501,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7608,9 +6517,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7626,9 +6533,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7644,9 +6549,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7662,9 +6565,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7680,9 +6581,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7698,9 +6597,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7716,9 +6613,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7734,9 +6629,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7752,9 +6645,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7770,9 +6661,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7788,9 +6677,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7806,9 +6693,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7824,9 +6709,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7842,9 +6725,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7860,9 +6741,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7878,9 +6757,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7896,9 +6773,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7914,9 +6789,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7932,9 +6805,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7950,9 +6821,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7968,9 +6837,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -7986,9 +6853,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8004,9 +6869,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8022,9 +6885,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8040,9 +6901,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8058,9 +6917,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8076,9 +6933,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8094,9 +6949,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8112,9 +6965,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8130,9 +6981,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8148,9 +6997,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8166,9 +7013,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8184,9 +7029,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8202,9 +7045,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8220,9 +7061,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8238,9 +7077,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8256,9 +7093,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8274,9 +7109,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8292,9 +7125,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8310,9 +7141,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8328,9 +7157,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8346,9 +7173,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8364,9 +7189,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8382,9 +7205,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8400,9 +7221,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8418,9 +7237,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8436,9 +7253,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8454,9 +7269,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8472,9 +7285,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8490,9 +7301,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8508,9 +7317,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8526,9 +7333,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8544,9 +7349,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8562,9 +7365,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8580,9 +7381,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8598,9 +7397,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8616,9 +7413,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8634,9 +7429,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8652,9 +7445,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8670,9 +7461,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8688,9 +7477,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8706,9 +7493,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8724,9 +7509,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8742,9 +7525,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8760,9 +7541,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8778,9 +7557,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8796,9 +7573,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8814,9 +7589,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8832,9 +7605,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8850,9 +7621,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8868,9 +7637,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8886,9 +7653,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8904,9 +7669,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8922,9 +7685,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8940,9 +7701,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8958,9 +7717,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8976,9 +7733,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -8994,9 +7749,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9012,9 +7765,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9030,9 +7781,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9048,9 +7797,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9066,9 +7813,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9084,9 +7829,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9102,9 +7845,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9120,9 +7861,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9138,9 +7877,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9156,9 +7893,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9174,9 +7909,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9192,9 +7925,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9210,9 +7941,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9228,9 +7957,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9246,9 +7973,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9264,9 +7989,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9282,9 +8005,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9300,9 +8021,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9318,9 +8037,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9336,9 +8053,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9354,9 +8069,7 @@
     "position": "RB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9372,9 +8085,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9390,9 +8101,7 @@
     "position": "QB",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9408,9 +8117,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9426,9 +8133,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9444,9 +8149,7 @@
     "position": "WR",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9462,9 +8165,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9480,9 +8181,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9498,9 +8197,7 @@
     "position": "TE",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9516,9 +8213,7 @@
     "position": "K",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,
@@ -9534,9 +8229,7 @@
     "position": "DST",
     "matchConfidence": 0.3333333333333333,
     "status": "matched_one",
-    "sources": [
-      "fantasypros"
-    ],
+    "sources": ["fantasypros"],
     "espnRank": null,
     "espnId": null,
     "fleaflickerRank": null,

@@ -8,11 +8,17 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json",
+    "check:all": "npm run check && npm run lint:check",
     "data:refresh": "tsx src/data/scrape-all.ts && tsx src/data/merge.ts && node transform-data.js",
     "data:transform": "tsx src/data/merge.ts && node transform-data.js",
-    "data:parse-espn": "tsx src/data/scrapers/espn.ts"
+    "data:parse-espn": "tsx src/data/scrapers/espn.ts",
+    "lint": "biome check --write .",
+    "lint:check": "biome check .",
+    "format": "biome format --write .",
+    "format:check": "biome format ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.0",
     "@sveltejs/vite-plugin-svelte": "^5.1.1",
     "@tsconfig/svelte": "^5.0.4",
     "@types/node": "^25.9.3",

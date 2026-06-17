@@ -1,8 +1,9 @@
-import type { ScrapedPlayer } from "../types";
-import { normalizeTeam, writeCache } from "./utils";
+import type { ScrapedPlayer } from '../types';
+import { normalizeTeam, runIfMain } from './utils';
 
-const API_BASE = "https://www.fleaflicker.com/api";
+const API_BASE = 'https://www.fleaflicker.com/api';
 
+// biome-ignore lint/correctness/noUnusedVariables: kept for API reference if restored
 interface FleaFlickerPlayer {
   player: {
     id: number;
@@ -21,39 +22,31 @@ interface FleaFlickerPlayer {
 }
 
 export async function scrape(): Promise<ScrapedPlayer[]> {
-  console.log("[fleaflicker] Fetching player listing from API...");
+  console.log('[fleaflicker] Fetching player listing from API...');
 
   // FetchPlayerListing needs sport, and possibly league context.
   // Try with minimal params first.
   const params = new URLSearchParams({
-    sport: "NFL",
-    sort: "ECR",
+    sport: 'NFL',
+    sort: 'ECR',
   });
 
   const resp = await fetch(`${API_BASE}/FetchPlayerListing?${params}`, {
     headers: {
-      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
-      Accept: "application/json",
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36',
+      Accept: 'application/json',
     },
   });
 
   if (!resp.ok) {
-    // The API may require a league context. Try with a public league if known.
-    // For now, log and return empty — the merge script will use cached data.
-    console.warn(`[fleaflicker] API returned ${resp.status}, trying alternate approach...`);
-
-    // Try the old approach: scrape /nfl/players page if API doesn't work
-    const htmlResp = await fetch("https://www.fleaflicker.com/nfl/players", {
-      headers: { "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" },
-    });
-    if (!htmlResp.ok) {
-      throw new Error(`FleaFlicker API and page fetch both failed (API: ${resp.status}, HTML: ${htmlResp.status})`);
-    }
-
-    // If we have a cached version, don't fail — merge will use cache
-    const html = await htmlResp.text();
-    console.log(`[fleaflicker] Got HTML page (${html.length} bytes)`);
-    throw new Error("FleaFlicker requires authenticated API access — use cached data or provide league context");
+    // The API may require a league context — this is expected without auth.
+    // FleaFlicker has no public API; the merge pipeline will use the other
+    // two sources (ESPN + FantasyPros) if no cached fleaflicker.json exists.
+    console.warn(`[fleaflicker] API returned ${resp.status} (expected — no league context).`);
+    console.warn(
+      '[fleaflicker] Skipping FleaFlicker. Rankings compass will use 2-source consensus.',
+    );
+    return [];
   }
 
   const data = await resp.json();
@@ -65,9 +58,9 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   for (const item of listing) {
     seq++;
     const p = item.player || item;
-    const name = p.name_full || p.name || "";
-    const team = normalizeTeam(p.pro_team_abbreviation || p.pro_team?.abbreviation || "");
-    const position = (p.position || "").toUpperCase();
+    const name = p.name_full || p.name || '';
+    const team = normalizeTeam(p.pro_team_abbreviation || p.pro_team?.abbreviation || '');
+    const position = (p.position || '').toUpperCase();
     const ecrRank = p.rank_ecr ?? p.stats?.rank_ecr?.rank ?? seq;
 
     if (name && position) {
@@ -79,15 +72,4 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   return players;
 }
 
-const isMain = process.argv[1]?.endsWith("fleaflicker.ts") || process.argv[1]?.endsWith("fleaflicker.js");
-if (isMain) {
-  scrape()
-    .then((players) => {
-      writeCache("fleaflicker", players);
-      console.log(`[fleaflicker] Cache written: ${players.length} players`);
-    })
-    .catch((err) => {
-      console.error("[fleaflicker] Failed:", err.message);
-      process.exit(1);
-    });
-}
+runIfMain('fleaflicker', 'fleaflicker', scrape);

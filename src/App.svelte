@@ -1,93 +1,114 @@
 <script lang="ts">
-  import players, { type Player } from "./players";
-  import { stores } from "./lib/stores";
-  import { derived } from "svelte/store";
-  import RankingArrow from "./lib/RankingArrow.svelte";
-  import {
-    calculatePositionColor,
-    chunkedPlayers,
-    currentPick,
-    currentRound,
-    findPlayer,
-    togglePlayer,
-  } from "./lib/helpers";
+import { derived } from 'svelte/store';
+import {
+  calculatePositionColor,
+  chunkedPlayers,
+  currentPick,
+  currentRound,
+  findPlayer,
+  togglePlayer,
+} from './lib/helpers';
+import RankingArrow from './lib/RankingArrow.svelte';
+import { stores } from './lib/stores';
+import players, { type Player } from './players';
 
-  let { keepers, currentTab, draft, ready } = stores;
+// biome-ignore lint/correctness/noUnusedVariables: used in template {#await ready}
+let { keepers, currentTab, draft, ready } = stores;
 
-  const playersList = (
-    isDraft: boolean,
-    drafted: Player[],
-    keepers: Player[],
-    players: Player[]
-  ) => {
-    if (!isDraft) {
-      return players;
+const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[], players: Player[]) => {
+  if (!isDraft) {
+    return players;
+  }
+
+  return [
+    ...drafted,
+    ...players.filter((player) => !findPlayer(player, keepers) && !findPlayer(player, drafted)),
+  ];
+};
+
+// Derived store for currentPlayerSet
+const currentPlayerSet = derived(
+  [keepers, currentTab, draft],
+  (d) => {
+    // Return the chunked player list
+    return chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers, players));
+  },
+  [], // Initial value for currentPlayerSet
+);
+
+const onClick = (player: Player) => () => {
+  switch ($currentTab) {
+    case 'keepers':
+      $keepers = togglePlayer(player, $keepers);
+      break;
+    case 'draft':
+      $draft = togglePlayer(player, $draft);
+  }
+};
+
+const clearKeepers = () => {
+  if (!$keepers.length) return;
+  if (!confirm(`Clear all Keepers? (This will delete ${$keepers.length})`)) return;
+  // Backup for one-shot undo
+  try {
+    sessionStorage.setItem('keepers-backup', JSON.stringify($keepers));
+  } catch {}
+  $keepers = [];
+};
+
+const clearDraft = () => {
+  if (!$draft.length) return;
+  if (!confirm(`Clear all Drafted Players? (This will delete ${$draft.length})`)) return;
+  try {
+    sessionStorage.setItem('draft-backup', JSON.stringify($draft));
+  } catch {}
+  $draft = [];
+};
+
+const undoClear = (which: 'keepers' | 'draft') => {
+  const key = `${which}-backup`;
+  try {
+    const backup = sessionStorage.getItem(key);
+    if (backup) {
+      const data = JSON.parse(backup);
+      if (which === 'keepers') $keepers = data;
+      else $draft = data;
+      sessionStorage.removeItem(key);
     }
-
-    return [
-      ...drafted,
-      ...players.filter(
-        (player) => !findPlayer(player, keepers) && !findPlayer(player, drafted)
-      ),
-    ];
-  };
-
-  // Derived store for currentPlayerSet
-  const currentPlayerSet = derived(
-    [keepers, currentTab, draft],
-    (d) => {
-      // Return the chunked player list
-      return chunkedPlayers(
-        playersList($currentTab === "draft", $draft, $keepers, players)
-      );
-    },
-    [] // Initial value for currentPlayerSet
-  );
-
-  const onClick = (player: Player) => () => {
-    switch ($currentTab) {
-      case "keepers":
-        $keepers = togglePlayer(player, $keepers);
-        break;
-      case "draft":
-        $draft = togglePlayer(player, $draft);
-    }
-  };
+  } catch {}
+};
 </script>
 
 {#await ready}
   <p>loading...</p>
 {:then}
   <header>
-    <nav>
+    <div role="tablist" aria-label="Player views">
       {#each ["all players", "keepers", "draft"] as tab}
         <button
+          role="tab"
+          aria-selected={$currentTab === tab}
           onclick={() => ($currentTab = tab)}
           class:selected={$currentTab === tab}
         >
           {tab}
         </button>
       {/each}
-    </nav>
+    </div>
     <div class="header-right">
       <div class="legend-text">
         <span><strong>Arrows:</strong> Show disagreement</span>
         <span>•</span>
         <span>Longer = more variance</span>
       </div>
-      <nav>
+      <nav aria-label="Data actions">
         <button
           disabled={!$keepers.length}
-          onclick={() =>
-            confirm(`Clear all Keepers? (This will delete ${$keepers.length})`) &&
-            ($keepers = [])}>Clear Keepers</button
+          onclick={clearKeepers}>Clear Keepers ({$keepers.length || 0})</button
         >
         <button
           disabled={!$draft.length}
-          onclick={() =>
-            confirm(
-              `Clear all Drafted Players? (This will delete ${$draft.length})`
-            ) && ($draft = [])}>Clear Draft</button
+          onclick={clearDraft}>Clear Draft ({$draft.length || 0})</button
         >
       </nav>
     </div>
@@ -95,7 +116,7 @@
   <main>
     <div class="grid">
       {#each $currentPlayerSet as round}
-        {#each round as player (player)}
+        {#each round as player (player.rank)}
           <button
             class="player"
             onclick={onClick(player)}
@@ -108,6 +129,7 @@
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
+            aria-label="{player.name}, {player.position.position}, rank {player.rank}, {player.team}"
             title="{player.name} - Variance: {player.variance || 0}{player.rankings ? ` | FF: ${player.rankings.ff || 'N/A'} | ESPN: ${player.rankings.espn || 'N/A'} | FP: ${player.rankings.fp || 'N/A'}` : ''}"
           >
             <div class="player-top">
@@ -152,6 +174,8 @@
                   />
                 </div>
               </div>
+            {:else}
+              <p class="empty-hint">Click players in the grid to mark them as keepers.</p>
             {/each}
           </div>
         {/if}
@@ -177,6 +201,8 @@
                   />
                 </div>
               </div>
+            {:else}
+              <p class="empty-hint">Click players in the grid as they are drafted to track the draft board.</p>
             {/each}
           </div>
         {/if}
@@ -260,6 +286,13 @@
   aside .draft-player .compass-small {
     display: flex;
     align-items: center;
+  }
+
+  .empty-hint {
+    color: #888;
+    font-size: 0.8rem;
+    font-style: italic;
+    padding: 0.5rem 0;
   }
 
   @media (max-width: 1092px) {
@@ -422,7 +455,7 @@
     border-right: 2px solid #444;
   }
 
-  nav button.selected {
+  [role="tablist"] button.selected {
     background: #444;
   }
 

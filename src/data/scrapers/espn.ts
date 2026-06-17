@@ -1,16 +1,16 @@
-import fs from "fs";
-import path from "path";
-import type { ScrapedPlayer } from "../types";
-import { normalizeTeam, writeCache } from "./utils";
+import fs from 'node:fs';
+import path from 'node:path';
+import type { ScrapedPlayer } from '../types';
+import { normalizeTeam, runIfMain } from './utils';
 
-const INPUT_GLOB = "data/cache/espn-input.*";
+const INPUT_GLOB = 'data/cache/espn-input.*';
 
 /** Find the user-provided ESPN input file (any extension) */
 function findInputFile(): string | null {
   const dir = path.dirname(INPUT_GLOB);
   if (!fs.existsSync(dir)) return null;
   const files = fs.readdirSync(dir);
-  const match = files.find((f) => f.startsWith("espn-input."));
+  const match = files.find((f) => f.startsWith('espn-input.'));
   return match ? path.join(dir, match) : null;
 }
 
@@ -21,12 +21,12 @@ function parseJSON(content: string): ScrapedPlayer[] {
   const players: ScrapedPlayer[] = [];
 
   for (const item of arr) {
-    const name = item.player_name || item.playerName || item.name || item.player || "";
-    const team = normalizeTeam(item.team || item.team_abbreviation || item.player_team_id || "");
-    const position = (item.position || item.player_position_id || "").toUpperCase();
+    const name = item.player_name || item.playerName || item.name || item.player || '';
+    const team = normalizeTeam(item.team || item.team_abbreviation || item.player_team_id || '');
+    const position = (item.position || item.player_position_id || '').toUpperCase();
     const rank = parseInt(item.rank || item.rank_ecr || item.overall_rank || item.overallRank, 10);
 
-    if (name && !isNaN(rank)) {
+    if (name && !Number.isNaN(rank)) {
       players.push({ name, team, position, rank });
     }
   }
@@ -42,7 +42,7 @@ function parseCSV(content: string): ScrapedPlayer[] {
 
   // Try to detect delimiter
   const firstLine = lines[0].toLowerCase();
-  const delimiter = firstLine.includes("\t") ? "\t" : (firstLine.includes("|") ? "|" : ",");
+  const delimiter = firstLine.includes('\t') ? '\t' : firstLine.includes('|') ? '|' : ',';
   const headers = lines[0].split(delimiter).map((h) => h.trim().toLowerCase());
 
   // Find column indices
@@ -63,19 +63,19 @@ function parseCSV(content: string): ScrapedPlayer[] {
     let name: string, team: string, position: string, rank: number;
 
     if (hasHeader) {
-      name = nameIdx >= 0 ? cols[nameIdx] : cols[0] || "";
-      team = teamIdx >= 0 ? normalizeTeam(cols[teamIdx]) : "";
-      position = posIdx >= 0 ? cols[posIdx].toUpperCase() : "";
+      name = nameIdx >= 0 ? cols[nameIdx] : cols[0] || '';
+      team = teamIdx >= 0 ? normalizeTeam(cols[teamIdx]) : '';
+      position = posIdx >= 0 ? cols[posIdx].toUpperCase() : '';
       rank = rankIdx >= 0 ? parseInt(cols[rankIdx], 10) : i;
     } else {
       // No header: assume [rank, name, team, position] order
       rank = parseInt(cols[0], 10);
-      name = cols[1] || cols[0] || "";
-      team = cols.length >= 3 ? normalizeTeam(cols[2]) : "";
-      position = cols.length >= 4 ? cols[3].toUpperCase() : "";
+      name = cols[1] || cols[0] || '';
+      team = cols.length >= 3 ? normalizeTeam(cols[2]) : '';
+      position = cols.length >= 4 ? cols[3].toUpperCase() : '';
     }
 
-    if (name && !isNaN(rank)) {
+    if (name && !Number.isNaN(rank)) {
       players.push({ name, team, position, rank });
     }
   }
@@ -84,7 +84,7 @@ function parseCSV(content: string): ScrapedPlayer[] {
 
 /** Parse PDF: lines like "1. (RB1) Jahmyr Gibbs, DET $57 6" */
 async function parsePDF(filePath: string): Promise<ScrapedPlayer[]> {
-  const { PDFParse } = await import("pdf-parse");
+  const { PDFParse } = await import('pdf-parse');
   const buf = fs.readFileSync(filePath);
   const pdf = new PDFParse({ data: buf });
   const result = await pdf.getText();
@@ -95,7 +95,7 @@ async function parsePDF(filePath: string): Promise<ScrapedPlayer[]> {
   // "1. (RB1) Jahmyr Gibbs, DET $57 6 81. (WR40) Jakobi Meyers, JAC $4 7"
   const playerRegex = /(\d+)\.\s+\(([A-Z]{1,4})(\d+)\)\s+(.+?),\s*([A-Z]{2,4})\s+\$\d+/g;
 
-  for (const line of text.split("\n")) {
+  for (const line of text.split('\n')) {
     const matches = line.matchAll(playerRegex);
     for (const match of matches) {
       const rank = parseInt(match[1], 10);
@@ -124,13 +124,13 @@ function parseText(content: string): ScrapedPlayer[] {
     if (!rankMatch) continue;
     const rank = parseInt(rankMatch[1], 10);
 
-    let rest = line.slice(rankMatch[0].length).trim();
+    const rest = line.slice(rankMatch[0].length).trim();
     let name = rest;
-    let team = "";
-    let position = "";
+    let team = '';
+    let position = '';
 
     // Try " - " separator
-    const dashParts = rest.split(" - ");
+    const dashParts = rest.split(' - ');
     if (dashParts.length >= 3) {
       name = dashParts[0].trim();
       team = dashParts[1].trim();
@@ -158,12 +158,12 @@ function parseText(content: string): ScrapedPlayer[] {
 }
 
 export async function scrape(): Promise<ScrapedPlayer[]> {
-  console.log("[espn] Looking for user-provided input file...");
+  console.log('[espn] Looking for user-provided input file...');
   const inputPath = findInputFile();
 
   if (!inputPath) {
-    console.warn("[espn] No input file found at data/cache/espn-input.*");
-    console.warn("[espn] Drop your ESPN rankings file there (any format) and re-run.");
+    console.warn('[espn] No input file found at data/cache/espn-input.*');
+    console.warn('[espn] Drop your ESPN rankings file there (any format) and re-run.');
     return [];
   }
 
@@ -173,16 +173,16 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   let players: ScrapedPlayer[] = [];
 
   // Auto-detect format and parse
-  if (ext === ".pdf") {
+  if (ext === '.pdf') {
     players = await parsePDF(inputPath);
-  } else if (ext === ".json") {
-    const content = fs.readFileSync(inputPath, "utf8");
+  } else if (ext === '.json') {
+    const content = fs.readFileSync(inputPath, 'utf8');
     players = parseJSON(content);
-  } else if (ext === ".csv" || ext === ".tsv") {
-    const content = fs.readFileSync(inputPath, "utf8");
+  } else if (ext === '.csv' || ext === '.tsv') {
+    const content = fs.readFileSync(inputPath, 'utf8');
     players = parseCSV(content);
-  } else if (ext === ".txt" || ext === ".html") {
-    const content = fs.readFileSync(inputPath, "utf8");
+  } else if (ext === '.txt' || ext === '.html') {
+    const content = fs.readFileSync(inputPath, 'utf8');
     // Try text first, fall back to CSV
     players = parseText(content);
     if (players.length === 0) {
@@ -190,11 +190,13 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
     }
   } else {
     // Unknown extension — try all parsers
-    const content = fs.readFileSync(inputPath, "utf8");
+    const content = fs.readFileSync(inputPath, 'utf8');
     players = parseCSV(content);
     if (players.length === 0) players = parseText(content);
     if (players.length === 0) {
-      try { players = parseJSON(content); } catch {}
+      try {
+        players = parseJSON(content);
+      } catch {}
     }
   }
 
@@ -202,19 +204,4 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   return players;
 }
 
-const isMain = process.argv[1]?.endsWith("espn.ts") || process.argv[1]?.endsWith("espn.js");
-if (isMain) {
-  scrape()
-    .then((players) => {
-      if (players.length > 0) {
-        writeCache("espn", players);
-        console.log(`[espn] Cache written: ${players.length} players`);
-      } else {
-        console.log("[espn] No players to write. Provide input file at data/cache/espn-input.*");
-      }
-    })
-    .catch((err) => {
-      console.error("[espn] Failed:", err.message);
-      process.exit(1);
-    });
-}
+runIfMain('espn', 'espn', scrape);

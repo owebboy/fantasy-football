@@ -1,5 +1,5 @@
-import { writable, type Writable } from "svelte/store";
-import type { Player } from "../players";
+import { type Writable, writable } from 'svelte/store';
+import type { Player } from '../players';
 
 interface PersistedStores {
   keepers: Writable<Player[]>;
@@ -13,14 +13,18 @@ function createPersistedStores(): PersistedStores {
     key: string,
     initialValue: T,
   ): { store: Writable<T>; ready: Promise<void> } => {
-    let initial = initialValue;
-    const store = writable<T>(initial);
+    const store = writable<T>(initialValue);
 
     const ready = new Promise<void>((resolve) => {
-      if (typeof window !== "undefined") {
-        const storedValue = localStorage.getItem(key);
-        if (storedValue) {
-          store.set(JSON.parse(storedValue) as T);
+      if (typeof window !== 'undefined') {
+        try {
+          const storedValue = localStorage.getItem(key);
+          if (storedValue) {
+            store.set(JSON.parse(storedValue) as T);
+          }
+        } catch {
+          // Corrupted JSON or storage unavailable — fall back to initial value
+          console.warn(`[stores] Could not restore "${key}", using default.`);
         }
         resolve();
       } else {
@@ -28,31 +32,28 @@ function createPersistedStores(): PersistedStores {
       }
     });
 
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       store.subscribe((value) => {
-        localStorage.setItem(key, JSON.stringify(value));
+        try {
+          localStorage.setItem(key, JSON.stringify(value));
+        } catch {
+          // Storage full or unavailable — silently skip persistence
+          console.warn(`[stores] Could not persist "${key}".`);
+        }
       });
     }
 
     return { store, ready };
   };
 
-  const { store: keepers, ready: keepersReady } = createStore<Player[]>(
-    "keepers",
-    [],
-  );
-  const { store: draft, ready: draftReady } = createStore<Player[]>(
-    "draft",
-    [],
-  );
+  const { store: keepers, ready: keepersReady } = createStore<Player[]>('keepers', []);
+  const { store: draft, ready: draftReady } = createStore<Player[]>('draft', []);
   const { store: currentTab, ready: currentTabReady } = createStore<string>(
-    "currentTab",
-    "all players",
+    'currentTab',
+    'all players',
   );
 
-  const ready = Promise.all([keepersReady, draftReady, currentTabReady]).then(
-    () => {},
-  );
+  const ready = Promise.all([keepersReady, draftReady, currentTabReady]).then(() => {});
 
   return { keepers, draft, currentTab, ready };
 }
