@@ -490,13 +490,6 @@ const clearDraft = () => {
   }
 
   /* ---- responsive ---- */
-  @media (max-width: 800px) {
-    [role="tablist"] button {
-      padding: 0.25rem 0.5rem;
-      font-size: 0.7rem;
-    }
-  }
-
   @media (max-width: 1091px) {
     main {
       flex-direction: column;
@@ -535,7 +528,7 @@ const clearDraft = () => {
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     .grid {
       margin: 0.25rem;
     }
@@ -555,6 +548,11 @@ const clearDraft = () => {
       grid-template-areas:
         "meta"
         "name";
+    }
+
+    [role="tablist"] button {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.7rem;
     }
   }
 
