@@ -1,29 +1,31 @@
 <script lang="ts">
   import type { RankingVector } from "../players";
 
-  export let vector: RankingVector;
-  export let consensusStrength: number;
-  export let size: number = 20;
+  let { vector, consensusStrength, size = 20 }: {
+    vector: RankingVector;
+    consensusStrength: number;
+    size?: number;
+  } = $props();
 
   // Calculate arrow rotation based on vector direction
   // Math.atan2 gives angle where 0° = right, but we want 0° = up
   // So we rotate by 90° to make up = 0°
-  $: rotation = vector.angle + 90;
+  let rotation = $derived(vector.angle + 90);
   
   // Show arrow only when there's actual disagreement between multiple sources
-  $: showArrow = consensusStrength > 0 && consensusStrength < 0.75 && vector.magnitude > 0.1;
+  let showArrow = $derived(consensusStrength > 0 && consensusStrength < 0.75 && vector.magnitude > 0.1);
   
   // Fixed circle radius for consistent appearance (slightly smaller proportion for larger sizes)
-  $: circleRadius = size * 0.3;
+  let circleRadius = $derived(size * 0.3);
   
   // Scale arrow size to fit within the circle (leave room for arrow head)
-  $: arrowLength = showArrow ? Math.min((1 - consensusStrength) * circleRadius * 0.8, circleRadius - 4) : 0;
+  let arrowLength = $derived(showArrow ? Math.min((1 - consensusStrength) * circleRadius * 0.8, circleRadius - 4) : 0);
   
   // Opacity based on variance magnitude
-  $: opacity = showArrow ? 0.5 + (1 - consensusStrength) * 0.5 : 0;
+  let opacity = $derived(showArrow ? 0.5 + (1 - consensusStrength) * 0.5 : 0);
 
   // Use white for the arrow
-  $: color = "#ffffff";
+  let color = $derived("#ffffff");
 </script>
 
 <svg width={size} height={size} viewBox="0 0 {size} {size}" style="opacity: {opacity}">
