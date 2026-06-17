@@ -113,7 +113,7 @@ const clearDraft = () => {
               <span class="player-pos">{player.position.position}</span>
               <span class="player-team">{player.team}</span>
             </span>
-            <span class="player-name">{player.name}</span>
+            <span class="player-name" style="--name-scale: {player.name.length > 17 ? 0.78 : player.name.length > 14 ? 0.88 : 1}">{player.name}</span>
             <span class="player-ranks">
               {#if player.rankings}
                 <span>FF {player.rankings.ff ?? '—'}</span>
@@ -356,7 +356,7 @@ const clearDraft = () => {
   .player-name {
     grid-area: name;
     font-weight: 600;
-    font-size: clamp(0.48rem, 1vw, 0.8rem);
+    font-size: calc(clamp(0.48rem, 1vw, 0.8rem) * var(--name-scale, 1));
     text-align: center;
     line-height: 1.15;
     align-self: center;
@@ -538,7 +538,7 @@ const clearDraft = () => {
 
   @media (min-width: 1100px) {
     .player-name {
-      font-size: clamp(0.8rem, 1.6vw, 1.2rem);
+      font-size: calc(clamp(0.8rem, 1.6vw, 1.2rem) * var(--name-scale, 1));
     }
   }
 
