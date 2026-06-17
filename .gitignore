@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Data pipeline — user-provided ESPN input files
+data/cache/espn-input.*
