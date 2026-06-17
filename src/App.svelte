@@ -114,13 +114,6 @@ const clearDraft = () => {
               <span class="player-team">{player.team}</span>
             </span>
             <span class="player-name" style="--name-scale: {Math.max(0.75, 1 - (Math.max(...player.name.split(' ').map(w => w.length)) - 7) * 0.055)}">{player.name}</span>
-            <span class="player-ranks">
-              {#if player.rankings}
-                <span>FF {player.rankings.ff ?? '—'}</span>
-                <span>ESPN {player.rankings.espn ?? '—'}</span>
-                <span>FP {player.rankings.fp ?? '—'}</span>
-              {/if}
-            </span>
           </button>
         {/each}
       {/each}
@@ -299,11 +292,10 @@ const clearDraft = () => {
     appearance: none;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
       "meta"
-      "name"
-      "ranks";
+      "name";
     border: 1px solid rgba(255,255,255,0.08);
     margin: 0;
     padding: clamp(1px, 0.3vw, 4px) clamp(2px, 0.5vw, 5px);
@@ -367,21 +359,6 @@ const clearDraft = () => {
     align-self: center;
     letter-spacing: -0.04em;
     word-break: break-word;
-  }
-
-  .player-ranks {
-    grid-area: ranks;
-    display: flex;
-    justify-content: space-around;
-    font-size: clamp(0.35rem, 1.4vw, 0.52rem);
-    font-weight: 400;
-    opacity: 0.6;
-    line-height: 1;
-    padding-top: 1px;
-  }
-
-  .player-ranks span {
-    white-space: nowrap;
   }
 
   /* ---- selected states ---- */
@@ -537,17 +514,6 @@ const clearDraft = () => {
       font-stretch: normal;
       letter-spacing: normal;
       font-size: clamp(0.5rem, 2.5vw, 0.7rem);
-    }
-
-    .player-ranks {
-      display: none;
-    }
-
-    .player {
-      grid-template-rows: auto 1fr;
-      grid-template-areas:
-        "meta"
-        "name";
     }
 
     [role="tablist"] button {
