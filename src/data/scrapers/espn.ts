@@ -87,7 +87,6 @@ async function parsePDF(filePath: string): Promise<ScrapedPlayer[]> {
   const { PDFParse } = await import("pdf-parse");
   const buf = fs.readFileSync(filePath);
   const pdf = new PDFParse({ data: buf });
-  await pdf.load();
   const result = await pdf.getText();
   const text = result.text;
 
