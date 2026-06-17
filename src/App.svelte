@@ -355,11 +355,13 @@ const clearDraft = () => {
   .player-name {
     grid-area: name;
     font-weight: 600;
+    font-stretch: condensed;
+    font-feature-settings: "ss02", "cv12", "cv13";
     font-size: calc(clamp(0.48rem, 1vw, 0.8rem) * var(--name-scale, 1));
     text-align: center;
     line-height: 1.15;
     align-self: center;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.02em;
     word-break: break-word;
   }
 
