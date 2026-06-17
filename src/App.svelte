@@ -361,7 +361,7 @@ const clearDraft = () => {
     text-align: center;
     line-height: 1.15;
     align-self: center;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.04em;
     word-break: break-word;
   }
 
