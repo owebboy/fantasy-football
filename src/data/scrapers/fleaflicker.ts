@@ -60,17 +60,18 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   const players: ScrapedPlayer[] = [];
 
   const listing = data.players || data.rows || data.items || [];
-  let rank = 0;
+  let seq = 0;
 
   for (const item of listing) {
-    rank++;
+    seq++;
     const p = item.player || item;
     const name = p.name_full || p.name || "";
     const team = normalizeTeam(p.pro_team_abbreviation || p.pro_team?.abbreviation || "");
     const position = (p.position || "").toUpperCase();
+    const ecrRank = p.rank_ecr ?? p.stats?.rank_ecr?.rank ?? seq;
 
     if (name && position) {
-      players.push({ name, team, position, rank });
+      players.push({ name, team, position, rank: ecrRank });
     }
   }
 
