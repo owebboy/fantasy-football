@@ -113,7 +113,7 @@ const clearDraft = () => {
               <span class="player-pos">{player.position.position}</span>
               <span class="player-team">{player.team}</span>
             </span>
-            <span class="player-name" style="--name-scale: {Math.max(0.80, 1 - (player.name.length - 12) * 0.025)}">{player.name}</span>
+            <span class="player-name" style="--name-scale: {Math.max(0.82, 1 - (Math.max(...player.name.split(' ').map(w => w.length)) - 7) * 0.035)}">{player.name}</span>
             <span class="player-ranks">
               {#if player.rankings}
                 <span>FF {player.rankings.ff ?? '—'}</span>
