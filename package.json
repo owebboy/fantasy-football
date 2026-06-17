@@ -13,16 +13,16 @@
     "data:parse-espn": "tsx src/data/scrapers/espn.ts"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
     "@tsconfig/svelte": "^5.0.4",
     "@types/node": "^25.9.3",
     "cheerio": "^1.2.0",
     "pdf-parse": "^2.4.5",
-    "svelte": "^4.2.18",
-    "svelte-check": "^3.8.5",
-    "tslib": "^2.6.3",
+    "svelte": "^5.56.3",
+    "svelte-check": "^4.6.0",
+    "tslib": "^2.8.1",
     "tsx": "^4.22.4",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.0"
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
   }
 }

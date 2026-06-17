@@ -1,21 +1,25 @@
 <script lang="ts">
   import type { RankingVector } from "../players";
 
-  export let vector: RankingVector;
-  export let consensusStrength: number;
-  export let size: number = 20;
+  let { vector, consensusStrength, size = 20 }: {
+    vector: RankingVector;
+    consensusStrength: number;
+    size?: number;
+  } = $props();
 
   // Scale the vector for display (max magnitude is ~1.73 for perfect consensus)
-  $: displayX = (vector.x / 1.73) * (size * 0.4);
-  $: displayY = -(vector.y / 1.73) * (size * 0.4); // Negative because SVG Y is inverted
+  let displayX = $derived((vector.x / 1.73) * (size * 0.4));
+  let displayY = $derived(-(vector.y / 1.73) * (size * 0.4)); // Negative because SVG Y is inverted
 
   // Opacity based on consensus strength
-  $: opacity = consensusStrength === 0 ? 0.2 : 0.3 + consensusStrength * 0.7;
+  let opacity = $derived(consensusStrength === 0 ? 0.2 : 0.3 + consensusStrength * 0.7);
 
   // Color based on consensus strength
-  $: strokeColor = consensusStrength > 0.75 ? "#22c55e" : 
-                   consensusStrength > 0.5 ? "#eab308" :
-                   consensusStrength > 0.25 ? "#f97316" : "#ef4444";
+  let strokeColor = $derived(
+    consensusStrength > 0.75 ? "#22c55e" : 
+    consensusStrength > 0.5 ? "#eab308" :
+    consensusStrength > 0.25 ? "#f97316" : "#ef4444"
+  );
 </script>
 
 <svg width={size} height={size} viewBox="{-size/2} {-size/2} {size} {size}" style="opacity: {opacity}">

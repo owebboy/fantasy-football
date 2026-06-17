@@ -14,8 +14,6 @@
 
   let { keepers, currentTab, draft, ready } = stores;
 
-  $: isAnimating = false;
-
   const playersList = (
     isDraft: boolean,
     drafted: Player[],
@@ -64,7 +62,7 @@
     <nav>
       {#each ["all players", "keepers", "draft"] as tab}
         <button
-          on:click={() => ($currentTab = tab)}
+          onclick={() => ($currentTab = tab)}
           class:selected={$currentTab === tab}
         >
           {tab}
@@ -80,13 +78,13 @@
       <nav>
         <button
           disabled={!$keepers.length}
-          on:click={() =>
+          onclick={() =>
             confirm(`Clear all Keepers? (This will delete ${$keepers.length})`) &&
             ($keepers = [])}>Clear Keepers</button
         >
         <button
           disabled={!$draft.length}
-          on:click={() =>
+          onclick={() =>
             confirm(
               `Clear all Drafted Players? (This will delete ${$draft.length})`
             ) && ($draft = [])}>Clear Draft</button
@@ -100,7 +98,7 @@
         {#each round as player (player)}
           <button
             class="player"
-            on:click={onClick(player)}
+            onclick={onClick(player)}
             class:player-selected={findPlayer(player, $keepers) ||
               findPlayer(player, $draft)}
             style="background-color: {calculatePositionColor(
