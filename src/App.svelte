@@ -278,6 +278,7 @@ const clearDraft = () => {
   main {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
   }
 
   /* ---- grid ---- */
@@ -288,6 +289,7 @@ const clearDraft = () => {
     gap: 2px;
     place-items: stretch;
     flex: 1;
+    min-width: 0;
   }
 
   /* ---- player card ---- */
