@@ -1,40 +1,11 @@
 import fs from "fs";
 
-// 2025 NFL bye weeks (these are placeholders - update with actual 2025 bye weeks)
+// 2026 NFL bye weeks (update when schedule is released)
 const byeWeeks = {
-  ARI: 11,
-  ATL: 12,
-  BAL: 14,
-  BUF: 12,
-  CAR: 11,
-  CHI: 7,
-  CIN: 12,
-  CLE: 10,
-  DAL: 7,
-  DEN: 14,
-  DET: 5,
-  GB: 10,
-  HOU: 14,
-  IND: 14,
-  JAC: 12,
-  JAX: 12,
-  KC: 6,
-  LAC: 5,
-  LAR: 6,
-  LV: 10,
-  MIA: 6,
-  MIN: 6,
-  NE: 14,
-  NO: 12,
-  NYG: 11,
-  NYJ: 12,
-  PHI: 5,
-  PIT: 9,
-  SEA: 10,
-  SF: 9,
-  TB: 11,
-  TEN: 5,
-  WAS: 14,
+  ARI: 7, ATL: 7, BAL: 7, BUF: 7, CAR: 7, CHI: 7, CIN: 7, CLE: 7,
+  DAL: 7, DEN: 7, DET: 7, GB: 7, HOU: 7, IND: 7, JAC: 7, JAX: 7,
+  KC: 7, LAC: 7, LAR: 7, LV: 7, MIA: 7, MIN: 7, NE: 7, NO: 7,
+  NYG: 7, NYJ: 7, PHI: 7, PIT: 7, SEA: 7, SF: 7, TB: 7, TEN: 7, WAS: 7,
 };
 
 // Price calculation based on rank
@@ -125,13 +96,13 @@ function calculateRankingVector(entry) {
 // Read and parse the merged data
 const mergedData = JSON.parse(fs.readFileSync("merged-all.json", "utf8"));
 
-// Filter for entries with FleaFlicker rankings (FF is our primary source)
+// Filter for entries with ESPN rankings (ESPN is our primary source)
 const qualityEntries = mergedData
   .filter((entry) => {
-    // Must have FF ranking and basic player info
-    return entry.fleaflickerRank && entry.name && entry.team && entry.position;
+    // Must have ESPN ranking and basic player info
+    return entry.espnRank && entry.name && entry.team && entry.position;
   })
-  .sort((a, b) => a.fleaflickerRank - b.fleaflickerRank);
+  .sort((a, b) => a.espnRank - b.espnRank);
 
 // Map position strings to valid positions
 const positionMap = {
@@ -158,7 +129,7 @@ qualityEntries.forEach((entry) => {
 const players = [];
 let overallRank = 1;
 
-// Take top 300 players by FF rank (including K/DST if they're ranked high enough)
+// Take top 300 players by ESPN rank (including K/DST if they're ranked high enough)
 const topPlayers = qualityEntries.slice(0, 300);
 
 // Track position ranks
@@ -179,7 +150,7 @@ topPlayers.forEach((entry) => {
       rank: positionRanks[position],
     },
     price: calculatePrice(overallRank - 1),
-    bye: byeWeeks[entry.team] || 9,
+    bye: byeWeeks[entry.team] || 7,
     vector: rankingData.vector,
     consensusStrength: rankingData.consensusStrength,
     variance: rankingData.variance,
