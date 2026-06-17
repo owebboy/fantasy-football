@@ -298,6 +298,7 @@ const clearDraft = () => {
     color: #fff;
     appearance: none;
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
       "meta"
@@ -339,6 +340,7 @@ const clearDraft = () => {
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
+    overflow: hidden;
   }
 
   .player-rank {
