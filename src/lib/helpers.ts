@@ -18,11 +18,11 @@ export const calculatePositionColor = (position: PlayerPosition['position']) => 
     case 'QB':
       return '#00509E';
     case 'RB':
-      return '#228B22';
+      return '#1B5E20';
     case 'WR':
       return '#C60C30';
     case 'TE':
-      return '#c46c00';
+      return '#8B4500';
     case 'DST':
       return '#6A0DAD';
     case 'K':
