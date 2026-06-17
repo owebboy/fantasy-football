@@ -314,7 +314,6 @@ const undoClear = (which: 'keepers' | 'draft') => {
     gap: 2px;
     place-items: stretch;
     flex: 1;
-    max-width: 1100px;
   }
 
   /* ---- player card ---- */
@@ -335,6 +334,7 @@ const undoClear = (which: 'keepers' | 'draft') => {
     background: transparent;
     position: relative;
     aspect-ratio: 1;
+    max-width: 72px;
     transition: filter 0.15s, box-shadow 0.15s;
     font-family: 'Barlow Condensed', 'Inter', system-ui, sans-serif;
   }
