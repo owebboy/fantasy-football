@@ -9,7 +9,6 @@ import {
   sortPlayers,
   togglePlayer,
 } from './lib/helpers';
-import RankingArrow from './lib/RankingArrow.svelte';
 import { stores, type SortBy } from './lib/stores';
 import players, { type Player } from './players';
 
@@ -78,14 +77,12 @@ const clearDraft = () => {
     <div class="sort-control">
       <label for="sort-by">Sort:</label>
       <select id="sort-by" bind:value={$sortBy}>
-        <option value="espn">ESPN</option>
-        <option value="ff">Fleaflicker</option>
         <option value="fp">FantasyPros</option>
+        <option value="ff">Fleaflicker</option>
         <option value="avg">Consensus</option>
       </select>
     </div>
     <div class="header-right">
-      <button class="legend-toggle" title="Arrows show ranking disagreement between sources. Longer arrow = more variance." aria-label="Legend: arrows show ranking disagreement">?</button>
       {#if $currentTab !== "all players"}
         <nav aria-label="Data actions">
           {#if $currentTab === "keepers"}
@@ -119,7 +116,7 @@ const clearDraft = () => {
             class:player-drafted={findPlayer(player, $draft)}
             disabled={$currentTab === "keepers" &&
               findPlayer(player, $draft) !== undefined}
-            title="{player.name} — Variance: {player.variance || 0}"
+            title={player.name}
           >
             <span class="player-meta">
               <span class="player-rank">#{player.rank}</span>
@@ -137,16 +134,9 @@ const clearDraft = () => {
           <h2>Keepers ({$keepers.length})</h2>
           <div class="draft">
             {#each $keepers as player}
-              <div class="draft-player" title="Variance: {player.variance || 0}">
+              <div class="draft-player">
                 <div class="rank">{player.rank}</div>
                 <div class="name">{player.name}</div>
-                <div class="compass-small">
-                  <RankingArrow 
-                    vector={player.vector} 
-                    consensusStrength={player.consensusStrength}
-                    size={14}
-                  />
-                </div>
               </div>
             {:else}
               <p class="empty-hint">Click players in the grid to mark them as keepers.</p>
@@ -158,16 +148,9 @@ const clearDraft = () => {
 
           <div class="draft">
             {#each $draft as player, idx}
-              <div class="draft-player" title="Variance: {player.variance || 0}">
+              <div class="draft-player">
                 <div class="rank">{idx + 1}</div>
                 <div class="name">{player.name}</div>
-                <div class="compass-small">
-                  <RankingArrow 
-                    vector={player.vector} 
-                    consensusStrength={player.consensusStrength}
-                    size={14}
-                  />
-                </div>
               </div>
             {:else}
               <p class="empty-hint">Click players in the grid as they are drafted to track the draft board.</p>
@@ -260,29 +243,6 @@ const clearDraft = () => {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-  }
-
-  .legend-toggle {
-    background: none;
-    border: 1px solid #555;
-    color: #999;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    font-size: 0.65rem;
-    font-weight: 500;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    line-height: 1;
-    transition: color 0.15s, border-color 0.15s;
-  }
-
-  .legend-toggle:hover {
-    color: #fff;
-    border-color: #999;
   }
 
   nav {
@@ -500,12 +460,6 @@ const clearDraft = () => {
     color: #888;
   }
 
-  aside .draft-player .compass-small {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-  }
-
   .empty-hint {
     color: #666;
     font-size: 0.7rem;
@@ -579,8 +533,7 @@ const clearDraft = () => {
     .player,
     .player:hover,
     nav button,
-    [role="tablist"] button,
-    .legend-toggle {
+    [role="tablist"] button {
       transition: none;
     }
   }

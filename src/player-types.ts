@@ -5,16 +5,8 @@ export interface PlayerPosition {
 
 export interface PlayerRankings {
   ff: number | null;
-  espn: number | null;
   fp: number | null;
   avg: number;
-}
-
-export interface RankingVector {
-  x: number;
-  y: number;
-  magnitude: number;
-  angle: number;
 }
 
 export interface Player {
@@ -24,8 +16,5 @@ export interface Player {
   position: PlayerPosition;
   price: number;
   bye: number;
-  vector: RankingVector;
-  consensusStrength: number;
-  variance: number;
   rankings: PlayerRankings | null;
 }

@@ -1,9 +1,4 @@
-export type {
-  Player,
-  PlayerPosition,
-  PlayerRankings,
-  RankingVector,
-} from './player-types';
+export type { Player, PlayerPosition, PlayerRankings } from './player-types';
 
 import type { Player } from './player-types';
 import data from './players.json';

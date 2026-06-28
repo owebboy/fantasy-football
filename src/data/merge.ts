@@ -9,8 +9,6 @@ interface MergedEntry {
   matchConfidence: number;
   status: string;
   sources: string[];
-  espnRank: number | null;
-  espnId: string | null;
   fleaflickerRank: number | null;
   fleaflickerId: number | null;
   fantasyprosRank: number | null;
@@ -28,11 +26,10 @@ function normalizeName(name: string): string {
 }
 
 function merge(): MergedEntry[] {
-  const espn = readCache('espn');
   const ff = readCache('fleaflicker');
   const fp = readCache('fantasypros');
 
-  if (!espn && !ff && !fp) {
+  if (!ff && !fp) {
     console.error('No cache files found. Run data:refresh first.');
     process.exit(1);
   }
@@ -49,8 +46,6 @@ function merge(): MergedEntry[] {
         matchConfidence: 0,
         status: 'unmatched',
         sources: [],
-        espnRank: null,
-        espnId: null,
         fleaflickerRank: null,
         fleaflickerId: null,
         fantasyprosRank: null,
@@ -90,22 +85,19 @@ function merge(): MergedEntry[] {
     }
   }
 
-  addSource(espn, 'espn', 'espnRank', 'espnId');
   addSource(ff, 'fleaflicker', 'fleaflickerRank', 'fleaflickerId');
   addSource(fp, 'fantasypros', 'fantasyprosRank', 'fantasyprosId');
 
   // Calculate match confidence and variance
   const entries = Array.from(master.values());
   for (const entry of entries) {
-    entry.matchConfidence = entry.sources.length / 3;
+    entry.matchConfidence = entry.sources.length / 2;
     entry.status =
-      entry.sources.length === 3
+      entry.sources.length === 2
         ? 'matched_all'
-        : entry.sources.length === 2
-          ? 'matched_two'
-          : 'matched_one';
+        : 'matched_one';
 
-    const ranks = [entry.espnRank, entry.fleaflickerRank, entry.fantasyprosRank].filter(
+    const ranks = [entry.fleaflickerRank, entry.fantasyprosRank].filter(
       (r): r is number => r !== null,
     );
     if (ranks.length > 0) {
@@ -123,16 +115,15 @@ function merge(): MergedEntry[] {
     }
   }
 
-  // Sort by ESPN rank (primary), fall back to average rank
+  // Sort by FantasyPros rank (primary), fall back to Fleaflicker
   entries.sort((a, b) => {
-    const aRank = a.espnRank ?? a.averageRank ?? 999;
-    const bRank = b.espnRank ?? b.averageRank ?? 999;
+    const aRank = a.fantasyprosRank ?? a.fleaflickerRank ?? 999;
+    const bRank = b.fantasyprosRank ?? b.fleaflickerRank ?? 999;
     return aRank - bRank;
   });
 
   console.log(`Merge: ${entries.length} total players`);
   console.log(`  matched_all: ${entries.filter((e) => e.status === 'matched_all').length}`);
-  console.log(`  matched_two: ${entries.filter((e) => e.status === 'matched_two').length}`);
   console.log(`  matched_one: ${entries.filter((e) => e.status === 'matched_one').length}`);
 
   return entries;

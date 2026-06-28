@@ -49,88 +49,31 @@ function calculatePrice(rank) {
   return 0;
 }
 
-// Calculate vector coordinates for ranking compass
-function calculateRankingVector(entry) {
-  // Get ranks, null if missing
-  const ffRank = entry.fleaflickerRank || null;
-  const espnRank = entry.espnRank || null;
-  const fpRank = entry.fantasyprosRank || null;
-
-  // Normalize ranks to 0-1 scale (higher rank number → worse rank)
-  const normalize = (rank) => (rank - 1) / 299;
-
-  // Only include sources that have actual data
-  const ffNorm = ffRank !== null ? normalize(ffRank) : 0;
-  const espnNorm = espnRank !== null ? normalize(espnRank) : 0;
-  const fpNorm = fpRank !== null ? normalize(fpRank) : 0;
-
-  // Calculate vector components
-  // FF is North (up), ESPN is Southeast, FP is Southwest
-  // Missing sources contribute zero (no pull in their direction)
-  const ffVector = { x: 0, y: -ffNorm };
-  const espnVector = { x: espnNorm * Math.SQRT1_2, y: espnNorm * Math.SQRT1_2 };
-  const fpVector = { x: -fpNorm * Math.SQRT1_2, y: fpNorm * Math.SQRT1_2 };
-
-  // Sum vectors to get resultant
-  const resultX = ffVector.x + espnVector.x + fpVector.x;
-  const resultY = ffVector.y + espnVector.y + fpVector.y;
-
-  // Calculate magnitude and angle
-  const magnitude = Math.sqrt(resultX * resultX + resultY * resultY);
-  const angle = Math.atan2(resultY, resultX) * (180 / Math.PI);
-
-  // Calculate variance between available sources only
-  const ranks = [ffRank, espnRank, fpRank].filter((r) => r !== null);
-  let variance = 0;
-  let averageRank = espnRank || fpRank || ffRank || 300;
-
-  if (ranks.length > 1) {
-    averageRank = Math.round(ranks.reduce((a, b) => a + b, 0) / ranks.length);
-    variance = Math.sqrt(ranks.reduce((sum, r) => sum + (r - averageRank) ** 2, 0) / ranks.length);
-  }
-
-  // Determine consensus strength based on variance
-  let consensusStrength;
-  if (ranks.length < 2) {
-    consensusStrength = 0; // No consensus data
-  } else if (variance <= 5) {
-    consensusStrength = 1; // Strong consensus
-  } else if (variance <= 15) {
-    consensusStrength = 0.75; // Moderate consensus
-  } else if (variance <= 30) {
-    consensusStrength = 0.5; // Weak consensus
-  } else {
-    consensusStrength = 0.25; // High variance
-  }
-
-  return {
-    vector: {
-      x: Math.round(resultX * 100) / 100,
-      y: Math.round(resultY * 100) / 100,
-      magnitude: Math.round(magnitude * 100) / 100,
-      angle: Math.round(angle),
-    },
-    consensusStrength,
-    variance: Math.round(variance * 10) / 10,
-    averageRank,
-    sources: {
-      ff: ffNorm,
-      espn: espnNorm,
-      fp: fpNorm,
-    },
-  };
+/** Compute average of available ranks; falls back to 300 if no sources. */
+function averageRank(entry) {
+  const ranks = [entry.fleaflickerRank, entry.fantasyprosRank].filter((r) => r != null);
+  if (ranks.length === 0) return 300;
+  return Math.round(ranks.reduce((a, b) => a + b, 0) / ranks.length);
 }
 
 // Read and parse the merged data
 const mergedData = JSON.parse(fs.readFileSync('merged-all.json', 'utf8'));
 
-// Filter for entries with ESPN rankings (ESPN is our primary source)
+// Filter for entries with at least one ranking and basic player info
 const qualityEntries = mergedData
   .filter((entry) => {
-    // Must have ESPN ranking and basic player info
-    return entry.espnRank && entry.name && entry.team && entry.position;
+    return (
+      (entry.fleaflickerRank || entry.fantasyprosRank) &&
+      entry.name &&
+      entry.team &&
+      entry.position
+    );
   })
-  .sort((a, b) => a.espnRank - b.espnRank);
+  .sort((a, b) => {
+    const aRank = a.fantasyprosRank ?? a.fleaflickerRank ?? 999;
+    const bRank = b.fantasyprosRank ?? b.fleaflickerRank ?? 999;
+    return aRank - bRank;
+  });
 
 // Map position strings to valid positions
 const positionMap = {
@@ -167,8 +110,6 @@ topPlayers.forEach((entry) => {
   const position = positionMap[entry.position] || entry.position;
   positionRanks[position]++;
 
-  const rankingData = calculateRankingVector(entry);
-
   players.push({
     rank: overallRank++,
     name: entry.name,
@@ -179,14 +120,10 @@ topPlayers.forEach((entry) => {
     },
     price: calculatePrice(overallRank - 1),
     bye: byeWeeks[entry.team] || 0,
-    vector: rankingData.vector,
-    consensusStrength: rankingData.consensusStrength,
-    variance: rankingData.variance,
     rankings: {
       ff: entry.fleaflickerRank || null,
-      espn: entry.espnRank || null,
       fp: entry.fantasyprosRank || null,
-      avg: rankingData.averageRank,
+      avg: averageRank(entry),
     },
   });
 });

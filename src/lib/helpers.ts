@@ -57,7 +57,7 @@ export const togglePlayer = (player: Player, arr: Player[]) => {
 /** Sort players by a ranking source. Nulls sort to the end. */
 export const sortPlayers = (
   players: Player[],
-  sortBy: 'espn' | 'ff' | 'fp' | 'avg',
+  sortBy: 'ff' | 'fp' | 'avg',
 ): Player[] => {
   return [...players].sort((a, b) => {
     const aRank: number | null =
