@@ -11,17 +11,17 @@
     "bye": 6,
     "vector": {
       "x": -0.01,
-      "y": 0.01,
-      "magnitude": 0.01,
-      "angle": 135
+      "y": -0.04,
+      "magnitude": 0.04,
+      "angle": -103
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.75,
+    "variance": 6.4,
     "rankings": {
-      "ff": null,
+      "ff": 16,
       "espn": 1,
       "fp": 5,
-      "avg": 3
+      "avg": 7
     }
   },
   {
@@ -36,17 +36,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0,
-      "magnitude": 0,
-      "angle": 90
+      "y": -0.04,
+      "magnitude": 0.04,
+      "angle": -90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.75,
+    "variance": 5.7,
     "rankings": {
-      "ff": null,
+      "ff": 14,
       "espn": 2,
       "fp": 2,
-      "avg": 2
+      "avg": 6
     }
   },
   {
@@ -61,17 +61,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.01,
-      "magnitude": 0.01,
-      "angle": 90
+      "y": -0.08,
+      "magnitude": 0.08,
+      "angle": -90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.75,
+    "variance": 11.8,
     "rankings": {
-      "ff": null,
+      "ff": 28,
       "espn": 3,
       "fp": 3,
-      "avg": 3
+      "avg": 11
     }
   },
   {
@@ -86,17 +86,17 @@
     "bye": 6,
     "vector": {
       "x": 0.01,
-      "y": 0.01,
-      "magnitude": 0.01,
-      "angle": 45
+      "y": -0.14,
+      "magnitude": 0.14,
+      "angle": -87
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.5,
+    "variance": 19.6,
     "rankings": {
-      "ff": null,
+      "ff": 44,
       "espn": 4,
       "fp": 1,
-      "avg": 3
+      "avg": 16
     }
   },
   {
@@ -111,17 +111,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.02,
-      "magnitude": 0.02,
-      "angle": 82
+      "y": -0.07,
+      "magnitude": 0.07,
+      "angle": -88
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.75,
+    "variance": 10.1,
     "rankings": {
-      "ff": null,
+      "ff": 26,
       "espn": 5,
       "fp": 4,
-      "avg": 5
+      "avg": 12
     }
   },
   {
@@ -136,17 +136,17 @@
     "bye": 8,
     "vector": {
       "x": 0,
-      "y": 0.03,
-      "magnitude": 0.03,
-      "angle": 95
+      "y": -0.01,
+      "magnitude": 0.01,
+      "angle": -102
     },
     "consensusStrength": 1,
-    "variance": 0.7,
+    "variance": 2.6,
     "rankings": {
-      "ff": null,
+      "ff": 12,
       "espn": 6,
       "fp": 7,
-      "avg": 7
+      "avg": 8
     }
   },
   {
@@ -161,14 +161,14 @@
     "bye": 13,
     "vector": {
       "x": -0.01,
-      "y": 0.04,
-      "magnitude": 0.04,
-      "angle": 101
+      "y": 0,
+      "magnitude": 0.01,
+      "angle": 164
     },
     "consensusStrength": 1,
-    "variance": 1.6,
+    "variance": 1.7,
     "rankings": {
-      "ff": null,
+      "ff": 11,
       "espn": 7,
       "fp": 10,
       "avg": 9
@@ -186,17 +186,17 @@
     "bye": 6,
     "vector": {
       "x": 0,
-      "y": 0.03,
-      "magnitude": 0.03,
-      "angle": 81
+      "y": -0.1,
+      "magnitude": 0.1,
+      "angle": -87
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.75,
+    "variance": 14.6,
     "rankings": {
-      "ff": null,
+      "ff": 38,
       "espn": 8,
       "fp": 6,
-      "avg": 7
+      "avg": 17
     }
   },
   {
@@ -211,17 +211,17 @@
     "bye": 14,
     "vector": {
       "x": 0,
-      "y": 0.04,
-      "magnitude": 0.04,
-      "angle": 86
+      "y": -0.26,
+      "magnitude": 0.26,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.25,
+    "variance": 38,
     "rankings": {
-      "ff": null,
+      "ff": 89,
       "espn": 9,
       "fp": 8,
-      "avg": 9
+      "avg": 35
     }
   },
   {
@@ -236,17 +236,17 @@
     "bye": 13,
     "vector": {
       "x": -0.07,
-      "y": 0.11,
-      "magnitude": 0.13,
-      "angle": 122
+      "y": 0.05,
+      "magnitude": 0.09,
+      "angle": 143
     },
     "consensusStrength": 0.75,
-    "variance": 14.5,
+    "variance": 12.1,
     "rankings": {
-      "ff": null,
+      "ff": 19,
       "espn": 10,
       "fp": 39,
-      "avg": 25
+      "avg": 23
     }
   },
   {
@@ -261,17 +261,17 @@
     "bye": 6,
     "vector": {
       "x": 0,
-      "y": 0.04,
-      "magnitude": 0.04,
-      "angle": 84
+      "y": -0.35,
+      "magnitude": 0.35,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.25,
+    "variance": 50.4,
     "rankings": {
-      "ff": null,
+      "ff": 117,
       "espn": 11,
       "fp": 9,
-      "avg": 10
+      "avg": 46
     }
   },
   {
@@ -286,14 +286,14 @@
     "bye": 7,
     "vector": {
       "x": -0.02,
-      "y": 0.07,
-      "magnitude": 0.07,
-      "angle": 104
+      "y": 0.01,
+      "magnitude": 0.02,
+      "angle": 145
     },
     "consensusStrength": 1,
-    "variance": 3.5,
+    "variance": 3.1,
     "rankings": {
-      "ff": null,
+      "ff": 18,
       "espn": 12,
       "fp": 19,
       "avg": 16
@@ -311,17 +311,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.05,
-      "magnitude": 0.05,
-      "angle": 85
+      "y": -0.23,
+      "magnitude": 0.23,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.25,
+    "variance": 34,
     "rankings": {
-      "ff": null,
+      "ff": 84,
       "espn": 13,
       "fp": 11,
-      "avg": 12
+      "avg": 36
     }
   },
   {
@@ -336,17 +336,17 @@
     "bye": 5,
     "vector": {
       "x": -0.02,
-      "y": 0.08,
-      "magnitude": 0.08,
-      "angle": 103
+      "y": -0.42,
+      "magnitude": 0.43,
+      "angle": -93
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.25,
+    "variance": 63.3,
     "rankings": {
-      "ff": null,
+      "ff": 152,
       "espn": 14,
       "fp": 22,
-      "avg": 18
+      "avg": 63
     }
   },
   {
@@ -361,17 +361,17 @@
     "bye": 6,
     "vector": {
       "x": 0,
-      "y": 0.06,
-      "magnitude": 0.06,
-      "angle": 86
+      "y": -0.01,
+      "magnitude": 0.01,
+      "angle": -62
     },
     "consensusStrength": 1,
-    "variance": 1,
+    "variance": 3.9,
     "rankings": {
-      "ff": null,
+      "ff": 22,
       "espn": 15,
       "fp": 13,
-      "avg": 14
+      "avg": 17
     }
   },
   {
@@ -386,17 +386,17 @@
     "bye": 14,
     "vector": {
       "x": 0,
-      "y": 0.07,
-      "magnitude": 0.07,
-      "angle": 92
+      "y": -0.08,
+      "magnitude": 0.08,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.75,
+    "variance": 13.9,
     "rankings": {
-      "ff": null,
+      "ff": 46,
       "espn": 16,
       "fp": 17,
-      "avg": 17
+      "avg": 26
     }
   },
   {
@@ -436,17 +436,17 @@
     "bye": 13,
     "vector": {
       "x": 0.01,
-      "y": 0.07,
-      "magnitude": 0.07,
-      "angle": 82
+      "y": -0.06,
+      "magnitude": 0.06,
+      "angle": -81
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.75,
+    "variance": 11.9,
     "rankings": {
-      "ff": null,
+      "ff": 41,
       "espn": 18,
       "fp": 14,
-      "avg": 16
+      "avg": 24
     }
   },
   {
@@ -461,17 +461,17 @@
     "bye": 7,
     "vector": {
       "x": -0.01,
-      "y": 0.1,
-      "magnitude": 0.1,
-      "angle": 97
+      "y": -0.37,
+      "magnitude": 0.37,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 2.5,
+    "consensusStrength": 0.25,
+    "variance": 55.9,
     "rankings": {
-      "ff": null,
+      "ff": 140,
       "espn": 19,
       "fp": 24,
-      "avg": 22
+      "avg": 61
     }
   },
   {
@@ -486,17 +486,17 @@
     "bye": 10,
     "vector": {
       "x": -0.02,
-      "y": 0.11,
-      "magnitude": 0.11,
-      "angle": 99
+      "y": -0.02,
+      "magnitude": 0.03,
+      "angle": -125
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.75,
+    "variance": 8.3,
     "rankings": {
-      "ff": null,
+      "ff": 40,
       "espn": 20,
       "fp": 27,
-      "avg": 24
+      "avg": 29
     }
   },
   {
@@ -511,17 +511,17 @@
     "bye": 11,
     "vector": {
       "x": -0.06,
-      "y": 0.15,
-      "magnitude": 0.16,
-      "angle": 111
+      "y": 0.02,
+      "magnitude": 0.06,
+      "angle": 157
     },
     "consensusStrength": 0.75,
-    "variance": 12,
+    "variance": 10.2,
     "rankings": {
-      "ff": null,
+      "ff": 39,
       "espn": 21,
       "fp": 45,
-      "avg": 33
+      "avg": 35
     }
   },
   {
@@ -536,17 +536,17 @@
     "bye": 13,
     "vector": {
       "x": -0.04,
-      "y": 0.14,
-      "magnitude": 0.15,
-      "angle": 107
+      "y": -0.03,
+      "magnitude": 0.05,
+      "angle": -146
     },
     "consensusStrength": 0.75,
-    "variance": 9,
+    "variance": 12.3,
     "rankings": {
-      "ff": null,
+      "ff": 52,
       "espn": 22,
       "fp": 40,
-      "avg": 31
+      "avg": 38
     }
   },
   {
@@ -561,17 +561,17 @@
     "bye": 5,
     "vector": {
       "x": -0.02,
-      "y": 0.12,
-      "magnitude": 0.12,
-      "angle": 99
+      "y": -0.08,
+      "magnitude": 0.08,
+      "angle": -104
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.5,
+    "variance": 16.4,
     "rankings": {
-      "ff": null,
+      "ff": 61,
       "espn": 23,
       "fp": 31,
-      "avg": 27
+      "avg": 38
     }
   },
   {
@@ -586,17 +586,17 @@
     "bye": 13,
     "vector": {
       "x": 0.01,
-      "y": 0.1,
-      "magnitude": 0.1,
-      "angle": 86
+      "y": -0.33,
+      "magnitude": 0.33,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 50.2,
     "rankings": {
-      "ff": null,
+      "ff": 129,
       "espn": 24,
       "fp": 21,
-      "avg": 23
+      "avg": 58
     }
   },
   {
@@ -611,17 +611,17 @@
     "bye": 8,
     "vector": {
       "x": 0.03,
-      "y": 0.08,
-      "magnitude": 0.09,
-      "angle": 70
+      "y": -0.1,
+      "magnitude": 0.11,
+      "angle": -74
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.5,
+    "variance": 18.9,
     "rankings": {
-      "ff": null,
+      "ff": 57,
       "espn": 25,
       "fp": 12,
-      "avg": 19
+      "avg": 31
     }
   },
   {
@@ -636,17 +636,17 @@
     "bye": 11,
     "vector": {
       "x": 0.03,
-      "y": 0.09,
-      "magnitude": 0.1,
-      "angle": 74
+      "y": -0.15,
+      "magnitude": 0.15,
+      "angle": -80
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.5,
+    "variance": 25.6,
     "rankings": {
-      "ff": null,
+      "ff": 74,
       "espn": 26,
       "fp": 15,
-      "avg": 21
+      "avg": 38
     }
   },
   {
@@ -661,17 +661,17 @@
     "bye": 14,
     "vector": {
       "x": 0.03,
-      "y": 0.1,
-      "magnitude": 0.1,
-      "angle": 75
+      "y": -0.04,
+      "magnitude": 0.05,
+      "angle": -57
     },
     "consensusStrength": 0.75,
-    "variance": 5.5,
+    "variance": 10.7,
     "rankings": {
-      "ff": null,
+      "ff": 42,
       "espn": 27,
       "fp": 16,
-      "avg": 22
+      "avg": 28
     }
   },
   {
@@ -686,17 +686,17 @@
     "bye": 5,
     "vector": {
       "x": 0,
-      "y": 0.12,
+      "y": -0.12,
       "magnitude": 0.12,
-      "angle": 88
+      "angle": -88
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.5,
+    "variance": 22.2,
     "rankings": {
-      "ff": null,
+      "ff": 74,
       "espn": 28,
       "fp": 26,
-      "avg": 27
+      "avg": 43
     }
   },
   {
@@ -711,17 +711,17 @@
     "bye": 8,
     "vector": {
       "x": 0.03,
-      "y": 0.11,
-      "magnitude": 0.11,
-      "angle": 76
+      "y": -0.06,
+      "magnitude": 0.07,
+      "angle": -68
     },
     "consensusStrength": 0.75,
-    "variance": 5.5,
+    "variance": 14.2,
     "rankings": {
-      "ff": null,
+      "ff": 52,
       "espn": 29,
       "fp": 18,
-      "avg": 24
+      "avg": 33
     }
   },
   {
@@ -736,17 +736,17 @@
     "bye": 6,
     "vector": {
       "x": 0.02,
-      "y": 0.11,
-      "magnitude": 0.12,
-      "angle": 78
+      "y": 0,
+      "magnitude": 0.02,
+      "angle": 0
     },
-    "consensusStrength": 1,
-    "variance": 5,
+    "consensusStrength": 0.75,
+    "variance": 6.2,
     "rankings": {
-      "ff": null,
+      "ff": 35,
       "espn": 30,
       "fp": 20,
-      "avg": 25
+      "avg": 28
     }
   },
   {
@@ -761,17 +761,17 @@
     "bye": 11,
     "vector": {
       "x": -0.03,
-      "y": 0.17,
-      "magnitude": 0.18,
-      "angle": 100
+      "y": 0.07,
+      "magnitude": 0.08,
+      "angle": 113
     },
     "consensusStrength": 0.75,
-    "variance": 6.5,
+    "variance": 6.1,
     "rankings": {
-      "ff": null,
+      "ff": 31,
       "espn": 31,
       "fp": 44,
-      "avg": 38
+      "avg": 35
     }
   },
   {
@@ -786,17 +786,17 @@
     "bye": 13,
     "vector": {
       "x": 0.01,
-      "y": 0.14,
-      "magnitude": 0.14,
-      "angle": 87
+      "y": -0.59,
+      "magnitude": 0.59,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 88.9,
     "rankings": {
-      "ff": null,
+      "ff": 219,
       "espn": 32,
       "fp": 29,
-      "avg": 31
+      "avg": 93
     }
   },
   {
@@ -811,17 +811,17 @@
     "bye": 11,
     "vector": {
       "x": -0.04,
-      "y": 0.19,
-      "magnitude": 0.19,
-      "angle": 101
+      "y": 0.01,
+      "magnitude": 0.04,
+      "angle": 172
     },
     "consensusStrength": 0.75,
-    "variance": 8,
+    "variance": 9.6,
     "rankings": {
-      "ff": null,
+      "ff": 56,
       "espn": 33,
       "fp": 49,
-      "avg": 41
+      "avg": 46
     }
   },
   {
@@ -836,17 +836,17 @@
     "bye": 8,
     "vector": {
       "x": 0.02,
-      "y": 0.13,
-      "magnitude": 0.14,
-      "angle": 81
+      "y": -0.87,
+      "magnitude": 0.87,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.25,
+    "variance": 128,
     "rankings": {
-      "ff": null,
+      "ff": 301,
       "espn": 34,
       "fp": 25,
-      "avg": 30
+      "avg": 120
     }
   },
   {
@@ -861,17 +861,17 @@
     "bye": 13,
     "vector": {
       "x": 0,
-      "y": 0.17,
-      "magnitude": 0.17,
-      "angle": 92
+      "y": -0.02,
+      "magnitude": 0.02,
+      "angle": -107
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.75,
+    "variance": 9,
     "rankings": {
-      "ff": null,
+      "ff": 55,
       "espn": 35,
       "fp": 37,
-      "avg": 36
+      "avg": 42
     }
   },
   {
@@ -891,12 +891,12 @@
       "angle": 77
     },
     "consensusStrength": 0.75,
-    "variance": 6.5,
+    "variance": 14.4,
     "rankings": {
-      "ff": null,
+      "ff": 1,
       "espn": 36,
       "fp": 23,
-      "avg": 30
+      "avg": 20
     }
   },
   {
@@ -911,17 +911,17 @@
     "bye": 14,
     "vector": {
       "x": -0.03,
-      "y": 0.2,
-      "magnitude": 0.2,
-      "angle": 98
+      "y": 0.08,
+      "magnitude": 0.08,
+      "angle": 109
     },
     "consensusStrength": 0.75,
-    "variance": 5.5,
+    "variance": 5.2,
     "rankings": {
-      "ff": null,
+      "ff": 37,
       "espn": 37,
       "fp": 48,
-      "avg": 43
+      "avg": 41
     }
   },
   {
@@ -936,17 +936,17 @@
     "bye": 8,
     "vector": {
       "x": -0.02,
-      "y": 0.2,
-      "magnitude": 0.2,
-      "angle": 96
+      "y": 0.09,
+      "magnitude": 0.09,
+      "angle": 103
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.75,
+    "variance": 5.8,
     "rankings": {
-      "ff": null,
+      "ff": 33,
       "espn": 38,
       "fp": 47,
-      "avg": 43
+      "avg": 39
     }
   },
   {
@@ -961,17 +961,17 @@
     "bye": 11,
     "vector": {
       "x": -0.05,
-      "y": 0.23,
-      "magnitude": 0.24,
-      "angle": 103
+      "y": -0.02,
+      "magnitude": 0.06,
+      "angle": -160
     },
-    "consensusStrength": 0.75,
-    "variance": 11,
+    "consensusStrength": 0.5,
+    "variance": 15.2,
     "rankings": {
-      "ff": null,
+      "ff": 76,
       "espn": 39,
       "fp": 61,
-      "avg": 50
+      "avg": 59
     }
   },
   {
@@ -986,17 +986,17 @@
     "bye": 8,
     "vector": {
       "x": -0.04,
-      "y": 0.22,
-      "magnitude": 0.22,
-      "angle": 99
+      "y": -0.24,
+      "magnitude": 0.24,
+      "angle": -98
     },
-    "consensusStrength": 0.75,
-    "variance": 7.5,
+    "consensusStrength": 0.25,
+    "variance": 43.1,
     "rankings": {
-      "ff": null,
+      "ff": 138,
       "espn": 40,
       "fp": 55,
-      "avg": 48
+      "avg": 78
     }
   },
   {
@@ -1011,17 +1011,17 @@
     "bye": 10,
     "vector": {
       "x": -0.03,
-      "y": 0.22,
-      "magnitude": 0.22,
-      "angle": 98
+      "y": -0.17,
+      "magnitude": 0.17,
+      "angle": -100
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.25,
+    "variance": 33.2,
     "rankings": {
-      "ff": null,
+      "ff": 117,
       "espn": 41,
       "fp": 54,
-      "avg": 48
+      "avg": 71
     }
   },
   {
@@ -1036,17 +1036,17 @@
     "bye": 10,
     "vector": {
       "x": 0.03,
-      "y": 0.16,
+      "y": -0.16,
       "magnitude": 0.16,
-      "angle": 78
+      "angle": -78
     },
-    "consensusStrength": 0.75,
-    "variance": 7,
+    "consensusStrength": 0.5,
+    "variance": 29.3,
     "rankings": {
-      "ff": null,
+      "ff": 96,
       "espn": 42,
       "fp": 28,
-      "avg": 35
+      "avg": 55
     }
   },
   {
@@ -1061,17 +1061,17 @@
     "bye": 10,
     "vector": {
       "x": -0.01,
-      "y": 0.21,
-      "magnitude": 0.21,
-      "angle": 92
+      "y": -0.08,
+      "magnitude": 0.08,
+      "angle": -95
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.5,
+    "variance": 19.1,
     "rankings": {
-      "ff": null,
+      "ff": 85,
       "espn": 43,
       "fp": 46,
-      "avg": 45
+      "avg": 58
     }
   },
   {
@@ -1086,17 +1086,17 @@
     "bye": 6,
     "vector": {
       "x": -0.02,
-      "y": 0.22,
-      "magnitude": 0.22,
-      "angle": 94
+      "y": 0,
+      "magnitude": 0.02,
+      "angle": -177
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.75,
+    "variance": 9.6,
     "rankings": {
-      "ff": null,
+      "ff": 67,
       "espn": 44,
       "fp": 51,
-      "avg": 48
+      "avg": 54
     }
   },
   {
@@ -1111,17 +1111,17 @@
     "bye": 6,
     "vector": {
       "x": 0.03,
-      "y": 0.18,
-      "magnitude": 0.18,
-      "angle": 80
+      "y": -0.04,
+      "magnitude": 0.05,
+      "angle": -52
     },
     "consensusStrength": 0.75,
-    "variance": 6.5,
+    "variance": 14,
     "rankings": {
-      "ff": null,
+      "ff": 66,
       "espn": 45,
       "fp": 32,
-      "avg": 39
+      "avg": 48
     }
   },
   {
@@ -1136,17 +1136,17 @@
     "bye": 10,
     "vector": {
       "x": -0.03,
-      "y": 0.25,
+      "y": -0.25,
       "magnitude": 0.25,
-      "angle": 98
+      "angle": -98
     },
-    "consensusStrength": 0.75,
-    "variance": 7,
+    "consensusStrength": 0.25,
+    "variance": 45.1,
     "rankings": {
-      "ff": null,
+      "ff": 148,
       "espn": 46,
       "fp": 60,
-      "avg": 53
+      "avg": 85
     }
   },
   {
@@ -1161,17 +1161,17 @@
     "bye": 7,
     "vector": {
       "x": 0.03,
-      "y": 0.19,
-      "magnitude": 0.19,
-      "angle": 81
+      "y": -0.22,
+      "magnitude": 0.23,
+      "angle": -82
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.25,
+    "variance": 39.7,
     "rankings": {
-      "ff": null,
+      "ff": 124,
       "espn": 47,
       "fp": 34,
-      "avg": 41
+      "avg": 68
     }
   },
   {
@@ -1186,17 +1186,17 @@
     "bye": 7,
     "vector": {
       "x": 0.02,
-      "y": 0.21,
-      "magnitude": 0.21,
-      "angle": 85
+      "y": -0.44,
+      "magnitude": 0.44,
+      "angle": -88
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.25,
+    "variance": 71,
     "rankings": {
-      "ff": null,
+      "ff": 195,
       "espn": 48,
       "fp": 41,
-      "avg": 45
+      "avg": 95
     }
   },
   {
@@ -1211,17 +1211,17 @@
     "bye": 10,
     "vector": {
       "x": 0.03,
-      "y": 0.2,
-      "magnitude": 0.2,
-      "angle": 81
+      "y": -0.26,
+      "magnitude": 0.26,
+      "angle": -83
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.25,
+    "variance": 44.4,
     "rankings": {
-      "ff": null,
+      "ff": 136,
       "espn": 49,
       "fp": 36,
-      "avg": 43
+      "avg": 74
     }
   },
   {
@@ -1236,17 +1236,17 @@
     "bye": 13,
     "vector": {
       "x": 0,
-      "y": 0.24,
-      "magnitude": 0.24,
-      "angle": 91
+      "y": -0.15,
+      "magnitude": 0.15,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.25,
+    "variance": 31.1,
     "rankings": {
-      "ff": null,
+      "ff": 117,
       "espn": 50,
       "fp": 52,
-      "avg": 51
+      "avg": 73
     }
   },
   {
@@ -1261,17 +1261,17 @@
     "bye": 10,
     "vector": {
       "x": 0.03,
-      "y": 0.21,
-      "magnitude": 0.21,
-      "angle": 82
+      "y": -0.1,
+      "magnitude": 0.11,
+      "angle": -73
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.5,
+    "variance": 23.5,
     "rankings": {
-      "ff": null,
+      "ff": 93,
       "espn": 51,
       "fp": 38,
-      "avg": 45
+      "avg": 61
     }
   },
   {
@@ -1286,17 +1286,17 @@
     "bye": 7,
     "vector": {
       "x": 0,
-      "y": 0.24,
-      "magnitude": 0.24,
-      "angle": 91
+      "y": -0.13,
+      "magnitude": 0.13,
+      "angle": -91
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.5,
+    "variance": 28.1,
     "rankings": {
-      "ff": null,
+      "ff": 112,
       "espn": 52,
       "fp": 53,
-      "avg": 53
+      "avg": 72
     }
   },
   {
@@ -1336,17 +1336,17 @@
     "bye": 10,
     "vector": {
       "x": 0.03,
-      "y": 0.22,
-      "magnitude": 0.22,
-      "angle": 83
+      "y": -0.4,
+      "magnitude": 0.4,
+      "angle": -86
     },
-    "consensusStrength": 0.75,
-    "variance": 6,
+    "consensusStrength": 0.25,
+    "variance": 66.2,
     "rankings": {
-      "ff": null,
+      "ff": 188,
       "espn": 54,
       "fp": 42,
-      "avg": 48
+      "avg": 95
     }
   },
   {
@@ -1361,17 +1361,17 @@
     "bye": 7,
     "vector": {
       "x": 0,
-      "y": 0.26,
-      "magnitude": 0.26,
-      "angle": 91
+      "y": -0.06,
+      "magnitude": 0.06,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.5,
+    "variance": 18.6,
     "rankings": {
-      "ff": null,
+      "ff": 95,
       "espn": 55,
       "fp": 56,
-      "avg": 56
+      "avg": 69
     }
   },
   {
@@ -1386,17 +1386,17 @@
     "bye": 13,
     "vector": {
       "x": 0.06,
-      "y": 0.2,
-      "magnitude": 0.21,
-      "angle": 73
+      "y": 0.11,
+      "magnitude": 0.12,
+      "angle": 60
     },
     "consensusStrength": 0.75,
-    "variance": 13,
+    "variance": 12.5,
     "rankings": {
-      "ff": null,
+      "ff": 29,
       "espn": 56,
       "fp": 30,
-      "avg": 43
+      "avg": 38
     }
   },
   {
@@ -1411,17 +1411,17 @@
     "bye": 11,
     "vector": {
       "x": 0.06,
-      "y": 0.21,
-      "magnitude": 0.22,
+      "y": 0.2,
+      "magnitude": 0.21,
       "angle": 75
     },
-    "consensusStrength": 0.75,
-    "variance": 12,
+    "consensusStrength": 0.5,
+    "variance": 22.5,
     "rankings": {
-      "ff": null,
+      "ff": 2,
       "espn": 57,
       "fp": 33,
-      "avg": 45
+      "avg": 31
     }
   },
   {
@@ -1436,17 +1436,17 @@
     "bye": 10,
     "vector": {
       "x": 0,
-      "y": 0.27,
-      "magnitude": 0.27,
+      "y": 0.24,
+      "magnitude": 0.24,
       "angle": 89
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.5,
+    "variance": 23.3,
     "rankings": {
-      "ff": null,
+      "ff": 8,
       "espn": 58,
       "fp": 57,
-      "avg": 58
+      "avg": 41
     }
   },
   {
@@ -1461,17 +1461,17 @@
     "bye": 7,
     "vector": {
       "x": -0.04,
-      "y": 0.31,
-      "magnitude": 0.31,
-      "angle": 97
+      "y": -0.35,
+      "magnitude": 0.35,
+      "angle": -96
     },
-    "consensusStrength": 0.75,
-    "variance": 7.5,
+    "consensusStrength": 0.25,
+    "variance": 61.8,
     "rankings": {
-      "ff": null,
+      "ff": 197,
       "espn": 59,
       "fp": 74,
-      "avg": 67
+      "avg": 110
     }
   },
   {
@@ -1486,17 +1486,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.28,
-      "magnitude": 0.28,
-      "angle": 90
+      "y": 0.12,
+      "magnitude": 0.12,
+      "angle": 89
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.75,
+    "variance": 5.4,
     "rankings": {
-      "ff": null,
+      "ff": 48,
       "espn": 60,
       "fp": 59,
-      "avg": 60
+      "avg": 56
     }
   },
   {
@@ -1536,17 +1536,17 @@
     "bye": 10,
     "vector": {
       "x": 0,
-      "y": 0.29,
-      "magnitude": 0.29,
+      "y": 0.15,
+      "magnitude": 0.15,
       "angle": 90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.75,
+    "variance": 9.4,
     "rankings": {
-      "ff": null,
+      "ff": 42,
       "espn": 62,
       "fp": 62,
-      "avg": 62
+      "avg": 55
     }
   },
   {
@@ -1561,17 +1561,17 @@
     "bye": 9,
     "vector": {
       "x": -0.06,
-      "y": 0.35,
-      "magnitude": 0.35,
-      "angle": 99
+      "y": 0.15,
+      "magnitude": 0.16,
+      "angle": 111
     },
     "consensusStrength": 0.75,
-    "variance": 12,
+    "variance": 11.8,
     "rankings": {
-      "ff": null,
+      "ff": 61,
       "espn": 63,
       "fp": 87,
-      "avg": 75
+      "avg": 70
     }
   },
   {
@@ -1586,17 +1586,17 @@
     "bye": 8,
     "vector": {
       "x": -0.01,
-      "y": 0.31,
-      "magnitude": 0.31,
-      "angle": 92
+      "y": 0.04,
+      "magnitude": 0.04,
+      "angle": 102
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.75,
+    "variance": 6.8,
     "rankings": {
-      "ff": null,
+      "ff": 80,
       "espn": 64,
       "fp": 68,
-      "avg": 66
+      "avg": 71
     }
   },
   {
@@ -1611,17 +1611,17 @@
     "bye": 14,
     "vector": {
       "x": 0,
-      "y": 0.31,
-      "magnitude": 0.31,
-      "angle": 90
+      "y": -0.29,
+      "magnitude": 0.29,
+      "angle": -90
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.25,
+    "variance": 53,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 65,
       "fp": 66,
-      "avg": 66
+      "avg": 103
     }
   },
   {
@@ -1636,17 +1636,17 @@
     "bye": 10,
     "vector": {
       "x": -0.01,
-      "y": 0.32,
-      "magnitude": 0.32,
-      "angle": 92
+      "y": 0.08,
+      "magnitude": 0.08,
+      "angle": 99
     },
     "consensusStrength": 1,
-    "variance": 2.5,
+    "variance": 2.9,
     "rankings": {
-      "ff": null,
+      "ff": 73,
       "espn": 66,
       "fp": 71,
-      "avg": 69
+      "avg": 70
     }
   },
   {
@@ -1661,17 +1661,17 @@
     "bye": 13,
     "vector": {
       "x": -0.01,
-      "y": 0.33,
-      "magnitude": 0.33,
-      "angle": 92
+      "y": 0.06,
+      "magnitude": 0.06,
+      "angle": 104
     },
-    "consensusStrength": 1,
-    "variance": 3,
+    "consensusStrength": 0.75,
+    "variance": 6.2,
     "rankings": {
-      "ff": null,
+      "ff": 82,
       "espn": 67,
       "fp": 73,
-      "avg": 70
+      "avg": 74
     }
   },
   {
@@ -1686,17 +1686,17 @@
     "bye": 9,
     "vector": {
       "x": -0.01,
-      "y": 0.33,
-      "magnitude": 0.33,
-      "angle": 92
+      "y": 0.04,
+      "magnitude": 0.04,
+      "angle": 104
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.75,
+    "variance": 8.2,
     "rankings": {
-      "ff": null,
+      "ff": 87,
       "espn": 68,
       "fp": 72,
-      "avg": 70
+      "avg": 76
     }
   },
   {
@@ -1711,17 +1711,17 @@
     "bye": 11,
     "vector": {
       "x": 0.03,
-      "y": 0.3,
-      "magnitude": 0.3,
-      "angle": 85
+      "y": -0.22,
+      "magnitude": 0.22,
+      "angle": -83
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.25,
+    "variance": 42.9,
     "rankings": {
-      "ff": null,
+      "ff": 154,
       "espn": 69,
       "fp": 58,
-      "avg": 64
+      "avg": 94
     }
   },
   {
@@ -1761,17 +1761,17 @@
     "bye": 11,
     "vector": {
       "x": -0.03,
-      "y": 0.36,
-      "magnitude": 0.36,
-      "angle": 94
+      "y": -0.01,
+      "magnitude": 0.03,
+      "angle": -157
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.5,
+    "variance": 16.9,
     "rankings": {
-      "ff": null,
+      "ff": 111,
       "espn": 71,
       "fp": 82,
-      "avg": 77
+      "avg": 88
     }
   },
   {
@@ -1786,17 +1786,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.33,
-      "magnitude": 0.33,
-      "angle": 89
+      "y": -0.02,
+      "magnitude": 0.02,
+      "angle": -74
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.5,
+    "variance": 16.1,
     "rankings": {
-      "ff": null,
+      "ff": 105,
       "espn": 72,
       "fp": 70,
-      "avg": 71
+      "avg": 82
     }
   },
   {
@@ -1811,17 +1811,17 @@
     "bye": 6,
     "vector": {
       "x": -0.04,
-      "y": 0.38,
-      "magnitude": 0.39,
-      "angle": 96
+      "y": -0.35,
+      "magnitude": 0.35,
+      "angle": -97
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 65,
     "rankings": {
-      "ff": null,
+      "ff": 219,
       "espn": 73,
       "fp": 91,
-      "avg": 82
+      "avg": 128
     }
   },
   {
@@ -1836,17 +1836,17 @@
     "bye": 6,
     "vector": {
       "x": 0.07,
-      "y": 0.27,
-      "magnitude": 0.28,
-      "angle": 75
+      "y": 0.04,
+      "magnitude": 0.09,
+      "angle": 31
     },
-    "consensusStrength": 0.5,
-    "variance": 15.5,
+    "consensusStrength": 0.75,
+    "variance": 13.6,
     "rankings": {
-      "ff": null,
+      "ff": 69,
       "espn": 74,
       "fp": 43,
-      "avg": 59
+      "avg": 62
     }
   },
   {
@@ -1861,17 +1861,17 @@
     "bye": 8,
     "vector": {
       "x": 0,
-      "y": 0.35,
-      "magnitude": 0.35,
+      "y": 0.29,
+      "magnitude": 0.29,
       "angle": 90
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.5,
+    "variance": 26.2,
     "rankings": {
-      "ff": null,
+      "ff": 20,
       "espn": 75,
       "fp": 76,
-      "avg": 76
+      "avg": 57
     }
   },
   {
@@ -1886,17 +1886,17 @@
     "bye": 7,
     "vector": {
       "x": -0.04,
-      "y": 0.4,
-      "magnitude": 0.4,
-      "angle": 96
+      "y": 0.01,
+      "magnitude": 0.05,
+      "angle": 165
     },
-    "consensusStrength": 0.75,
-    "variance": 9.5,
+    "consensusStrength": 0.5,
+    "variance": 16.8,
     "rankings": {
-      "ff": null,
+      "ff": 117,
       "espn": 76,
       "fp": 95,
-      "avg": 86
+      "avg": 96
     }
   },
   {
@@ -1911,17 +1911,17 @@
     "bye": 8,
     "vector": {
       "x": 0.06,
-      "y": 0.3,
-      "magnitude": 0.3,
-      "angle": 78
+      "y": -0.53,
+      "magnitude": 0.53,
+      "angle": -83
     },
-    "consensusStrength": 0.75,
-    "variance": 13.5,
+    "consensusStrength": 0.25,
+    "variance": 87.2,
     "rankings": {
-      "ff": null,
+      "ff": 247,
       "espn": 77,
       "fp": 50,
-      "avg": 64
+      "avg": 125
     }
   },
   {
@@ -1936,17 +1936,17 @@
     "bye": 9,
     "vector": {
       "x": -0.02,
-      "y": 0.38,
-      "magnitude": 0.38,
-      "angle": 92
+      "y": 0.02,
+      "magnitude": 0.03,
+      "angle": 126
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.75,
+    "variance": 12.8,
     "rankings": {
-      "ff": null,
+      "ff": 108,
       "espn": 78,
       "fp": 85,
-      "avg": 82
+      "avg": 90
     }
   },
   {
@@ -1961,17 +1961,17 @@
     "bye": 7,
     "vector": {
       "x": -0.03,
-      "y": 0.4,
-      "magnitude": 0.4,
-      "angle": 94
+      "y": -0.19,
+      "magnitude": 0.19,
+      "angle": -99
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.25,
+    "variance": 43.5,
     "rankings": {
-      "ff": null,
+      "ff": 177,
       "espn": 79,
       "fp": 92,
-      "avg": 86
+      "avg": 116
     }
   },
   {
@@ -1986,17 +1986,17 @@
     "bye": 11,
     "vector": {
       "x": -0.13,
-      "y": 0.51,
-      "magnitude": 0.52,
-      "angle": 105
+      "y": -0.59,
+      "magnitude": 0.61,
+      "angle": -103
     },
-    "consensusStrength": 0.5,
-    "variance": 28,
+    "consensusStrength": 0.25,
+    "variance": 107.1,
     "rankings": {
-      "ff": null,
+      "ff": 330,
       "espn": 80,
       "fp": 136,
-      "avg": 108
+      "avg": 182
     }
   },
   {
@@ -2011,17 +2011,17 @@
     "bye": 7,
     "vector": {
       "x": -0.02,
-      "y": 0.39,
-      "magnitude": 0.4,
-      "angle": 92
+      "y": -0.11,
+      "magnitude": 0.11,
+      "angle": -99
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.25,
+    "variance": 31.9,
     "rankings": {
-      "ff": null,
+      "ff": 152,
       "espn": 81,
       "fp": 88,
-      "avg": 85
+      "avg": 107
     }
   },
   {
@@ -2036,17 +2036,17 @@
     "bye": 7,
     "vector": {
       "x": 0.01,
-      "y": 0.38,
-      "magnitude": 0.38,
+      "y": 0.37,
+      "magnitude": 0.37,
       "angle": 89
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 36.1,
     "rankings": {
-      "ff": null,
+      "ff": 4,
       "espn": 82,
       "fp": 79,
-      "avg": 81
+      "avg": 55
     }
   },
   {
@@ -2061,17 +2061,17 @@
     "bye": 14,
     "vector": {
       "x": 0,
-      "y": 0.39,
-      "magnitude": 0.39,
+      "y": 0.37,
+      "magnitude": 0.37,
       "angle": 90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.25,
+    "variance": 36.8,
     "rankings": {
-      "ff": null,
+      "ff": 5,
       "espn": 83,
       "fp": 83,
-      "avg": 83
+      "avg": 57
     }
   },
   {
@@ -2086,17 +2086,17 @@
     "bye": 10,
     "vector": {
       "x": -0.05,
-      "y": 0.44,
-      "magnitude": 0.44,
+      "y": 0.42,
+      "magnitude": 0.42,
       "angle": 96
     },
-    "consensusStrength": 0.75,
-    "variance": 10,
+    "consensusStrength": 0.25,
+    "variance": 41.8,
     "rankings": {
-      "ff": null,
+      "ff": 7,
       "espn": 84,
       "fp": 104,
-      "avg": 94
+      "avg": 65
     }
   },
   {
@@ -2111,17 +2111,17 @@
     "bye": 8,
     "vector": {
       "x": -0.02,
-      "y": 0.42,
-      "magnitude": 0.42,
-      "angle": 93
+      "y": 0.3,
+      "magnitude": 0.3,
+      "angle": 94
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.5,
+    "variance": 25.2,
     "rankings": {
-      "ff": null,
+      "ff": 36,
       "espn": 85,
       "fp": 93,
-      "avg": 89
+      "avg": 71
     }
   },
   {
@@ -2136,17 +2136,17 @@
     "bye": 11,
     "vector": {
       "x": -0.04,
-      "y": 0.45,
-      "magnitude": 0.45,
+      "y": 0.44,
+      "magnitude": 0.44,
       "angle": 96
     },
-    "consensusStrength": 0.75,
-    "variance": 9.5,
+    "consensusStrength": 0.25,
+    "variance": 44.3,
     "rankings": {
-      "ff": null,
+      "ff": 3,
       "espn": 86,
       "fp": 105,
-      "avg": 96
+      "avg": 65
     }
   },
   {
@@ -2161,17 +2161,17 @@
     "bye": 10,
     "vector": {
       "x": 0.05,
-      "y": 0.36,
-      "magnitude": 0.36,
-      "angle": 83
+      "y": 0.34,
+      "magnitude": 0.35,
+      "angle": 82
     },
-    "consensusStrength": 0.75,
-    "variance": 10,
+    "consensusStrength": 0.25,
+    "variance": 34.5,
     "rankings": {
-      "ff": null,
+      "ff": 6,
       "espn": 87,
       "fp": 67,
-      "avg": 77
+      "avg": 53
     }
   },
   {
@@ -2211,17 +2211,17 @@
     "bye": 8,
     "vector": {
       "x": -0.02,
-      "y": 0.44,
+      "y": -0.44,
       "magnitude": 0.44,
-      "angle": 92
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.25,
+    "variance": 80.2,
     "rankings": {
-      "ff": null,
+      "ff": 263,
       "espn": 89,
       "fp": 97,
-      "avg": 93
+      "avg": 150
     }
   },
   {
@@ -2236,17 +2236,17 @@
     "bye": 6,
     "vector": {
       "x": -0.04,
-      "y": 0.46,
-      "magnitude": 0.46,
-      "angle": 95
+      "y": -0.07,
+      "magnitude": 0.08,
+      "angle": -117
     },
-    "consensusStrength": 0.75,
-    "variance": 8,
+    "consensusStrength": 0.5,
+    "variance": 29.9,
     "rankings": {
-      "ff": null,
+      "ff": 160,
       "espn": 90,
       "fp": 106,
-      "avg": 98
+      "avg": 119
     }
   },
   {
@@ -2261,17 +2261,17 @@
     "bye": 14,
     "vector": {
       "x": 0.03,
-      "y": 0.39,
-      "magnitude": 0.4,
-      "angle": 86
+      "y": 0.14,
+      "magnitude": 0.15,
+      "angle": 78
     },
     "consensusStrength": 0.75,
-    "variance": 6.5,
+    "variance": 6.7,
     "rankings": {
-      "ff": null,
+      "ff": 76,
       "espn": 91,
       "fp": 78,
-      "avg": 85
+      "avg": 82
     }
   },
   {
@@ -2311,17 +2311,17 @@
     "bye": 7,
     "vector": {
       "x": 0.06,
-      "y": 0.38,
-      "magnitude": 0.38,
+      "y": 0.35,
+      "magnitude": 0.35,
       "angle": 81
     },
-    "consensusStrength": 0.75,
-    "variance": 12,
+    "consensusStrength": 0.25,
+    "variance": 34.9,
     "rankings": {
-      "ff": null,
+      "ff": 10,
       "espn": 93,
       "fp": 69,
-      "avg": 81
+      "avg": 57
     }
   },
   {
@@ -2336,17 +2336,17 @@
     "bye": 5,
     "vector": {
       "x": -0.01,
-      "y": 0.45,
-      "magnitude": 0.45,
-      "angle": 91
+      "y": 0.41,
+      "magnitude": 0.42,
+      "angle": 92
     },
-    "consensusStrength": 1,
-    "variance": 2.5,
+    "consensusStrength": 0.25,
+    "variance": 39.9,
     "rankings": {
-      "ff": null,
+      "ff": 12,
       "espn": 94,
       "fp": 99,
-      "avg": 97
+      "avg": 68
     }
   },
   {
@@ -2361,17 +2361,17 @@
     "bye": 9,
     "vector": {
       "x": 0.02,
-      "y": 0.42,
-      "magnitude": 0.42,
-      "angle": 87
+      "y": 0.26,
+      "magnitude": 0.26,
+      "angle": 85
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.5,
+    "variance": 19,
     "rankings": {
-      "ff": null,
+      "ff": 51,
       "espn": 95,
       "fp": 86,
-      "avg": 91
+      "avg": 77
     }
   },
   {
@@ -2386,17 +2386,17 @@
     "bye": 11,
     "vector": {
       "x": 0.03,
-      "y": 0.42,
-      "magnitude": 0.42,
-      "angle": 86
+      "y": 0.19,
+      "magnitude": 0.2,
+      "angle": 82
     },
     "consensusStrength": 0.75,
-    "variance": 6,
+    "variance": 11,
     "rankings": {
-      "ff": null,
+      "ff": 69,
       "espn": 96,
       "fp": 84,
-      "avg": 90
+      "avg": 83
     }
   },
   {
@@ -2411,17 +2411,17 @@
     "bye": 9,
     "vector": {
       "x": 0.08,
-      "y": 0.38,
-      "magnitude": 0.38,
-      "angle": 78
+      "y": 0.21,
+      "magnitude": 0.23,
+      "angle": 70
     },
     "consensusStrength": 0.5,
-    "variance": 16.5,
+    "variance": 19.7,
     "rankings": {
-      "ff": null,
+      "ff": 50,
       "espn": 97,
       "fp": 64,
-      "avg": 81
+      "avg": 70
     }
   },
   {
@@ -2436,17 +2436,17 @@
     "bye": 5,
     "vector": {
       "x": 0.04,
-      "y": 0.42,
-      "magnitude": 0.42,
-      "angle": 84
+      "y": -0.14,
+      "magnitude": 0.15,
+      "angle": -73
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 37.5,
     "rankings": {
-      "ff": null,
+      "ff": 167,
       "espn": 98,
       "fp": 80,
-      "avg": 89
+      "avg": 115
     }
   },
   {
@@ -2461,17 +2461,17 @@
     "bye": 10,
     "vector": {
       "x": -0.02,
-      "y": 0.48,
-      "magnitude": 0.49,
-      "angle": 93
+      "y": 0.01,
+      "magnitude": 0.02,
+      "angle": 155
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.5,
+    "variance": 19,
     "rankings": {
-      "ff": null,
+      "ff": 143,
       "espn": 99,
       "fp": 108,
-      "avg": 104
+      "avg": 117
     }
   },
   {
@@ -2486,17 +2486,17 @@
     "bye": 6,
     "vector": {
       "x": 0,
-      "y": 0.47,
-      "magnitude": 0.47,
-      "angle": 90
+      "y": -0.09,
+      "magnitude": 0.09,
+      "angle": -91
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.25,
+    "variance": 32.8,
     "rankings": {
-      "ff": null,
+      "ff": 170,
       "espn": 100,
       "fp": 101,
-      "avg": 101
+      "avg": 124
     }
   },
   {
@@ -2511,17 +2511,17 @@
     "bye": 10,
     "vector": {
       "x": -0.04,
-      "y": 0.52,
-      "magnitude": 0.52,
-      "angle": 95
+      "y": 0.19,
+      "magnitude": 0.2,
+      "angle": 103
     },
     "consensusStrength": 0.75,
-    "variance": 9.5,
+    "variance": 9.7,
     "rankings": {
-      "ff": null,
+      "ff": 98,
       "espn": 101,
       "fp": 120,
-      "avg": 111
+      "avg": 106
     }
   },
   {
@@ -2536,17 +2536,17 @@
     "bye": 8,
     "vector": {
       "x": -0.04,
-      "y": 0.51,
-      "magnitude": 0.51,
-      "angle": 94
+      "y": 0.04,
+      "magnitude": 0.05,
+      "angle": 133
     },
-    "consensusStrength": 0.75,
-    "variance": 7.5,
+    "consensusStrength": 0.5,
+    "variance": 16.9,
     "rankings": {
-      "ff": null,
+      "ff": 143,
       "espn": 102,
       "fp": 117,
-      "avg": 110
+      "avg": 121
     }
   },
   {
@@ -2561,17 +2561,17 @@
     "bye": 13,
     "vector": {
       "x": -0.07,
-      "y": 0.56,
-      "magnitude": 0.56,
-      "angle": 98
+      "y": -0.04,
+      "magnitude": 0.08,
+      "angle": -154
     },
-    "consensusStrength": 0.5,
-    "variance": 15.5,
+    "consensusStrength": 0.25,
+    "variance": 30.8,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 103,
       "fp": 134,
-      "avg": 119
+      "avg": 138
     }
   },
   {
@@ -2586,17 +2586,17 @@
     "bye": 5,
     "vector": {
       "x": 0,
-      "y": 0.48,
-      "magnitude": 0.48,
-      "angle": 90
+      "y": 0.08,
+      "magnitude": 0.08,
+      "angle": 88
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.75,
+    "variance": 8.7,
     "rankings": {
-      "ff": null,
+      "ff": 122,
       "espn": 104,
       "fp": 103,
-      "avg": 104
+      "avg": 110
     }
   },
   {
@@ -2636,17 +2636,17 @@
     "bye": 7,
     "vector": {
       "x": -0.02,
-      "y": 0.52,
-      "magnitude": 0.52,
-      "angle": 92
+      "y": -0.02,
+      "magnitude": 0.03,
+      "angle": -132
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.5,
+    "variance": 25,
     "rankings": {
-      "ff": null,
+      "ff": 163,
       "espn": 106,
       "fp": 115,
-      "avg": 111
+      "avg": 128
     }
   },
   {
@@ -2661,17 +2661,17 @@
     "bye": 10,
     "vector": {
       "x": 0.03,
-      "y": 0.48,
-      "magnitude": 0.48,
-      "angle": 87
+      "y": 0.13,
+      "magnitude": 0.13,
+      "angle": 78
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 1,
+    "variance": 4.8,
     "rankings": {
-      "ff": null,
+      "ff": 105,
       "espn": 107,
       "fp": 96,
-      "avg": 102
+      "avg": 103
     }
   },
   {
@@ -2686,17 +2686,17 @@
     "bye": 10,
     "vector": {
       "x": 0.08,
-      "y": 0.43,
-      "magnitude": 0.44,
-      "angle": 80
+      "y": 0.24,
+      "magnitude": 0.25,
+      "angle": 72
     },
     "consensusStrength": 0.5,
-    "variance": 16.5,
+    "variance": 20.8,
     "rankings": {
-      "ff": null,
+      "ff": 58,
       "espn": 108,
       "fp": 75,
-      "avg": 92
+      "avg": 80
     }
   },
   {
@@ -2711,17 +2711,17 @@
     "bye": 11,
     "vector": {
       "x": 0.1,
-      "y": 0.41,
-      "magnitude": 0.42,
-      "angle": 76
+      "y": -0.19,
+      "magnitude": 0.21,
+      "angle": -61
     },
-    "consensusStrength": 0.5,
-    "variance": 22,
+    "consensusStrength": 0.25,
+    "variance": 46.5,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 109,
       "fp": 65,
-      "avg": 87
+      "avg": 117
     }
   },
   {
@@ -2736,17 +2736,17 @@
     "bye": 14,
     "vector": {
       "x": 0.02,
-      "y": 0.5,
-      "magnitude": 0.5,
-      "angle": 88
+      "y": 0.04,
+      "magnitude": 0.04,
+      "angle": 64
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.5,
+    "variance": 15.4,
     "rankings": {
-      "ff": null,
+      "ff": 138,
       "espn": 110,
       "fp": 102,
-      "avg": 106
+      "avg": 117
     }
   },
   {
@@ -2761,17 +2761,17 @@
     "bye": 7,
     "vector": {
       "x": 0.01,
-      "y": 0.51,
-      "magnitude": 0.51,
-      "angle": 89
+      "y": -0.08,
+      "magnitude": 0.08,
+      "angle": -83
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.25,
+    "variance": 32.6,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 111,
       "fp": 107,
-      "avg": 109
+      "avg": 132
     }
   },
   {
@@ -2786,17 +2786,17 @@
     "bye": 9,
     "vector": {
       "x": 0.05,
-      "y": 0.47,
-      "magnitude": 0.47,
-      "angle": 83
+      "y": 0.15,
+      "magnitude": 0.16,
+      "angle": 70
     },
     "consensusStrength": 0.75,
-    "variance": 11.5,
+    "variance": 9.5,
     "rankings": {
-      "ff": null,
+      "ff": 98,
       "espn": 112,
       "fp": 89,
-      "avg": 101
+      "avg": 100
     }
   },
   {
@@ -2811,17 +2811,17 @@
     "bye": 10,
     "vector": {
       "x": 0.09,
-      "y": 0.44,
-      "magnitude": 0.45,
-      "angle": 79
+      "y": -0.46,
+      "magnitude": 0.46,
+      "angle": -79
     },
-    "consensusStrength": 0.5,
-    "variance": 18,
+    "consensusStrength": 0.25,
+    "variance": 83.8,
     "rankings": {
-      "ff": null,
+      "ff": 270,
       "espn": 113,
       "fp": 77,
-      "avg": 95
+      "avg": 153
     }
   },
   {
@@ -2836,17 +2836,17 @@
     "bye": 11,
     "vector": {
       "x": 0.01,
-      "y": 0.53,
-      "magnitude": 0.53,
-      "angle": 89
+      "y": -0.64,
+      "magnitude": 0.64,
+      "angle": -89
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 111.5,
     "rankings": {
-      "ff": null,
+      "ff": 349,
       "espn": 114,
       "fp": 111,
-      "avg": 113
+      "avg": 191
     }
   },
   {
@@ -2861,17 +2861,17 @@
     "bye": 7,
     "vector": {
       "x": -0.02,
-      "y": 0.56,
-      "magnitude": 0.56,
-      "angle": 92
+      "y": 0.28,
+      "magnitude": 0.28,
+      "angle": 94
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.5,
+    "variance": 16.4,
     "rankings": {
-      "ff": null,
+      "ff": 85,
       "espn": 115,
       "fp": 123,
-      "avg": 119
+      "avg": 108
     }
   },
   {
@@ -2911,17 +2911,17 @@
     "bye": 8,
     "vector": {
       "x": -0.02,
-      "y": 0.57,
-      "magnitude": 0.57,
-      "angle": 92
+      "y": -0.54,
+      "magnitude": 0.54,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.25,
+    "variance": 98.8,
     "rankings": {
-      "ff": null,
+      "ff": 330,
       "espn": 117,
       "fp": 124,
-      "avg": 121
+      "avg": 190
     }
   },
   {
@@ -2936,17 +2936,17 @@
     "bye": 11,
     "vector": {
       "x": -0.09,
-      "y": 0.64,
-      "magnitude": 0.64,
-      "angle": 98
+      "y": 0.23,
+      "magnitude": 0.25,
+      "angle": 110
     },
     "consensusStrength": 0.5,
-    "variance": 18,
+    "variance": 16.1,
     "rankings": {
-      "ff": null,
+      "ff": 122,
       "espn": 118,
       "fp": 154,
-      "avg": 136
+      "avg": 131
     }
   },
   {
@@ -2961,17 +2961,17 @@
     "bye": 6,
     "vector": {
       "x": -0.14,
-      "y": 0.7,
-      "magnitude": 0.71,
-      "angle": 101
+      "y": -0.13,
+      "magnitude": 0.19,
+      "angle": -137
     },
-    "consensusStrength": 0.5,
-    "variance": 29,
+    "consensusStrength": 0.25,
+    "variance": 52.3,
     "rankings": {
-      "ff": null,
+      "ff": 247,
       "espn": 119,
       "fp": 177,
-      "avg": 148
+      "avg": 181
     }
   },
   {
@@ -3011,17 +3011,17 @@
     "bye": 11,
     "vector": {
       "x": 0.03,
-      "y": 0.54,
-      "magnitude": 0.54,
-      "angle": 87
+      "y": 0.11,
+      "magnitude": 0.11,
+      "angle": 76
     },
     "consensusStrength": 0.75,
-    "variance": 6,
+    "variance": 8.2,
     "rankings": {
-      "ff": null,
+      "ff": 129,
       "espn": 121,
       "fp": 109,
-      "avg": 115
+      "avg": 120
     }
   },
   {
@@ -3036,17 +3036,17 @@
     "bye": 8,
     "vector": {
       "x": -0.02,
-      "y": 0.6,
-      "magnitude": 0.6,
-      "angle": 92
+      "y": 0.26,
+      "magnitude": 0.26,
+      "angle": 95
     },
-    "consensusStrength": 1,
-    "variance": 5,
+    "consensusStrength": 0.75,
+    "variance": 12.5,
     "rankings": {
-      "ff": null,
+      "ff": 102,
       "espn": 122,
       "fp": 132,
-      "avg": 127
+      "avg": 119
     }
   },
   {
@@ -3061,17 +3061,17 @@
     "bye": 6,
     "vector": {
       "x": -0.01,
-      "y": 0.59,
-      "magnitude": 0.59,
-      "angle": 91
+      "y": 0.15,
+      "magnitude": 0.15,
+      "angle": 94
     },
     "consensusStrength": 1,
-    "variance": 2.5,
+    "variance": 3.7,
     "rankings": {
-      "ff": null,
+      "ff": 132,
       "espn": 123,
       "fp": 128,
-      "avg": 126
+      "avg": 128
     }
   },
   {
@@ -3086,17 +3086,17 @@
     "bye": 7,
     "vector": {
       "x": 0.03,
-      "y": 0.55,
-      "magnitude": 0.55,
-      "angle": 87
+      "y": 0.02,
+      "magnitude": 0.04,
+      "angle": 41
     },
-    "consensusStrength": 0.75,
-    "variance": 6,
+    "consensusStrength": 0.5,
+    "variance": 19.9,
     "rankings": {
-      "ff": null,
+      "ff": 159,
       "espn": 124,
       "fp": 112,
-      "avg": 118
+      "avg": 132
     }
   },
   {
@@ -3111,17 +3111,17 @@
     "bye": 13,
     "vector": {
       "x": 0.06,
-      "y": 0.52,
-      "magnitude": 0.53,
-      "angle": 83
+      "y": -0.12,
+      "magnitude": 0.14,
+      "angle": -62
     },
-    "consensusStrength": 0.75,
-    "variance": 13.5,
+    "consensusStrength": 0.25,
+    "variance": 40,
     "rankings": {
-      "ff": null,
+      "ff": 193,
       "espn": 125,
       "fp": 98,
-      "avg": 112
+      "avg": 139
     }
   },
   {
@@ -3136,17 +3136,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.59,
-      "magnitude": 0.59,
+      "y": 0.14,
+      "magnitude": 0.14,
       "angle": 90
     },
     "consensusStrength": 1,
-    "variance": 0,
+    "variance": 4.7,
     "rankings": {
-      "ff": null,
+      "ff": 136,
       "espn": 126,
       "fp": 126,
-      "avg": 126
+      "avg": 129
     }
   },
   {
@@ -3161,17 +3161,17 @@
     "bye": 5,
     "vector": {
       "x": 0.01,
-      "y": 0.58,
-      "magnitude": 0.58,
-      "angle": 89
+      "y": -0.18,
+      "magnitude": 0.18,
+      "angle": -86
     },
-    "consensusStrength": 1,
-    "variance": 2.5,
+    "consensusStrength": 0.25,
+    "variance": 48.8,
     "rankings": {
-      "ff": null,
+      "ff": 228,
       "espn": 127,
       "fp": 122,
-      "avg": 125
+      "avg": 159
     }
   },
   {
@@ -3186,17 +3186,17 @@
     "bye": 7,
     "vector": {
       "x": 0.03,
-      "y": 0.57,
-      "magnitude": 0.57,
-      "angle": 87
+      "y": 0.25,
+      "magnitude": 0.25,
+      "angle": 82
     },
     "consensusStrength": 0.75,
-    "variance": 7,
+    "variance": 13.1,
     "rankings": {
-      "ff": null,
+      "ff": 96,
       "espn": 128,
       "fp": 114,
-      "avg": 121
+      "avg": 113
     }
   },
   {
@@ -3211,17 +3211,17 @@
     "bye": 8,
     "vector": {
       "x": 0.03,
-      "y": 0.58,
-      "magnitude": 0.58,
-      "angle": 87
+      "y": 0,
+      "magnitude": 0.03,
+      "angle": 2
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.5,
+    "variance": 24.2,
     "rankings": {
-      "ff": null,
+      "ff": 174,
       "espn": 129,
       "fp": 118,
-      "avg": 124
+      "avg": 140
     }
   },
   {
@@ -3236,17 +3236,17 @@
     "bye": 11,
     "vector": {
       "x": -0.04,
-      "y": 0.65,
-      "magnitude": 0.65,
-      "angle": 94
+      "y": -0.04,
+      "magnitude": 0.06,
+      "angle": -135
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 33.8,
     "rankings": {
-      "ff": null,
+      "ff": 209,
       "espn": 130,
       "fp": 148,
-      "avg": 139
+      "avg": 162
     }
   },
   {
@@ -3261,17 +3261,17 @@
     "bye": 5,
     "vector": {
       "x": 0,
-      "y": 0.61,
-      "magnitude": 0.61,
-      "angle": 90
+      "y": -0.19,
+      "magnitude": 0.19,
+      "angle": -90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.25,
+    "variance": 52.3,
     "rankings": {
-      "ff": null,
+      "ff": 242,
       "espn": 131,
       "fp": 131,
-      "avg": 131
+      "avg": 168
     }
   },
   {
@@ -3286,17 +3286,17 @@
     "bye": 11,
     "vector": {
       "x": -0.04,
-      "y": 0.66,
-      "magnitude": 0.66,
-      "angle": 93
+      "y": 0.07,
+      "magnitude": 0.08,
+      "angle": 121
     },
-    "consensusStrength": 0.75,
-    "variance": 8.5,
+    "consensusStrength": 0.5,
+    "variance": 19,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 132,
       "fp": 149,
-      "avg": 141
+      "avg": 153
     }
   },
   {
@@ -3311,17 +3311,17 @@
     "bye": 6,
     "vector": {
       "x": 0.05,
-      "y": 0.58,
-      "magnitude": 0.58,
-      "angle": 85
+      "y": 0,
+      "magnitude": 0.05,
+      "angle": -2
     },
-    "consensusStrength": 0.75,
-    "variance": 10,
+    "consensusStrength": 0.5,
+    "variance": 25.4,
     "rankings": {
-      "ff": null,
+      "ff": 174,
       "espn": 133,
       "fp": 113,
-      "avg": 123
+      "avg": 140
     }
   },
   {
@@ -3336,17 +3336,17 @@
     "bye": 8,
     "vector": {
       "x": 0.03,
-      "y": 0.6,
-      "magnitude": 0.6,
-      "angle": 87
+      "y": 0.44,
+      "magnitude": 0.45,
+      "angle": 86
     },
-    "consensusStrength": 0.75,
-    "variance": 6.5,
+    "consensusStrength": 0.25,
+    "variance": 38.3,
     "rankings": {
-      "ff": null,
+      "ff": 47,
       "espn": 134,
       "fp": 121,
-      "avg": 128
+      "avg": 101
     }
   },
   {
@@ -3361,17 +3361,17 @@
     "bye": 13,
     "vector": {
       "x": -0.05,
-      "y": 0.69,
-      "magnitude": 0.69,
+      "y": 0.62,
+      "magnitude": 0.62,
       "angle": 95
     },
-    "consensusStrength": 0.75,
-    "variance": 11.5,
+    "consensusStrength": 0.25,
+    "variance": 59.4,
     "rankings": {
-      "ff": null,
+      "ff": 22,
       "espn": 135,
       "fp": 158,
-      "avg": 147
+      "avg": 105
     }
   },
   {
@@ -3386,17 +3386,17 @@
     "bye": 6,
     "vector": {
       "x": 0.06,
-      "y": 0.58,
-      "magnitude": 0.58,
+      "y": 0.55,
+      "magnitude": 0.55,
       "angle": 84
     },
-    "consensusStrength": 0.75,
-    "variance": 13,
+    "consensusStrength": 0.25,
+    "variance": 54.8,
     "rankings": {
-      "ff": null,
+      "ff": 9,
       "espn": 136,
       "fp": 110,
-      "avg": 123
+      "avg": 85
     }
   },
   {
@@ -3411,17 +3411,17 @@
     "bye": 11,
     "vector": {
       "x": 0,
-      "y": 0.64,
-      "magnitude": 0.64,
-      "angle": 90
+      "y": 0.44,
+      "magnitude": 0.44,
+      "angle": 89
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.25,
+    "variance": 36.3,
     "rankings": {
-      "ff": null,
+      "ff": 59,
       "espn": 137,
       "fp": 135,
-      "avg": 136
+      "avg": 110
     }
   },
   {
@@ -3436,17 +3436,17 @@
     "bye": 6,
     "vector": {
       "x": -0.02,
-      "y": 0.67,
-      "magnitude": 0.67,
-      "angle": 92
+      "y": -0.06,
+      "magnitude": 0.06,
+      "angle": -110
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.25,
+    "variance": 36.2,
     "rankings": {
-      "ff": null,
+      "ff": 219,
       "espn": 138,
       "fp": 147,
-      "avg": 143
+      "avg": 168
     }
   },
   {
@@ -3461,17 +3461,17 @@
     "bye": 8,
     "vector": {
       "x": 0,
-      "y": 0.65,
-      "magnitude": 0.65,
-      "angle": 90
+      "y": -0.07,
+      "magnitude": 0.07,
+      "angle": -92
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.25,
+    "variance": 37,
     "rankings": {
-      "ff": null,
+      "ff": 218,
       "espn": 139,
       "fp": 140,
-      "avg": 140
+      "avg": 166
     }
   },
   {
@@ -3486,17 +3486,17 @@
     "bye": 7,
     "vector": {
       "x": -0.01,
-      "y": 0.67,
-      "magnitude": 0.67,
-      "angle": 91
+      "y": 0.08,
+      "magnitude": 0.08,
+      "angle": 100
     },
-    "consensusStrength": 1,
-    "variance": 3,
+    "consensusStrength": 0.5,
+    "variance": 16.7,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 140,
       "fp": 146,
-      "avg": 143
+      "avg": 155
     }
   },
   {
@@ -3511,17 +3511,17 @@
     "bye": 13,
     "vector": {
       "x": -0.04,
-      "y": 0.7,
+      "y": -0.71,
       "magnitude": 0.71,
-      "angle": 93
+      "angle": -93
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 128.9,
     "rankings": {
-      "ff": null,
+      "ff": 423,
       "espn": 141,
       "fp": 159,
-      "avg": 150
+      "avg": 241
     }
   },
   {
@@ -3536,17 +3536,17 @@
     "bye": 10,
     "vector": {
       "x": -0.08,
-      "y": 0.74,
-      "magnitude": 0.75,
-      "angle": 96
+      "y": -0.16,
+      "magnitude": 0.17,
+      "angle": -116
     },
-    "consensusStrength": 0.5,
-    "variance": 16,
+    "consensusStrength": 0.25,
+    "variance": 54.4,
     "rankings": {
-      "ff": null,
+      "ff": 270,
       "espn": 142,
       "fp": 174,
-      "avg": 158
+      "avg": 195
     }
   },
   {
@@ -3561,17 +3561,17 @@
     "bye": 10,
     "vector": {
       "x": -0.05,
-      "y": 0.72,
-      "magnitude": 0.73,
-      "angle": 94
+      "y": -0.63,
+      "magnitude": 0.63,
+      "angle": -95
     },
-    "consensusStrength": 0.75,
-    "variance": 11,
+    "consensusStrength": 0.25,
+    "variance": 118.7,
     "rankings": {
-      "ff": null,
+      "ff": 405,
       "espn": 143,
       "fp": 165,
-      "avg": 154
+      "avg": 238
     }
   },
   {
@@ -3586,17 +3586,17 @@
     "bye": 9,
     "vector": {
       "x": -0.1,
-      "y": 0.78,
-      "magnitude": 0.78,
-      "angle": 97
+      "y": -0.39,
+      "magnitude": 0.4,
+      "angle": -104
     },
-    "consensusStrength": 0.5,
-    "variance": 21,
+    "consensusStrength": 0.25,
+    "variance": 88.4,
     "rankings": {
-      "ff": null,
+      "ff": 349,
       "espn": 144,
       "fp": 186,
-      "avg": 165
+      "avg": 226
     }
   },
   {
@@ -3636,17 +3636,17 @@
     "bye": 7,
     "vector": {
       "x": -0.02,
-      "y": 0.71,
-      "magnitude": 0.71,
-      "angle": 92
+      "y": -0.37,
+      "magnitude": 0.37,
+      "angle": -93
     },
-    "consensusStrength": 1,
-    "variance": 4.5,
+    "consensusStrength": 0.25,
+    "variance": 81.4,
     "rankings": {
-      "ff": null,
+      "ff": 323,
       "espn": 146,
       "fp": 155,
-      "avg": 151
+      "avg": 208
     }
   },
   {
@@ -3711,17 +3711,17 @@
     "bye": 10,
     "vector": {
       "x": 0.07,
-      "y": 0.63,
-      "magnitude": 0.63,
-      "angle": 84
+      "y": 0.58,
+      "magnitude": 0.59,
+      "angle": 83
     },
-    "consensusStrength": 0.75,
-    "variance": 15,
+    "consensusStrength": 0.25,
+    "variance": 57.4,
     "rankings": {
-      "ff": null,
+      "ff": 15,
       "espn": 149,
       "fp": 119,
-      "avg": 134
+      "avg": 94
     }
   },
   {
@@ -3736,17 +3736,17 @@
     "bye": 6,
     "vector": {
       "x": 0.05,
-      "y": 0.65,
-      "magnitude": 0.65,
-      "angle": 85
+      "y": -0.17,
+      "magnitude": 0.18,
+      "angle": -72
     },
-    "consensusStrength": 0.75,
-    "variance": 11.5,
+    "consensusStrength": 0.25,
+    "variance": 52,
     "rankings": {
-      "ff": null,
+      "ff": 247,
       "espn": 150,
       "fp": 127,
-      "avg": 139
+      "avg": 175
     }
   },
   {
@@ -3761,17 +3761,17 @@
     "bye": 8,
     "vector": {
       "x": -0.11,
-      "y": 0.82,
-      "magnitude": 0.83,
-      "angle": 98
+      "y": -0.09,
+      "magnitude": 0.14,
+      "angle": -142
     },
-    "consensusStrength": 0.5,
-    "variance": 23.5,
+    "consensusStrength": 0.25,
+    "variance": 49.8,
     "rankings": {
-      "ff": null,
+      "ff": 272,
       "espn": 151,
       "fp": 198,
-      "avg": 175
+      "avg": 207
     }
   },
   {
@@ -3811,17 +3811,17 @@
     "bye": 13,
     "vector": {
       "x": -0.02,
-      "y": 0.74,
-      "magnitude": 0.74,
-      "angle": 91
+      "y": -0.05,
+      "magnitude": 0.05,
+      "angle": -110
     },
-    "consensusStrength": 1,
-    "variance": 4,
+    "consensusStrength": 0.25,
+    "variance": 37.9,
     "rankings": {
-      "ff": null,
+      "ff": 237,
       "espn": 153,
       "fp": 161,
-      "avg": 157
+      "avg": 184
     }
   },
   {
@@ -3861,17 +3861,17 @@
     "bye": 7,
     "vector": {
       "x": -0.1,
-      "y": 0.83,
-      "magnitude": 0.84,
-      "angle": 97
+      "y": -0.06,
+      "magnitude": 0.12,
+      "angle": -150
     },
-    "consensusStrength": 0.5,
-    "variance": 22,
+    "consensusStrength": 0.25,
+    "variance": 46.5,
     "rankings": {
-      "ff": null,
+      "ff": 268,
       "espn": 155,
       "fp": 199,
-      "avg": 177
+      "avg": 207
     }
   },
   {
@@ -3886,17 +3886,17 @@
     "bye": 8,
     "vector": {
       "x": 0.07,
-      "y": 0.66,
-      "magnitude": 0.66,
-      "angle": 84
+      "y": 0.32,
+      "magnitude": 0.33,
+      "angle": 77
     },
     "consensusStrength": 0.5,
-    "variance": 15.5,
+    "variance": 22.1,
     "rankings": {
-      "ff": null,
+      "ff": 102,
       "espn": 156,
       "fp": 125,
-      "avg": 141
+      "avg": 128
     }
   },
   {
@@ -3911,17 +3911,17 @@
     "bye": 11,
     "vector": {
       "x": -0.01,
-      "y": 0.74,
-      "magnitude": 0.74,
-      "angle": 91
+      "y": -0.13,
+      "magnitude": 0.13,
+      "angle": -93
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 49.3,
     "rankings": {
-      "ff": null,
+      "ff": 263,
       "espn": 157,
       "fp": 160,
-      "avg": 159
+      "avg": 193
     }
   },
   {
@@ -3936,17 +3936,17 @@
     "bye": 9,
     "vector": {
       "x": 0.04,
-      "y": 0.7,
-      "magnitude": 0.7,
-      "angle": 86
+      "y": -0.09,
+      "magnitude": 0.1,
+      "angle": -64
     },
-    "consensusStrength": 0.75,
-    "variance": 9.5,
+    "consensusStrength": 0.25,
+    "variance": 42.4,
     "rankings": {
-      "ff": null,
+      "ff": 237,
       "espn": 158,
       "fp": 139,
-      "avg": 149
+      "avg": 178
     }
   },
   {
@@ -3961,17 +3961,17 @@
     "bye": 7,
     "vector": {
       "x": 0.04,
-      "y": 0.71,
-      "magnitude": 0.71,
-      "angle": 87
+      "y": -0.01,
+      "magnitude": 0.04,
+      "angle": -7
     },
-    "consensusStrength": 0.75,
-    "variance": 8.5,
+    "consensusStrength": 0.25,
+    "variance": 30.7,
     "rankings": {
-      "ff": null,
+      "ff": 214,
       "espn": 159,
       "fp": 142,
-      "avg": 151
+      "avg": 172
     }
   },
   {
@@ -3985,18 +3985,18 @@
     "price": 0,
     "bye": 11,
     "vector": {
-      "x": -0.17,
-      "y": 0.93,
-      "magnitude": 0.94,
-      "angle": 101
+      "x": -0.18,
+      "y": -0.05,
+      "magnitude": 0.18,
+      "angle": -163
     },
     "consensusStrength": 0.25,
-    "variance": 37,
+    "variance": 54.8,
     "rankings": {
-      "ff": null,
+      "ff": 294,
       "espn": 160,
       "fp": 234,
-      "avg": 197
+      "avg": 229
     }
   },
   {
@@ -4011,17 +4011,17 @@
     "bye": 13,
     "vector": {
       "x": -0.03,
-      "y": 0.79,
-      "magnitude": 0.79,
-      "angle": 92
+      "y": 0.29,
+      "magnitude": 0.29,
+      "angle": 96
     },
     "consensusStrength": 0.75,
-    "variance": 6,
+    "variance": 10.2,
     "rankings": {
-      "ff": null,
+      "ff": 148,
       "espn": 161,
       "fp": 173,
-      "avg": 167
+      "avg": 161
     }
   },
   {
@@ -4036,17 +4036,17 @@
     "bye": 13,
     "vector": {
       "x": -0.16,
-      "y": 0.92,
-      "magnitude": 0.93,
-      "angle": 100
+      "y": 0.2,
+      "magnitude": 0.25,
+      "angle": 129
     },
-    "consensusStrength": 0.25,
-    "variance": 33,
+    "consensusStrength": 0.5,
+    "variance": 28.9,
     "rankings": {
-      "ff": null,
+      "ff": 217,
       "espn": 162,
       "fp": 228,
-      "avg": 195
+      "avg": 202
     }
   },
   {
@@ -4061,17 +4061,17 @@
     "bye": 13,
     "vector": {
       "x": -0.16,
-      "y": 0.93,
-      "magnitude": 0.94,
-      "angle": 100
+      "y": -0.16,
+      "magnitude": 0.23,
+      "angle": -135
     },
     "consensusStrength": 0.25,
-    "variance": 34,
+    "variance": 67.3,
     "rankings": {
-      "ff": null,
+      "ff": 327,
       "espn": 163,
       "fp": 231,
-      "avg": 197
+      "avg": 240
     }
   },
   {
@@ -4086,17 +4086,17 @@
     "bye": 6,
     "vector": {
       "x": 0.03,
-      "y": 0.74,
-      "magnitude": 0.75,
-      "angle": 88
+      "y": 0.38,
+      "magnitude": 0.38,
+      "angle": 86
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.5,
+    "variance": 23.8,
     "rankings": {
-      "ff": null,
+      "ff": 109,
       "espn": 164,
       "fp": 153,
-      "avg": 159
+      "avg": 142
     }
   },
   {
@@ -4136,17 +4136,17 @@
     "bye": 14,
     "vector": {
       "x": 0.09,
-      "y": 0.7,
-      "magnitude": 0.7,
-      "angle": 83
+      "y": 0.22,
+      "magnitude": 0.24,
+      "angle": 69
     },
-    "consensusStrength": 0.5,
-    "variance": 18,
+    "consensusStrength": 0.75,
+    "variance": 14.9,
     "rankings": {
-      "ff": null,
+      "ff": 143,
       "espn": 166,
       "fp": 130,
-      "avg": 148
+      "avg": 146
     }
   },
   {
@@ -4161,17 +4161,17 @@
     "bye": 14,
     "vector": {
       "x": 0.04,
-      "y": 0.74,
-      "magnitude": 0.75,
-      "angle": 87
+      "y": -0.49,
+      "magnitude": 0.49,
+      "angle": -85
     },
-    "consensusStrength": 0.75,
-    "variance": 8.5,
+    "consensusStrength": 0.25,
+    "variance": 99.5,
     "rankings": {
-      "ff": null,
+      "ff": 369,
       "espn": 167,
       "fp": 150,
-      "avg": 159
+      "avg": 229
     }
   },
   {
@@ -4186,17 +4186,17 @@
     "bye": 7,
     "vector": {
       "x": 0.03,
-      "y": 0.76,
-      "magnitude": 0.76,
-      "angle": 88
+      "y": -0.22,
+      "magnitude": 0.22,
+      "angle": -83
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.25,
+    "variance": 62.2,
     "rankings": {
-      "ff": null,
+      "ff": 294,
       "espn": 168,
       "fp": 157,
-      "avg": 163
+      "avg": 206
     }
   },
   {
@@ -4511,17 +4511,17 @@
     "bye": 14,
     "vector": {
       "x": -0.03,
-      "y": 0.88,
-      "magnitude": 0.88,
+      "y": 0.68,
+      "magnitude": 0.68,
       "angle": 92
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.25,
+    "variance": 59.8,
     "rankings": {
-      "ff": null,
+      "ff": 60,
       "espn": 181,
       "fp": 192,
-      "avg": 187
+      "avg": 144
     }
   },
   {
@@ -4536,17 +4536,17 @@
     "bye": 7,
     "vector": {
       "x": -0.04,
-      "y": 0.9,
-      "magnitude": 0.9,
-      "angle": 93
+      "y": 0.63,
+      "magnitude": 0.64,
+      "angle": 94
     },
-    "consensusStrength": 0.75,
-    "variance": 9.5,
+    "consensusStrength": 0.25,
+    "variance": 52.7,
     "rankings": {
-      "ff": null,
+      "ff": 81,
       "espn": 182,
       "fp": 201,
-      "avg": 192
+      "avg": 155
     }
   },
   {
@@ -4561,17 +4561,17 @@
     "bye": 11,
     "vector": {
       "x": -0.05,
-      "y": 0.91,
-      "magnitude": 0.91,
-      "angle": 93
+      "y": 0.73,
+      "magnitude": 0.73,
+      "angle": 94
     },
-    "consensusStrength": 0.75,
-    "variance": 10.5,
+    "consensusStrength": 0.25,
+    "variance": 66.3,
     "rankings": {
-      "ff": null,
+      "ff": 54,
       "espn": 183,
       "fp": 204,
-      "avg": 194
+      "avg": 147
     }
   },
   {
@@ -4586,17 +4586,17 @@
     "bye": 11,
     "vector": {
       "x": -0.16,
-      "y": 1.03,
-      "magnitude": 1.04,
-      "angle": 99
+      "y": 0.36,
+      "magnitude": 0.39,
+      "angle": 114
     },
-    "consensusStrength": 0.25,
-    "variance": 34,
+    "consensusStrength": 0.5,
+    "variance": 28.9,
     "rankings": {
-      "ff": null,
+      "ff": 201,
       "espn": 184,
       "fp": 252,
-      "avg": 218
+      "avg": 212
     }
   },
   {
@@ -4611,17 +4611,17 @@
     "bye": 8,
     "vector": {
       "x": -0.04,
-      "y": 0.91,
-      "magnitude": 0.91,
+      "y": 0.71,
+      "magnitude": 0.71,
       "angle": 93
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 63.1,
     "rankings": {
-      "ff": null,
+      "ff": 61,
       "espn": 185,
       "fp": 203,
-      "avg": 194
+      "avg": 150
     }
   },
   {
@@ -4636,17 +4636,17 @@
     "bye": 8,
     "vector": {
       "x": -0.06,
-      "y": 0.94,
-      "magnitude": 0.94,
-      "angle": 94
+      "y": 0.57,
+      "magnitude": 0.57,
+      "angle": 96
     },
-    "consensusStrength": 0.75,
-    "variance": 13,
+    "consensusStrength": 0.25,
+    "variance": 42.4,
     "rankings": {
-      "ff": null,
+      "ff": 112,
       "espn": 186,
       "fp": 212,
-      "avg": 199
+      "avg": 170
     }
   },
   {
@@ -4661,17 +4661,17 @@
     "bye": 5,
     "vector": {
       "x": -0.13,
-      "y": 1.01,
-      "magnitude": 1.02,
-      "angle": 97
+      "y": 0.66,
+      "magnitude": 0.68,
+      "angle": 101
     },
-    "consensusStrength": 0.5,
-    "variance": 28,
+    "consensusStrength": 0.25,
+    "variance": 56.7,
     "rankings": {
-      "ff": null,
+      "ff": 105,
       "espn": 187,
       "fp": 243,
-      "avg": 215
+      "avg": 178
     }
   },
   {
@@ -4686,17 +4686,17 @@
     "bye": 7,
     "vector": {
       "x": -0.04,
-      "y": 0.93,
-      "magnitude": 0.93,
-      "angle": 93
+      "y": 0.67,
+      "magnitude": 0.67,
+      "angle": 94
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.25,
+    "variance": 56.1,
     "rankings": {
-      "ff": null,
+      "ff": 79,
       "espn": 188,
       "fp": 206,
-      "avg": 197
+      "avg": 158
     }
   },
   {
@@ -4711,17 +4711,17 @@
     "bye": 6,
     "vector": {
       "x": -0.11,
-      "y": 1,
-      "magnitude": 1,
-      "angle": 96
+      "y": 0.7,
+      "magnitude": 0.71,
+      "angle": 99
     },
-    "consensusStrength": 0.5,
-    "variance": 23,
+    "consensusStrength": 0.25,
+    "variance": 60.9,
     "rankings": {
-      "ff": null,
+      "ff": 89,
       "espn": 189,
       "fp": 235,
-      "avg": 212
+      "avg": 171
     }
   },
   {
@@ -4736,17 +4736,17 @@
     "bye": 13,
     "vector": {
       "x": -0.06,
-      "y": 0.95,
-      "magnitude": 0.95,
-      "angle": 94
+      "y": 0.59,
+      "magnitude": 0.59,
+      "angle": 96
     },
-    "consensusStrength": 0.75,
-    "variance": 12.5,
+    "consensusStrength": 0.25,
+    "variance": 45.2,
     "rankings": {
-      "ff": null,
+      "ff": 109,
       "espn": 190,
       "fp": 215,
-      "avg": 203
+      "avg": 171
     }
   },
   {
@@ -4761,17 +4761,17 @@
     "bye": 10,
     "vector": {
       "x": -0.08,
-      "y": 0.97,
-      "magnitude": 0.98,
-      "angle": 94
+      "y": 0.56,
+      "magnitude": 0.56,
+      "angle": 98
     },
-    "consensusStrength": 0.5,
-    "variance": 16,
+    "consensusStrength": 0.25,
+    "variance": 40.4,
     "rankings": {
-      "ff": null,
+      "ff": 126,
       "espn": 191,
       "fp": 223,
-      "avg": 207
+      "avg": 180
     }
   },
   {
@@ -4786,17 +4786,17 @@
     "bye": 6,
     "vector": {
       "x": -0.24,
-      "y": 1.14,
-      "magnitude": 1.17,
-      "angle": 102
+      "y": 0.85,
+      "magnitude": 0.89,
+      "angle": 106
     },
     "consensusStrength": 0.25,
-    "variance": 50.5,
+    "variance": 84.1,
     "rankings": {
-      "ff": null,
+      "ff": 87,
       "espn": 192,
       "fp": 293,
-      "avg": 243
+      "avg": 191
     }
   },
   {
@@ -4811,17 +4811,17 @@
     "bye": 13,
     "vector": {
       "x": -0.14,
-      "y": 1.05,
-      "magnitude": 1.06,
-      "angle": 98
+      "y": 0.11,
+      "magnitude": 0.18,
+      "angle": 141
     },
-    "consensusStrength": 0.5,
-    "variance": 30,
+    "consensusStrength": 0.25,
+    "variance": 36.7,
     "rankings": {
-      "ff": null,
+      "ff": 281,
       "espn": 193,
       "fp": 253,
-      "avg": 223
+      "avg": 242
     }
   },
   {
@@ -4836,17 +4836,17 @@
     "bye": 8,
     "vector": {
       "x": 0.13,
-      "y": 0.78,
-      "magnitude": 0.79,
-      "angle": 80
+      "y": 0.29,
+      "magnitude": 0.32,
+      "angle": 65
     },
     "consensusStrength": 0.5,
-    "variance": 28.5,
+    "variance": 24.9,
     "rankings": {
-      "ff": null,
+      "ff": 147,
       "espn": 194,
       "fp": 137,
-      "avg": 166
+      "avg": 159
     }
   },
   {
@@ -4911,17 +4911,17 @@
     "bye": 13,
     "vector": {
       "x": -0.12,
-      "y": 1.04,
-      "magnitude": 1.05,
-      "angle": 96
+      "y": -0.24,
+      "magnitude": 0.26,
+      "angle": -116
     },
-    "consensusStrength": 0.5,
-    "variance": 24.5,
+    "consensusStrength": 0.25,
+    "variance": 79.2,
     "rankings": {
-      "ff": null,
+      "ff": 384,
       "espn": 197,
       "fp": 246,
-      "avg": 222
+      "avg": 276
     }
   },
   {
@@ -4936,17 +4936,17 @@
     "bye": 11,
     "vector": {
       "x": 0.19,
-      "y": 0.74,
-      "magnitude": 0.76,
-      "angle": 75
+      "y": 0.66,
+      "magnitude": 0.69,
+      "angle": 74
     },
     "consensusStrength": 0.25,
-    "variance": 41,
+    "variance": 71.1,
     "rankings": {
-      "ff": null,
+      "ff": 24,
       "espn": 198,
       "fp": 116,
-      "avg": 157
+      "avg": 113
     }
   },
   {
@@ -4961,17 +4961,17 @@
     "bye": 9,
     "vector": {
       "x": 0.13,
-      "y": 0.81,
-      "magnitude": 0.82,
-      "angle": 81
+      "y": 0.7,
+      "magnitude": 0.71,
+      "angle": 79
     },
-    "consensusStrength": 0.5,
-    "variance": 27.5,
+    "consensusStrength": 0.25,
+    "variance": 68.6,
     "rankings": {
-      "ff": null,
+      "ff": 34,
       "espn": 199,
       "fp": 144,
-      "avg": 172
+      "avg": 126
     }
   },
   {
@@ -4986,17 +4986,17 @@
     "bye": 8,
     "vector": {
       "x": 0.16,
-      "y": 0.78,
-      "magnitude": 0.8,
-      "angle": 79
+      "y": 0.69,
+      "magnitude": 0.7,
+      "angle": 77
     },
     "consensusStrength": 0.25,
-    "variance": 33.5,
+    "variance": 69.9,
     "rankings": {
-      "ff": null,
+      "ff": 30,
       "espn": 200,
       "fp": 133,
-      "avg": 167
+      "avg": 121
     }
   },
   {
@@ -5061,17 +5061,17 @@
     "bye": 0,
     "vector": {
       "x": 0.09,
-      "y": 0.87,
-      "magnitude": 0.87,
-      "angle": 84
+      "y": 0.45,
+      "magnitude": 0.46,
+      "angle": 79
     },
-    "consensusStrength": 0.5,
-    "variance": 18.5,
+    "consensusStrength": 0.25,
+    "variance": 31.4,
     "rankings": {
-      "ff": null,
+      "ff": 126,
       "espn": 203,
       "fp": 166,
-      "avg": 185
+      "avg": 165
     }
   },
   {
@@ -5086,17 +5086,17 @@
     "bye": 0,
     "vector": {
       "x": 0.08,
-      "y": 0.88,
-      "magnitude": 0.89,
-      "angle": 85
+      "y": 0.54,
+      "magnitude": 0.55,
+      "angle": 82
     },
-    "consensusStrength": 0.5,
-    "variance": 16.5,
+    "consensusStrength": 0.25,
+    "variance": 42.5,
     "rankings": {
-      "ff": null,
+      "ff": 102,
       "espn": 204,
       "fp": 171,
-      "avg": 188
+      "avg": 159
     }
   },
   {
@@ -5111,17 +5111,17 @@
     "bye": 7,
     "vector": {
       "x": 0.09,
-      "y": 0.87,
-      "magnitude": 0.88,
-      "angle": 84
+      "y": -0.24,
+      "magnitude": 0.26,
+      "angle": -69
     },
-    "consensusStrength": 0.5,
-    "variance": 19,
+    "consensusStrength": 0.25,
+    "variance": 71.5,
     "rankings": {
-      "ff": null,
+      "ff": 334,
       "espn": 205,
       "fp": 167,
-      "avg": 186
+      "avg": 235
     }
   },
   {
@@ -5136,17 +5136,17 @@
     "bye": 9,
     "vector": {
       "x": -0.08,
-      "y": 1.05,
-      "magnitude": 1.05,
-      "angle": 94
+      "y": 0.37,
+      "magnitude": 0.38,
+      "angle": 102
     },
     "consensusStrength": 0.5,
-    "variance": 17,
+    "variance": 16.5,
     "rankings": {
-      "ff": null,
+      "ff": 204,
       "espn": 206,
       "fp": 240,
-      "avg": 223
+      "avg": 217
     }
   },
   {
@@ -5161,17 +5161,17 @@
     "bye": 8,
     "vector": {
       "x": 0.1,
-      "y": 0.87,
-      "magnitude": 0.88,
-      "angle": 83
+      "y": 0.32,
+      "magnitude": 0.33,
+      "angle": 72
     },
     "consensusStrength": 0.5,
-    "variance": 22,
+    "variance": 19.9,
     "rankings": {
-      "ff": null,
+      "ff": 167,
       "espn": 207,
       "fp": 163,
-      "avg": 185
+      "avg": 179
     }
   },
   {
@@ -5186,17 +5186,17 @@
     "bye": 6,
     "vector": {
       "x": 0.04,
-      "y": 0.93,
-      "magnitude": 0.94,
-      "angle": 87
+      "y": 0.14,
+      "magnitude": 0.15,
+      "angle": 73
     },
-    "consensusStrength": 0.75,
-    "variance": 9.5,
+    "consensusStrength": 0.5,
+    "variance": 19.7,
     "rankings": {
-      "ff": null,
+      "ff": 237,
       "espn": 208,
       "fp": 189,
-      "avg": 199
+      "avg": 211
     }
   },
   {
@@ -5236,17 +5236,17 @@
     "bye": 11,
     "vector": {
       "x": -0.04,
-      "y": 1.02,
-      "magnitude": 1.02,
-      "angle": 92
+      "y": 0.31,
+      "magnitude": 0.31,
+      "angle": 96
     },
     "consensusStrength": 0.75,
-    "variance": 7.5,
+    "variance": 6.4,
     "rankings": {
-      "ff": null,
+      "ff": 214,
       "espn": 210,
       "fp": 225,
-      "avg": 218
+      "avg": 216
     }
   },
   {
@@ -5261,17 +5261,17 @@
     "bye": 14,
     "vector": {
       "x": 0.07,
-      "y": 0.92,
-      "magnitude": 0.93,
-      "angle": 86
+      "y": 0.25,
+      "magnitude": 0.26,
+      "angle": 74
     },
     "consensusStrength": 0.75,
-    "variance": 14.5,
+    "variance": 12.4,
     "rankings": {
-      "ff": null,
+      "ff": 204,
       "espn": 211,
       "fp": 182,
-      "avg": 197
+      "avg": 199
     }
   },
   {
@@ -5360,18 +5360,18 @@
     "price": 0,
     "bye": 7,
     "vector": {
-      "x": 0.17,
-      "y": 0.84,
-      "magnitude": 0.86,
-      "angle": 78
+      "x": 0.18,
+      "y": 0.21,
+      "magnitude": 0.27,
+      "angle": 50
     },
     "consensusStrength": 0.25,
-    "variance": 37,
+    "variance": 30.7,
     "rankings": {
-      "ff": null,
+      "ff": 190,
       "espn": 215,
       "fp": 141,
-      "avg": 178
+      "avg": 182
     }
   },
   {
@@ -5386,17 +5386,17 @@
     "bye": 9,
     "vector": {
       "x": 0.03,
-      "y": 0.99,
-      "magnitude": 0.99,
-      "angle": 88
+      "y": 0.01,
+      "magnitude": 0.03,
+      "angle": 23
     },
-    "consensusStrength": 0.75,
-    "variance": 5.5,
+    "consensusStrength": 0.25,
+    "variance": 39.6,
     "rankings": {
-      "ff": null,
+      "ff": 294,
       "espn": 216,
       "fp": 205,
-      "avg": 211
+      "avg": 238
     }
   },
   {
@@ -5411,17 +5411,17 @@
     "bye": 11,
     "vector": {
       "x": 0.06,
-      "y": 0.96,
-      "magnitude": 0.96,
-      "angle": 86
+      "y": 0.45,
+      "magnitude": 0.45,
+      "angle": 82
     },
-    "consensusStrength": 0.75,
-    "variance": 13,
+    "consensusStrength": 0.5,
+    "variance": 25.9,
     "rankings": {
-      "ff": null,
+      "ff": 154,
       "espn": 217,
       "fp": 191,
-      "avg": 204
+      "avg": 187
     }
   },
   {
@@ -5436,17 +5436,17 @@
     "bye": 11,
     "vector": {
       "x": 0.19,
-      "y": 0.84,
-      "magnitude": 0.86,
-      "angle": 77
+      "y": 0.78,
+      "magnitude": 0.81,
+      "angle": 76
     },
     "consensusStrength": 0.25,
-    "variance": 40,
+    "variance": 82.6,
     "rankings": {
-      "ff": null,
+      "ff": 17,
       "espn": 218,
       "fp": 138,
-      "avg": 178
+      "avg": 124
     }
   },
   {
@@ -5461,17 +5461,17 @@
     "bye": 5,
     "vector": {
       "x": 0.16,
-      "y": 0.87,
-      "magnitude": 0.89,
-      "angle": 80
+      "y": 0.79,
+      "magnitude": 0.8,
+      "angle": 79
     },
     "consensusStrength": 0.25,
-    "variance": 33.5,
+    "variance": 80,
     "rankings": {
-      "ff": null,
+      "ff": 26,
       "espn": 219,
       "fp": 152,
-      "avg": 186
+      "avg": 132
     }
   },
   {
@@ -5586,17 +5586,17 @@
     "bye": 6,
     "vector": {
       "x": 0.02,
-      "y": 1.03,
-      "magnitude": 1.03,
-      "angle": 89
+      "y": 0.26,
+      "magnitude": 0.26,
+      "angle": 85
     },
-    "consensusStrength": 1,
-    "variance": 5,
+    "consensusStrength": 0.75,
+    "variance": 7,
     "rankings": {
-      "ff": null,
+      "ff": 231,
       "espn": 224,
       "fp": 214,
-      "avg": 219
+      "avg": 223
     }
   },
   {
@@ -5611,17 +5611,17 @@
     "bye": 11,
     "vector": {
       "x": 0.19,
-      "y": 0.87,
-      "magnitude": 0.89,
-      "angle": 77
+      "y": 0.02,
+      "magnitude": 0.2,
+      "angle": 7
     },
     "consensusStrength": 0.25,
-    "variance": 41,
+    "variance": 46.7,
     "rankings": {
-      "ff": null,
+      "ff": 253,
       "espn": 225,
       "fp": 143,
-      "avg": 184
+      "avg": 207
     }
   },
   {
@@ -5636,17 +5636,17 @@
     "bye": 6,
     "vector": {
       "x": -0.14,
-      "y": 1.21,
-      "magnitude": 1.22,
-      "angle": 97
+      "y": 0.4,
+      "magnitude": 0.43,
+      "angle": 110
     },
-    "consensusStrength": 0.25,
-    "variance": 30.5,
+    "consensusStrength": 0.5,
+    "variance": 25.8,
     "rankings": {
-      "ff": null,
+      "ff": 242,
       "espn": 226,
       "fp": 287,
-      "avg": 257
+      "avg": 252
     }
   },
   {
@@ -5661,17 +5661,17 @@
     "bye": 0,
     "vector": {
       "x": 0.01,
-      "y": 1.05,
-      "magnitude": 1.05,
-      "angle": 89
+      "y": -0.07,
+      "magnitude": 0.07,
+      "angle": -79
     },
-    "consensusStrength": 1,
-    "variance": 3,
+    "consensusStrength": 0.25,
+    "variance": 53.8,
     "rankings": {
-      "ff": null,
+      "ff": 338,
       "espn": 227,
       "fp": 221,
-      "avg": 224
+      "avg": 262
     }
   },
   {
@@ -5711,17 +5711,17 @@
     "bye": 6,
     "vector": {
       "x": -0.28,
-      "y": 1.36,
-      "magnitude": 1.39,
-      "angle": 102
+      "y": 0.17,
+      "magnitude": 0.33,
+      "angle": 149
     },
     "consensusStrength": 0.25,
-    "variance": 59.5,
+    "variance": 58.3,
     "rankings": {
-      "ff": null,
+      "ff": 357,
       "espn": 229,
       "fp": 348,
-      "avg": 289
+      "avg": 311
     }
   },
   {
@@ -5736,17 +5736,17 @@
     "bye": 8,
     "vector": {
       "x": -0.06,
-      "y": 1.14,
-      "magnitude": 1.15,
-      "angle": 93
+      "y": -0.04,
+      "magnitude": 0.07,
+      "angle": -150
     },
-    "consensusStrength": 0.75,
-    "variance": 13,
+    "consensusStrength": 0.25,
+    "variance": 53.4,
     "rankings": {
-      "ff": null,
+      "ff": 354,
       "espn": 230,
       "fp": 256,
-      "avg": 243
+      "avg": 280
     }
   },
   {
@@ -5761,17 +5761,17 @@
     "bye": 11,
     "vector": {
       "x": -0.37,
-      "y": 1.46,
-      "magnitude": 1.51,
-      "angle": 104
+      "y": 0.08,
+      "magnitude": 0.38,
+      "angle": 168
     },
     "consensusStrength": 0.25,
-    "variance": 79,
+    "variance": 81,
     "rankings": {
-      "ff": null,
+      "ff": 414,
       "espn": 231,
       "fp": 389,
-      "avg": 310
+      "avg": 345
     }
   },
   {
@@ -5811,17 +5811,17 @@
     "bye": 5,
     "vector": {
       "x": -0.11,
-      "y": 1.21,
-      "magnitude": 1.21,
-      "angle": 95
+      "y": 0.36,
+      "magnitude": 0.38,
+      "angle": 107
     },
     "consensusStrength": 0.5,
-    "variance": 23,
+    "variance": 18.8,
     "rankings": {
-      "ff": null,
+      "ff": 254,
       "espn": 233,
       "fp": 279,
-      "avg": 256
+      "avg": 255
     }
   },
   {
@@ -5836,17 +5836,17 @@
     "bye": 7,
     "vector": {
       "x": -0.05,
-      "y": 1.15,
-      "magnitude": 1.15,
-      "angle": 92
+      "y": 0.41,
+      "magnitude": 0.41,
+      "angle": 97
     },
     "consensusStrength": 0.75,
-    "variance": 10.5,
+    "variance": 12.9,
     "rankings": {
-      "ff": null,
+      "ff": 224,
       "espn": 234,
       "fp": 255,
-      "avg": 245
+      "avg": 238
     }
   },
   {
@@ -5911,17 +5911,17 @@
     "bye": 9,
     "vector": {
       "x": -0.04,
-      "y": 1.16,
-      "magnitude": 1.16,
-      "angle": 92
+      "y": 0.86,
+      "magnitude": 0.86,
+      "angle": 93
     },
-    "consensusStrength": 0.75,
-    "variance": 8.5,
+    "consensusStrength": 0.25,
+    "variance": 73.2,
     "rankings": {
-      "ff": null,
+      "ff": 91,
       "espn": 237,
       "fp": 254,
-      "avg": 246
+      "avg": 194
     }
   },
   {
@@ -5936,17 +5936,17 @@
     "bye": 10,
     "vector": {
       "x": 0.01,
-      "y": 1.11,
-      "magnitude": 1.11,
+      "y": 0.81,
+      "magnitude": 0.81,
       "angle": 89
     },
-    "consensusStrength": 1,
-    "variance": 3,
+    "consensusStrength": 0.25,
+    "variance": 67.9,
     "rankings": {
-      "ff": null,
+      "ff": 91,
       "espn": 238,
       "fp": 232,
-      "avg": 235
+      "avg": 187
     }
   },
   {
@@ -5961,17 +5961,17 @@
     "bye": 7,
     "vector": {
       "x": -0.12,
-      "y": 1.24,
-      "magnitude": 1.25,
-      "angle": 95
+      "y": -0.32,
+      "magnitude": 0.34,
+      "angle": -110
     },
-    "consensusStrength": 0.5,
-    "variance": 24.5,
+    "consensusStrength": 0.25,
+    "variance": 98.9,
     "rankings": {
-      "ff": null,
+      "ff": 469,
       "espn": 239,
       "fp": 288,
-      "avg": 264
+      "avg": 332
     }
   },
   {
@@ -5986,17 +5986,17 @@
     "bye": 6,
     "vector": {
       "x": 0.05,
-      "y": 1.08,
-      "magnitude": 1.08,
-      "angle": 87
+      "y": 0.08,
+      "magnitude": 0.09,
+      "angle": 55
     },
-    "consensusStrength": 0.75,
-    "variance": 11,
+    "consensusStrength": 0.25,
+    "variance": 35.1,
     "rankings": {
-      "ff": null,
+      "ff": 301,
       "espn": 240,
       "fp": 218,
-      "avg": 229
+      "avg": 253
     }
   },
   {
@@ -6011,17 +6011,17 @@
     "bye": 6,
     "vector": {
       "x": 0.01,
-      "y": 1.13,
-      "magnitude": 1.13,
-      "angle": 90
+      "y": 0.19,
+      "magnitude": 0.19,
+      "angle": 87
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.5,
+    "variance": 19.9,
     "rankings": {
-      "ff": null,
+      "ff": 281,
       "espn": 241,
       "fp": 237,
-      "avg": 239
+      "avg": 253
     }
   },
   {
@@ -6036,17 +6036,17 @@
     "bye": 7,
     "vector": {
       "x": 0.15,
-      "y": 0.99,
-      "magnitude": 1,
-      "angle": 82
+      "y": 0.53,
+      "magnitude": 0.55,
+      "angle": 74
     },
     "consensusStrength": 0.25,
-    "variance": 31,
+    "variance": 42,
     "rankings": {
-      "ff": null,
+      "ff": 140,
       "espn": 242,
       "fp": 180,
-      "avg": 211
+      "avg": 187
     }
   },
   {
@@ -6061,17 +6061,17 @@
     "bye": 5,
     "vector": {
       "x": -0.08,
-      "y": 1.22,
-      "magnitude": 1.22,
-      "angle": 94
+      "y": 0.1,
+      "magnitude": 0.12,
+      "angle": 129
     },
-    "consensusStrength": 0.5,
-    "variance": 16.5,
+    "consensusStrength": 0.25,
+    "variance": 39.4,
     "rankings": {
-      "ff": null,
+      "ff": 338,
       "espn": 243,
       "fp": 276,
-      "avg": 260
+      "avg": 286
     }
   },
   {
@@ -6111,17 +6111,17 @@
     "bye": 14,
     "vector": {
       "x": -0.01,
-      "y": 1.16,
-      "magnitude": 1.16,
-      "angle": 90
+      "y": -0.14,
+      "magnitude": 0.14,
+      "angle": -94
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.25,
+    "variance": 68.4,
     "rankings": {
-      "ff": null,
+      "ff": 392,
       "espn": 245,
       "fp": 249,
-      "avg": 247
+      "avg": 295
     }
   },
   {
@@ -6136,17 +6136,17 @@
     "bye": 9,
     "vector": {
       "x": 0,
-      "y": 1.16,
-      "magnitude": 1.16,
-      "angle": 90
+      "y": -0.54,
+      "magnitude": 0.54,
+      "angle": -90
     },
-    "consensusStrength": 1,
-    "variance": 0.7,
+    "consensusStrength": 0.25,
+    "variance": 123.7,
     "rankings": {
-      "ff": null,
+      "ff": 508,
       "espn": 246,
       "fp": 245,
-      "avg": 246
+      "avg": 333
     }
   },
   {
@@ -6161,17 +6161,17 @@
     "bye": 7,
     "vector": {
       "x": -0.04,
-      "y": 1.21,
-      "magnitude": 1.21,
-      "angle": 92
+      "y": 0.54,
+      "magnitude": 0.54,
+      "angle": 95
     },
-    "consensusStrength": 0.75,
-    "variance": 9,
+    "consensusStrength": 0.5,
+    "variance": 27,
     "rankings": {
-      "ff": null,
+      "ff": 201,
       "espn": 247,
       "fp": 265,
-      "avg": 256
+      "avg": 238
     }
   },
   {
@@ -6211,17 +6211,17 @@
     "bye": 5,
     "vector": {
       "x": -0.14,
-      "y": 1.31,
-      "magnitude": 1.32,
-      "angle": 96
+      "y": 0.37,
+      "magnitude": 0.4,
+      "angle": 110
     },
     "consensusStrength": 0.5,
-    "variance": 29,
+    "variance": 23.7,
     "rankings": {
-      "ff": null,
+      "ff": 281,
       "espn": 249,
       "fp": 307,
-      "avg": 278
+      "avg": 279
     }
   },
   {
@@ -6236,17 +6236,17 @@
     "bye": 14,
     "vector": {
       "x": -0.08,
-      "y": 1.26,
-      "magnitude": 1.26,
-      "angle": 94
+      "y": 0.21,
+      "magnitude": 0.22,
+      "angle": 111
     },
     "consensusStrength": 0.5,
-    "variance": 16.5,
+    "variance": 26.5,
     "rankings": {
-      "ff": null,
+      "ff": 315,
       "espn": 250,
       "fp": 283,
-      "avg": 267
+      "avg": 283
     }
   },
   {
@@ -6261,17 +6261,17 @@
     "bye": 8,
     "vector": {
       "x": -0.4,
-      "y": 1.58,
-      "magnitude": 1.63,
-      "angle": 104
+      "y": 0.44,
+      "magnitude": 0.59,
+      "angle": 132
     },
     "consensusStrength": 0.25,
-    "variance": 84.5,
+    "variance": 69.1,
     "rankings": {
-      "ff": null,
+      "ff": 343,
       "espn": 251,
       "fp": 420,
-      "avg": 336
+      "avg": 338
     }
   },
   {
@@ -6286,17 +6286,17 @@
     "bye": 10,
     "vector": {
       "x": 0.15,
-      "y": 1.03,
-      "magnitude": 1.04,
-      "angle": 82
+      "y": 0.08,
+      "magnitude": 0.17,
+      "angle": 27
     },
     "consensusStrength": 0.25,
-    "variance": 32.5,
+    "variance": 41.4,
     "rankings": {
-      "ff": null,
+      "ff": 287,
       "espn": 252,
       "fp": 187,
-      "avg": 220
+      "avg": 242
     }
   },
   {
@@ -6311,17 +6311,17 @@
     "bye": 11,
     "vector": {
       "x": -0.02,
-      "y": 1.21,
-      "magnitude": 1.21,
-      "angle": 91
+      "y": 0.3,
+      "magnitude": 0.3,
+      "angle": 93
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.75,
+    "variance": 7.9,
     "rankings": {
-      "ff": null,
+      "ff": 272,
       "espn": 253,
       "fp": 260,
-      "avg": 257
+      "avg": 262
     }
   },
   {
@@ -6386,17 +6386,17 @@
     "bye": 6,
     "vector": {
       "x": 0.09,
-      "y": 1.11,
-      "magnitude": 1.12,
-      "angle": 85
+      "y": 0.73,
+      "magnitude": 0.74,
+      "angle": 83
     },
-    "consensusStrength": 0.5,
-    "variance": 19.5,
+    "consensusStrength": 0.25,
+    "variance": 59.4,
     "rankings": {
-      "ff": null,
+      "ff": 115,
       "espn": 256,
       "fp": 217,
-      "avg": 237
+      "avg": 196
     }
   },
   {
@@ -6411,17 +6411,17 @@
     "bye": 11,
     "vector": {
       "x": -0.27,
-      "y": 1.48,
-      "magnitude": 1.51,
-      "angle": 100
+      "y": 1.01,
+      "magnitude": 1.05,
+      "angle": 105
     },
     "consensusStrength": 0.25,
-    "variance": 58,
+    "variance": 93.9,
     "rankings": {
-      "ff": null,
+      "ff": 143,
       "espn": 257,
       "fp": 373,
-      "avg": 315
+      "avg": 258
     }
   },
   {
@@ -6436,17 +6436,17 @@
     "bye": 7,
     "vector": {
       "x": 0.21,
-      "y": 1,
-      "magnitude": 1.02,
-      "angle": 78
+      "y": 0.26,
+      "magnitude": 0.33,
+      "angle": 50
     },
     "consensusStrength": 0.25,
-    "variance": 45,
+    "variance": 37.1,
     "rankings": {
-      "ff": null,
+      "ff": 224,
       "espn": 258,
       "fp": 168,
-      "avg": 213
+      "avg": 217
     }
   },
   {
@@ -6461,17 +6461,17 @@
     "bye": 8,
     "vector": {
       "x": -0.12,
-      "y": 1.34,
-      "magnitude": 1.34,
-      "angle": 95
+      "y": 0.55,
+      "magnitude": 0.56,
+      "angle": 102
     },
-    "consensusStrength": 0.5,
-    "variance": 25,
+    "consensusStrength": 0.25,
+    "variance": 30.1,
     "rankings": {
-      "ff": null,
+      "ff": 237,
       "espn": 259,
       "fp": 309,
-      "avg": 284
+      "avg": 268
     }
   },
   {
@@ -6486,17 +6486,17 @@
     "bye": 6,
     "vector": {
       "x": -0.12,
-      "y": 1.35,
-      "magnitude": 1.35,
-      "angle": 95
+      "y": 0.3,
+      "magnitude": 0.32,
+      "angle": 112
     },
     "consensusStrength": 0.5,
-    "variance": 26,
+    "variance": 25.3,
     "rankings": {
-      "ff": null,
+      "ff": 315,
       "espn": 260,
       "fp": 312,
-      "avg": 286
+      "avg": 296
     }
   },
   {
@@ -6511,17 +6511,17 @@
     "bye": 11,
     "vector": {
       "x": 0.22,
-      "y": 1.01,
-      "magnitude": 1.04,
-      "angle": 78
+      "y": 0.44,
+      "magnitude": 0.49,
+      "angle": 64
     },
     "consensusStrength": 0.25,
-    "variance": 46,
+    "variance": 42.7,
     "rankings": {
-      "ff": null,
+      "ff": 172,
       "espn": 261,
       "fp": 169,
-      "avg": 215
+      "avg": 201
     }
   },
   {
@@ -6611,17 +6611,17 @@
     "bye": 11,
     "vector": {
       "x": -0.01,
-      "y": 1.26,
-      "magnitude": 1.26,
-      "angle": 90
+      "y": -0.12,
+      "magnitude": 0.12,
+      "angle": -94
     },
-    "consensusStrength": 1,
-    "variance": 2,
+    "consensusStrength": 0.25,
+    "variance": 69.3,
     "rankings": {
-      "ff": null,
+      "ff": 414,
       "espn": 265,
       "fp": 269,
-      "avg": 267
+      "avg": 316
     }
   },
   {
@@ -6636,17 +6636,17 @@
     "bye": 11,
     "vector": {
       "x": -0.07,
-      "y": 1.33,
-      "magnitude": 1.33,
-      "angle": 93
+      "y": -0.13,
+      "magnitude": 0.15,
+      "angle": -119
     },
-    "consensusStrength": 0.5,
-    "variance": 15.5,
+    "consensusStrength": 0.25,
+    "variance": 74.4,
     "rankings": {
-      "ff": null,
+      "ff": 437,
       "espn": 266,
       "fp": 297,
-      "avg": 282
+      "avg": 333
     }
   },
   {
@@ -6661,17 +6661,17 @@
     "bye": 13,
     "vector": {
       "x": 0.08,
-      "y": 1.18,
-      "magnitude": 1.18,
+      "y": 1.07,
+      "magnitude": 1.08,
       "angle": 86
     },
-    "consensusStrength": 0.5,
-    "variance": 17,
+    "consensusStrength": 0.25,
+    "variance": 103.7,
     "rankings": {
-      "ff": null,
+      "ff": 32,
       "espn": 267,
       "fp": 233,
-      "avg": 250
+      "avg": 177
     }
   },
   {
@@ -6686,17 +6686,17 @@
     "bye": 9,
     "vector": {
       "x": 0.05,
-      "y": 1.21,
-      "magnitude": 1.21,
-      "angle": 88
+      "y": 1.13,
+      "magnitude": 1.13,
+      "angle": 87
     },
-    "consensusStrength": 0.75,
-    "variance": 10.5,
+    "consensusStrength": 0.25,
+    "variance": 109.9,
     "rankings": {
-      "ff": null,
+      "ff": 25,
       "espn": 268,
       "fp": 247,
-      "avg": 258
+      "avg": 180
     }
   },
   {
@@ -6736,17 +6736,17 @@
     "bye": 14,
     "vector": {
       "x": 0.2,
-      "y": 1.07,
-      "magnitude": 1.09,
+      "y": 1,
+      "magnitude": 1.02,
       "angle": 79
     },
     "consensusStrength": 0.25,
-    "variance": 43,
+    "variance": 103.3,
     "rankings": {
-      "ff": null,
+      "ff": 21,
       "espn": 270,
       "fp": 184,
-      "avg": 227
+      "avg": 158
     }
   },
   {
@@ -6761,17 +6761,17 @@
     "bye": 10,
     "vector": {
       "x": 0.15,
-      "y": 1.13,
-      "magnitude": 1.14,
-      "angle": 82
+      "y": 0.15,
+      "magnitude": 0.21,
+      "angle": 45
     },
     "consensusStrength": 0.25,
-    "variance": 31.5,
+    "variance": 36.4,
     "rankings": {
-      "ff": null,
+      "ff": 294,
       "espn": 271,
       "fp": 208,
-      "avg": 240
+      "avg": 258
     }
   },
   {
@@ -6786,17 +6786,17 @@
     "bye": 13,
     "vector": {
       "x": -0.28,
-      "y": 1.57,
-      "magnitude": 1.59,
-      "angle": 100
+      "y": -0.1,
+      "magnitude": 0.3,
+      "angle": -161
     },
     "consensusStrength": 0.25,
-    "variance": 60,
+    "variance": 92.7,
     "rankings": {
-      "ff": null,
+      "ff": 499,
       "espn": 272,
       "fp": 392,
-      "avg": 332
+      "avg": 388
     }
   },
   {
@@ -6811,17 +6811,17 @@
     "bye": 8,
     "vector": {
       "x": 0,
-      "y": 1.29,
-      "magnitude": 1.29,
+      "y": 0.52,
+      "magnitude": 0.52,
       "angle": 90
     },
-    "consensusStrength": 1,
-    "variance": 0,
+    "consensusStrength": 0.5,
+    "variance": 19.8,
     "rankings": {
-      "ff": null,
+      "ff": 231,
       "espn": 273,
       "fp": 273,
-      "avg": 273
+      "avg": 259
     }
   },
   {
@@ -6836,17 +6836,17 @@
     "bye": 7,
     "vector": {
       "x": -0.36,
-      "y": 1.65,
-      "magnitude": 1.69,
-      "angle": 102
+      "y": 0.46,
+      "magnitude": 0.59,
+      "angle": 128
     },
     "consensusStrength": 0.25,
-    "variance": 76.5,
+    "variance": 62.5,
     "rankings": {
-      "ff": null,
+      "ff": 357,
       "espn": 274,
       "fp": 427,
-      "avg": 351
+      "avg": 353
     }
   },
   {
@@ -6861,17 +6861,17 @@
     "bye": 11,
     "vector": {
       "x": -0.14,
-      "y": 1.44,
-      "magnitude": 1.44,
-      "angle": 96
+      "y": 0.27,
+      "magnitude": 0.31,
+      "angle": 117
     },
-    "consensusStrength": 0.5,
-    "variance": 29.5,
+    "consensusStrength": 0.25,
+    "variance": 31.6,
     "rankings": {
-      "ff": null,
+      "ff": 348,
       "espn": 275,
       "fp": 334,
-      "avg": 305
+      "avg": 319
     }
   },
   {
@@ -6886,17 +6886,17 @@
     "bye": 13,
     "vector": {
       "x": 0.04,
-      "y": 1.26,
-      "magnitude": 1.26,
-      "angle": 88
+      "y": 0.29,
+      "magnitude": 0.29,
+      "angle": 81
     },
     "consensusStrength": 0.75,
-    "variance": 9.5,
+    "variance": 13.9,
     "rankings": {
-      "ff": null,
+      "ff": 291,
       "espn": 276,
       "fp": 257,
-      "avg": 267
+      "avg": 275
     }
   },
   {
@@ -6911,17 +6911,17 @@
     "bye": 13,
     "vector": {
       "x": 0.01,
-      "y": 1.3,
-      "magnitude": 1.3,
-      "angle": 90
+      "y": -0.24,
+      "magnitude": 0.24,
+      "angle": -88
     },
-    "consensusStrength": 1,
-    "variance": 1.6,
+    "consensusStrength": 0.25,
+    "variance": 87,
     "rankings": {
-      "ff": null,
+      "ff": 460,
       "espn": 277,
       "fp": 274,
-      "avg": 276
+      "avg": 337
     }
   },
   {
@@ -6936,17 +6936,17 @@
     "bye": 14,
     "vector": {
       "x": 0.02,
-      "y": 1.29,
-      "magnitude": 1.29,
-      "angle": 89
+      "y": -0.06,
+      "magnitude": 0.06,
+      "angle": -74
     },
-    "consensusStrength": 1,
-    "variance": 3.5,
+    "consensusStrength": 0.25,
+    "variance": 61.6,
     "rankings": {
-      "ff": null,
+      "ff": 405,
       "espn": 278,
       "fp": 271,
-      "avg": 275
+      "avg": 318
     }
   },
   {
@@ -6961,17 +6961,17 @@
     "bye": 5,
     "vector": {
       "x": -0.07,
-      "y": 1.39,
-      "magnitude": 1.39,
-      "angle": 93
+      "y": -0.21,
+      "magnitude": 0.22,
+      "angle": -109
     },
-    "consensusStrength": 0.5,
-    "variance": 15.5,
+    "consensusStrength": 0.25,
+    "variance": 87.9,
     "rankings": {
-      "ff": null,
+      "ff": 479,
       "espn": 279,
       "fp": 310,
-      "avg": 295
+      "avg": 356
     }
   },
   {
@@ -6986,17 +6986,17 @@
     "bye": 11,
     "vector": {
       "x": 0.26,
-      "y": 1.06,
-      "magnitude": 1.09,
-      "angle": 76
+      "y": 0.39,
+      "magnitude": 0.47,
+      "angle": 56
     },
     "consensusStrength": 0.25,
-    "variance": 55,
+    "variance": 46.3,
     "rankings": {
-      "ff": null,
+      "ff": 201,
       "espn": 280,
       "fp": 170,
-      "avg": 225
+      "avg": 217
     }
   },
   {
@@ -7011,17 +7011,17 @@
     "bye": 10,
     "vector": {
       "x": -0.12,
-      "y": 1.44,
-      "magnitude": 1.45,
-      "angle": 95
+      "y": -0.19,
+      "magnitude": 0.22,
+      "angle": -122
     },
-    "consensusStrength": 0.5,
-    "variance": 25,
+    "consensusStrength": 0.25,
+    "variance": 88.2,
     "rankings": {
-      "ff": null,
+      "ff": 488,
       "espn": 281,
       "fp": 331,
-      "avg": 306
+      "avg": 367
     }
   },
   {
@@ -7036,17 +7036,17 @@
     "bye": 10,
     "vector": {
       "x": -0.37,
-      "y": 1.7,
-      "magnitude": 1.74,
-      "angle": 102
+      "y": 0.17,
+      "magnitude": 0.41,
+      "angle": 156
     },
     "consensusStrength": 0.25,
-    "variance": 78.5,
+    "variance": 79.4,
     "rankings": {
-      "ff": null,
+      "ff": 460,
       "espn": 282,
       "fp": 439,
-      "avg": 361
+      "avg": 394
     }
   },
   {
@@ -7061,17 +7061,17 @@
     "bye": 8,
     "vector": {
       "x": -0.04,
-      "y": 1.37,
-      "magnitude": 1.37,
-      "angle": 91
+      "y": 0.78,
+      "magnitude": 0.78,
+      "angle": 93
     },
-    "consensusStrength": 0.75,
-    "variance": 7.5,
+    "consensusStrength": 0.25,
+    "variance": 53.4,
     "rankings": {
-      "ff": null,
+      "ff": 178,
       "espn": 283,
       "fp": 298,
-      "avg": 291
+      "avg": 253
     }
   },
   {
@@ -7086,17 +7086,17 @@
     "bye": 6,
     "vector": {
       "x": -0.09,
-      "y": 1.42,
-      "magnitude": 1.43,
-      "angle": 93
+      "y": 0.58,
+      "magnitude": 0.58,
+      "angle": 98
     },
     "consensusStrength": 0.5,
-    "variance": 18,
+    "variance": 27,
     "rankings": {
-      "ff": null,
+      "ff": 254,
       "espn": 284,
       "fp": 320,
-      "avg": 302
+      "avg": 286
     }
   },
   {
@@ -7186,17 +7186,17 @@
     "bye": 10,
     "vector": {
       "x": -0.21,
-      "y": 1.56,
-      "magnitude": 1.58,
-      "angle": 97
+      "y": 1.06,
+      "magnitude": 1.08,
+      "angle": 101
     },
     "consensusStrength": 0.25,
-    "variance": 43.5,
+    "variance": 92.2,
     "rankings": {
-      "ff": null,
+      "ff": 151,
       "espn": 288,
       "fp": 375,
-      "avg": 332
+      "avg": 271
     }
   },
   {
@@ -7211,17 +7211,17 @@
     "bye": 6,
     "vector": {
       "x": -0.04,
-      "y": 1.4,
-      "magnitude": 1.4,
-      "angle": 92
+      "y": 0.37,
+      "magnitude": 0.37,
+      "angle": 96
     },
     "consensusStrength": 0.75,
-    "variance": 8.5,
+    "variance": 9.4,
     "rankings": {
-      "ff": null,
+      "ff": 311,
       "espn": 289,
       "fp": 306,
-      "avg": 298
+      "avg": 302
     }
   },
   {
@@ -7236,17 +7236,17 @@
     "bye": 10,
     "vector": {
       "x": 0.12,
-      "y": 1.24,
-      "magnitude": 1.25,
-      "angle": 84
+      "y": 0.46,
+      "magnitude": 0.48,
+      "angle": 75
     },
     "consensusStrength": 0.5,
-    "variance": 26,
+    "variance": 25.3,
     "rankings": {
-      "ff": null,
+      "ff": 235,
       "espn": 290,
       "fp": 238,
-      "avg": 264
+      "avg": 254
     }
   },
   {
@@ -7261,17 +7261,17 @@
     "bye": 10,
     "vector": {
       "x": 0.08,
-      "y": 1.29,
-      "magnitude": 1.3,
-      "angle": 87
+      "y": 0.4,
+      "magnitude": 0.41,
+      "angle": 79
     },
-    "consensusStrength": 0.5,
-    "variance": 16.5,
+    "consensusStrength": 0.75,
+    "variance": 13.8,
     "rankings": {
-      "ff": null,
+      "ff": 268,
       "espn": 291,
       "fp": 258,
-      "avg": 275
+      "avg": 272
     }
   },
   {
@@ -7286,14 +7286,14 @@
     "bye": 7,
     "vector": {
       "x": 0.16,
-      "y": 1.22,
-      "magnitude": 1.23,
-      "angle": 83
+      "y": 0.36,
+      "magnitude": 0.39,
+      "angle": 66
     },
-    "consensusStrength": 0.25,
-    "variance": 33,
+    "consensusStrength": 0.5,
+    "variance": 26.9,
     "rankings": {
-      "ff": null,
+      "ff": 259,
       "espn": 292,
       "fp": 226,
       "avg": 259
@@ -7311,17 +7311,17 @@
     "bye": 13,
     "vector": {
       "x": -0.15,
-      "y": 1.53,
-      "magnitude": 1.54,
-      "angle": 96
+      "y": 0.46,
+      "magnitude": 0.48,
+      "angle": 109
     },
-    "consensusStrength": 0.25,
-    "variance": 32.5,
+    "consensusStrength": 0.5,
+    "variance": 26.6,
     "rankings": {
-      "ff": null,
+      "ff": 323,
       "espn": 293,
       "fp": 358,
-      "avg": 326
+      "avg": 325
     }
   },
   {
@@ -7336,17 +7336,17 @@
     "bye": 5,
     "vector": {
       "x": 0,
-      "y": 1.38,
-      "magnitude": 1.38,
+      "y": 0.6,
+      "magnitude": 0.6,
       "angle": 90
     },
-    "consensusStrength": 1,
-    "variance": 1,
+    "consensusStrength": 0.5,
+    "variance": 27.8,
     "rankings": {
-      "ff": null,
+      "ff": 234,
       "espn": 294,
       "fp": 292,
-      "avg": 293
+      "avg": 273
     }
   },
   {
@@ -7361,17 +7361,17 @@
     "bye": 7,
     "vector": {
       "x": 0.7,
-      "y": 0.7,
-      "magnitude": 0.98,
-      "angle": 45
+      "y": -0.34,
+      "magnitude": 0.77,
+      "angle": -26
     },
-    "consensusStrength": 0,
-    "variance": 0,
+    "consensusStrength": 0.75,
+    "variance": 8,
     "rankings": {
-      "ff": null,
+      "ff": 311,
       "espn": 295,
       "fp": null,
-      "avg": 295
+      "avg": 303
     }
   },
   {
@@ -7386,17 +7386,17 @@
     "bye": 11,
     "vector": {
       "x": 0.05,
-      "y": 1.35,
-      "magnitude": 1.35,
+      "y": 1.2,
+      "magnitude": 1.2,
       "angle": 88
     },
-    "consensusStrength": 0.75,
-    "variance": 10.5,
+    "consensusStrength": 0.25,
+    "variance": 113.7,
     "rankings": {
-      "ff": null,
+      "ff": 45,
       "espn": 296,
       "fp": 275,
-      "avg": 286
+      "avg": 205
     }
   },
   {

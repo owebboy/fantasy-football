@@ -6,14 +6,15 @@ import {
   currentPick,
   currentRound,
   findPlayer,
+  sortPlayers,
   togglePlayer,
 } from './lib/helpers';
 import RankingArrow from './lib/RankingArrow.svelte';
-import { stores } from './lib/stores';
+import { stores, type SortBy } from './lib/stores';
 import players, { type Player } from './players';
 
 // biome-ignore lint/correctness/noUnusedVariables: used in template {#await ready}
-let { keepers, currentTab, draft, ready } = stores;
+let { keepers, currentTab, draft, sortBy, ready } = stores;
 
 const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[]) => {
   if (!isDraft) {
@@ -27,8 +28,11 @@ const playersList = (isDraft: boolean, drafted: Player[], keepers: Player[]) => 
 };
 
 const currentPlayerSet = derived(
-  [keepers, currentTab, draft],
-  () => chunkedPlayers(playersList($currentTab === 'draft', $draft, $keepers)),
+  [keepers, currentTab, draft, sortBy],
+  () =>
+    chunkedPlayers(
+      sortPlayers(playersList($currentTab === 'draft', $draft, $keepers), $sortBy),
+    ),
   [],
 );
 
@@ -70,6 +74,15 @@ const clearDraft = () => {
           {tab}
         </button>
       {/each}
+    </div>
+    <div class="sort-control">
+      <label for="sort-by">Sort:</label>
+      <select id="sort-by" bind:value={$sortBy}>
+        <option value="espn">ESPN</option>
+        <option value="ff">Fleaflicker</option>
+        <option value="fp">FantasyPros</option>
+        <option value="avg">Consensus</option>
+      </select>
     </div>
     <div class="header-right">
       <button class="legend-toggle" title="Arrows show ranking disagreement between sources. Longer arrow = more variance." aria-label="Legend: arrows show ranking disagreement">?</button>
@@ -216,6 +229,31 @@ const clearDraft = () => {
   [role="tablist"] button.selected {
     color: #fff;
     box-shadow: inset 0 -2px 0 #fff;
+  }
+
+  .sort-control {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .sort-control label {
+    font-size: 0.68rem;
+    color: #888;
+  }
+
+  .sort-control select {
+    background: #2a2a2a;
+    color: #ccc;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.68rem;
+    cursor: pointer;
+  }
+
+  .sort-control select:focus-visible {
+    outline: 1px solid #888;
   }
 
   .header-right {

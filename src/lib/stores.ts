@@ -1,10 +1,13 @@
 import { type Writable, writable } from 'svelte/store';
 import type { Player } from '../players';
 
+export type SortBy = 'espn' | 'ff' | 'fp' | 'avg';
+
 interface PersistedStores {
   keepers: Writable<Player[]>;
   draft: Writable<Player[]>;
   currentTab: Writable<string>;
+  sortBy: Writable<SortBy>;
   ready: Promise<void>;
 }
 
@@ -52,10 +55,13 @@ function createPersistedStores(): PersistedStores {
     'currentTab',
     'all players',
   );
+  const { store: sortBy, ready: sortByReady } = createStore<SortBy>('sortBy', 'espn');
 
-  const ready = Promise.all([keepersReady, draftReady, currentTabReady]).then(() => {});
+  const ready = Promise.all([keepersReady, draftReady, currentTabReady, sortByReady]).then(
+    () => {},
+  );
 
-  return { keepers, draft, currentTab, ready };
+  return { keepers, draft, currentTab, sortBy, ready };
 }
 
 export const stores = createPersistedStores();

@@ -53,3 +53,21 @@ export const togglePlayer = (player: Player, arr: Player[]) => {
 
   return [...arr, player];
 };
+
+/** Sort players by a ranking source. Nulls sort to the end. */
+export const sortPlayers = (
+  players: Player[],
+  sortBy: 'espn' | 'ff' | 'fp' | 'avg',
+): Player[] => {
+  return [...players].sort((a, b) => {
+    const aRank: number | null =
+      sortBy === 'avg' ? a.rankings?.avg ?? null : a.rankings?.[sortBy] ?? null;
+    const bRank: number | null =
+      sortBy === 'avg' ? b.rankings?.avg ?? null : b.rankings?.[sortBy] ?? null;
+    // nulls last
+    if (aRank === null && bRank === null) return 0;
+    if (aRank === null) return 1;
+    if (bRank === null) return -1;
+    return aRank - bRank;
+  });
+};
