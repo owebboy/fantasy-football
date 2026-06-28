@@ -49,9 +49,11 @@ function calculatePrice(rank) {
   return 0;
 }
 
-/** Compute average of available ranks; falls back to 300 if no sources. */
+/** Compute average across all available source ranks. */
 function averageRank(entry) {
-  const ranks = [entry.fleaflickerRank, entry.fantasyprosRank].filter((r) => r != null);
+  const ranks = [entry.espnRank, entry.fleaflickerRank, entry.fantasyprosRank].filter(
+    (r) => r != null,
+  );
   if (ranks.length === 0) return 300;
   return Math.round(ranks.reduce((a, b) => a + b, 0) / ranks.length);
 }
@@ -59,21 +61,12 @@ function averageRank(entry) {
 // Read and parse the merged data
 const mergedData = JSON.parse(fs.readFileSync('merged-all.json', 'utf8'));
 
-// Filter for entries with at least one ranking and basic player info
+// Filter for entries with ESPN rankings (ESPN is the canonical primary source)
 const qualityEntries = mergedData
   .filter((entry) => {
-    return (
-      (entry.fleaflickerRank || entry.fantasyprosRank) &&
-      entry.name &&
-      entry.team &&
-      entry.position
-    );
+    return entry.espnRank && entry.name && entry.team && entry.position;
   })
-  .sort((a, b) => {
-    const aRank = a.fantasyprosRank ?? a.fleaflickerRank ?? 999;
-    const bRank = b.fantasyprosRank ?? b.fleaflickerRank ?? 999;
-    return aRank - bRank;
-  });
+  .sort((a, b) => a.espnRank - b.espnRank);
 
 // Map position strings to valid positions
 const positionMap = {
@@ -122,6 +115,7 @@ topPlayers.forEach((entry) => {
     bye: byeWeeks[entry.team] || 0,
     rankings: {
       ff: entry.fleaflickerRank || null,
+      espn: entry.espnRank || null,
       fp: entry.fantasyprosRank || null,
       avg: averageRank(entry),
     },

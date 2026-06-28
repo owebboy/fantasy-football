@@ -5,6 +5,7 @@ export interface PlayerPosition {
 
 export interface PlayerRankings {
   ff: number | null;
+  espn: number | null;
   fp: number | null;
   avg: number;
 }

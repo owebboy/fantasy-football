@@ -5,6 +5,7 @@ async function main() {
 
   // Run sources independently — each writes its own cache on success
   const sources = [
+    { name: 'espn', module: './scrapers/espn' },
     { name: 'fleaflicker', module: './scrapers/fleaflicker' },
     { name: 'fantasypros', module: './scrapers/fantasypros' },
   ];

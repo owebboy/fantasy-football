@@ -77,6 +77,7 @@ const clearDraft = () => {
     <div class="sort-control">
       <label for="sort-by">Sort:</label>
       <select id="sort-by" bind:value={$sortBy}>
+        <option value="espn">ESPN</option>
         <option value="fp">FantasyPros</option>
         <option value="ff">Fleaflicker</option>
         <option value="avg">Consensus</option>

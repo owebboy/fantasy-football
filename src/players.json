@@ -1,18 +1,19 @@
 [
   {
     "rank": 1,
-    "name": "Ja'Marr Chase",
-    "team": "CIN",
+    "name": "Jahmyr Gibbs",
+    "team": "DET",
     "position": {
-      "position": "WR",
+      "position": "RB",
       "rank": 1
     },
     "price": 58,
     "bye": 6,
     "rankings": {
-      "ff": 44,
-      "fp": 1,
-      "avg": 23
+      "ff": 16,
+      "espn": 1,
+      "fp": 5,
+      "avg": 7
     }
   },
   {
@@ -21,14 +22,15 @@
     "team": "ATL",
     "position": {
       "position": "RB",
-      "rank": 1
+      "rank": 2
     },
     "price": 56,
     "bye": 11,
     "rankings": {
       "ff": 14,
+      "espn": 2,
       "fp": 2,
-      "avg": 8
+      "avg": 6
     }
   },
   {
@@ -37,82 +39,104 @@
     "team": "LAR",
     "position": {
       "position": "WR",
-      "rank": 2
+      "rank": 1
     },
     "price": 54,
     "bye": 11,
     "rankings": {
       "ff": 28,
+      "espn": 3,
       "fp": 3,
-      "avg": 16
+      "avg": 11
     }
   },
   {
     "rank": 4,
+    "name": "Ja'Marr Chase",
+    "team": "CIN",
+    "position": {
+      "position": "WR",
+      "rank": 2
+    },
+    "price": 52,
+    "bye": 6,
+    "rankings": {
+      "ff": 44,
+      "espn": 4,
+      "fp": 1,
+      "avg": 16
+    }
+  },
+  {
+    "rank": 5,
     "name": "Jaxon Smith-Njigba",
     "team": "SEA",
     "position": {
       "position": "WR",
       "rank": 3
     },
-    "price": 52,
+    "price": 50,
     "bye": 11,
     "rankings": {
       "ff": 26,
+      "espn": 5,
       "fp": 4,
-      "avg": 15
-    }
-  },
-  {
-    "rank": 5,
-    "name": "Jahmyr Gibbs",
-    "team": "DET",
-    "position": {
-      "position": "RB",
-      "rank": 2
-    },
-    "price": 50,
-    "bye": 6,
-    "rankings": {
-      "ff": 16,
-      "fp": 5,
-      "avg": 11
+      "avg": 12
     }
   },
   {
     "rank": 6,
-    "name": "Amon-Ra St. Brown",
-    "team": "DET",
-    "position": {
-      "position": "WR",
-      "rank": 4
-    },
-    "price": 48,
-    "bye": 6,
-    "rankings": {
-      "ff": 38,
-      "fp": 6,
-      "avg": 22
-    }
-  },
-  {
-    "rank": 7,
     "name": "Christian McCaffrey",
     "team": "SF",
     "position": {
       "position": "RB",
       "rank": 3
     },
-    "price": 46,
+    "price": 48,
     "bye": 8,
     "rankings": {
       "ff": 12,
+      "espn": 6,
       "fp": 7,
-      "avg": 10
+      "avg": 8
+    }
+  },
+  {
+    "rank": 7,
+    "name": "Jonathan Taylor",
+    "team": "IND",
+    "position": {
+      "position": "RB",
+      "rank": 4
+    },
+    "price": 46,
+    "bye": 13,
+    "rankings": {
+      "ff": 11,
+      "espn": 7,
+      "fp": 10,
+      "avg": 9
     }
   },
   {
     "rank": 8,
+    "name": "Amon-Ra St. Brown",
+    "team": "DET",
+    "position": {
+      "position": "WR",
+      "rank": 4
+    },
+    "price": 45,
+    "bye": 6,
+    "rankings": {
+      "ff": 38,
+      "espn": 8,
+      "fp": 6,
+      "avg": 17
+    }
+  },
+  {
+    "rank": 9,
     "name": "CeeDee Lamb",
     "team": "DAL",
     "position": {
@@ -123,700 +147,693 @@
     "bye": 14,
     "rankings": {
       "ff": 89,
+      "espn": 9,
       "fp": 8,
-      "avg": 49
+      "avg": 35
     }
   },
   {
-    "rank": 9,
+    "rank": 10,
+    "name": "Derrick Henry",
+    "team": "BAL",
+    "position": {
+      "position": "RB",
+      "rank": 5
+    },
+    "price": 45,
+    "bye": 13,
+    "rankings": {
+      "ff": 19,
+      "espn": 10,
+      "fp": 39,
+      "avg": 23
+    }
+  },
+  {
+    "rank": 11,
     "name": "Justin Jefferson",
     "team": "MIN",
     "position": {
       "position": "WR",
       "rank": 6
     },
-    "price": 45,
+    "price": 48,
     "bye": 6,
     "rankings": {
       "ff": 117,
+      "espn": 11,
       "fp": 9,
-      "avg": 63
+      "avg": 46
     }
   },
   {
-    "rank": 10,
-    "name": "Jonathan Taylor",
-    "team": "IND",
+    "rank": 12,
+    "name": "James Cook III",
+    "team": "BUF",
     "position": {
       "position": "RB",
-      "rank": 4
+      "rank": 6
     },
-    "price": 45,
-    "bye": 13,
+    "price": 46,
+    "bye": 7,
     "rankings": {
-      "ff": 11,
-      "fp": 10,
-      "avg": 11
+      "ff": 18,
+      "espn": 12,
+      "fp": 19,
+      "avg": 16
     }
   },
   {
-    "rank": 11,
+    "rank": 13,
     "name": "Drake London",
     "team": "ATL",
     "position": {
       "position": "WR",
       "rank": 7
     },
-    "price": 48,
+    "price": 44,
     "bye": 11,
     "rankings": {
       "ff": 84,
+      "espn": 13,
       "fp": 11,
-      "avg": 48
-    }
-  },
-  {
-    "rank": 12,
-    "name": "Nico Collins",
-    "team": "HOU",
-    "position": {
-      "position": "WR",
-      "rank": 8
-    },
-    "price": 46,
-    "bye": 8,
-    "rankings": {
-      "ff": 57,
-      "fp": 12,
-      "avg": 35
-    }
-  },
-  {
-    "rank": 13,
-    "name": "De'Von Achane",
-    "team": "MIA",
-    "position": {
-      "position": "RB",
-      "rank": 5
-    },
-    "price": 44,
-    "bye": 6,
-    "rankings": {
-      "ff": 22,
-      "fp": 13,
-      "avg": 18
+      "avg": 36
     }
   },
   {
     "rank": 14,
-    "name": "Ashton Jeanty",
-    "team": "LV",
+    "name": "Rashee Rice",
+    "team": "KC",
     "position": {
-      "position": "RB",
-      "rank": 6
+      "position": "WR",
+      "rank": 8
     },
     "price": 42,
-    "bye": 13,
+    "bye": 5,
     "rankings": {
-      "ff": 41,
-      "fp": 14,
-      "avg": 28
+      "ff": 152,
+      "espn": 14,
+      "fp": 22,
+      "avg": 63
     }
   },
   {
     "rank": 15,
-    "name": "A.J. Brown",
-    "team": "NE",
+    "name": "De'Von Achane",
+    "team": "MIA",
     "position": {
-      "position": "WR",
-      "rank": 9
+      "position": "RB",
+      "rank": 7
     },
     "price": 40,
-    "bye": 11,
+    "bye": 6,
     "rankings": {
-      "ff": 74,
-      "fp": 15,
-      "avg": 45
+      "ff": 22,
+      "espn": 15,
+      "fp": 13,
+      "avg": 17
     }
   },
   {
     "rank": 16,
-    "name": "George Pickens",
-    "team": "DAL",
-    "position": {
-      "position": "WR",
-      "rank": 10
-    },
-    "price": 38,
-    "bye": 14,
-    "rankings": {
-      "ff": 42,
-      "fp": 16,
-      "avg": 29
-    }
-  },
-  {
-    "rank": 17,
     "name": "Trey McBride",
     "team": "ARI",
     "position": {
       "position": "TE",
       "rank": 1
     },
-    "price": 36,
+    "price": 38,
     "bye": 14,
     "rankings": {
       "ff": 46,
+      "espn": 16,
       "fp": 17,
-      "avg": 32
+      "avg": 26
     }
   },
   {
-    "rank": 18,
-    "name": "Chris Olave",
-    "team": "NO",
-    "position": {
-      "position": "WR",
-      "rank": 11
-    },
-    "price": 34,
-    "bye": 8,
-    "rankings": {
-      "ff": 52,
-      "fp": 18,
-      "avg": 35
-    }
-  },
-  {
-    "rank": 19,
-    "name": "James Cook",
-    "team": "BUF",
-    "position": {
-      "position": "RB",
-      "rank": 7
-    },
-    "price": 32,
-    "bye": 7,
-    "rankings": {
-      "ff": 18,
-      "fp": 19,
-      "avg": 19
-    }
-  },
-  {
-    "rank": 20,
-    "name": "Chase Brown",
-    "team": "CIN",
+    "rank": 17,
+    "name": "Jeremiyah Love",
+    "team": "ARI",
     "position": {
       "position": "RB",
       "rank": 8
     },
-    "price": 30,
-    "bye": 6,
+    "price": 36,
+    "bye": 14,
     "rankings": {
-      "ff": 35,
-      "fp": 20,
-      "avg": 28
+      "ff": null,
+      "espn": 17,
+      "fp": 35,
+      "avg": 26
+    }
+  },
+  {
+    "rank": 18,
+    "name": "Ashton Jeanty",
+    "team": "LV",
+    "position": {
+      "position": "RB",
+      "rank": 9
+    },
+    "price": 34,
+    "bye": 13,
+    "rankings": {
+      "ff": 41,
+      "espn": 18,
+      "fp": 14,
+      "avg": 24
+    }
+  },
+  {
+    "rank": 19,
+    "name": "Omarion Hampton",
+    "team": "LAC",
+    "position": {
+      "position": "RB",
+      "rank": 10
+    },
+    "price": 32,
+    "bye": 7,
+    "rankings": {
+      "ff": 140,
+      "espn": 19,
+      "fp": 24,
+      "avg": 61
+    }
+  },
+  {
+    "rank": 20,
+    "name": "Saquon Barkley",
+    "team": "PHI",
+    "position": {
+      "position": "RB",
+      "rank": 11
+    },
+    "price": 30,
+    "bye": 10,
+    "rankings": {
+      "ff": 40,
+      "espn": 20,
+      "fp": 27,
+      "avg": 29
     }
   },
   {
     "rank": 21,
+    "name": "Josh Jacobs",
+    "team": "GB",
+    "position": {
+      "position": "RB",
+      "rank": 12
+    },
+    "price": 33,
+    "bye": 11,
+    "rankings": {
+      "ff": 39,
+      "espn": 21,
+      "fp": 45,
+      "avg": 35
+    }
+  },
+  {
+    "rank": 22,
+    "name": "Breece Hall",
+    "team": "NYJ",
+    "position": {
+      "position": "RB",
+      "rank": 13
+    },
+    "price": 31,
+    "bye": 13,
+    "rankings": {
+      "ff": 52,
+      "espn": 22,
+      "fp": 40,
+      "avg": 38
+    }
+  },
+  {
+    "rank": 23,
+    "name": "Kenneth Walker III",
+    "team": "KC",
+    "position": {
+      "position": "RB",
+      "rank": 14
+    },
+    "price": 29,
+    "bye": 5,
+    "rankings": {
+      "ff": 61,
+      "espn": 23,
+      "fp": 31,
+      "avg": 38
+    }
+  },
+  {
+    "rank": 24,
     "name": "Brock Bowers",
     "team": "LV",
     "position": {
       "position": "TE",
       "rank": 2
     },
-    "price": 33,
+    "price": 27,
     "bye": 13,
     "rankings": {
       "ff": 129,
+      "espn": 24,
       "fp": 21,
-      "avg": 75
+      "avg": 58
     }
   },
   {
-    "rank": 22,
-    "name": "Rashee Rice",
-    "team": "KC",
+    "rank": 25,
+    "name": "Nico Collins",
+    "team": "HOU",
+    "position": {
+      "position": "WR",
+      "rank": 9
+    },
+    "price": 25,
+    "bye": 8,
+    "rankings": {
+      "ff": 57,
+      "espn": 25,
+      "fp": 12,
+      "avg": 31
+    }
+  },
+  {
+    "rank": 26,
+    "name": "A.J. Brown",
+    "team": "NE",
+    "position": {
+      "position": "WR",
+      "rank": 10
+    },
+    "price": 23,
+    "bye": 11,
+    "rankings": {
+      "ff": 74,
+      "espn": 26,
+      "fp": 15,
+      "avg": 38
+    }
+  },
+  {
+    "rank": 27,
+    "name": "George Pickens",
+    "team": "DAL",
+    "position": {
+      "position": "WR",
+      "rank": 11
+    },
+    "price": 21,
+    "bye": 14,
+    "rankings": {
+      "ff": 42,
+      "espn": 27,
+      "fp": 16,
+      "avg": 28
+    }
+  },
+  {
+    "rank": 28,
+    "name": "Tetairoa McMillan",
+    "team": "CAR",
     "position": {
       "position": "WR",
       "rank": 12
     },
-    "price": 31,
+    "price": 20,
     "bye": 5,
     "rankings": {
-      "ff": 152,
-      "fp": 22,
-      "avg": 87
+      "ff": 74,
+      "espn": 28,
+      "fp": 26,
+      "avg": 43
     }
   },
   {
-    "rank": 23,
+    "rank": 29,
+    "name": "Chris Olave",
+    "team": "NO",
+    "position": {
+      "position": "WR",
+      "rank": 13
+    },
+    "price": 20,
+    "bye": 8,
+    "rankings": {
+      "ff": 52,
+      "espn": 29,
+      "fp": 18,
+      "avg": 33
+    }
+  },
+  {
+    "rank": 30,
+    "name": "Chase Brown",
+    "team": "CIN",
+    "position": {
+      "position": "RB",
+      "rank": 15
+    },
+    "price": 20,
+    "bye": 6,
+    "rankings": {
+      "ff": 35,
+      "espn": 30,
+      "fp": 20,
+      "avg": 28
+    }
+  },
+  {
+    "rank": 31,
+    "name": "Kyren Williams",
+    "team": "LAR",
+    "position": {
+      "position": "RB",
+      "rank": 16
+    },
+    "price": 25,
+    "bye": 11,
+    "rankings": {
+      "ff": 31,
+      "espn": 31,
+      "fp": 44,
+      "avg": 35
+    }
+  },
+  {
+    "rank": 32,
+    "name": "Garrett Wilson",
+    "team": "NYJ",
+    "position": {
+      "position": "WR",
+      "rank": 14
+    },
+    "price": 24,
+    "bye": 13,
+    "rankings": {
+      "ff": 219,
+      "espn": 32,
+      "fp": 29,
+      "avg": 93
+    }
+  },
+  {
+    "rank": 33,
+    "name": "Davante Adams",
+    "team": "LAR",
+    "position": {
+      "position": "WR",
+      "rank": 15
+    },
+    "price": 24,
+    "bye": 11,
+    "rankings": {
+      "ff": 56,
+      "espn": 33,
+      "fp": 49,
+      "avg": 46
+    }
+  },
+  {
+    "rank": 34,
+    "name": "Malik Nabers",
+    "team": "NYG",
+    "position": {
+      "position": "WR",
+      "rank": 16
+    },
+    "price": 23,
+    "bye": 8,
+    "rankings": {
+      "ff": 301,
+      "espn": 34,
+      "fp": 25,
+      "avg": 120
+    }
+  },
+  {
+    "rank": 35,
+    "name": "Zay Flowers",
+    "team": "BAL",
+    "position": {
+      "position": "WR",
+      "rank": 17
+    },
+    "price": 23,
+    "bye": 13,
+    "rankings": {
+      "ff": 55,
+      "espn": 35,
+      "fp": 37,
+      "avg": 42
+    }
+  },
+  {
+    "rank": 36,
     "name": "Josh Allen",
     "team": "BUF",
     "position": {
       "position": "QB",
       "rank": 1
     },
-    "price": 29,
+    "price": 22,
     "bye": 7,
     "rankings": {
       "ff": 1,
+      "espn": 36,
       "fp": 23,
-      "avg": 12
+      "avg": 20
     }
   },
   {
-    "rank": 24,
-    "name": "Omarion Hampton",
-    "team": "LAC",
+    "rank": 37,
+    "name": "Javonte Williams",
+    "team": "DAL",
     "position": {
       "position": "RB",
-      "rank": 9
+      "rank": 17
     },
-    "price": 27,
-    "bye": 7,
+    "price": 22,
+    "bye": 14,
     "rankings": {
-      "ff": 140,
-      "fp": 24,
-      "avg": 82
+      "ff": 37,
+      "espn": 37,
+      "fp": 48,
+      "avg": 41
     }
   },
   {
-    "rank": 25,
-    "name": "Malik Nabers",
-    "team": "NYG",
-    "position": {
-      "position": "WR",
-      "rank": 13
-    },
-    "price": 25,
-    "bye": 8,
-    "rankings": {
-      "ff": 301,
-      "fp": 25,
-      "avg": 163
-    }
-  },
-  {
-    "rank": 26,
-    "name": "Tetairoa McMillan",
-    "team": "CAR",
-    "position": {
-      "position": "WR",
-      "rank": 14
-    },
-    "price": 23,
-    "bye": 5,
-    "rankings": {
-      "ff": 74,
-      "fp": 26,
-      "avg": 50
-    }
-  },
-  {
-    "rank": 27,
-    "name": "Saquon Barkley",
-    "team": "PHI",
+    "rank": 38,
+    "name": "Travis Etienne Jr.",
+    "team": "NO",
     "position": {
       "position": "RB",
-      "rank": 10
+      "rank": 18
     },
     "price": 21,
-    "bye": 10,
+    "bye": 8,
     "rankings": {
-      "ff": 40,
-      "fp": 27,
-      "avg": 34
+      "ff": 33,
+      "espn": 38,
+      "fp": 47,
+      "avg": 39
     }
   },
   {
-    "rank": 28,
+    "rank": 39,
+    "name": "Quinshon Judkins",
+    "team": "CLE",
+    "position": {
+      "position": "RB",
+      "rank": 19
+    },
+    "price": 21,
+    "bye": 11,
+    "rankings": {
+      "ff": 76,
+      "espn": 39,
+      "fp": 61,
+      "avg": 59
+    }
+  },
+  {
+    "rank": 40,
+    "name": "Cam Skattebo",
+    "team": "NYG",
+    "position": {
+      "position": "RB",
+      "rank": 20
+    },
+    "price": 20,
+    "bye": 8,
+    "rankings": {
+      "ff": 138,
+      "espn": 40,
+      "fp": 55,
+      "avg": 78
+    }
+  },
+  {
+    "rank": 41,
+    "name": "Bucky Irving",
+    "team": "TB",
+    "position": {
+      "position": "RB",
+      "rank": 21
+    },
+    "price": 20,
+    "bye": 10,
+    "rankings": {
+      "ff": 117,
+      "espn": 41,
+      "fp": 54,
+      "avg": 71
+    }
+  },
+  {
+    "rank": 42,
     "name": "DeVonta Smith",
     "team": "PHI",
     "position": {
       "position": "WR",
-      "rank": 15
+      "rank": 18
     },
-    "price": 20,
+    "price": 19,
     "bye": 10,
     "rankings": {
       "ff": 96,
+      "espn": 42,
       "fp": 28,
-      "avg": 62
+      "avg": 55
     }
   },
   {
-    "rank": 29,
-    "name": "Garrett Wilson",
-    "team": "NYJ",
+    "rank": 43,
+    "name": "Emeka Egbuka",
+    "team": "TB",
     "position": {
       "position": "WR",
-      "rank": 16
+      "rank": 19
     },
-    "price": 20,
-    "bye": 13,
+    "price": 19,
+    "bye": 10,
     "rankings": {
-      "ff": 219,
-      "fp": 29,
-      "avg": 124
+      "ff": 85,
+      "espn": 43,
+      "fp": 46,
+      "avg": 58
     }
   },
   {
-    "rank": 30,
-    "name": "Lamar Jackson",
-    "team": "BAL",
+    "rank": 44,
+    "name": "Jameson Williams",
+    "team": "DET",
     "position": {
-      "position": "QB",
-      "rank": 2
+      "position": "WR",
+      "rank": 20
     },
-    "price": 20,
-    "bye": 13,
+    "price": 18,
+    "bye": 6,
     "rankings": {
-      "ff": 29,
-      "fp": 30,
-      "avg": 30
+      "ff": 67,
+      "espn": 44,
+      "fp": 51,
+      "avg": 54
     }
   },
   {
-    "rank": 31,
-    "name": "Kenneth Walker",
-    "team": "KC",
-    "position": {
-      "position": "RB",
-      "rank": 11
-    },
-    "price": 25,
-    "bye": 5,
-    "rankings": {
-      "ff": 61,
-      "fp": 31,
-      "avg": 46
-    }
-  },
-  {
-    "rank": 32,
+    "rank": 45,
     "name": "Tee Higgins",
     "team": "CIN",
     "position": {
       "position": "WR",
-      "rank": 17
+      "rank": 21
     },
-    "price": 24,
+    "price": 18,
     "bye": 6,
     "rankings": {
       "ff": 66,
+      "espn": 45,
       "fp": 32,
-      "avg": 49
+      "avg": 48
     }
   },
   {
-    "rank": 33,
-    "name": "Drake Maye",
-    "team": "NE",
+    "rank": 46,
+    "name": "Rome Odunze",
+    "team": "CHI",
     "position": {
-      "position": "QB",
-      "rank": 3
+      "position": "WR",
+      "rank": 22
     },
-    "price": 24,
-    "bye": 11,
+    "price": 17,
+    "bye": 10,
     "rankings": {
-      "ff": 2,
-      "fp": 33,
-      "avg": 18
+      "ff": 148,
+      "espn": 46,
+      "fp": 60,
+      "avg": 85
     }
   },
   {
-    "rank": 34,
+    "rank": 47,
     "name": "Ladd McConkey",
     "team": "LAC",
     "position": {
       "position": "WR",
-      "rank": 18
+      "rank": 23
     },
-    "price": 23,
+    "price": 17,
     "bye": 7,
     "rankings": {
       "ff": 124,
+      "espn": 47,
       "fp": 34,
-      "avg": 79
+      "avg": 68
     }
   },
   {
-    "rank": 35,
-    "name": "Jeremiyah Love",
-    "team": "ARI",
+    "rank": 48,
+    "name": "Terry McLaurin",
+    "team": "WAS",
     "position": {
-      "position": "RB",
-      "rank": 12
+      "position": "WR",
+      "rank": 24
     },
-    "price": 23,
-    "bye": 14,
+    "price": 16,
+    "bye": 7,
     "rankings": {
-      "ff": null,
-      "fp": 35,
-      "avg": 35
+      "ff": 195,
+      "espn": 48,
+      "fp": 41,
+      "avg": 95
     }
   },
   {
-    "rank": 36,
+    "rank": 49,
     "name": "Colston Loveland",
     "team": "CHI",
     "position": {
       "position": "TE",
       "rank": 3
     },
-    "price": 22,
+    "price": 16,
     "bye": 10,
     "rankings": {
       "ff": 136,
+      "espn": 49,
       "fp": 36,
-      "avg": 86
-    }
-  },
-  {
-    "rank": 37,
-    "name": "Zay Flowers",
-    "team": "BAL",
-    "position": {
-      "position": "WR",
-      "rank": 19
-    },
-    "price": 22,
-    "bye": 13,
-    "rankings": {
-      "ff": 55,
-      "fp": 37,
-      "avg": 46
-    }
-  },
-  {
-    "rank": 38,
-    "name": "Jaylen Waddle",
-    "team": "DEN",
-    "position": {
-      "position": "WR",
-      "rank": 20
-    },
-    "price": 21,
-    "bye": 10,
-    "rankings": {
-      "ff": 93,
-      "fp": 38,
-      "avg": 66
-    }
-  },
-  {
-    "rank": 39,
-    "name": "Derrick Henry",
-    "team": "BAL",
-    "position": {
-      "position": "RB",
-      "rank": 13
-    },
-    "price": 21,
-    "bye": 13,
-    "rankings": {
-      "ff": 19,
-      "fp": 39,
-      "avg": 29
-    }
-  },
-  {
-    "rank": 40,
-    "name": "Breece Hall",
-    "team": "NYJ",
-    "position": {
-      "position": "RB",
-      "rank": 14
-    },
-    "price": 20,
-    "bye": 13,
-    "rankings": {
-      "ff": 52,
-      "fp": 40,
-      "avg": 46
-    }
-  },
-  {
-    "rank": 41,
-    "name": "Terry McLaurin",
-    "team": "WAS",
-    "position": {
-      "position": "WR",
-      "rank": 21
-    },
-    "price": 20,
-    "bye": 7,
-    "rankings": {
-      "ff": 195,
-      "fp": 41,
-      "avg": 118
-    }
-  },
-  {
-    "rank": 42,
-    "name": "Luther Burden",
-    "team": "CHI",
-    "position": {
-      "position": "WR",
-      "rank": 22
-    },
-    "price": 19,
-    "bye": 10,
-    "rankings": {
-      "ff": 188,
-      "fp": 42,
-      "avg": 115
-    }
-  },
-  {
-    "rank": 43,
-    "name": "Joe Burrow",
-    "team": "CIN",
-    "position": {
-      "position": "QB",
-      "rank": 4
-    },
-    "price": 19,
-    "bye": 6,
-    "rankings": {
-      "ff": 69,
-      "fp": 43,
-      "avg": 56
-    }
-  },
-  {
-    "rank": 44,
-    "name": "Kyren Williams",
-    "team": "LAR",
-    "position": {
-      "position": "RB",
-      "rank": 15
-    },
-    "price": 18,
-    "bye": 11,
-    "rankings": {
-      "ff": 31,
-      "fp": 44,
-      "avg": 38
-    }
-  },
-  {
-    "rank": 45,
-    "name": "Josh Jacobs",
-    "team": "GB",
-    "position": {
-      "position": "RB",
-      "rank": 16
-    },
-    "price": 18,
-    "bye": 11,
-    "rankings": {
-      "ff": 39,
-      "fp": 45,
-      "avg": 42
-    }
-  },
-  {
-    "rank": 46,
-    "name": "Emeka Egbuka",
-    "team": "TB",
-    "position": {
-      "position": "WR",
-      "rank": 23
-    },
-    "price": 17,
-    "bye": 10,
-    "rankings": {
-      "ff": 85,
-      "fp": 46,
-      "avg": 66
-    }
-  },
-  {
-    "rank": 47,
-    "name": "Travis Etienne",
-    "team": "NO",
-    "position": {
-      "position": "RB",
-      "rank": 17
-    },
-    "price": 17,
-    "bye": 8,
-    "rankings": {
-      "ff": 33,
-      "fp": 47,
-      "avg": 40
-    }
-  },
-  {
-    "rank": 48,
-    "name": "Javonte Williams",
-    "team": "DAL",
-    "position": {
-      "position": "RB",
-      "rank": 18
-    },
-    "price": 16,
-    "bye": 14,
-    "rankings": {
-      "ff": 37,
-      "fp": 48,
-      "avg": 43
-    }
-  },
-  {
-    "rank": 49,
-    "name": "Davante Adams",
-    "team": "LAR",
-    "position": {
-      "position": "WR",
-      "rank": 24
-    },
-    "price": 16,
-    "bye": 11,
-    "rankings": {
-      "ff": 56,
-      "fp": 49,
-      "avg": 53
+      "avg": 74
     }
   },
   {
     "rank": 50,
-    "name": "Mike Evans",
-    "team": "SF",
-    "position": {
-      "position": "WR",
-      "rank": 25
-    },
-    "price": 15,
-    "bye": 8,
-    "rankings": {
-      "ff": 247,
-      "fp": 50,
-      "avg": 149
-    }
-  },
-  {
-    "rank": 51,
-    "name": "Jameson Williams",
-    "team": "DET",
-    "position": {
-      "position": "WR",
-      "rank": 26
-    },
-    "price": 15,
-    "bye": 6,
-    "rankings": {
-      "ff": 67,
-      "fp": 51,
-      "avg": 59
-    }
-  },
-  {
-    "rank": 52,
     "name": "Tyler Warren",
     "team": "IND",
     "position": {
@@ -827,152 +844,196 @@
     "bye": 13,
     "rankings": {
       "ff": 117,
+      "espn": 50,
       "fp": 52,
-      "avg": 85
+      "avg": 73
+    }
+  },
+  {
+    "rank": 51,
+    "name": "Jaylen Waddle",
+    "team": "DEN",
+    "position": {
+      "position": "WR",
+      "rank": 25
+    },
+    "price": 15,
+    "bye": 10,
+    "rankings": {
+      "ff": 93,
+      "espn": 51,
+      "fp": 38,
+      "avg": 61
+    }
+  },
+  {
+    "rank": 52,
+    "name": "DJ Moore",
+    "team": "BUF",
+    "position": {
+      "position": "WR",
+      "rank": 26
+    },
+    "price": 15,
+    "bye": 7,
+    "rankings": {
+      "ff": 112,
+      "espn": 52,
+      "fp": 53,
+      "avg": 72
     }
   },
   {
     "rank": 53,
-    "name": "DJ Moore",
-    "team": "BUF",
+    "name": "Carnell Tate",
+    "team": "TEN",
     "position": {
       "position": "WR",
       "rank": 27
     },
     "price": 14,
-    "bye": 7,
+    "bye": 9,
     "rankings": {
-      "ff": 112,
-      "fp": 53,
-      "avg": 83
+      "ff": null,
+      "espn": 53,
+      "fp": 63,
+      "avg": 58
     }
   },
   {
     "rank": 54,
-    "name": "Bucky Irving",
-    "team": "TB",
+    "name": "Luther Burden III",
+    "team": "CHI",
     "position": {
-      "position": "RB",
-      "rank": 19
+      "position": "WR",
+      "rank": 28
     },
     "price": 14,
     "bye": 10,
     "rankings": {
-      "ff": 117,
-      "fp": 54,
-      "avg": 86
+      "ff": 188,
+      "espn": 54,
+      "fp": 42,
+      "avg": 95
     }
   },
   {
     "rank": 55,
-    "name": "Cam Skattebo",
-    "team": "NYG",
+    "name": "Jayden Daniels",
+    "team": "WAS",
     "position": {
-      "position": "RB",
-      "rank": 20
+      "position": "QB",
+      "rank": 2
     },
     "price": 14,
-    "bye": 8,
+    "bye": 7,
     "rankings": {
-      "ff": 138,
-      "fp": 55,
-      "avg": 97
+      "ff": 95,
+      "espn": 55,
+      "fp": 56,
+      "avg": 69
     }
   },
   {
     "rank": 56,
-    "name": "Jayden Daniels",
-    "team": "WAS",
+    "name": "Lamar Jackson",
+    "team": "BAL",
+    "position": {
+      "position": "QB",
+      "rank": 3
+    },
+    "price": 13,
+    "bye": 13,
+    "rankings": {
+      "ff": 29,
+      "espn": 56,
+      "fp": 30,
+      "avg": 38
+    }
+  },
+  {
+    "rank": 57,
+    "name": "Drake Maye",
+    "team": "NE",
+    "position": {
+      "position": "QB",
+      "rank": 4
+    },
+    "price": 13,
+    "bye": 11,
+    "rankings": {
+      "ff": 2,
+      "espn": 57,
+      "fp": 33,
+      "avg": 31
+    }
+  },
+  {
+    "rank": 58,
+    "name": "Jalen Hurts",
+    "team": "PHI",
     "position": {
       "position": "QB",
       "rank": 5
     },
     "price": 13,
-    "bye": 7,
-    "rankings": {
-      "ff": 95,
-      "fp": 56,
-      "avg": 76
-    }
-  },
-  {
-    "rank": 57,
-    "name": "Jalen Hurts",
-    "team": "PHI",
-    "position": {
-      "position": "QB",
-      "rank": 6
-    },
-    "price": 13,
     "bye": 10,
     "rankings": {
       "ff": 8,
+      "espn": 58,
       "fp": 57,
-      "avg": 33
-    }
-  },
-  {
-    "rank": 58,
-    "name": "Christian Watson",
-    "team": "GB",
-    "position": {
-      "position": "WR",
-      "rank": 28
-    },
-    "price": 13,
-    "bye": 11,
-    "rankings": {
-      "ff": 154,
-      "fp": 58,
-      "avg": 106
+      "avg": 41
     }
   },
   {
     "rank": 59,
-    "name": "TreVeyon Henderson",
-    "team": "NE",
-    "position": {
-      "position": "RB",
-      "rank": 21
-    },
-    "price": 12,
-    "bye": 11,
-    "rankings": {
-      "ff": 48,
-      "fp": 59,
-      "avg": 54
-    }
-  },
-  {
-    "rank": 60,
-    "name": "Rome Odunze",
-    "team": "CHI",
-    "position": {
-      "position": "WR",
-      "rank": 29
-    },
-    "price": 12,
-    "bye": 10,
-    "rankings": {
-      "ff": 148,
-      "fp": 60,
-      "avg": 104
-    }
-  },
-  {
-    "rank": 61,
-    "name": "Quinshon Judkins",
-    "team": "CLE",
+    "name": "Bhayshul Tuten",
+    "team": "JAX",
     "position": {
       "position": "RB",
       "rank": 22
     },
     "price": 12,
+    "bye": 7,
+    "rankings": {
+      "ff": 197,
+      "espn": 59,
+      "fp": 74,
+      "avg": 110
+    }
+  },
+  {
+    "rank": 60,
+    "name": "TreVeyon Henderson",
+    "team": "NE",
+    "position": {
+      "position": "RB",
+      "rank": 23
+    },
+    "price": 12,
     "bye": 11,
     "rankings": {
-      "ff": 76,
-      "fp": 61,
-      "avg": 69
+      "ff": 48,
+      "espn": 60,
+      "fp": 59,
+      "avg": 56
+    }
+  },
+  {
+    "rank": 61,
+    "name": "Jadarian Price",
+    "team": "SEA",
+    "position": {
+      "position": "RB",
+      "rank": 24
+    },
+    "price": 12,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 61,
+      "fp": 81,
+      "avg": 71
     }
   },
   {
@@ -981,670 +1042,712 @@
     "team": "CHI",
     "position": {
       "position": "RB",
-      "rank": 23
+      "rank": 25
     },
     "price": 11,
     "bye": 10,
     "rankings": {
       "ff": 42,
+      "espn": 62,
       "fp": 62,
-      "avg": 52
+      "avg": 55
     }
   },
   {
     "rank": 63,
-    "name": "Carnell Tate",
+    "name": "Tony Pollard",
     "team": "TEN",
     "position": {
-      "position": "WR",
-      "rank": 30
+      "position": "RB",
+      "rank": 26
     },
     "price": 11,
     "bye": 9,
     "rankings": {
-      "ff": null,
-      "fp": 63,
-      "avg": 63
+      "ff": 61,
+      "espn": 63,
+      "fp": 87,
+      "avg": 70
     }
   },
   {
     "rank": 64,
-    "name": "Jaylen Warren",
-    "team": "PIT",
+    "name": "David Montgomery",
+    "team": "HOU",
     "position": {
       "position": "RB",
-      "rank": 24
+      "rank": 27
     },
     "price": 11,
-    "bye": 9,
+    "bye": 8,
     "rankings": {
-      "ff": 50,
-      "fp": 64,
-      "avg": 57
+      "ff": 80,
+      "espn": 64,
+      "fp": 68,
+      "avg": 71
     }
   },
   {
     "rank": 65,
-    "name": "Tucker Kraft",
-    "team": "GB",
-    "position": {
-      "position": "TE",
-      "rank": 5
-    },
-    "price": 10,
-    "bye": 11,
-    "rankings": {
-      "ff": 178,
-      "fp": 65,
-      "avg": 122
-    }
-  },
-  {
-    "rank": 66,
-    "name": "Marvin Harrison",
+    "name": "Marvin Harrison Jr.",
     "team": "ARI",
     "position": {
       "position": "WR",
-      "rank": 31
+      "rank": 29
     },
     "price": 10,
     "bye": 14,
     "rankings": {
       "ff": 178,
+      "espn": 65,
       "fp": 66,
-      "avg": 122
+      "avg": 103
     }
   },
   {
-    "rank": 67,
-    "name": "Caleb Williams",
-    "team": "CHI",
+    "rank": 66,
+    "name": "Courtland Sutton",
+    "team": "DEN",
     "position": {
-      "position": "QB",
-      "rank": 7
+      "position": "WR",
+      "rank": 30
     },
     "price": 10,
     "bye": 10,
     "rankings": {
-      "ff": 6,
-      "fp": 67,
-      "avg": 37
+      "ff": 73,
+      "espn": 66,
+      "fp": 71,
+      "avg": 70
     }
   },
   {
-    "rank": 68,
-    "name": "David Montgomery",
-    "team": "HOU",
+    "rank": 67,
+    "name": "Alec Pierce",
+    "team": "IND",
     "position": {
-      "position": "RB",
-      "rank": 25
+      "position": "WR",
+      "rank": 31
     },
-    "price": 9,
-    "bye": 8,
+    "price": 10,
+    "bye": 13,
     "rankings": {
-      "ff": 80,
-      "fp": 68,
+      "ff": 82,
+      "espn": 67,
+      "fp": 73,
       "avg": 74
     }
   },
   {
-    "rank": 69,
-    "name": "Justin Herbert",
-    "team": "LAC",
+    "rank": 68,
+    "name": "DK Metcalf",
+    "team": "PIT",
     "position": {
-      "position": "QB",
-      "rank": 8
+      "position": "WR",
+      "rank": 32
     },
     "price": 9,
-    "bye": 7,
+    "bye": 9,
     "rankings": {
-      "ff": 10,
-      "fp": 69,
-      "avg": 40
+      "ff": 87,
+      "espn": 68,
+      "fp": 72,
+      "avg": 76
+    }
+  },
+  {
+    "rank": 69,
+    "name": "Christian Watson",
+    "team": "GB",
+    "position": {
+      "position": "WR",
+      "rank": 33
+    },
+    "price": 9,
+    "bye": 11,
+    "rankings": {
+      "ff": 154,
+      "espn": 69,
+      "fp": 58,
+      "avg": 94
     }
   },
   {
     "rank": 70,
-    "name": "Harold Fannin",
+    "name": "Jordyn Tyson",
+    "team": "NO",
+    "position": {
+      "position": "WR",
+      "rank": 34
+    },
+    "price": 9,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 70,
+      "fp": 90,
+      "avg": 80
+    }
+  },
+  {
+    "rank": 71,
+    "name": "Kyle Pitts Sr.",
+    "team": "ATL",
+    "position": {
+      "position": "TE",
+      "rank": 5
+    },
+    "price": 8,
+    "bye": 11,
+    "rankings": {
+      "ff": 111,
+      "espn": 71,
+      "fp": 82,
+      "avg": 88
+    }
+  },
+  {
+    "rank": 72,
+    "name": "Harold Fannin Jr.",
     "team": "CLE",
     "position": {
       "position": "TE",
       "rank": 6
     },
-    "price": 9,
+    "price": 8,
     "bye": 11,
     "rankings": {
       "ff": 105,
+      "espn": 72,
       "fp": 70,
-      "avg": 88
-    }
-  },
-  {
-    "rank": 71,
-    "name": "Kenny Gainwell",
-    "team": "TB",
-    "position": {
-      "position": "RB",
-      "rank": 26
-    },
-    "price": 8,
-    "bye": 10,
-    "rankings": {
-      "ff": 71,
-      "fp": null,
-      "avg": 71
-    }
-  },
-  {
-    "rank": 72,
-    "name": "Courtland Sutton",
-    "team": "DEN",
-    "position": {
-      "position": "WR",
-      "rank": 32
-    },
-    "price": 8,
-    "bye": 10,
-    "rankings": {
-      "ff": 73,
-      "fp": 71,
-      "avg": 72
+      "avg": 82
     }
   },
   {
     "rank": 73,
-    "name": "DK Metcalf",
-    "team": "PIT",
+    "name": "Sam LaPorta",
+    "team": "DET",
     "position": {
-      "position": "WR",
-      "rank": 33
+      "position": "TE",
+      "rank": 7
     },
     "price": 8,
-    "bye": 9,
+    "bye": 6,
     "rankings": {
-      "ff": 87,
-      "fp": 72,
-      "avg": 80
+      "ff": 219,
+      "espn": 73,
+      "fp": 91,
+      "avg": 128
     }
   },
   {
     "rank": 74,
-    "name": "Alec Pierce",
-    "team": "IND",
+    "name": "Joe Burrow",
+    "team": "CIN",
     "position": {
-      "position": "WR",
-      "rank": 34
+      "position": "QB",
+      "rank": 6
     },
     "price": 7,
-    "bye": 13,
+    "bye": 6,
     "rankings": {
-      "ff": 82,
-      "fp": 73,
-      "avg": 78
+      "ff": 69,
+      "espn": 74,
+      "fp": 43,
+      "avg": 62
     }
   },
   {
     "rank": 75,
-    "name": "Bhayshul Tuten",
-    "team": "JAX",
-    "position": {
-      "position": "RB",
-      "rank": 27
-    },
-    "price": 7,
-    "bye": 7,
-    "rankings": {
-      "ff": 197,
-      "fp": 74,
-      "avg": 136
-    }
-  },
-  {
-    "rank": 76,
-    "name": "RJ Harvey",
-    "team": "DEN",
-    "position": {
-      "position": "RB",
-      "rank": 28
-    },
-    "price": 8,
-    "bye": 10,
-    "rankings": {
-      "ff": 58,
-      "fp": 75,
-      "avg": 67
-    }
-  },
-  {
-    "rank": 77,
     "name": "Jaxson Dart",
     "team": "NYG",
     "position": {
       "position": "QB",
-      "rank": 9
+      "rank": 7
     },
-    "price": 8,
+    "price": 7,
     "bye": 8,
     "rankings": {
       "ff": 20,
+      "espn": 75,
       "fp": 76,
-      "avg": 48
+      "avg": 57
     }
   },
   {
-    "rank": 78,
-    "name": "Chris Godwin",
-    "team": "TB",
+    "rank": 76,
+    "name": "Parker Washington",
+    "team": "JAX",
     "position": {
       "position": "WR",
       "rank": 35
     },
     "price": 8,
-    "bye": 10,
+    "bye": 7,
     "rankings": {
-      "ff": 270,
-      "fp": 77,
-      "avg": 174
+      "ff": 117,
+      "espn": 76,
+      "fp": 95,
+      "avg": 96
     }
   },
   {
-    "rank": 79,
-    "name": "Michael Wilson",
-    "team": "ARI",
+    "rank": 77,
+    "name": "Mike Evans",
+    "team": "SF",
     "position": {
       "position": "WR",
       "rank": 36
     },
     "price": 8,
-    "bye": 14,
+    "bye": 8,
     "rankings": {
-      "ff": 76,
-      "fp": 78,
-      "avg": 77
+      "ff": 247,
+      "espn": 77,
+      "fp": 50,
+      "avg": 125
     }
   },
   {
-    "rank": 80,
-    "name": "Trevor Lawrence",
-    "team": "JAX",
-    "position": {
-      "position": "QB",
-      "rank": 10
-    },
-    "price": 7,
-    "bye": 7,
-    "rankings": {
-      "ff": 4,
-      "fp": 79,
-      "avg": 42
-    }
-  },
-  {
-    "rank": 81,
-    "name": "Chuba Hubbard",
-    "team": "CAR",
-    "position": {
-      "position": "RB",
-      "rank": 29
-    },
-    "price": 7,
-    "bye": 5,
-    "rankings": {
-      "ff": 167,
-      "fp": 80,
-      "avg": 124
-    }
-  },
-  {
-    "rank": 82,
-    "name": "Jadarian Price",
-    "team": "SEA",
-    "position": {
-      "position": "RB",
-      "rank": 30
-    },
-    "price": 7,
-    "bye": 11,
-    "rankings": {
-      "ff": null,
-      "fp": 81,
-      "avg": 81
-    }
-  },
-  {
-    "rank": 83,
-    "name": "Kyle Pitts",
-    "team": "ATL",
-    "position": {
-      "position": "TE",
-      "rank": 7
-    },
-    "price": 7,
-    "bye": 11,
-    "rankings": {
-      "ff": 111,
-      "fp": 82,
-      "avg": 97
-    }
-  },
-  {
-    "rank": 84,
-    "name": "Dak Prescott",
-    "team": "DAL",
-    "position": {
-      "position": "QB",
-      "rank": 11
-    },
-    "price": 7,
-    "bye": 14,
-    "rankings": {
-      "ff": 5,
-      "fp": 83,
-      "avg": 44
-    }
-  },
-  {
-    "rank": 85,
-    "name": "Rhamondre Stevenson",
-    "team": "NE",
-    "position": {
-      "position": "RB",
-      "rank": 31
-    },
-    "price": 6,
-    "bye": 11,
-    "rankings": {
-      "ff": 69,
-      "fp": 84,
-      "avg": 77
-    }
-  },
-  {
-    "rank": 86,
-    "name": "Michael Pittman",
+    "rank": 78,
+    "name": "Michael Pittman Jr.",
     "team": "PIT",
     "position": {
       "position": "WR",
       "rank": 37
     },
-    "price": 6,
+    "price": 8,
     "bye": 9,
     "rankings": {
       "ff": 108,
+      "espn": 78,
       "fp": 85,
-      "avg": 97
+      "avg": 90
     }
   },
   {
-    "rank": 87,
-    "name": "Rico Dowdle",
-    "team": "PIT",
-    "position": {
-      "position": "RB",
-      "rank": 32
-    },
-    "price": 6,
-    "bye": 9,
-    "rankings": {
-      "ff": 51,
-      "fp": 86,
-      "avg": 69
-    }
-  },
-  {
-    "rank": 88,
-    "name": "Tony Pollard",
-    "team": "TEN",
-    "position": {
-      "position": "RB",
-      "rank": 33
-    },
-    "price": 6,
-    "bye": 9,
-    "rankings": {
-      "ff": 61,
-      "fp": 87,
-      "avg": 74
-    }
-  },
-  {
-    "rank": 89,
-    "name": "Jakobi Meyers",
+    "rank": 79,
+    "name": "Brian Thomas Jr.",
     "team": "JAX",
     "position": {
       "position": "WR",
       "rank": 38
     },
-    "price": 6,
+    "price": 8,
     "bye": 7,
     "rankings": {
-      "ff": 152,
-      "fp": 88,
-      "avg": 120
+      "ff": 177,
+      "espn": 79,
+      "fp": 92,
+      "avg": 116
     }
   },
   {
-    "rank": 90,
-    "name": "Wan'Dale Robinson",
-    "team": "TEN",
+    "rank": 80,
+    "name": "Matthew Golden",
+    "team": "GB",
     "position": {
       "position": "WR",
       "rank": 39
     },
-    "price": 5,
-    "bye": 9,
+    "price": 7,
+    "bye": 11,
     "rankings": {
-      "ff": 98,
-      "fp": 89,
-      "avg": 94
+      "ff": 330,
+      "espn": 80,
+      "fp": 136,
+      "avg": 182
     }
   },
   {
-    "rank": 91,
-    "name": "Jordyn Tyson",
-    "team": "NO",
+    "rank": 81,
+    "name": "Jakobi Meyers",
+    "team": "JAX",
     "position": {
       "position": "WR",
       "rank": 40
     },
-    "price": 5,
-    "bye": 8,
-    "rankings": {
-      "ff": null,
-      "fp": 90,
-      "avg": 90
-    }
-  },
-  {
-    "rank": 92,
-    "name": "Sam LaPorta",
-    "team": "DET",
-    "position": {
-      "position": "TE",
-      "rank": 8
-    },
-    "price": 5,
-    "bye": 6,
-    "rankings": {
-      "ff": 219,
-      "fp": 91,
-      "avg": 155
-    }
-  },
-  {
-    "rank": 93,
-    "name": "Brian Thomas",
-    "team": "JAX",
-    "position": {
-      "position": "WR",
-      "rank": 41
-    },
-    "price": 5,
+    "price": 7,
     "bye": 7,
     "rankings": {
-      "ff": 177,
-      "fp": 92,
-      "avg": 135
+      "ff": 152,
+      "espn": 81,
+      "fp": 88,
+      "avg": 107
     }
   },
   {
-    "rank": 94,
-    "name": "Brock Purdy",
-    "team": "SF",
+    "rank": 82,
+    "name": "Trevor Lawrence",
+    "team": "JAX",
     "position": {
       "position": "QB",
-      "rank": 12
+      "rank": 8
     },
-    "price": 5,
-    "bye": 8,
+    "price": 7,
+    "bye": 7,
     "rankings": {
-      "ff": 36,
-      "fp": 93,
+      "ff": 4,
+      "espn": 82,
+      "fp": 79,
+      "avg": 55
+    }
+  },
+  {
+    "rank": 83,
+    "name": "Dak Prescott",
+    "team": "DAL",
+    "position": {
+      "position": "QB",
+      "rank": 9
+    },
+    "price": 7,
+    "bye": 14,
+    "rankings": {
+      "ff": 5,
+      "espn": 83,
+      "fp": 83,
+      "avg": 57
+    }
+  },
+  {
+    "rank": 84,
+    "name": "Bo Nix",
+    "team": "DEN",
+    "position": {
+      "position": "QB",
+      "rank": 10
+    },
+    "price": 7,
+    "bye": 10,
+    "rankings": {
+      "ff": 7,
+      "espn": 84,
+      "fp": 104,
       "avg": 65
     }
   },
   {
-    "rank": 95,
-    "name": "Makai Lemon",
-    "team": "PHI",
-    "position": {
-      "position": "WR",
-      "rank": 42
-    },
-    "price": 4,
-    "bye": 10,
-    "rankings": {
-      "ff": null,
-      "fp": 94,
-      "avg": 94
-    }
-  },
-  {
-    "rank": 96,
-    "name": "Parker Washington",
-    "team": "JAX",
-    "position": {
-      "position": "WR",
-      "rank": 43
-    },
-    "price": 4,
-    "bye": 7,
-    "rankings": {
-      "ff": 117,
-      "fp": 95,
-      "avg": 106
-    }
-  },
-  {
-    "rank": 97,
-    "name": "Kyle Monangai",
-    "team": "CHI",
-    "position": {
-      "position": "RB",
-      "rank": 34
-    },
-    "price": 4,
-    "bye": 10,
-    "rankings": {
-      "ff": 105,
-      "fp": 96,
-      "avg": 101
-    }
-  },
-  {
-    "rank": 98,
-    "name": "Ricky Pearsall",
+    "rank": 85,
+    "name": "Brock Purdy",
     "team": "SF",
     "position": {
-      "position": "WR",
-      "rank": 44
+      "position": "QB",
+      "rank": 11
     },
-    "price": 4,
+    "price": 6,
     "bye": 8,
     "rankings": {
-      "ff": 263,
-      "fp": 97,
-      "avg": 180
+      "ff": 36,
+      "espn": 85,
+      "fp": 93,
+      "avg": 71
     }
   },
   {
-    "rank": 99,
-    "name": "Josh Downs",
-    "team": "IND",
+    "rank": 86,
+    "name": "Matthew Stafford",
+    "team": "LAR",
     "position": {
-      "position": "WR",
-      "rank": 45
+      "position": "QB",
+      "rank": 12
     },
-    "price": 4,
-    "bye": 13,
+    "price": 6,
+    "bye": 11,
     "rankings": {
-      "ff": 193,
-      "fp": 98,
-      "avg": 146
+      "ff": 3,
+      "espn": 86,
+      "fp": 105,
+      "avg": 65
     }
   },
   {
-    "rank": 100,
-    "name": "Patrick Mahomes",
-    "team": "KC",
+    "rank": 87,
+    "name": "Caleb Williams",
+    "team": "CHI",
     "position": {
       "position": "QB",
       "rank": 13
     },
-    "price": 3,
-    "bye": 5,
+    "price": 6,
+    "bye": 10,
     "rankings": {
-      "ff": 12,
-      "fp": 99,
-      "avg": 56
+      "ff": 6,
+      "espn": 87,
+      "fp": 67,
+      "avg": 53
     }
   },
   {
-    "rank": 101,
-    "name": "Kenneth Gainwell",
-    "team": "TB",
+    "rank": 88,
+    "name": "Makai Lemon",
+    "team": "PHI",
     "position": {
-      "position": "RB",
-      "rank": 35
+      "position": "WR",
+      "rank": 41
     },
-    "price": 3,
+    "price": 6,
     "bye": 10,
     "rankings": {
       "ff": null,
-      "fp": 100,
-      "avg": 100
+      "espn": 88,
+      "fp": 94,
+      "avg": 91
     }
   },
   {
-    "rank": 102,
-    "name": "Aaron Jones",
+    "rank": 89,
+    "name": "Ricky Pearsall",
+    "team": "SF",
+    "position": {
+      "position": "WR",
+      "rank": 42
+    },
+    "price": 6,
+    "bye": 8,
+    "rankings": {
+      "ff": 263,
+      "espn": 89,
+      "fp": 97,
+      "avg": 150
+    }
+  },
+  {
+    "rank": 90,
+    "name": "Jordan Addison",
+    "team": "MIN",
+    "position": {
+      "position": "WR",
+      "rank": 43
+    },
+    "price": 5,
+    "bye": 6,
+    "rankings": {
+      "ff": 160,
+      "espn": 90,
+      "fp": 106,
+      "avg": 119
+    }
+  },
+  {
+    "rank": 91,
+    "name": "Michael Wilson",
+    "team": "ARI",
+    "position": {
+      "position": "WR",
+      "rank": 44
+    },
+    "price": 5,
+    "bye": 14,
+    "rankings": {
+      "ff": 76,
+      "espn": 91,
+      "fp": 78,
+      "avg": 82
+    }
+  },
+  {
+    "rank": 92,
+    "name": "KC Concepcion",
+    "team": "CLE",
+    "position": {
+      "position": "WR",
+      "rank": 45
+    },
+    "price": 5,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 92,
+      "fp": 129,
+      "avg": 111
+    }
+  },
+  {
+    "rank": 93,
+    "name": "Justin Herbert",
+    "team": "LAC",
+    "position": {
+      "position": "QB",
+      "rank": 14
+    },
+    "price": 5,
+    "bye": 7,
+    "rankings": {
+      "ff": 10,
+      "espn": 93,
+      "fp": 69,
+      "avg": 57
+    }
+  },
+  {
+    "rank": 94,
+    "name": "Patrick Mahomes",
+    "team": "KC",
+    "position": {
+      "position": "QB",
+      "rank": 15
+    },
+    "price": 5,
+    "bye": 5,
+    "rankings": {
+      "ff": 12,
+      "espn": 94,
+      "fp": 99,
+      "avg": 68
+    }
+  },
+  {
+    "rank": 95,
+    "name": "Rico Dowdle",
+    "team": "PIT",
+    "position": {
+      "position": "RB",
+      "rank": 28
+    },
+    "price": 4,
+    "bye": 9,
+    "rankings": {
+      "ff": 51,
+      "espn": 95,
+      "fp": 86,
+      "avg": 77
+    }
+  },
+  {
+    "rank": 96,
+    "name": "Rhamondre Stevenson",
+    "team": "NE",
+    "position": {
+      "position": "RB",
+      "rank": 29
+    },
+    "price": 4,
+    "bye": 11,
+    "rankings": {
+      "ff": 69,
+      "espn": 96,
+      "fp": 84,
+      "avg": 83
+    }
+  },
+  {
+    "rank": 97,
+    "name": "Jaylen Warren",
+    "team": "PIT",
+    "position": {
+      "position": "RB",
+      "rank": 30
+    },
+    "price": 4,
+    "bye": 9,
+    "rankings": {
+      "ff": 50,
+      "espn": 97,
+      "fp": 64,
+      "avg": 70
+    }
+  },
+  {
+    "rank": 98,
+    "name": "Chuba Hubbard",
+    "team": "CAR",
+    "position": {
+      "position": "RB",
+      "rank": 31
+    },
+    "price": 4,
+    "bye": 5,
+    "rankings": {
+      "ff": 167,
+      "espn": 98,
+      "fp": 80,
+      "avg": 115
+    }
+  },
+  {
+    "rank": 99,
+    "name": "J.K. Dobbins",
+    "team": "DEN",
+    "position": {
+      "position": "RB",
+      "rank": 32
+    },
+    "price": 4,
+    "bye": 10,
+    "rankings": {
+      "ff": 143,
+      "espn": 99,
+      "fp": 108,
+      "avg": 117
+    }
+  },
+  {
+    "rank": 100,
+    "name": "Aaron Jones Sr.",
     "team": "MIN",
     "position": {
       "position": "RB",
-      "rank": 36
+      "rank": 33
     },
     "price": 3,
     "bye": 6,
     "rankings": {
       "ff": 170,
+      "espn": 100,
       "fp": 101,
-      "avg": 136
+      "avg": 124
     }
   },
   {
-    "rank": 103,
-    "name": "Jake Ferguson",
-    "team": "DAL",
+    "rank": 101,
+    "name": "Dallas Goedert",
+    "team": "PHI",
+    "position": {
+      "position": "TE",
+      "rank": 8
+    },
+    "price": 3,
+    "bye": 10,
+    "rankings": {
+      "ff": 98,
+      "espn": 101,
+      "fp": 120,
+      "avg": 106
+    }
+  },
+  {
+    "rank": 102,
+    "name": "George Kittle",
+    "team": "SF",
     "position": {
       "position": "TE",
       "rank": 9
     },
     "price": 3,
-    "bye": 14,
+    "bye": 8,
     "rankings": {
-      "ff": 138,
-      "fp": 102,
-      "avg": 120
+      "ff": 143,
+      "espn": 102,
+      "fp": 117,
+      "avg": 121
+    }
+  },
+  {
+    "rank": 103,
+    "name": "Mark Andrews",
+    "team": "BAL",
+    "position": {
+      "position": "TE",
+      "rank": 10
+    },
+    "price": 3,
+    "bye": 13,
+    "rankings": {
+      "ff": 178,
+      "espn": 103,
+      "fp": 134,
+      "avg": 138
     }
   },
   {
@@ -1653,83 +1756,71 @@
     "team": "KC",
     "position": {
       "position": "TE",
-      "rank": 10
+      "rank": 11
     },
     "price": 3,
     "bye": 5,
     "rankings": {
       "ff": 122,
+      "espn": 104,
       "fp": 103,
-      "avg": 113
+      "avg": 110
     }
   },
   {
     "rank": 105,
-    "name": "Bo Nix",
-    "team": "DEN",
+    "name": "Kenneth Gainwell",
+    "team": "TB",
     "position": {
-      "position": "QB",
-      "rank": 14
+      "position": "RB",
+      "rank": 34
     },
     "price": 3,
     "bye": 10,
     "rankings": {
-      "ff": 7,
-      "fp": 104,
-      "avg": 56
+      "ff": null,
+      "espn": 105,
+      "fp": 100,
+      "avg": 103
     }
   },
   {
     "rank": 106,
-    "name": "Matthew Stafford",
-    "team": "LAR",
+    "name": "Rachaad White",
+    "team": "WAS",
     "position": {
-      "position": "QB",
-      "rank": 15
-    },
-    "price": 3,
-    "bye": 11,
-    "rankings": {
-      "ff": 3,
-      "fp": 105,
-      "avg": 54
-    }
-  },
-  {
-    "rank": 107,
-    "name": "Jordan Addison",
-    "team": "MIN",
-    "position": {
-      "position": "WR",
-      "rank": 46
-    },
-    "price": 3,
-    "bye": 6,
-    "rankings": {
-      "ff": 160,
-      "fp": 106,
-      "avg": 133
-    }
-  },
-  {
-    "rank": 108,
-    "name": "Dalton Kincaid",
-    "team": "BUF",
-    "position": {
-      "position": "TE",
-      "rank": 11
+      "position": "RB",
+      "rank": 35
     },
     "price": 3,
     "bye": 7,
     "rankings": {
-      "ff": 178,
-      "fp": 107,
-      "avg": 143
+      "ff": 163,
+      "espn": 106,
+      "fp": 115,
+      "avg": 128
     }
   },
   {
-    "rank": 109,
-    "name": "J.K. Dobbins",
+    "rank": 107,
+    "name": "Kyle Monangai",
+    "team": "CHI",
+    "position": {
+      "position": "RB",
+      "rank": 36
+    },
+    "price": 3,
+    "bye": 10,
+    "rankings": {
+      "ff": 105,
+      "espn": 107,
+      "fp": 96,
+      "avg": 103
+    }
+  },
+  {
+    "rank": 108,
+    "name": "RJ Harvey",
     "team": "DEN",
     "position": {
       "position": "RB",
@@ -1738,287 +1829,237 @@
     "price": 3,
     "bye": 10,
     "rankings": {
-      "ff": 143,
-      "fp": 108,
-      "avg": 126
+      "ff": 58,
+      "espn": 108,
+      "fp": 75,
+      "avg": 80
     }
   },
   {
-    "rank": 110,
-    "name": "Blake Corum",
-    "team": "LAR",
-    "position": {
-      "position": "RB",
-      "rank": 38
-    },
-    "price": 3,
-    "bye": 11,
-    "rankings": {
-      "ff": 129,
-      "fp": 109,
-      "avg": 119
-    }
-  },
-  {
-    "rank": 111,
-    "name": "Jared Goff",
-    "team": "DET",
-    "position": {
-      "position": "QB",
-      "rank": 16
-    },
-    "price": 3,
-    "bye": 6,
-    "rankings": {
-      "ff": 9,
-      "fp": 110,
-      "avg": 60
-    }
-  },
-  {
-    "rank": 112,
-    "name": "Jayden Reed",
+    "rank": 109,
+    "name": "Tucker Kraft",
     "team": "GB",
-    "position": {
-      "position": "WR",
-      "rank": 47
-    },
-    "price": 3,
-    "bye": 11,
-    "rankings": {
-      "ff": 349,
-      "fp": 111,
-      "avg": 230
-    }
-  },
-  {
-    "rank": 113,
-    "name": "Khalil Shakir",
-    "team": "BUF",
-    "position": {
-      "position": "WR",
-      "rank": 48
-    },
-    "price": 3,
-    "bye": 7,
-    "rankings": {
-      "ff": 159,
-      "fp": 112,
-      "avg": 136
-    }
-  },
-  {
-    "rank": 114,
-    "name": "Kyler Murray",
-    "team": "MIN",
-    "position": {
-      "position": "QB",
-      "rank": 17
-    },
-    "price": 3,
-    "bye": 6,
-    "rankings": {
-      "ff": 174,
-      "fp": 113,
-      "avg": 144
-    }
-  },
-  {
-    "rank": 115,
-    "name": "Quentin Johnston",
-    "team": "LAC",
-    "position": {
-      "position": "WR",
-      "rank": 49
-    },
-    "price": 3,
-    "bye": 7,
-    "rankings": {
-      "ff": 96,
-      "fp": 114,
-      "avg": 105
-    }
-  },
-  {
-    "rank": 116,
-    "name": "Rachaad White",
-    "team": "WAS",
-    "position": {
-      "position": "RB",
-      "rank": 39
-    },
-    "price": 3,
-    "bye": 7,
-    "rankings": {
-      "ff": 163,
-      "fp": 115,
-      "avg": 139
-    }
-  },
-  {
-    "rank": 117,
-    "name": "Jordan Love",
-    "team": "GB",
-    "position": {
-      "position": "QB",
-      "rank": 18
-    },
-    "price": 3,
-    "bye": 11,
-    "rankings": {
-      "ff": 24,
-      "fp": 116,
-      "avg": 70
-    }
-  },
-  {
-    "rank": 118,
-    "name": "Spencer Rattler",
-    "team": "NO",
-    "position": {
-      "position": "QB",
-      "rank": 19
-    },
-    "price": 3,
-    "bye": 8,
-    "rankings": {
-      "ff": 117,
-      "fp": null,
-      "avg": 117
-    }
-  },
-  {
-    "rank": 119,
-    "name": "George Kittle",
-    "team": "SF",
     "position": {
       "position": "TE",
       "rank": 12
     },
     "price": 3,
-    "bye": 8,
+    "bye": 11,
     "rankings": {
-      "ff": 143,
-      "fp": 117,
-      "avg": 130
+      "ff": 178,
+      "espn": 109,
+      "fp": 65,
+      "avg": 117
     }
   },
   {
-    "rank": 120,
-    "name": "Jayden Higgins",
-    "team": "HOU",
-    "position": {
-      "position": "WR",
-      "rank": 50
-    },
-    "price": 2,
-    "bye": 8,
-    "rankings": {
-      "ff": 174,
-      "fp": 118,
-      "avg": 146
-    }
-  },
-  {
-    "rank": 121,
-    "name": "Baker Mayfield",
-    "team": "TB",
-    "position": {
-      "position": "QB",
-      "rank": 20
-    },
-    "price": 2,
-    "bye": 10,
-    "rankings": {
-      "ff": 15,
-      "fp": 119,
-      "avg": 67
-    }
-  },
-  {
-    "rank": 122,
-    "name": "Dallas Goedert",
-    "team": "PHI",
+    "rank": 110,
+    "name": "Jake Ferguson",
+    "team": "DAL",
     "position": {
       "position": "TE",
       "rank": 13
     },
-    "price": 2,
-    "bye": 10,
+    "price": 3,
+    "bye": 14,
     "rankings": {
-      "ff": 98,
-      "fp": 120,
-      "avg": 109
+      "ff": 138,
+      "espn": 110,
+      "fp": 102,
+      "avg": 117
     }
   },
   {
-    "rank": 123,
-    "name": "Tyler Shough",
-    "team": "NO",
+    "rank": 111,
+    "name": "Dalton Kincaid",
+    "team": "BUF",
     "position": {
-      "position": "QB",
-      "rank": 21
+      "position": "TE",
+      "rank": 14
     },
-    "price": 2,
-    "bye": 8,
+    "price": 3,
+    "bye": 7,
     "rankings": {
-      "ff": 47,
-      "fp": 121,
-      "avg": 84
+      "ff": 178,
+      "espn": 111,
+      "fp": 107,
+      "avg": 132
     }
   },
   {
-    "rank": 124,
-    "name": "Xavier Worthy",
-    "team": "KC",
+    "rank": 112,
+    "name": "Wan'Dale Robinson",
+    "team": "TEN",
     "position": {
       "position": "WR",
-      "rank": 51
+      "rank": 46
+    },
+    "price": 3,
+    "bye": 9,
+    "rankings": {
+      "ff": 98,
+      "espn": 112,
+      "fp": 89,
+      "avg": 100
+    }
+  },
+  {
+    "rank": 113,
+    "name": "Chris Godwin Jr.",
+    "team": "TB",
+    "position": {
+      "position": "WR",
+      "rank": 47
+    },
+    "price": 3,
+    "bye": 10,
+    "rankings": {
+      "ff": 270,
+      "espn": 113,
+      "fp": 77,
+      "avg": 153
+    }
+  },
+  {
+    "rank": 114,
+    "name": "Jayden Reed",
+    "team": "GB",
+    "position": {
+      "position": "WR",
+      "rank": 48
+    },
+    "price": 3,
+    "bye": 11,
+    "rankings": {
+      "ff": 349,
+      "espn": 114,
+      "fp": 111,
+      "avg": 191
+    }
+  },
+  {
+    "rank": 115,
+    "name": "Jacory Croskey-Merritt",
+    "team": "WAS",
+    "position": {
+      "position": "RB",
+      "rank": 38
+    },
+    "price": 3,
+    "bye": 7,
+    "rankings": {
+      "ff": 85,
+      "espn": 115,
+      "fp": 123,
+      "avg": 108
+    }
+  },
+  {
+    "rank": 116,
+    "name": "Kenyon Sadiq",
+    "team": "NYJ",
+    "position": {
+      "position": "TE",
+      "rank": 15
+    },
+    "price": 3,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 116,
+      "fp": 188,
+      "avg": 152
+    }
+  },
+  {
+    "rank": 117,
+    "name": "Isaiah Likely",
+    "team": "NYG",
+    "position": {
+      "position": "TE",
+      "rank": 16
+    },
+    "price": 3,
+    "bye": 8,
+    "rankings": {
+      "ff": 330,
+      "espn": 117,
+      "fp": 124,
+      "avg": 190
+    }
+  },
+  {
+    "rank": 118,
+    "name": "Hunter Henry",
+    "team": "NE",
+    "position": {
+      "position": "TE",
+      "rank": 17
+    },
+    "price": 3,
+    "bye": 11,
+    "rankings": {
+      "ff": 122,
+      "espn": 118,
+      "fp": 154,
+      "avg": 131
+    }
+  },
+  {
+    "rank": 119,
+    "name": "T.J. Hockenson",
+    "team": "MIN",
+    "position": {
+      "position": "TE",
+      "rank": 18
+    },
+    "price": 3,
+    "bye": 6,
+    "rankings": {
+      "ff": 247,
+      "espn": 119,
+      "fp": 177,
+      "avg": 181
+    }
+  },
+  {
+    "rank": 120,
+    "name": "Jonathon Brooks",
+    "team": "CAR",
+    "position": {
+      "position": "RB",
+      "rank": 39
     },
     "price": 2,
     "bye": 5,
     "rankings": {
-      "ff": 228,
-      "fp": 122,
-      "avg": 175
+      "ff": null,
+      "espn": 120,
+      "fp": 145,
+      "avg": 133
     }
   },
   {
-    "rank": 125,
-    "name": "Jacory Croskey-Merritt",
-    "team": "WAS",
+    "rank": 121,
+    "name": "Blake Corum",
+    "team": "LAR",
     "position": {
       "position": "RB",
       "rank": 40
     },
     "price": 2,
-    "bye": 7,
+    "bye": 11,
     "rankings": {
-      "ff": 85,
-      "fp": 123,
-      "avg": 104
+      "ff": 129,
+      "espn": 121,
+      "fp": 109,
+      "avg": 120
     }
   },
   {
-    "rank": 126,
-    "name": "Isaiah Likely",
-    "team": "NYG",
-    "position": {
-      "position": "TE",
-      "rank": 14
-    },
-    "price": 2,
-    "bye": 8,
-    "rankings": {
-      "ff": 330,
-      "fp": 124,
-      "avg": 227
-    }
-  },
-  {
-    "rank": 127,
-    "name": "Tyrone Tracy",
-    "team": "NYG",
+    "rank": 122,
+    "name": "Woody Marks",
+    "team": "HOU",
     "position": {
       "position": "RB",
       "rank": 41
@@ -2027,44 +2068,13 @@
     "bye": 8,
     "rankings": {
       "ff": 102,
-      "fp": 125,
-      "avg": 114
+      "espn": 122,
+      "fp": 132,
+      "avg": 119
     }
   },
   {
-    "rank": 128,
-    "name": "Romeo Doubs",
-    "team": "NE",
-    "position": {
-      "position": "WR",
-      "rank": 52
-    },
-    "price": 2,
-    "bye": 11,
-    "rankings": {
-      "ff": 136,
-      "fp": 126,
-      "avg": 131
-    }
-  },
-  {
-    "rank": 129,
-    "name": "Malik Willis",
-    "team": "MIA",
-    "position": {
-      "position": "QB",
-      "rank": 22
-    },
-    "price": 2,
-    "bye": 6,
-    "rankings": {
-      "ff": 247,
-      "fp": 127,
-      "avg": 187
-    }
-  },
-  {
-    "rank": 130,
+    "rank": 123,
     "name": "Jordan Mason",
     "team": "MIN",
     "position": {
@@ -2075,142 +2085,117 @@
     "bye": 6,
     "rankings": {
       "ff": 132,
+      "espn": 123,
       "fp": 128,
-      "avg": 130
+      "avg": 128
     }
   },
   {
-    "rank": 131,
-    "name": "KC Concepcion",
-    "team": "CLE",
+    "rank": 124,
+    "name": "Khalil Shakir",
+    "team": "BUF",
+    "position": {
+      "position": "WR",
+      "rank": 49
+    },
+    "price": 2,
+    "bye": 7,
+    "rankings": {
+      "ff": 159,
+      "espn": 124,
+      "fp": 112,
+      "avg": 132
+    }
+  },
+  {
+    "rank": 125,
+    "name": "Josh Downs",
+    "team": "IND",
+    "position": {
+      "position": "WR",
+      "rank": 50
+    },
+    "price": 2,
+    "bye": 13,
+    "rankings": {
+      "ff": 193,
+      "espn": 125,
+      "fp": 98,
+      "avg": 139
+    }
+  },
+  {
+    "rank": 126,
+    "name": "Romeo Doubs",
+    "team": "NE",
+    "position": {
+      "position": "WR",
+      "rank": 51
+    },
+    "price": 2,
+    "bye": 11,
+    "rankings": {
+      "ff": 136,
+      "espn": 126,
+      "fp": 126,
+      "avg": 129
+    }
+  },
+  {
+    "rank": 127,
+    "name": "Xavier Worthy",
+    "team": "KC",
+    "position": {
+      "position": "WR",
+      "rank": 52
+    },
+    "price": 2,
+    "bye": 5,
+    "rankings": {
+      "ff": 228,
+      "espn": 127,
+      "fp": 122,
+      "avg": 159
+    }
+  },
+  {
+    "rank": 128,
+    "name": "Quentin Johnston",
+    "team": "LAC",
     "position": {
       "position": "WR",
       "rank": 53
     },
     "price": 2,
-    "bye": 11,
+    "bye": 7,
     "rankings": {
-      "ff": null,
-      "fp": 129,
-      "avg": 129
+      "ff": 96,
+      "espn": 128,
+      "fp": 114,
+      "avg": 113
     }
   },
   {
-    "rank": 132,
-    "name": "Tyler Allgeier",
-    "team": "ARI",
-    "position": {
-      "position": "RB",
-      "rank": 43
-    },
-    "price": 2,
-    "bye": 14,
-    "rankings": {
-      "ff": 143,
-      "fp": 130,
-      "avg": 137
-    }
-  },
-  {
-    "rank": 133,
-    "name": "Jalen Coker",
-    "team": "CAR",
+    "rank": 129,
+    "name": "Jayden Higgins",
+    "team": "HOU",
     "position": {
       "position": "WR",
       "rank": 54
     },
     "price": 2,
-    "bye": 5,
-    "rankings": {
-      "ff": 242,
-      "fp": 131,
-      "avg": 187
-    }
-  },
-  {
-    "rank": 134,
-    "name": "Woody Marks",
-    "team": "HOU",
-    "position": {
-      "position": "RB",
-      "rank": 44
-    },
-    "price": 2,
     "bye": 8,
     "rankings": {
-      "ff": 102,
-      "fp": 132,
-      "avg": 117
+      "ff": 174,
+      "espn": 129,
+      "fp": 118,
+      "avg": 140
     }
   },
   {
-    "rank": 135,
-    "name": "Riley Patterson",
-    "team": "MIA",
-    "position": {
-      "position": "K",
-      "rank": 1
-    },
-    "price": 2,
-    "bye": 6,
-    "rankings": {
-      "ff": 132,
-      "fp": null,
-      "avg": 132
-    }
-  },
-  {
-    "rank": 136,
-    "name": "C.J. Stroud",
-    "team": "HOU",
-    "position": {
-      "position": "QB",
-      "rank": 23
-    },
-    "price": 2,
-    "bye": 8,
-    "rankings": {
-      "ff": 30,
-      "fp": 133,
-      "avg": 82
-    }
-  },
-  {
-    "rank": 137,
-    "name": "Mark Andrews",
-    "team": "BAL",
-    "position": {
-      "position": "TE",
-      "rank": 15
-    },
-    "price": 2,
-    "bye": 13,
-    "rankings": {
-      "ff": 178,
-      "fp": 134,
-      "avg": 156
-    }
-  },
-  {
-    "rank": 138,
-    "name": "Zach Charbonnet",
-    "team": "SEA",
-    "position": {
-      "position": "RB",
-      "rank": 45
-    },
-    "price": 2,
-    "bye": 11,
-    "rankings": {
-      "ff": 59,
-      "fp": 135,
-      "avg": 97
-    }
-  },
-  {
-    "rank": 139,
-    "name": "Matthew Golden",
-    "team": "GB",
+    "rank": 130,
+    "name": "Jerry Jeudy",
+    "team": "CLE",
     "position": {
       "position": "WR",
       "rank": 55
@@ -2218,623 +2203,560 @@
     "price": 2,
     "bye": 11,
     "rankings": {
-      "ff": 330,
-      "fp": 136,
-      "avg": 233
-    }
-  },
-  {
-    "rank": 140,
-    "name": "Juwan Johnson",
-    "team": "NO",
-    "position": {
-      "position": "TE",
-      "rank": 16
-    },
-    "price": 1,
-    "bye": 8,
-    "rankings": {
-      "ff": 147,
-      "fp": 137,
-      "avg": 142
-    }
-  },
-  {
-    "rank": 141,
-    "name": "Sam Darnold",
-    "team": "SEA",
-    "position": {
-      "position": "QB",
-      "rank": 24
-    },
-    "price": 1,
-    "bye": 11,
-    "rankings": {
-      "ff": 17,
-      "fp": 138,
-      "avg": 78
-    }
-  },
-  {
-    "rank": 142,
-    "name": "Tyjae Spears",
-    "team": "TEN",
-    "position": {
-      "position": "RB",
-      "rank": 46
-    },
-    "price": 1,
-    "bye": 9,
-    "rankings": {
-      "ff": 237,
-      "fp": 139,
-      "avg": 188
-    }
-  },
-  {
-    "rank": 143,
-    "name": "Alvin Kamara",
-    "team": "NO",
-    "position": {
-      "position": "RB",
-      "rank": 47
-    },
-    "price": 1,
-    "bye": 8,
-    "rankings": {
-      "ff": 218,
-      "fp": 140,
-      "avg": 179
-    }
-  },
-  {
-    "rank": 144,
-    "name": "Oronde Gadsden",
-    "team": "LAC",
-    "position": {
-      "position": "TE",
-      "rank": 17
-    },
-    "price": 1,
-    "bye": 7,
-    "rankings": {
-      "ff": 190,
-      "fp": 141,
-      "avg": 166
-    }
-  },
-  {
-    "rank": 145,
-    "name": "Brenton Strange",
-    "team": "JAX",
-    "position": {
-      "position": "TE",
-      "rank": 18
-    },
-    "price": 1,
-    "bye": 7,
-    "rankings": {
-      "ff": 214,
-      "fp": 142,
-      "avg": 178
-    }
-  },
-  {
-    "rank": 146,
-    "name": "Dylan Sampson",
-    "team": "CLE",
-    "position": {
-      "position": "RB",
-      "rank": 48
-    },
-    "price": 1,
-    "bye": 11,
-    "rankings": {
-      "ff": 253,
-      "fp": 143,
-      "avg": 198
-    }
-  },
-  {
-    "rank": 147,
-    "name": "Cam Ward",
-    "team": "TEN",
-    "position": {
-      "position": "QB",
-      "rank": 25
-    },
-    "price": 1,
-    "bye": 9,
-    "rankings": {
-      "ff": 34,
-      "fp": 144,
-      "avg": 89
-    }
-  },
-  {
-    "rank": 148,
-    "name": "Jonathon Brooks",
-    "team": "CAR",
-    "position": {
-      "position": "RB",
-      "rank": 49
-    },
-    "price": 1,
-    "bye": 5,
-    "rankings": {
-      "ff": null,
-      "fp": 145,
-      "avg": 145
-    }
-  },
-  {
-    "rank": 149,
-    "name": "Chris Rodriguez",
-    "team": "JAX",
-    "position": {
-      "position": "RB",
-      "rank": 50
-    },
-    "price": 1,
-    "bye": 7,
-    "rankings": {
-      "ff": 178,
-      "fp": 146,
+      "ff": 209,
+      "espn": 130,
+      "fp": 148,
       "avg": 162
     }
   },
   {
-    "rank": 150,
-    "name": "Isiah Pacheco",
-    "team": "DET",
-    "position": {
-      "position": "RB",
-      "rank": 51
-    },
-    "price": 1,
-    "bye": 6,
-    "rankings": {
-      "ff": 219,
-      "fp": 147,
-      "avg": 183
-    }
-  },
-  {
-    "rank": 151,
-    "name": "Jerry Jeudy",
-    "team": "CLE",
+    "rank": 131,
+    "name": "Jalen Coker",
+    "team": "CAR",
     "position": {
       "position": "WR",
       "rank": 56
     },
-    "price": 0,
-    "bye": 11,
+    "price": 2,
+    "bye": 5,
     "rankings": {
-      "ff": 209,
-      "fp": 148,
-      "avg": 179
+      "ff": 242,
+      "espn": 131,
+      "fp": 131,
+      "avg": 168
     }
   },
   {
-    "rank": 152,
+    "rank": 132,
     "name": "Rashid Shaheed",
     "team": "SEA",
     "position": {
       "position": "WR",
       "rank": 57
     },
-    "price": 0,
+    "price": 2,
     "bye": 11,
     "rankings": {
       "ff": 178,
+      "espn": 132,
       "fp": 149,
-      "avg": 164
+      "avg": 153
     }
   },
   {
-    "rank": 153,
-    "name": "James Conner",
-    "team": "ARI",
-    "position": {
-      "position": "RB",
-      "rank": 52
-    },
-    "price": 0,
-    "bye": 14,
-    "rankings": {
-      "ff": 369,
-      "fp": 150,
-      "avg": 260
-    }
-  },
-  {
-    "rank": 154,
-    "name": "Denzel Boston",
-    "team": "CLE",
-    "position": {
-      "position": "WR",
-      "rank": 58
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": null,
-      "fp": 151,
-      "avg": 151
-    }
-  },
-  {
-    "rank": 155,
-    "name": "Bryce Young",
-    "team": "CAR",
-    "position": {
-      "position": "QB",
-      "rank": 26
-    },
-    "price": 0,
-    "bye": 5,
-    "rankings": {
-      "ff": 26,
-      "fp": 152,
-      "avg": 89
-    }
-  },
-  {
-    "rank": 156,
-    "name": "Jauan Jennings",
+    "rank": 133,
+    "name": "Kyler Murray",
     "team": "MIN",
     "position": {
-      "position": "WR",
-      "rank": 59
+      "position": "QB",
+      "rank": 16
     },
-    "price": 0,
+    "price": 2,
     "bye": 6,
     "rankings": {
-      "ff": 109,
-      "fp": 153,
-      "avg": 131
+      "ff": 174,
+      "espn": 133,
+      "fp": 113,
+      "avg": 140
     }
   },
   {
-    "rank": 157,
-    "name": "Hunter Henry",
-    "team": "NE",
+    "rank": 134,
+    "name": "Tyler Shough",
+    "team": "NO",
     "position": {
-      "position": "TE",
-      "rank": 19
+      "position": "QB",
+      "rank": 17
     },
-    "price": 0,
-    "bye": 11,
+    "price": 2,
+    "bye": 8,
     "rankings": {
-      "ff": 122,
-      "fp": 154,
-      "avg": 138
+      "ff": 47,
+      "espn": 134,
+      "fp": 121,
+      "avg": 101
     }
   },
   {
-    "rank": 158,
-    "name": "Travis Hunter",
-    "team": "JAX",
-    "position": {
-      "position": "WR",
-      "rank": 60
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 323,
-      "fp": 155,
-      "avg": 239
-    }
-  },
-  {
-    "rank": 159,
-    "name": "Omar Cooper Jr.",
-    "team": "NYJ",
-    "position": {
-      "position": "WR",
-      "rank": 61
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": null,
-      "fp": 156,
-      "avg": 156
-    }
-  },
-  {
-    "rank": 160,
-    "name": "Keaton Mitchell",
-    "team": "LAC",
-    "position": {
-      "position": "RB",
-      "rank": 53
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 294,
-      "fp": 157,
-      "avg": 226
-    }
-  },
-  {
-    "rank": 161,
+    "rank": 135,
     "name": "Daniel Jones",
     "team": "IND",
     "position": {
       "position": "QB",
-      "rank": 27
+      "rank": 18
     },
-    "price": 0,
+    "price": 2,
     "bye": 13,
     "rankings": {
       "ff": 22,
+      "espn": 135,
       "fp": 158,
-      "avg": 90
+      "avg": 105
     }
   },
   {
-    "rank": 162,
+    "rank": 136,
+    "name": "Jared Goff",
+    "team": "DET",
+    "position": {
+      "position": "QB",
+      "rank": 19
+    },
+    "price": 2,
+    "bye": 6,
+    "rankings": {
+      "ff": 9,
+      "espn": 136,
+      "fp": 110,
+      "avg": 85
+    }
+  },
+  {
+    "rank": 137,
+    "name": "Zach Charbonnet",
+    "team": "SEA",
+    "position": {
+      "position": "RB",
+      "rank": 43
+    },
+    "price": 2,
+    "bye": 11,
+    "rankings": {
+      "ff": 59,
+      "espn": 137,
+      "fp": 135,
+      "avg": 110
+    }
+  },
+  {
+    "rank": 138,
+    "name": "Isiah Pacheco",
+    "team": "DET",
+    "position": {
+      "position": "RB",
+      "rank": 44
+    },
+    "price": 2,
+    "bye": 6,
+    "rankings": {
+      "ff": 219,
+      "espn": 138,
+      "fp": 147,
+      "avg": 168
+    }
+  },
+  {
+    "rank": 139,
+    "name": "Alvin Kamara",
+    "team": "NO",
+    "position": {
+      "position": "RB",
+      "rank": 45
+    },
+    "price": 2,
+    "bye": 8,
+    "rankings": {
+      "ff": 218,
+      "espn": 139,
+      "fp": 140,
+      "avg": 166
+    }
+  },
+  {
+    "rank": 140,
+    "name": "Chris Rodriguez Jr.",
+    "team": "JAX",
+    "position": {
+      "position": "RB",
+      "rank": 46
+    },
+    "price": 1,
+    "bye": 7,
+    "rankings": {
+      "ff": 178,
+      "espn": 140,
+      "fp": 146,
+      "avg": 155
+    }
+  },
+  {
+    "rank": 141,
     "name": "Braelon Allen",
     "team": "NYJ",
     "position": {
       "position": "RB",
-      "rank": 54
+      "rank": 47
     },
-    "price": 0,
+    "price": 1,
     "bye": 13,
     "rankings": {
       "ff": 423,
+      "espn": 141,
       "fp": 159,
-      "avg": 291
+      "avg": 241
     }
   },
   {
-    "rank": 163,
-    "name": "Matt Prater",
-    "team": "FA",
-    "position": {
-      "position": "K",
-      "rank": 2
-    },
-    "price": 0,
-    "bye": 0,
-    "rankings": {
-      "ff": 160,
-      "fp": null,
-      "avg": 160
-    }
-  },
-  {
-    "rank": 164,
-    "name": "Brian Robinson",
-    "team": "ATL",
+    "rank": 142,
+    "name": "Tank Bigsby",
+    "team": "PHI",
     "position": {
       "position": "RB",
-      "rank": 55
+      "rank": 48
     },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 263,
-      "fp": 160,
-      "avg": 212
-    }
-  },
-  {
-    "rank": 165,
-    "name": "Adonai Mitchell",
-    "team": "NYJ",
-    "position": {
-      "position": "WR",
-      "rank": 62
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 237,
-      "fp": 161,
-      "avg": 199
-    }
-  },
-  {
-    "rank": 166,
-    "name": "Houston Texans",
-    "team": "HOU",
-    "position": {
-      "position": "DST",
-      "rank": 1
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 98,
-      "fp": 162,
-      "avg": 130
-    }
-  },
-  {
-    "rank": 167,
-    "name": "Dalton Schultz",
-    "team": "HOU",
-    "position": {
-      "position": "TE",
-      "rank": 20
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 167,
-      "fp": 163,
-      "avg": 165
-    }
-  },
-  {
-    "rank": 168,
-    "name": "Jonah Coleman",
-    "team": "DEN",
-    "position": {
-      "position": "RB",
-      "rank": 56
-    },
-    "price": 0,
+    "price": 1,
     "bye": 10,
     "rankings": {
-      "ff": null,
-      "fp": 164,
-      "avg": 164
+      "ff": 270,
+      "espn": 142,
+      "fp": 174,
+      "avg": 195
     }
   },
   {
-    "rank": 169,
+    "rank": 143,
     "name": "Jalen McMillan",
     "team": "TB",
     "position": {
       "position": "WR",
-      "rank": 63
+      "rank": 58
     },
-    "price": 0,
+    "price": 1,
     "bye": 10,
     "rankings": {
       "ff": 405,
+      "espn": 143,
       "fp": 165,
-      "avg": 285
+      "avg": 238
     }
   },
   {
-    "rank": 170,
-    "name": "Deebo Samuel",
-    "team": "FA",
+    "rank": 144,
+    "name": "Calvin Ridley",
+    "team": "TEN",
+    "position": {
+      "position": "WR",
+      "rank": 59
+    },
+    "price": 1,
+    "bye": 9,
+    "rankings": {
+      "ff": 349,
+      "espn": 144,
+      "fp": 186,
+      "avg": 226
+    }
+  },
+  {
+    "rank": 145,
+    "name": "Denzel Boston",
+    "team": "CLE",
+    "position": {
+      "position": "WR",
+      "rank": 60
+    },
+    "price": 1,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 145,
+      "fp": 151,
+      "avg": 148
+    }
+  },
+  {
+    "rank": 146,
+    "name": "Travis Hunter",
+    "team": "JAX",
+    "position": {
+      "position": "WR",
+      "rank": 61
+    },
+    "price": 1,
+    "bye": 7,
+    "rankings": {
+      "ff": 323,
+      "espn": 146,
+      "fp": 155,
+      "avg": 208
+    }
+  },
+  {
+    "rank": 147,
+    "name": "Germie Bernard",
+    "team": "PIT",
+    "position": {
+      "position": "WR",
+      "rank": 62
+    },
+    "price": 1,
+    "bye": 9,
+    "rankings": {
+      "ff": null,
+      "espn": 147,
+      "fp": 244,
+      "avg": 196
+    }
+  },
+  {
+    "rank": 148,
+    "name": "Antonio Williams",
+    "team": "WAS",
+    "position": {
+      "position": "WR",
+      "rank": 63
+    },
+    "price": 1,
+    "bye": 7,
+    "rankings": {
+      "ff": null,
+      "espn": 148,
+      "fp": 213,
+      "avg": 181
+    }
+  },
+  {
+    "rank": 149,
+    "name": "Baker Mayfield",
+    "team": "TB",
+    "position": {
+      "position": "QB",
+      "rank": 20
+    },
+    "price": 1,
+    "bye": 10,
+    "rankings": {
+      "ff": 15,
+      "espn": 149,
+      "fp": 119,
+      "avg": 94
+    }
+  },
+  {
+    "rank": 150,
+    "name": "Malik Willis",
+    "team": "MIA",
+    "position": {
+      "position": "QB",
+      "rank": 21
+    },
+    "price": 1,
+    "bye": 6,
+    "rankings": {
+      "ff": 247,
+      "espn": 150,
+      "fp": 127,
+      "avg": 175
+    }
+  },
+  {
+    "rank": 151,
+    "name": "Darnell Mooney",
+    "team": "NYG",
     "position": {
       "position": "WR",
       "rank": 64
     },
     "price": 0,
-    "bye": 0,
+    "bye": 8,
     "rankings": {
-      "ff": 126,
-      "fp": 166,
-      "avg": 146
+      "ff": 272,
+      "espn": 151,
+      "fp": 198,
+      "avg": 207
     }
   },
   {
-    "rank": 171,
-    "name": "Andre Szmyt",
-    "team": "CLE",
-    "position": {
-      "position": "K",
-      "rank": 3
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 166,
-      "fp": null,
-      "avg": 166
-    }
-  },
-  {
-    "rank": 172,
-    "name": "Tre' Harris",
-    "team": "LAC",
+    "rank": 152,
+    "name": "Omar Cooper Jr.",
+    "team": "NYJ",
     "position": {
       "position": "WR",
       "rank": 65
     },
     "price": 0,
-    "bye": 7,
+    "bye": 13,
     "rankings": {
-      "ff": 334,
-      "fp": 167,
-      "avg": 251
+      "ff": null,
+      "espn": 152,
+      "fp": 156,
+      "avg": 154
     }
   },
   {
-    "rank": 173,
-    "name": "Chig Okonkwo",
-    "team": "WAS",
-    "position": {
-      "position": "TE",
-      "rank": 21
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 224,
-      "fp": 168,
-      "avg": 196
-    }
-  },
-  {
-    "rank": 174,
-    "name": "Kayshon Boutte",
-    "team": "NE",
+    "rank": 153,
+    "name": "Adonai Mitchell",
+    "team": "NYJ",
     "position": {
       "position": "WR",
       "rank": 66
     },
     "price": 0,
-    "bye": 11,
+    "bye": 13,
     "rankings": {
-      "ff": 172,
-      "fp": 169,
-      "avg": 171
+      "ff": 237,
+      "espn": 153,
+      "fp": 161,
+      "avg": 184
     }
   },
   {
-    "rank": 175,
-    "name": "Emanuel Wilson",
-    "team": "SEA",
+    "rank": 154,
+    "name": "Mike Washington Jr.",
+    "team": "LV",
     "position": {
       "position": "RB",
-      "rank": 57
+      "rank": 49
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 154,
+      "fp": 202,
+      "avg": 178
+    }
+  },
+  {
+    "rank": 155,
+    "name": "Ray Davis",
+    "team": "BUF",
+    "position": {
+      "position": "RB",
+      "rank": 50
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 268,
+      "espn": 155,
+      "fp": 199,
+      "avg": 207
+    }
+  },
+  {
+    "rank": 156,
+    "name": "Tyrone Tracy Jr.",
+    "team": "NYG",
+    "position": {
+      "position": "RB",
+      "rank": 51
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 102,
+      "espn": 156,
+      "fp": 125,
+      "avg": 128
+    }
+  },
+  {
+    "rank": 157,
+    "name": "Brian Robinson Jr.",
+    "team": "ATL",
+    "position": {
+      "position": "RB",
+      "rank": 52
     },
     "price": 0,
     "bye": 11,
     "rankings": {
-      "ff": 201,
-      "fp": 170,
-      "avg": 186
+      "ff": 263,
+      "espn": 157,
+      "fp": 160,
+      "avg": 193
     }
   },
   {
-    "rank": 176,
-    "name": "Stefon Diggs",
-    "team": "FA",
+    "rank": 158,
+    "name": "Tyjae Spears",
+    "team": "TEN",
+    "position": {
+      "position": "RB",
+      "rank": 53
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
+      "ff": 237,
+      "espn": 158,
+      "fp": 139,
+      "avg": 178
+    }
+  },
+  {
+    "rank": 159,
+    "name": "Brenton Strange",
+    "team": "JAX",
+    "position": {
+      "position": "TE",
+      "rank": 19
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 214,
+      "espn": 159,
+      "fp": 142,
+      "avg": 172
+    }
+  },
+  {
+    "rank": 160,
+    "name": "Terrance Ferguson",
+    "team": "LAR",
+    "position": {
+      "position": "TE",
+      "rank": 20
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 294,
+      "espn": 160,
+      "fp": 234,
+      "avg": 229
+    }
+  },
+  {
+    "rank": 161,
+    "name": "Tre Tucker",
+    "team": "LV",
     "position": {
       "position": "WR",
       "rank": 67
     },
     "price": 0,
-    "bye": 0,
+    "bye": 13,
     "rankings": {
-      "ff": 102,
-      "fp": 171,
-      "avg": 137
+      "ff": 148,
+      "espn": 161,
+      "fp": 173,
+      "avg": 161
     }
   },
   {
-    "rank": 177,
-    "name": "Troy Franklin",
-    "team": "DEN",
+    "rank": 162,
+    "name": "Jalen Nailor",
+    "team": "LV",
     "position": {
       "position": "WR",
       "rank": 68
     },
     "price": 0,
-    "bye": 10,
+    "bye": 13,
     "rankings": {
-      "ff": 132,
-      "fp": 172,
-      "avg": 152
+      "ff": 217,
+      "espn": 162,
+      "fp": 228,
+      "avg": 202
     }
   },
   {
-    "rank": 178,
-    "name": "Tre Tucker",
-    "team": "LV",
+    "rank": 163,
+    "name": "Rashod Bateman",
+    "team": "BAL",
     "position": {
       "position": "WR",
       "rank": 69
@@ -2842,573 +2764,898 @@
     "price": 0,
     "bye": 13,
     "rankings": {
-      "ff": 148,
-      "fp": 173,
-      "avg": 161
+      "ff": 327,
+      "espn": 163,
+      "fp": 231,
+      "avg": 240
     }
   },
   {
-    "rank": 179,
-    "name": "Tank Bigsby",
-    "team": "PHI",
-    "position": {
-      "position": "RB",
-      "rank": 58
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 270,
-      "fp": 174,
-      "avg": 222
-    }
-  },
-  {
-    "rank": 180,
-    "name": "Brandon Aiyuk",
-    "team": "SF",
+    "rank": 164,
+    "name": "Jauan Jennings",
+    "team": "MIN",
     "position": {
       "position": "WR",
       "rank": 70
     },
     "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": null,
-      "fp": 175,
-      "avg": 175
-    }
-  },
-  {
-    "rank": 181,
-    "name": "Denver Broncos",
-    "team": "DEN",
-    "position": {
-      "position": "DST",
-      "rank": 2
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 115,
-      "fp": 176,
-      "avg": 146
-    }
-  },
-  {
-    "rank": 182,
-    "name": "T.J. Hockenson",
-    "team": "MIN",
-    "position": {
-      "position": "TE",
-      "rank": 22
-    },
-    "price": 0,
     "bye": 6,
     "rankings": {
-      "ff": 247,
-      "fp": 177,
-      "avg": 212
+      "ff": 109,
+      "espn": 164,
+      "fp": 153,
+      "avg": 142
     }
   },
   {
-    "rank": 183,
-    "name": "Seattle Seahawks",
-    "team": "SEA",
-    "position": {
-      "position": "DST",
-      "rank": 3
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 76,
-      "fp": 178,
-      "avg": 127
-    }
-  },
-  {
-    "rank": 184,
-    "name": "Los Angeles Rams",
-    "team": "LAR",
-    "position": {
-      "position": "DST",
-      "rank": 4
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 170,
-      "fp": 179,
-      "avg": 175
-    }
-  },
-  {
-    "rank": 185,
-    "name": "Kimani Vidal",
-    "team": "LAC",
-    "position": {
-      "position": "RB",
-      "rank": 59
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 140,
-      "fp": 180,
-      "avg": 160
-    }
-  },
-  {
-    "rank": 186,
-    "name": "Jaylin Noel",
-    "team": "HOU",
+    "rank": 165,
+    "name": "Chris Bell",
+    "team": "MIA",
     "position": {
       "position": "WR",
       "rank": 71
     },
     "price": 0,
-    "bye": 8,
+    "bye": 6,
     "rankings": {
-      "ff": 307,
-      "fp": 181,
-      "avg": 244
+      "ff": null,
+      "espn": 165,
+      "fp": 259,
+      "avg": 212
     }
   },
   {
-    "rank": 187,
-    "name": "Ryan Flournoy",
-    "team": "DAL",
+    "rank": 166,
+    "name": "Tyler Allgeier",
+    "team": "ARI",
     "position": {
-      "position": "WR",
-      "rank": 72
+      "position": "RB",
+      "rank": 54
     },
     "price": 0,
     "bye": 14,
     "rankings": {
-      "ff": 204,
-      "fp": 182,
-      "avg": 193
+      "ff": 143,
+      "espn": 166,
+      "fp": 130,
+      "avg": 146
     }
   },
   {
-    "rank": 188,
-    "name": "Philadelphia Eagles",
-    "team": "PHI",
+    "rank": 167,
+    "name": "James Conner",
+    "team": "ARI",
+    "position": {
+      "position": "RB",
+      "rank": 55
+    },
+    "price": 0,
+    "bye": 14,
+    "rankings": {
+      "ff": 369,
+      "espn": 167,
+      "fp": 150,
+      "avg": 229
+    }
+  },
+  {
+    "rank": 168,
+    "name": "Keaton Mitchell",
+    "team": "LAC",
+    "position": {
+      "position": "RB",
+      "rank": 56
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 294,
+      "espn": 168,
+      "fp": 157,
+      "avg": 206
+    }
+  },
+  {
+    "rank": 169,
+    "name": "Broncos D/ST",
+    "team": "DEN",
+    "position": {
+      "position": "DST",
+      "rank": 1
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": null,
+      "espn": 169,
+      "fp": null,
+      "avg": 169
+    }
+  },
+  {
+    "rank": 170,
+    "name": "Texans D/ST",
+    "team": "HOU",
+    "position": {
+      "position": "DST",
+      "rank": 2
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 170,
+      "fp": null,
+      "avg": 170
+    }
+  },
+  {
+    "rank": 171,
+    "name": "Steelers D/ST",
+    "team": "PIT",
+    "position": {
+      "position": "DST",
+      "rank": 3
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
+      "ff": null,
+      "espn": 171,
+      "fp": null,
+      "avg": 171
+    }
+  },
+  {
+    "rank": 172,
+    "name": "Seahawks D/ST",
+    "team": "SEA",
+    "position": {
+      "position": "DST",
+      "rank": 4
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 172,
+      "fp": null,
+      "avg": 172
+    }
+  },
+  {
+    "rank": 173,
+    "name": "Rams D/ST",
+    "team": "LAR",
     "position": {
       "position": "DST",
       "rank": 5
     },
     "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 156,
-      "fp": 183,
-      "avg": 170
-    }
-  },
-  {
-    "rank": 189,
-    "name": "Jacoby Brissett",
-    "team": "ARI",
-    "position": {
-      "position": "QB",
-      "rank": 28
-    },
-    "price": 0,
-    "bye": 14,
-    "rankings": {
-      "ff": 21,
-      "fp": 184,
-      "avg": 103
-    }
-  },
-  {
-    "rank": 190,
-    "name": "Emmett Johnson",
-    "team": "KC",
-    "position": {
-      "position": "RB",
-      "rank": 60
-    },
-    "price": 0,
-    "bye": 5,
-    "rankings": {
-      "ff": null,
-      "fp": 185,
-      "avg": 185
-    }
-  },
-  {
-    "rank": 191,
-    "name": "Calvin Ridley",
-    "team": "TEN",
-    "position": {
-      "position": "WR",
-      "rank": 73
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": 349,
-      "fp": 186,
-      "avg": 268
-    }
-  },
-  {
-    "rank": 192,
-    "name": "Pat Bryant",
-    "team": "DEN",
-    "position": {
-      "position": "WR",
-      "rank": 74
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 287,
-      "fp": 187,
-      "avg": 237
-    }
-  },
-  {
-    "rank": 193,
-    "name": "Carson Wentz",
-    "team": "MIN",
-    "position": {
-      "position": "QB",
-      "rank": 29
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 188,
-      "fp": null,
-      "avg": 188
-    }
-  },
-  {
-    "rank": 194,
-    "name": "Kenyon Sadiq",
-    "team": "NYJ",
-    "position": {
-      "position": "TE",
-      "rank": 23
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": null,
-      "fp": 188,
-      "avg": 188
-    }
-  },
-  {
-    "rank": 195,
-    "name": "Isaac TeSlaa",
-    "team": "DET",
-    "position": {
-      "position": "WR",
-      "rank": 75
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 237,
-      "fp": 189,
-      "avg": 213
-    }
-  },
-  {
-    "rank": 196,
-    "name": "Sean Tucker",
-    "team": "TB",
-    "position": {
-      "position": "RB",
-      "rank": 61
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 187,
-      "fp": 190,
-      "avg": 189
-    }
-  },
-  {
-    "rank": 197,
-    "name": "AJ Barner",
-    "team": "SEA",
-    "position": {
-      "position": "TE",
-      "rank": 24
-    },
-    "price": 0,
     "bye": 11,
     "rankings": {
-      "ff": 154,
-      "fp": 191,
+      "ff": null,
+      "espn": 173,
+      "fp": null,
       "avg": 173
     }
   },
   {
-    "rank": 198,
-    "name": "Brandon Aubrey",
-    "team": "DAL",
-    "position": {
-      "position": "K",
-      "rank": 4
-    },
-    "price": 0,
-    "bye": 14,
-    "rankings": {
-      "ff": 60,
-      "fp": 192,
-      "avg": 126
-    }
-  },
-  {
-    "rank": 199,
-    "name": "New England Patriots",
-    "team": "NE",
+    "rank": 174,
+    "name": "Ravens D/ST",
+    "team": "BAL",
     "position": {
       "position": "DST",
       "rank": 6
     },
     "price": 0,
-    "bye": 11,
+    "bye": 13,
     "rankings": {
-      "ff": 148,
-      "fp": 193,
-      "avg": 171
+      "ff": null,
+      "espn": 174,
+      "fp": null,
+      "avg": 174
     }
   },
   {
-    "rank": 200,
-    "name": "Pittsburgh Steelers",
-    "team": "PIT",
+    "rank": 175,
+    "name": "Eagles D/ST",
+    "team": "PHI",
     "position": {
       "position": "DST",
       "rank": 7
     },
     "price": 0,
-    "bye": 9,
+    "bye": 10,
     "rankings": {
-      "ff": 178,
-      "fp": 194,
-      "avg": 186
+      "ff": null,
+      "espn": 175,
+      "fp": null,
+      "avg": 175
     }
   },
   {
-    "rank": 201,
-    "name": "Jacksonville Jaguars",
-    "team": "JAX",
+    "rank": 176,
+    "name": "Browns D/ST",
+    "team": "CLE",
     "position": {
       "position": "DST",
       "rank": 8
     },
     "price": 0,
-    "bye": 7,
+    "bye": 11,
     "rankings": {
-      "ff": 163,
-      "fp": 195,
-      "avg": 179
-    }
-  },
-  {
-    "rank": 202,
-    "name": "Matt Gay",
-    "team": "LV",
-    "position": {
-      "position": "K",
-      "rank": 5
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 195,
+      "ff": null,
+      "espn": 176,
       "fp": null,
-      "avg": 195
+      "avg": 176
     }
   },
   {
-    "rank": 203,
-    "name": "Minnesota Vikings",
-    "team": "MIN",
+    "rank": 177,
+    "name": "Patriots D/ST",
+    "team": "NE",
     "position": {
       "position": "DST",
       "rank": 9
     },
     "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 156,
-      "fp": 196,
-      "avg": 176
-    }
-  },
-  {
-    "rank": 204,
-    "name": "Chimere Dike",
-    "team": "TEN",
-    "position": {
-      "position": "WR",
-      "rank": 76
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": 228,
-      "fp": 197,
-      "avg": 213
-    }
-  },
-  {
-    "rank": 205,
-    "name": "Darnell Mooney",
-    "team": "NYG",
-    "position": {
-      "position": "WR",
-      "rank": 77
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 272,
-      "fp": 198,
-      "avg": 235
-    }
-  },
-  {
-    "rank": 206,
-    "name": "Tyrod Taylor",
-    "team": "GB",
-    "position": {
-      "position": "QB",
-      "rank": 30
-    },
-    "price": 0,
     "bye": 11,
     "rankings": {
-      "ff": 199,
+      "ff": null,
+      "espn": 177,
       "fp": null,
-      "avg": 199
+      "avg": 177
     }
   },
   {
-    "rank": 207,
-    "name": "Ray Davis",
-    "team": "BUF",
-    "position": {
-      "position": "RB",
-      "rank": 62
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 268,
-      "fp": 199,
-      "avg": 234
-    }
-  },
-  {
-    "rank": 208,
-    "name": "Los Angeles Chargers",
-    "team": "LAC",
+    "rank": 178,
+    "name": "Lions D/ST",
+    "team": "DET",
     "position": {
       "position": "DST",
       "rank": 10
     },
     "price": 0,
-    "bye": 7,
+    "bye": 6,
     "rankings": {
-      "ff": 198,
-      "fp": 200,
-      "avg": 199
+      "ff": null,
+      "espn": 178,
+      "fp": null,
+      "avg": 178
     }
   },
   {
-    "rank": 209,
+    "rank": 179,
+    "name": "Chiefs D/ST",
+    "team": "KC",
+    "position": {
+      "position": "DST",
+      "rank": 11
+    },
+    "price": 0,
+    "bye": 5,
+    "rankings": {
+      "ff": null,
+      "espn": 179,
+      "fp": null,
+      "avg": 179
+    }
+  },
+  {
+    "rank": 180,
+    "name": "Chargers D/ST",
+    "team": "LAC",
+    "position": {
+      "position": "DST",
+      "rank": 12
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": null,
+      "espn": 180,
+      "fp": null,
+      "avg": 180
+    }
+  },
+  {
+    "rank": 181,
+    "name": "Brandon Aubrey",
+    "team": "DAL",
+    "position": {
+      "position": "K",
+      "rank": 1
+    },
+    "price": 0,
+    "bye": 14,
+    "rankings": {
+      "ff": 60,
+      "espn": 181,
+      "fp": 192,
+      "avg": 144
+    }
+  },
+  {
+    "rank": 182,
     "name": "Cameron Dicker",
     "team": "LAC",
     "position": {
       "position": "K",
-      "rank": 6
+      "rank": 2
     },
     "price": 0,
     "bye": 7,
     "rankings": {
       "ff": 81,
+      "espn": 182,
       "fp": 201,
-      "avg": 141
+      "avg": 155
     }
   },
   {
-    "rank": 210,
-    "name": "Mike Washington Jr.",
-    "team": "LV",
-    "position": {
-      "position": "RB",
-      "rank": 63
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": null,
-      "fp": 202,
-      "avg": 202
-    }
-  },
-  {
-    "rank": 211,
-    "name": "Ka'imi Fairbairn",
-    "team": "HOU",
-    "position": {
-      "position": "K",
-      "rank": 7
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 61,
-      "fp": 203,
-      "avg": 132
-    }
-  },
-  {
-    "rank": 212,
+    "rank": 183,
     "name": "Jason Myers",
     "team": "SEA",
     "position": {
       "position": "K",
-      "rank": 8
+      "rank": 3
     },
     "price": 0,
     "bye": 11,
     "rankings": {
       "ff": 54,
+      "espn": 183,
       "fp": 204,
-      "avg": 129
+      "avg": 147
     }
   },
   {
-    "rank": 213,
-    "name": "Dillon Gabriel",
-    "team": "CLE",
+    "rank": 184,
+    "name": "Harrison Mevis",
+    "team": "LAR",
     "position": {
-      "position": "QB",
-      "rank": 31
+      "position": "K",
+      "rank": 4
     },
     "price": 0,
     "bye": 11,
     "rankings": {
+      "ff": 201,
+      "espn": 184,
+      "fp": 252,
+      "avg": 212
+    }
+  },
+  {
+    "rank": 185,
+    "name": "Ka'imi Fairbairn",
+    "team": "HOU",
+    "position": {
+      "position": "K",
+      "rank": 5
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 61,
+      "espn": 185,
+      "fp": 203,
+      "avg": 150
+    }
+  },
+  {
+    "rank": 186,
+    "name": "Eddy Pineiro",
+    "team": "SF",
+    "position": {
+      "position": "K",
+      "rank": 6
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 112,
+      "espn": 186,
+      "fp": 212,
+      "avg": 170
+    }
+  },
+  {
+    "rank": 187,
+    "name": "Harrison Butker",
+    "team": "KC",
+    "position": {
+      "position": "K",
+      "rank": 7
+    },
+    "price": 0,
+    "bye": 5,
+    "rankings": {
+      "ff": 105,
+      "espn": 187,
+      "fp": 243,
+      "avg": 178
+    }
+  },
+  {
+    "rank": 188,
+    "name": "Cam Little",
+    "team": "JAX",
+    "position": {
+      "position": "K",
+      "rank": 8
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 79,
+      "espn": 188,
+      "fp": 206,
+      "avg": 158
+    }
+  },
+  {
+    "rank": 189,
+    "name": "Jake Bates",
+    "team": "DET",
+    "position": {
+      "position": "K",
+      "rank": 9
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 89,
+      "espn": 189,
+      "fp": 235,
+      "avg": 171
+    }
+  },
+  {
+    "rank": 190,
+    "name": "Tyler Loop",
+    "team": "BAL",
+    "position": {
+      "position": "K",
+      "rank": 10
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 109,
+      "espn": 190,
+      "fp": 215,
+      "avg": 171
+    }
+  },
+  {
+    "rank": 191,
+    "name": "Cairo Santos",
+    "team": "CHI",
+    "position": {
+      "position": "K",
+      "rank": 11
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 126,
+      "espn": 191,
+      "fp": 223,
+      "avg": 180
+    }
+  },
+  {
+    "rank": 192,
+    "name": "Will Reichard",
+    "team": "MIN",
+    "position": {
+      "position": "K",
+      "rank": 12
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 87,
+      "espn": 192,
+      "fp": 293,
+      "avg": 191
+    }
+  },
+  {
+    "rank": 193,
+    "name": "Justice Hill",
+    "team": "BAL",
+    "position": {
+      "position": "RB",
+      "rank": 57
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 281,
+      "espn": 193,
+      "fp": 253,
+      "avg": 242
+    }
+  },
+  {
+    "rank": 194,
+    "name": "Juwan Johnson",
+    "team": "NO",
+    "position": {
+      "position": "TE",
+      "rank": 21
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 147,
+      "espn": 194,
+      "fp": 137,
+      "avg": 159
+    }
+  },
+  {
+    "rank": 195,
+    "name": "Jordan James",
+    "team": "SF",
+    "position": {
+      "position": "RB",
+      "rank": 58
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 195,
+      "fp": 289,
+      "avg": 242
+    }
+  },
+  {
+    "rank": 196,
+    "name": "Kaelon Black",
+    "team": "SF",
+    "position": {
+      "position": "RB",
+      "rank": 59
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 196,
+      "fp": 317,
+      "avg": 257
+    }
+  },
+  {
+    "rank": 197,
+    "name": "Jack Bech",
+    "team": "LV",
+    "position": {
+      "position": "WR",
+      "rank": 72
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 384,
+      "espn": 197,
+      "fp": 246,
+      "avg": 276
+    }
+  },
+  {
+    "rank": 198,
+    "name": "Jordan Love",
+    "team": "GB",
+    "position": {
+      "position": "QB",
+      "rank": 22
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 24,
+      "espn": 198,
+      "fp": 116,
+      "avg": 113
+    }
+  },
+  {
+    "rank": 199,
+    "name": "Cam Ward",
+    "team": "TEN",
+    "position": {
+      "position": "QB",
+      "rank": 23
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
+      "ff": 34,
+      "espn": 199,
+      "fp": 144,
+      "avg": 126
+    }
+  },
+  {
+    "rank": 200,
+    "name": "C.J. Stroud",
+    "team": "HOU",
+    "position": {
+      "position": "QB",
+      "rank": 24
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 30,
+      "espn": 200,
+      "fp": 133,
+      "avg": 121
+    }
+  },
+  {
+    "rank": 201,
+    "name": "Tank Dell",
+    "team": "HOU",
+    "position": {
+      "position": "WR",
+      "rank": 73
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 201,
+      "fp": 230,
+      "avg": 216
+    }
+  },
+  {
+    "rank": 202,
+    "name": "Brandon Aiyuk",
+    "team": "SF",
+    "position": {
+      "position": "WR",
+      "rank": 74
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 202,
+      "fp": 175,
+      "avg": 189
+    }
+  },
+  {
+    "rank": 203,
+    "name": "Deebo Samuel Sr.",
+    "team": "FA",
+    "position": {
+      "position": "WR",
+      "rank": 75
+    },
+    "price": 0,
+    "bye": 0,
+    "rankings": {
+      "ff": 126,
+      "espn": 203,
+      "fp": 166,
+      "avg": 165
+    }
+  },
+  {
+    "rank": 204,
+    "name": "Stefon Diggs",
+    "team": "FA",
+    "position": {
+      "position": "WR",
+      "rank": 76
+    },
+    "price": 0,
+    "bye": 0,
+    "rankings": {
+      "ff": 102,
+      "espn": 204,
+      "fp": 171,
+      "avg": 159
+    }
+  },
+  {
+    "rank": 205,
+    "name": "Tre Harris",
+    "team": "LAC",
+    "position": {
+      "position": "WR",
+      "rank": 77
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 334,
+      "espn": 205,
+      "fp": 167,
+      "avg": 235
+    }
+  },
+  {
+    "rank": 206,
+    "name": "Pat Freiermuth",
+    "team": "PIT",
+    "position": {
+      "position": "TE",
+      "rank": 22
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
       "ff": 204,
-      "fp": null,
-      "avg": 204
+      "espn": 206,
+      "fp": 240,
+      "avg": 217
+    }
+  },
+  {
+    "rank": 207,
+    "name": "Dalton Schultz",
+    "team": "HOU",
+    "position": {
+      "position": "TE",
+      "rank": 23
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 167,
+      "espn": 207,
+      "fp": 163,
+      "avg": 179
+    }
+  },
+  {
+    "rank": 208,
+    "name": "Isaac TeSlaa",
+    "team": "DET",
+    "position": {
+      "position": "WR",
+      "rank": 78
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 237,
+      "espn": 208,
+      "fp": 189,
+      "avg": 211
+    }
+  },
+  {
+    "rank": 209,
+    "name": "Caleb Douglas",
+    "team": "MIA",
+    "position": {
+      "position": "WR",
+      "rank": 79
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": null,
+      "espn": 209,
+      "fp": 355,
+      "avg": 282
+    }
+  },
+  {
+    "rank": 210,
+    "name": "Cooper Kupp",
+    "team": "SEA",
+    "position": {
+      "position": "WR",
+      "rank": 80
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 214,
+      "espn": 210,
+      "fp": 225,
+      "avg": 216
+    }
+  },
+  {
+    "rank": 211,
+    "name": "Ryan Flournoy",
+    "team": "DAL",
+    "position": {
+      "position": "WR",
+      "rank": 81
+    },
+    "price": 0,
+    "bye": 14,
+    "rankings": {
+      "ff": 204,
+      "espn": 211,
+      "fp": 182,
+      "avg": 199
+    }
+  },
+  {
+    "rank": 212,
+    "name": "Kaytron Allen",
+    "team": "WAS",
+    "position": {
+      "position": "RB",
+      "rank": 60
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": null,
+      "espn": 212,
+      "fp": 209,
+      "avg": 211
+    }
+  },
+  {
+    "rank": 213,
+    "name": "Nicholas Singleton",
+    "team": "TEN",
+    "position": {
+      "position": "RB",
+      "rank": 61
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
+      "ff": null,
+      "espn": 213,
+      "fp": 211,
+      "avg": 212
     }
   },
   {
     "rank": 214,
+    "name": "Demond Claiborne",
+    "team": "MIN",
+    "position": {
+      "position": "RB",
+      "rank": 62
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": null,
+      "espn": 214,
+      "fp": 278,
+      "avg": 246
+    }
+  },
+  {
+    "rank": 215,
+    "name": "Oronde Gadsden",
+    "team": "LAC",
+    "position": {
+      "position": "TE",
+      "rank": 24
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 190,
+      "espn": 215,
+      "fp": 141,
+      "avg": 182
+    }
+  },
+  {
+    "rank": 216,
     "name": "Gunnar Helm",
     "team": "TEN",
     "position": {
@@ -3419,396 +3666,200 @@
     "bye": 9,
     "rankings": {
       "ff": 294,
+      "espn": 216,
       "fp": 205,
-      "avg": 250
-    }
-  },
-  {
-    "rank": 215,
-    "name": "Cam Little",
-    "team": "JAX",
-    "position": {
-      "position": "K",
-      "rank": 9
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 79,
-      "fp": 206,
-      "avg": 143
-    }
-  },
-  {
-    "rank": 216,
-    "name": "Davis Mills",
-    "team": "HOU",
-    "position": {
-      "position": "QB",
-      "rank": 32
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 207,
-      "fp": null,
-      "avg": 207
+      "avg": 238
     }
   },
   {
     "rank": 217,
-    "name": "Green Bay Packers",
-    "team": "GB",
-    "position": {
-      "position": "DST",
-      "rank": 11
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 259,
-      "fp": 207,
-      "avg": 233
-    }
-  },
-  {
-    "rank": 218,
-    "name": "Dontayvion Wicks",
-    "team": "PHI",
-    "position": {
-      "position": "WR",
-      "rank": 78
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 294,
-      "fp": 208,
-      "avg": 251
-    }
-  },
-  {
-    "rank": 219,
-    "name": "Jake Browning",
-    "team": "TB",
-    "position": {
-      "position": "QB",
-      "rank": 33
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 209,
-      "fp": null,
-      "avg": 209
-    }
-  },
-  {
-    "rank": 220,
-    "name": "Kaytron Allen",
-    "team": "WAS",
-    "position": {
-      "position": "RB",
-      "rank": 64
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": null,
-      "fp": 209,
-      "avg": 209
-    }
-  },
-  {
-    "rank": 221,
-    "name": "Kansas City Chiefs",
-    "team": "KC",
-    "position": {
-      "position": "DST",
-      "rank": 12
-    },
-    "price": 0,
-    "bye": 5,
-    "rankings": {
-      "ff": 242,
-      "fp": 210,
-      "avg": 226
-    }
-  },
-  {
-    "rank": 222,
-    "name": "Nicholas Singleton",
-    "team": "TEN",
-    "position": {
-      "position": "RB",
-      "rank": 65
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": null,
-      "fp": 211,
-      "avg": 211
-    }
-  },
-  {
-    "rank": 223,
-    "name": "Eddy Pineiro",
-    "team": "SF",
-    "position": {
-      "position": "K",
-      "rank": 10
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 112,
-      "fp": 212,
-      "avg": 162
-    }
-  },
-  {
-    "rank": 224,
-    "name": "Antonio Williams",
-    "team": "WAS",
-    "position": {
-      "position": "WR",
-      "rank": 79
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": null,
-      "fp": 213,
-      "avg": 213
-    }
-  },
-  {
-    "rank": 225,
-    "name": "Malik Washington",
-    "team": "MIA",
-    "position": {
-      "position": "WR",
-      "rank": 80
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 231,
-      "fp": 214,
-      "avg": 223
-    }
-  },
-  {
-    "rank": 226,
-    "name": "Tyler Loop",
-    "team": "BAL",
-    "position": {
-      "position": "K",
-      "rank": 11
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 109,
-      "fp": 215,
-      "avg": 162
-    }
-  },
-  {
-    "rank": 227,
-    "name": "Baltimore Ravens",
-    "team": "BAL",
-    "position": {
-      "position": "DST",
-      "rank": 13
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 263,
-      "fp": 216,
-      "avg": 240
-    }
-  },
-  {
-    "rank": 228,
-    "name": "Evan McPherson",
-    "team": "CIN",
-    "position": {
-      "position": "K",
-      "rank": 12
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 115,
-      "fp": 217,
-      "avg": 166
-    }
-  },
-  {
-    "rank": 229,
-    "name": "Jaylen Wright",
-    "team": "MIA",
-    "position": {
-      "position": "RB",
-      "rank": 66
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 301,
-      "fp": 218,
-      "avg": 260
-    }
-  },
-  {
-    "rank": 230,
-    "name": "Elic Ayomanor",
-    "team": "TEN",
-    "position": {
-      "position": "WR",
-      "rank": 81
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": 209,
-      "fp": 219,
-      "avg": 214
-    }
-  },
-  {
-    "rank": 231,
-    "name": "Jake Moody",
-    "team": "WAS",
-    "position": {
-      "position": "K",
-      "rank": 13
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 219,
-      "fp": null,
-      "avg": 219
-    }
-  },
-  {
-    "rank": 232,
-    "name": "Cleveland Browns",
-    "team": "CLE",
-    "position": {
-      "position": "DST",
-      "rank": 14
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 160,
-      "fp": 220,
-      "avg": 190
-    }
-  },
-  {
-    "rank": 233,
-    "name": "Tyreek Hill",
-    "team": "FA",
-    "position": {
-      "position": "WR",
-      "rank": 82
-    },
-    "price": 0,
-    "bye": 0,
-    "rankings": {
-      "ff": 338,
-      "fp": 221,
-      "avg": 280
-    }
-  },
-  {
-    "rank": 234,
-    "name": "Andy Borregales",
-    "team": "NE",
-    "position": {
-      "position": "K",
-      "rank": 14
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 94,
-      "fp": 222,
-      "avg": 158
-    }
-  },
-  {
-    "rank": 235,
-    "name": "Cairo Santos",
-    "team": "CHI",
-    "position": {
-      "position": "K",
-      "rank": 15
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 126,
-      "fp": 223,
-      "avg": 175
-    }
-  },
-  {
-    "rank": 236,
-    "name": "Detroit Lions",
-    "team": "DET",
-    "position": {
-      "position": "DST",
-      "rank": 15
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 247,
-      "fp": 224,
-      "avg": 236
-    }
-  },
-  {
-    "rank": 237,
-    "name": "Cooper Kupp",
+    "name": "AJ Barner",
     "team": "SEA",
-    "position": {
-      "position": "WR",
-      "rank": 83
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 214,
-      "fp": 225,
-      "avg": 220
-    }
-  },
-  {
-    "rank": 238,
-    "name": "David Njoku",
-    "team": "LAC",
     "position": {
       "position": "TE",
       "rank": 26
     },
     "price": 0,
-    "bye": 7,
+    "bye": 11,
     "rankings": {
-      "ff": 259,
-      "fp": 226,
-      "avg": 243
+      "ff": 154,
+      "espn": 217,
+      "fp": 191,
+      "avg": 187
     }
   },
   {
-    "rank": 239,
+    "rank": 218,
+    "name": "Sam Darnold",
+    "team": "SEA",
+    "position": {
+      "position": "QB",
+      "rank": 25
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 17,
+      "espn": 218,
+      "fp": 138,
+      "avg": 124
+    }
+  },
+  {
+    "rank": 219,
+    "name": "Bryce Young",
+    "team": "CAR",
+    "position": {
+      "position": "QB",
+      "rank": 26
+    },
+    "price": 0,
+    "bye": 5,
+    "rankings": {
+      "ff": 26,
+      "espn": 219,
+      "fp": 152,
+      "avg": 132
+    }
+  },
+  {
+    "rank": 220,
+    "name": "Fernando Mendoza",
+    "team": "LV",
+    "position": {
+      "position": "QB",
+      "rank": 27
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 220,
+      "fp": 229,
+      "avg": 225
+    }
+  },
+  {
+    "rank": 221,
+    "name": "Jonah Coleman",
+    "team": "DEN",
+    "position": {
+      "position": "RB",
+      "rank": 63
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": null,
+      "espn": 221,
+      "fp": 164,
+      "avg": 193
+    }
+  },
+  {
+    "rank": 222,
+    "name": "Seth McGowan",
+    "team": "IND",
+    "position": {
+      "position": "RB",
+      "rank": 64
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 222,
+      "fp": 280,
+      "avg": 251
+    }
+  },
+  {
+    "rank": 223,
+    "name": "Emmett Johnson",
+    "team": "KC",
+    "position": {
+      "position": "RB",
+      "rank": 65
+    },
+    "price": 0,
+    "bye": 5,
+    "rankings": {
+      "ff": null,
+      "espn": 223,
+      "fp": 185,
+      "avg": 204
+    }
+  },
+  {
+    "rank": 224,
+    "name": "Malik Washington",
+    "team": "MIA",
+    "position": {
+      "position": "WR",
+      "rank": 82
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 231,
+      "espn": 224,
+      "fp": 214,
+      "avg": 223
+    }
+  },
+  {
+    "rank": 225,
+    "name": "Dylan Sampson",
+    "team": "CLE",
+    "position": {
+      "position": "RB",
+      "rank": 66
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 253,
+      "espn": 225,
+      "fp": 143,
+      "avg": 207
+    }
+  },
+  {
+    "rank": 226,
+    "name": "Samaje Perine",
+    "team": "CIN",
+    "position": {
+      "position": "RB",
+      "rank": 67
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 242,
+      "espn": 226,
+      "fp": 287,
+      "avg": 252
+    }
+  },
+  {
+    "rank": 227,
+    "name": "Tyreek Hill",
+    "team": "FA",
+    "position": {
+      "position": "WR",
+      "rank": 83
+    },
+    "price": 0,
+    "bye": 0,
+    "rankings": {
+      "ff": 338,
+      "espn": 227,
+      "fp": 221,
+      "avg": 262
+    }
+  },
+  {
+    "rank": 228,
     "name": "De'Zhaun Stribling",
     "team": "SF",
     "position": {
@@ -3819,46 +3870,32 @@
     "bye": 8,
     "rankings": {
       "ff": null,
+      "espn": 228,
       "fp": 227,
-      "avg": 227
+      "avg": 228
     }
   },
   {
-    "rank": 240,
-    "name": "Jalen Nailor",
-    "team": "LV",
+    "rank": 229,
+    "name": "Jalen Tolbert",
+    "team": "MIA",
     "position": {
       "position": "WR",
       "rank": 85
     },
     "price": 0,
-    "bye": 13,
+    "bye": 6,
     "rankings": {
-      "ff": 217,
-      "fp": 228,
-      "avg": 223
+      "ff": 357,
+      "espn": 229,
+      "fp": 348,
+      "avg": 311
     }
   },
   {
-    "rank": 241,
-    "name": "Fernando Mendoza",
-    "team": "LV",
-    "position": {
-      "position": "QB",
-      "rank": 34
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": null,
-      "fp": 229,
-      "avg": 229
-    }
-  },
-  {
-    "rank": 242,
-    "name": "Tank Dell",
-    "team": "HOU",
+    "rank": 230,
+    "name": "Christian Kirk",
+    "team": "SF",
     "position": {
       "position": "WR",
       "rank": 86
@@ -3866,863 +3903,1087 @@
     "price": 0,
     "bye": 8,
     "rankings": {
-      "ff": null,
-      "fp": 230,
-      "avg": 230
+      "ff": 354,
+      "espn": 230,
+      "fp": 256,
+      "avg": 280
     }
   },
   {
-    "rank": 243,
-    "name": "Rashod Bateman",
-    "team": "BAL",
+    "rank": 231,
+    "name": "Savion Williams",
+    "team": "GB",
     "position": {
       "position": "WR",
       "rank": 87
     },
     "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 327,
-      "fp": 231,
-      "avg": 279
-    }
-  },
-  {
-    "rank": 244,
-    "name": "Chase McLaughlin",
-    "team": "TB",
-    "position": {
-      "position": "K",
-      "rank": 16
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 91,
-      "fp": 232,
-      "avg": 162
-    }
-  },
-  {
-    "rank": 245,
-    "name": "Geno Smith",
-    "team": "NYJ",
-    "position": {
-      "position": "QB",
-      "rank": 35
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 32,
-      "fp": 233,
-      "avg": 133
-    }
-  },
-  {
-    "rank": 246,
-    "name": "Terrance Ferguson",
-    "team": "LAR",
-    "position": {
-      "position": "TE",
-      "rank": 27
-    },
-    "price": 0,
     "bye": 11,
     "rankings": {
-      "ff": 294,
-      "fp": 234,
-      "avg": 264
+      "ff": 414,
+      "espn": 231,
+      "fp": 389,
+      "avg": 345
     }
   },
   {
-    "rank": 247,
-    "name": "Jake Bates",
-    "team": "DET",
-    "position": {
-      "position": "K",
-      "rank": 17
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 89,
-      "fp": 235,
-      "avg": 162
-    }
-  },
-  {
-    "rank": 248,
-    "name": "Buffalo Bills",
-    "team": "BUF",
-    "position": {
-      "position": "DST",
-      "rank": 16
-    },
-    "price": 0,
-    "bye": 7,
-    "rankings": {
-      "ff": 207,
-      "fp": 236,
-      "avg": 222
-    }
-  },
-  {
-    "rank": 249,
-    "name": "Ollie Gordon",
-    "team": "MIA",
-    "position": {
-      "position": "RB",
-      "rank": 67
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": 281,
-      "fp": 237,
-      "avg": 259
-    }
-  },
-  {
-    "rank": 250,
-    "name": "Cade Otton",
-    "team": "TB",
-    "position": {
-      "position": "TE",
-      "rank": 28
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 235,
-      "fp": 238,
-      "avg": 237
-    }
-  },
-  {
-    "rank": 251,
-    "name": "Devin Neal",
-    "team": "FA",
-    "position": {
-      "position": "RB",
-      "rank": 68
-    },
-    "price": 0,
-    "bye": 0,
-    "rankings": {
-      "ff": 307,
-      "fp": 239,
-      "avg": 273
-    }
-  },
-  {
-    "rank": 252,
-    "name": "Pat Freiermuth",
-    "team": "PIT",
-    "position": {
-      "position": "TE",
-      "rank": 29
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": 204,
-      "fp": 240,
-      "avg": 222
-    }
-  },
-  {
-    "rank": 253,
-    "name": "Mason Taylor",
-    "team": "NYJ",
-    "position": {
-      "position": "TE",
-      "rank": 30
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 287,
-      "fp": 241,
-      "avg": 264
-    }
-  },
-  {
-    "rank": 254,
-    "name": "Ted Hurst III",
-    "team": "TB",
+    "rank": 232,
+    "name": "Chris Brazzell II",
+    "team": "CAR",
     "position": {
       "position": "WR",
       "rank": 88
     },
     "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": null,
-      "fp": 242,
-      "avg": 242
-    }
-  },
-  {
-    "rank": 255,
-    "name": "Harrison Butker",
-    "team": "KC",
-    "position": {
-      "position": "K",
-      "rank": 18
-    },
-    "price": 0,
     "bye": 5,
     "rankings": {
-      "ff": 105,
-      "fp": 243,
-      "avg": 174
+      "ff": null,
+      "espn": 232,
+      "fp": 290,
+      "avg": 261
     }
   },
   {
-    "rank": 256,
-    "name": "Germie Bernard",
-    "team": "PIT",
+    "rank": 233,
+    "name": "Xavier Legette",
+    "team": "CAR",
     "position": {
       "position": "WR",
       "rank": 89
     },
     "price": 0,
-    "bye": 9,
+    "bye": 5,
     "rankings": {
-      "ff": null,
-      "fp": 244,
-      "avg": 244
+      "ff": 254,
+      "espn": 233,
+      "fp": 279,
+      "avg": 255
     }
   },
   {
-    "rank": 257,
-    "name": "Russell Wilson",
-    "team": "FA",
-    "position": {
-      "position": "QB",
-      "rank": 36
-    },
-    "price": 0,
-    "bye": 0,
-    "rankings": {
-      "ff": 245,
-      "fp": null,
-      "avg": 245
-    }
-  },
-  {
-    "rank": 258,
-    "name": "Kaleb Johnson",
-    "team": "PIT",
-    "position": {
-      "position": "RB",
-      "rank": 69
-    },
-    "price": 0,
-    "bye": 9,
-    "rankings": {
-      "ff": 508,
-      "fp": 245,
-      "avg": 377
-    }
-  },
-  {
-    "rank": 259,
-    "name": "Jack Bech",
-    "team": "LV",
+    "rank": 234,
+    "name": "Keon Coleman",
+    "team": "BUF",
     "position": {
       "position": "WR",
       "rank": 90
     },
     "price": 0,
-    "bye": 13,
+    "bye": 7,
     "rankings": {
-      "ff": 384,
-      "fp": 246,
-      "avg": 315
+      "ff": 224,
+      "espn": 234,
+      "fp": 255,
+      "avg": 238
     }
   },
   {
-    "rank": 260,
-    "name": "Aaron Rodgers",
-    "team": "PIT",
+    "rank": 235,
+    "name": "Buccaneers D/ST",
+    "team": "TB",
     "position": {
-      "position": "QB",
-      "rank": 37
+      "position": "DST",
+      "rank": 13
     },
     "price": 0,
-    "bye": 9,
+    "bye": 10,
     "rankings": {
-      "ff": 25,
-      "fp": 247,
-      "avg": 136
+      "ff": null,
+      "espn": 235,
+      "fp": null,
+      "avg": 235
     }
   },
   {
-    "rank": 261,
-    "name": "Zachariah Branch",
-    "team": "ATL",
+    "rank": 236,
+    "name": "Packers D/ST",
+    "team": "GB",
     "position": {
-      "position": "WR",
-      "rank": 91
+      "position": "DST",
+      "rank": 14
     },
     "price": 0,
     "bye": 11,
     "rankings": {
       "ff": null,
-      "fp": 248,
-      "avg": 248
+      "espn": 236,
+      "fp": null,
+      "avg": 236
     }
   },
   {
-    "rank": 262,
-    "name": "Trey Benson",
-    "team": "ARI",
-    "position": {
-      "position": "RB",
-      "rank": 70
-    },
-    "price": 0,
-    "bye": 14,
-    "rankings": {
-      "ff": 392,
-      "fp": 249,
-      "avg": 321
-    }
-  },
-  {
-    "rank": 263,
-    "name": "Colby Parkinson",
-    "team": "LAR",
-    "position": {
-      "position": "TE",
-      "rank": 31
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 172,
-      "fp": 250,
-      "avg": 211
-    }
-  },
-  {
-    "rank": 264,
-    "name": "Theo Johnson",
-    "team": "NYG",
-    "position": {
-      "position": "TE",
-      "rank": 32
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 192,
-      "fp": 251,
-      "avg": 222
-    }
-  },
-  {
-    "rank": 265,
-    "name": "Harrison Mevis",
-    "team": "LAR",
-    "position": {
-      "position": "K",
-      "rank": 19
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 201,
-      "fp": 252,
-      "avg": 227
-    }
-  },
-  {
-    "rank": 266,
-    "name": "Justice Hill",
-    "team": "BAL",
-    "position": {
-      "position": "RB",
-      "rank": 71
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 281,
-      "fp": 253,
-      "avg": 267
-    }
-  },
-  {
-    "rank": 267,
+    "rank": 237,
     "name": "Chris Boswell",
     "team": "PIT",
     "position": {
       "position": "K",
-      "rank": 20
+      "rank": 13
     },
     "price": 0,
     "bye": 9,
     "rankings": {
       "ff": 91,
+      "espn": 237,
       "fp": 254,
-      "avg": 173
+      "avg": 194
     }
   },
   {
-    "rank": 268,
-    "name": "Michael Badgley",
-    "team": "FA",
+    "rank": 238,
+    "name": "Chase McLaughlin",
+    "team": "TB",
     "position": {
       "position": "K",
-      "rank": 21
+      "rank": 14
     },
     "price": 0,
-    "bye": 0,
+    "bye": 10,
     "rankings": {
-      "ff": 254,
-      "fp": null,
-      "avg": 254
+      "ff": 91,
+      "espn": 238,
+      "fp": 232,
+      "avg": 187
     }
   },
   {
-    "rank": 269,
-    "name": "Keon Coleman",
-    "team": "BUF",
+    "rank": 239,
+    "name": "LeQuint Allen",
+    "team": "JAX",
     "position": {
-      "position": "WR",
-      "rank": 92
+      "position": "RB",
+      "rank": 68
     },
     "price": 0,
     "bye": 7,
     "rankings": {
-      "ff": 224,
-      "fp": 255,
-      "avg": 240
+      "ff": 469,
+      "espn": 239,
+      "fp": 288,
+      "avg": 332
     }
   },
   {
-    "rank": 270,
-    "name": "Christian Kirk",
-    "team": "SF",
+    "rank": 240,
+    "name": "Jaylen Wright",
+    "team": "MIA",
     "position": {
-      "position": "WR",
-      "rank": 93
+      "position": "RB",
+      "rank": 69
     },
     "price": 0,
-    "bye": 8,
+    "bye": 6,
     "rankings": {
-      "ff": 354,
-      "fp": 256,
-      "avg": 305
+      "ff": 301,
+      "espn": 240,
+      "fp": 218,
+      "avg": 253
     }
   },
   {
-    "rank": 271,
-    "name": "Isaiah Davis",
-    "team": "NYJ",
+    "rank": 241,
+    "name": "Ollie Gordon II",
+    "team": "MIA",
+    "position": {
+      "position": "RB",
+      "rank": 70
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 281,
+      "espn": 241,
+      "fp": 237,
+      "avg": 253
+    }
+  },
+  {
+    "rank": 242,
+    "name": "Kimani Vidal",
+    "team": "LAC",
+    "position": {
+      "position": "RB",
+      "rank": 71
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 140,
+      "espn": 242,
+      "fp": 180,
+      "avg": 187
+    }
+  },
+  {
+    "rank": 243,
+    "name": "Brashard Smith",
+    "team": "KC",
     "position": {
       "position": "RB",
       "rank": 72
     },
     "price": 0,
-    "bye": 13,
+    "bye": 5,
     "rankings": {
-      "ff": 291,
-      "fp": 257,
-      "avg": 274
+      "ff": 338,
+      "espn": 243,
+      "fp": 276,
+      "avg": 286
     }
   },
   {
-    "rank": 272,
-    "name": "Evan Engram",
-    "team": "DEN",
-    "position": {
-      "position": "TE",
-      "rank": 33
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 268,
-      "fp": 258,
-      "avg": 263
-    }
-  },
-  {
-    "rank": 273,
-    "name": "Chris Bell",
-    "team": "MIA",
-    "position": {
-      "position": "WR",
-      "rank": 94
-    },
-    "price": 0,
-    "bye": 6,
-    "rankings": {
-      "ff": null,
-      "fp": 259,
-      "avg": 259
-    }
-  },
-  {
-    "rank": 274,
-    "name": "Tory Horton",
-    "team": "SEA",
-    "position": {
-      "position": "WR",
-      "rank": 95
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 272,
-      "fp": 260,
-      "avg": 266
-    }
-  },
-  {
-    "rank": 275,
-    "name": "Michael Penix",
-    "team": "ATL",
-    "position": {
-      "position": "QB",
-      "rank": 38
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 83,
-      "fp": 261,
-      "avg": 172
-    }
-  },
-  {
-    "rank": 276,
-    "name": "Marvin Mims",
-    "team": "DEN",
-    "position": {
-      "position": "WR",
-      "rank": 96
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 276,
-      "fp": 262,
-      "avg": 269
-    }
-  },
-  {
-    "rank": 277,
-    "name": "Joshua Karty",
-    "team": "FA",
-    "position": {
-      "position": "K",
-      "rank": 22
-    },
-    "price": 0,
-    "bye": 0,
-    "rankings": {
-      "ff": 263,
-      "fp": null,
-      "avg": 263
-    }
-  },
-  {
-    "rank": 278,
-    "name": "Eli Stowers",
-    "team": "PHI",
-    "position": {
-      "position": "TE",
-      "rank": 34
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": null,
-      "fp": 263,
-      "avg": 263
-    }
-  },
-  {
-    "rank": 279,
-    "name": "Kendre Miller",
-    "team": "NO",
+    "rank": 244,
+    "name": "Adam Randall",
+    "team": "BAL",
     "position": {
       "position": "RB",
       "rank": 73
     },
     "price": 0,
-    "bye": 8,
+    "bye": 13,
     "rankings": {
-      "ff": 369,
-      "fp": 264,
-      "avg": 317
+      "ff": null,
+      "espn": 244,
+      "fp": 305,
+      "avg": 275
     }
   },
   {
-    "rank": 280,
-    "name": "Ty Johnson",
-    "team": "BUF",
+    "rank": 245,
+    "name": "Trey Benson",
+    "team": "ARI",
     "position": {
       "position": "RB",
       "rank": 74
     },
     "price": 0,
-    "bye": 7,
+    "bye": 14,
     "rankings": {
-      "ff": 201,
-      "fp": 265,
-      "avg": 233
+      "ff": 392,
+      "espn": 245,
+      "fp": 249,
+      "avg": 295
     }
   },
   {
-    "rank": 281,
-    "name": "Mack Hollins",
-    "team": "NE",
-    "position": {
-      "position": "WR",
-      "rank": 97
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 231,
-      "fp": 266,
-      "avg": 249
-    }
-  },
-  {
-    "rank": 282,
-    "name": "Malachi Fields",
-    "team": "NYG",
-    "position": {
-      "position": "WR",
-      "rank": 98
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": null,
-      "fp": 267,
-      "avg": 267
-    }
-  },
-  {
-    "rank": 283,
-    "name": "MarShawn Lloyd",
-    "team": "GB",
+    "rank": 246,
+    "name": "Kaleb Johnson",
+    "team": "PIT",
     "position": {
       "position": "RB",
       "rank": 75
     },
     "price": 0,
-    "bye": 11,
+    "bye": 9,
     "rankings": {
-      "ff": null,
-      "fp": 268,
-      "avg": 268
+      "ff": 508,
+      "espn": 246,
+      "fp": 245,
+      "avg": 333
     }
   },
   {
-    "rank": 284,
-    "name": "Chris Brooks",
-    "team": "GB",
+    "rank": 247,
+    "name": "Ty Johnson",
+    "team": "BUF",
     "position": {
       "position": "RB",
       "rank": 76
     },
     "price": 0,
-    "bye": 11,
+    "bye": 7,
     "rankings": {
-      "ff": 414,
-      "fp": 269,
-      "avg": 342
+      "ff": 201,
+      "espn": 247,
+      "fp": 265,
+      "avg": 238
     }
   },
   {
-    "rank": 285,
-    "name": "Elijah Sarratt",
-    "team": "BAL",
-    "position": {
-      "position": "WR",
-      "rank": 99
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": null,
-      "fp": 270,
-      "avg": 270
-    }
-  },
-  {
-    "rank": 286,
-    "name": "Jaydon Blue",
-    "team": "DAL",
+    "rank": 248,
+    "name": "MarShawn Lloyd",
+    "team": "GB",
     "position": {
       "position": "RB",
       "rank": 77
     },
     "price": 0,
-    "bye": 14,
-    "rankings": {
-      "ff": 405,
-      "fp": 271,
-      "avg": 338
-    }
-  },
-  {
-    "rank": 287,
-    "name": "Spencer Shrader",
-    "team": "IND",
-    "position": {
-      "position": "K",
-      "rank": 23
-    },
-    "price": 0,
-    "bye": 13,
-    "rankings": {
-      "ff": 272,
-      "fp": null,
-      "avg": 272
-    }
-  },
-  {
-    "rank": 288,
-    "name": "Kyle Williams",
-    "team": "NE",
-    "position": {
-      "position": "WR",
-      "rank": 100
-    },
-    "price": 0,
     "bye": 11,
     "rankings": {
-      "ff": 294,
-      "fp": 272,
-      "avg": 283
+      "ff": null,
+      "espn": 248,
+      "fp": 268,
+      "avg": 258
     }
   },
   {
-    "rank": 289,
-    "name": "Darius Slayton",
-    "team": "NYG",
-    "position": {
-      "position": "WR",
-      "rank": 101
-    },
-    "price": 0,
-    "bye": 8,
-    "rankings": {
-      "ff": 231,
-      "fp": 273,
-      "avg": 252
-    }
-  },
-  {
-    "rank": 290,
-    "name": "DJ Giddens",
-    "team": "IND",
+    "rank": 249,
+    "name": "Emari Demercado",
+    "team": "KC",
     "position": {
       "position": "RB",
       "rank": 78
     },
     "price": 0,
-    "bye": 13,
+    "bye": 5,
     "rankings": {
-      "ff": 460,
-      "fp": 274,
-      "avg": 367
+      "ff": 281,
+      "espn": 249,
+      "fp": 307,
+      "avg": 279
     }
   },
   {
-    "rank": 291,
-    "name": "Tua Tagovailoa",
-    "team": "ATL",
-    "position": {
-      "position": "QB",
-      "rank": 39
-    },
-    "price": 0,
-    "bye": 11,
-    "rankings": {
-      "ff": 45,
-      "fp": 275,
-      "avg": 160
-    }
-  },
-  {
-    "rank": 292,
-    "name": "Jeremy McNichols",
-    "team": "WAS",
+    "rank": 250,
+    "name": "Malik Davis",
+    "team": "DAL",
     "position": {
       "position": "RB",
       "rank": 79
     },
     "price": 0,
-    "bye": 7,
+    "bye": 14,
     "rankings": {
-      "ff": 276,
-      "fp": null,
-      "avg": 276
+      "ff": 315,
+      "espn": 250,
+      "fp": 283,
+      "avg": 283
     }
   },
   {
-    "rank": 293,
-    "name": "Brashard Smith",
-    "team": "KC",
+    "rank": 251,
+    "name": "Kyle Juszczyk",
+    "team": "SF",
     "position": {
       "position": "RB",
       "rank": 80
     },
     "price": 0,
-    "bye": 5,
+    "bye": 8,
     "rankings": {
-      "ff": 338,
-      "fp": 276,
-      "avg": 307
+      "ff": 343,
+      "espn": 251,
+      "fp": 420,
+      "avg": 338
     }
   },
   {
-    "rank": 294,
-    "name": "Keenan Allen",
-    "team": "FA",
+    "rank": 252,
+    "name": "Pat Bryant",
+    "team": "DEN",
     "position": {
       "position": "WR",
-      "rank": 102
+      "rank": 91
     },
     "price": 0,
-    "bye": 0,
+    "bye": 10,
     "rankings": {
-      "ff": 156,
-      "fp": 277,
+      "ff": 287,
+      "espn": 252,
+      "fp": 187,
+      "avg": 242
+    }
+  },
+  {
+    "rank": 253,
+    "name": "Tory Horton",
+    "team": "SEA",
+    "position": {
+      "position": "WR",
+      "rank": 92
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 272,
+      "espn": 253,
+      "fp": 260,
+      "avg": 262
+    }
+  },
+  {
+    "rank": 254,
+    "name": "Jaguars D/ST",
+    "team": "JAX",
+    "position": {
+      "position": "DST",
+      "rank": 15
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": null,
+      "espn": 254,
+      "fp": null,
+      "avg": 254
+    }
+  },
+  {
+    "rank": 255,
+    "name": "Colts D/ST",
+    "team": "IND",
+    "position": {
+      "position": "DST",
+      "rank": 16
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 255,
+      "fp": null,
+      "avg": 255
+    }
+  },
+  {
+    "rank": 256,
+    "name": "Evan McPherson",
+    "team": "CIN",
+    "position": {
+      "position": "K",
+      "rank": 15
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 115,
+      "espn": 256,
+      "fp": 217,
+      "avg": 196
+    }
+  },
+  {
+    "rank": 257,
+    "name": "Nick Folk",
+    "team": "ATL",
+    "position": {
+      "position": "K",
+      "rank": 16
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 143,
+      "espn": 257,
+      "fp": 373,
+      "avg": 258
+    }
+  },
+  {
+    "rank": 258,
+    "name": "Chig Okonkwo",
+    "team": "WAS",
+    "position": {
+      "position": "TE",
+      "rank": 27
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 224,
+      "espn": 258,
+      "fp": 168,
       "avg": 217
     }
   },
   {
-    "rank": 295,
-    "name": "Demond Claiborne",
-    "team": "MIN",
+    "rank": 259,
+    "name": "Jake Tonges",
+    "team": "SF",
+    "position": {
+      "position": "TE",
+      "rank": 28
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 237,
+      "espn": 259,
+      "fp": 309,
+      "avg": 268
+    }
+  },
+  {
+    "rank": 260,
+    "name": "Greg Dulcich",
+    "team": "MIA",
+    "position": {
+      "position": "TE",
+      "rank": 29
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 315,
+      "espn": 260,
+      "fp": 312,
+      "avg": 296
+    }
+  },
+  {
+    "rank": 261,
+    "name": "Kayshon Boutte",
+    "team": "NE",
+    "position": {
+      "position": "WR",
+      "rank": 93
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 172,
+      "espn": 261,
+      "fp": 169,
+      "avg": 201
+    }
+  },
+  {
+    "rank": 262,
+    "name": "Ja'Kobi Lane",
+    "team": "BAL",
+    "position": {
+      "position": "WR",
+      "rank": 94
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 262,
+      "fp": 319,
+      "avg": 291
+    }
+  },
+  {
+    "rank": 263,
+    "name": "Ted Hurst",
+    "team": "TB",
+    "position": {
+      "position": "WR",
+      "rank": 95
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": null,
+      "espn": 263,
+      "fp": 242,
+      "avg": 253
+    }
+  },
+  {
+    "rank": 264,
+    "name": "Elijah Sarratt",
+    "team": "BAL",
+    "position": {
+      "position": "WR",
+      "rank": 96
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": null,
+      "espn": 264,
+      "fp": 270,
+      "avg": 267
+    }
+  },
+  {
+    "rank": 265,
+    "name": "Chris Brooks",
+    "team": "GB",
     "position": {
       "position": "RB",
       "rank": 81
     },
     "price": 0,
-    "bye": 6,
+    "bye": 11,
     "rankings": {
-      "ff": null,
-      "fp": 278,
-      "avg": 278
+      "ff": 414,
+      "espn": 265,
+      "fp": 269,
+      "avg": 316
     }
   },
   {
-    "rank": 296,
-    "name": "Xavier Legette",
+    "rank": 266,
+    "name": "George Holani",
+    "team": "SEA",
+    "position": {
+      "position": "RB",
+      "rank": 82
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 437,
+      "espn": 266,
+      "fp": 297,
+      "avg": 333
+    }
+  },
+  {
+    "rank": 267,
+    "name": "Geno Smith",
+    "team": "NYJ",
+    "position": {
+      "position": "QB",
+      "rank": 28
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 32,
+      "espn": 267,
+      "fp": 233,
+      "avg": 177
+    }
+  },
+  {
+    "rank": 268,
+    "name": "Aaron Rodgers",
+    "team": "PIT",
+    "position": {
+      "position": "QB",
+      "rank": 29
+    },
+    "price": 0,
+    "bye": 9,
+    "rankings": {
+      "ff": 25,
+      "espn": 268,
+      "fp": 247,
+      "avg": 180
+    }
+  },
+  {
+    "rank": 269,
+    "name": "Deshaun Watson",
+    "team": "CLE",
+    "position": {
+      "position": "QB",
+      "rank": 30
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 269,
+      "fp": 308,
+      "avg": 289
+    }
+  },
+  {
+    "rank": 270,
+    "name": "Jacoby Brissett",
+    "team": "ARI",
+    "position": {
+      "position": "QB",
+      "rank": 31
+    },
+    "price": 0,
+    "bye": 14,
+    "rankings": {
+      "ff": 21,
+      "espn": 270,
+      "fp": 184,
+      "avg": 158
+    }
+  },
+  {
+    "rank": 271,
+    "name": "Dontayvion Wicks",
+    "team": "PHI",
+    "position": {
+      "position": "WR",
+      "rank": 97
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 294,
+      "espn": 271,
+      "fp": 208,
+      "avg": 258
+    }
+  },
+  {
+    "rank": 272,
+    "name": "Nick Westbrook-Ikhine",
+    "team": "IND",
+    "position": {
+      "position": "WR",
+      "rank": 98
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 499,
+      "espn": 272,
+      "fp": 392,
+      "avg": 388
+    }
+  },
+  {
+    "rank": 273,
+    "name": "Darius Slayton",
+    "team": "NYG",
+    "position": {
+      "position": "WR",
+      "rank": 99
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 231,
+      "espn": 273,
+      "fp": 273,
+      "avg": 259
+    }
+  },
+  {
+    "rank": 274,
+    "name": "Dyami Brown",
+    "team": "WAS",
+    "position": {
+      "position": "WR",
+      "rank": 100
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 357,
+      "espn": 274,
+      "fp": 427,
+      "avg": 353
+    }
+  },
+  {
+    "rank": 275,
+    "name": "Jahan Dotson",
+    "team": "ATL",
+    "position": {
+      "position": "WR",
+      "rank": 101
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 348,
+      "espn": 275,
+      "fp": 334,
+      "avg": 319
+    }
+  },
+  {
+    "rank": 276,
+    "name": "Isaiah Davis",
+    "team": "NYJ",
+    "position": {
+      "position": "RB",
+      "rank": 83
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 291,
+      "espn": 276,
+      "fp": 257,
+      "avg": 275
+    }
+  },
+  {
+    "rank": 277,
+    "name": "DJ Giddens",
+    "team": "IND",
+    "position": {
+      "position": "RB",
+      "rank": 84
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 460,
+      "espn": 277,
+      "fp": 274,
+      "avg": 337
+    }
+  },
+  {
+    "rank": 278,
+    "name": "Jaydon Blue",
+    "team": "DAL",
+    "position": {
+      "position": "RB",
+      "rank": 85
+    },
+    "price": 0,
+    "bye": 14,
+    "rankings": {
+      "ff": 405,
+      "espn": 278,
+      "fp": 271,
+      "avg": 318
+    }
+  },
+  {
+    "rank": 279,
+    "name": "Trevor Etienne",
     "team": "CAR",
+    "position": {
+      "position": "RB",
+      "rank": 86
+    },
+    "price": 0,
+    "bye": 5,
+    "rankings": {
+      "ff": 479,
+      "espn": 279,
+      "fp": 310,
+      "avg": 356
+    }
+  },
+  {
+    "rank": 280,
+    "name": "Emanuel Wilson",
+    "team": "SEA",
+    "position": {
+      "position": "RB",
+      "rank": 87
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 201,
+      "espn": 280,
+      "fp": 170,
+      "avg": 217
+    }
+  },
+  {
+    "rank": 281,
+    "name": "Will Shipley",
+    "team": "PHI",
+    "position": {
+      "position": "RB",
+      "rank": 88
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 488,
+      "espn": 281,
+      "fp": 331,
+      "avg": 367
+    }
+  },
+  {
+    "rank": 282,
+    "name": "Tyler Badie",
+    "team": "DEN",
+    "position": {
+      "position": "RB",
+      "rank": 89
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 460,
+      "espn": 282,
+      "fp": 439,
+      "avg": 394
+    }
+  },
+  {
+    "rank": 283,
+    "name": "Devin Singletary",
+    "team": "NYG",
+    "position": {
+      "position": "RB",
+      "rank": 90
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": 178,
+      "espn": 283,
+      "fp": 298,
+      "avg": 253
+    }
+  },
+  {
+    "rank": 284,
+    "name": "Andrei Iosivas",
+    "team": "CIN",
+    "position": {
+      "position": "WR",
+      "rank": 102
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 254,
+      "espn": 284,
+      "fp": 320,
+      "avg": 286
+    }
+  },
+  {
+    "rank": 285,
+    "name": "Bengals D/ST",
+    "team": "CIN",
+    "position": {
+      "position": "DST",
+      "rank": 17
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": null,
+      "espn": 285,
+      "fp": null,
+      "avg": 285
+    }
+  },
+  {
+    "rank": 286,
+    "name": "Bears D/ST",
+    "team": "CHI",
+    "position": {
+      "position": "DST",
+      "rank": 18
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": null,
+      "espn": 286,
+      "fp": null,
+      "avg": 286
+    }
+  },
+  {
+    "rank": 287,
+    "name": "Trey Smack",
+    "team": "GB",
+    "position": {
+      "position": "K",
+      "rank": 17
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": null,
+      "espn": 287,
+      "fp": 434,
+      "avg": 361
+    }
+  },
+  {
+    "rank": 288,
+    "name": "Jake Elliott",
+    "team": "PHI",
+    "position": {
+      "position": "K",
+      "rank": 18
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 151,
+      "espn": 288,
+      "fp": 375,
+      "avg": 271
+    }
+  },
+  {
+    "rank": 289,
+    "name": "Mike Gesicki",
+    "team": "CIN",
+    "position": {
+      "position": "TE",
+      "rank": 30
+    },
+    "price": 0,
+    "bye": 6,
+    "rankings": {
+      "ff": 311,
+      "espn": 289,
+      "fp": 306,
+      "avg": 302
+    }
+  },
+  {
+    "rank": 290,
+    "name": "Cade Otton",
+    "team": "TB",
+    "position": {
+      "position": "TE",
+      "rank": 31
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 235,
+      "espn": 290,
+      "fp": 238,
+      "avg": 254
+    }
+  },
+  {
+    "rank": 291,
+    "name": "Evan Engram",
+    "team": "DEN",
+    "position": {
+      "position": "TE",
+      "rank": 32
+    },
+    "price": 0,
+    "bye": 10,
+    "rankings": {
+      "ff": 268,
+      "espn": 291,
+      "fp": 258,
+      "avg": 272
+    }
+  },
+  {
+    "rank": 292,
+    "name": "David Njoku",
+    "team": "LAC",
+    "position": {
+      "position": "TE",
+      "rank": 33
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 259,
+      "espn": 292,
+      "fp": 226,
+      "avg": 259
+    }
+  },
+  {
+    "rank": 293,
+    "name": "Michael Mayer",
+    "team": "LV",
+    "position": {
+      "position": "TE",
+      "rank": 34
+    },
+    "price": 0,
+    "bye": 13,
+    "rankings": {
+      "ff": 323,
+      "espn": 293,
+      "fp": 358,
+      "avg": 325
+    }
+  },
+  {
+    "rank": 294,
+    "name": "Tyquan Thornton",
+    "team": "KC",
     "position": {
       "position": "WR",
       "rank": 103
@@ -4730,73 +4991,112 @@
     "price": 0,
     "bye": 5,
     "rankings": {
-      "ff": 254,
-      "fp": 279,
-      "avg": 267
+      "ff": 234,
+      "espn": 294,
+      "fp": 292,
+      "avg": 273
+    }
+  },
+  {
+    "rank": 295,
+    "name": "Van Jefferson",
+    "team": "WAS",
+    "position": {
+      "position": "WR",
+      "rank": 104
+    },
+    "price": 0,
+    "bye": 7,
+    "rankings": {
+      "ff": 311,
+      "espn": 295,
+      "fp": null,
+      "avg": 303
+    }
+  },
+  {
+    "rank": 296,
+    "name": "Tua Tagovailoa",
+    "team": "ATL",
+    "position": {
+      "position": "QB",
+      "rank": 32
+    },
+    "price": 0,
+    "bye": 11,
+    "rankings": {
+      "ff": 45,
+      "espn": 296,
+      "fp": 275,
+      "avg": 205
     }
   },
   {
     "rank": 297,
-    "name": "Seth McGowan",
-    "team": "IND",
+    "name": "49ers D/ST",
+    "team": "SF",
     "position": {
-      "position": "RB",
-      "rank": 82
+      "position": "DST",
+      "rank": 19
+    },
+    "price": 0,
+    "bye": 8,
+    "rankings": {
+      "ff": null,
+      "espn": 297,
+      "fp": null,
+      "avg": 297
+    }
+  },
+  {
+    "rank": 298,
+    "name": "Jets D/ST",
+    "team": "NYJ",
+    "position": {
+      "position": "DST",
+      "rank": 20
     },
     "price": 0,
     "bye": 13,
     "rankings": {
       "ff": null,
-      "fp": 280,
-      "avg": 280
-    }
-  },
-  {
-    "rank": 298,
-    "name": "Wil Lutz",
-    "team": "DEN",
-    "position": {
-      "position": "K",
-      "rank": 24
-    },
-    "price": 0,
-    "bye": 10,
-    "rankings": {
-      "ff": 129,
-      "fp": 281,
-      "avg": 205
+      "espn": 298,
+      "fp": null,
+      "avg": 298
     }
   },
   {
     "rank": 299,
-    "name": "Atlanta Falcons",
-    "team": "ATL",
+    "name": "Saints D/ST",
+    "team": "NO",
     "position": {
       "position": "DST",
-      "rank": 17
+      "rank": 21
     },
     "price": 0,
-    "bye": 11,
+    "bye": 8,
     "rankings": {
-      "ff": 209,
-      "fp": 282,
-      "avg": 246
+      "ff": null,
+      "espn": 299,
+      "fp": null,
+      "avg": 299
     }
   },
   {
     "rank": 300,
-    "name": "Malik Davis",
-    "team": "DAL",
+    "name": "Panthers D/ST",
+    "team": "CAR",
     "position": {
-      "position": "RB",
-      "rank": 83
+      "position": "DST",
+      "rank": 22
     },
     "price": 0,
-    "bye": 14,
+    "bye": 5,
     "rankings": {
-      "ff": 315,
-      "fp": 283,
-      "avg": 299
+      "ff": null,
+      "espn": 300,
+      "fp": null,
+      "avg": 300
     }
   }
 ]
