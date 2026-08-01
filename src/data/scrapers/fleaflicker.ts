@@ -3,8 +3,8 @@ import { normalizeTeam, runIfMain } from './utils';
 
 const API_BASE = 'https://www.fleaflicker.com/api';
 
-// biome-ignore lint/correctness/noUnusedVariables: kept for API reference if restored
-interface FleaFlickerPlayer {
+// Kept for API reference if the Fleaflicker API integration is restored
+export interface FleaFlickerPlayer {
   player: {
     id: number;
     name_full: string;

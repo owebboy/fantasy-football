@@ -59,8 +59,21 @@ function merge(): MergedEntry[] {
         rankVariance: 0,
       });
     }
-    // biome-ignore lint/style/noNonNullAssertion: getOrCreate always sets the key
-    return master.get(key)!;
+    const entry = master.get(key);
+    if (!entry) throw new Error(`getOrCreate: failed to retrieve key "${key}"`);
+    return entry;
+  }
+
+  function setRankField(entry: MergedEntry, field: keyof MergedEntry, value: number | string | null): void {
+    switch (field) {
+      case 'espnRank': entry.espnRank = value as number | null; break;
+      case 'fleaflickerRank': entry.fleaflickerRank = value as number | null; break;
+      case 'fantasyprosRank': entry.fantasyprosRank = value as number | null; break;
+      case 'espnId': entry.espnId = value as string | null; break;
+      case 'fleaflickerId': entry.fleaflickerId = value as number | null; break;
+      case 'fantasyprosId': entry.fantasyprosId = value as string | null; break;
+      default: break;
+    }
   }
 
   function addSource(
@@ -73,11 +86,8 @@ function merge(): MergedEntry[] {
     for (const p of cache.players) {
       const key = normalizeName(p.name);
       const entry = getOrCreate(key, p.name, p.team, p.position);
-      // Assign via index — fields are correctly typed on MergedEntry
-      // biome-ignore lint/suspicious/noExplicitAny: dynamic index on typed interface
-      (entry as any)[rankField] = p.rank;
-      // biome-ignore lint/suspicious/noExplicitAny: dynamic index on typed interface
-      (entry as any)[idField] = (p as any).id ?? null;
+      setRankField(entry, rankField, p.rank);
+      setRankField(entry, idField, (p as unknown as Record<string, unknown>).id as string | number | null ?? null);
       if (!entry.sources.includes(sourceName)) {
         entry.sources.push(sourceName);
       }
@@ -98,12 +108,13 @@ function merge(): MergedEntry[] {
   const entries = Array.from(master.values());
   for (const entry of entries) {
     entry.matchConfidence = entry.sources.length / 3;
-    entry.status =
-      entry.sources.length === 3
-        ? 'matched_all'
-        : entry.sources.length === 2
-          ? 'matched_two'
-          : 'matched_one';
+    if (entry.sources.length === 3) {
+      entry.status = 'matched_all';
+    } else if (entry.sources.length === 2) {
+      entry.status = 'matched_two';
+    } else {
+      entry.status = 'matched_one';
+    }
 
     const ranks = [entry.espnRank, entry.fleaflickerRank, entry.fantasyprosRank].filter(
       (r): r is number => r !== null,
@@ -130,10 +141,10 @@ function merge(): MergedEntry[] {
     return aRank - bRank;
   });
 
-  console.log(`Merge: ${entries.length} total players`);
-  console.log(`  matched_all: ${entries.filter((e) => e.status === 'matched_all').length}`);
-  console.log(`  matched_two: ${entries.filter((e) => e.status === 'matched_two').length}`);
-  console.log(`  matched_one: ${entries.filter((e) => e.status === 'matched_one').length}`);
+  process.stderr.write(`Merge: ${entries.length} total players\n`);
+  process.stderr.write(`  matched_all: ${entries.filter((e) => e.status === 'matched_all').length}\n`);
+  process.stderr.write(`  matched_two: ${entries.filter((e) => e.status === 'matched_two').length}\n`);
+  process.stderr.write(`  matched_one: ${entries.filter((e) => e.status === 'matched_one').length}\n`);
 
   return entries;
 }
@@ -141,4 +152,4 @@ function merge(): MergedEntry[] {
 // Run
 const merged = merge();
 fs.writeFileSync('merged-all.json', JSON.stringify(merged, null, 2));
-console.log(`Wrote ${merged.length} entries to merged-all.json`);
+process.stderr.write(`Wrote ${merged.length} entries to merged-all.json\n`);
