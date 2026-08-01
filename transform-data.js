@@ -113,11 +113,7 @@ function calculateRankingVector(entry) {
     consensusStrength,
     variance: Math.round(variance * 10) / 10,
     averageRank,
-    sources: {
-      ff: ffNorm,
-      espn: espnNorm,
-      fp: fpNorm,
-    },
+
   };
 }
 
@@ -149,16 +145,6 @@ const positionMap = {
   'D/ST': 'DST',
 };
 
-// Group by position to calculate position ranks
-const positionGroups = {};
-qualityEntries.forEach((entry) => {
-  const pos = positionMap[entry.position] || entry.position;
-  if (!positionGroups[pos]) {
-    positionGroups[pos] = [];
-  }
-  positionGroups[pos].push(entry);
-});
-
 // Create the transformed players array
 const players = [];
 let overallRank = 1;
@@ -171,6 +157,9 @@ const positionRanks = { QB: 0, RB: 0, WR: 0, TE: 0, K: 0, DST: 0 };
 
 topPlayers.forEach((entry) => {
   const position = positionMap[entry.position] || entry.position;
+  if (!positionMap[entry.position]) {
+    console.warn(`Unknown position "${entry.position}" for ${entry.name} — using as-is`);
+  }
   positionRanks[position]++;
 
   const rankingData = calculateRankingVector(entry);
@@ -196,8 +185,6 @@ topPlayers.forEach((entry) => {
     },
   });
 });
-
-// No need for hardcoded kickers/defenses - they're in the data in proper FF rank order
 
 // Write generated player data to JSON (interfaces live in src/player-types.ts)
 fs.writeFileSync('src/players.json', JSON.stringify(players.slice(0, 300), null, 2));

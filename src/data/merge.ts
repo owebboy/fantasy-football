@@ -59,20 +59,35 @@ function merge(): MergedEntry[] {
         rankVariance: 0,
       });
     }
-    const entry = master.get(key);
-    if (!entry) throw new Error(`getOrCreate: failed to retrieve key "${key}"`);
-    return entry;
+    return master.get(key)!;
   }
 
-  function setRankField(entry: MergedEntry, field: keyof MergedEntry, value: number | string | null): void {
+  function setRankField(
+    entry: MergedEntry,
+    field: keyof MergedEntry,
+    value: number | string | null,
+  ): void {
     switch (field) {
-      case 'espnRank': entry.espnRank = value as number | null; break;
-      case 'fleaflickerRank': entry.fleaflickerRank = value as number | null; break;
-      case 'fantasyprosRank': entry.fantasyprosRank = value as number | null; break;
-      case 'espnId': entry.espnId = value as string | null; break;
-      case 'fleaflickerId': entry.fleaflickerId = value as number | null; break;
-      case 'fantasyprosId': entry.fantasyprosId = value as string | null; break;
-      default: break;
+      case 'espnRank':
+        entry.espnRank = value as number | null;
+        break;
+      case 'fleaflickerRank':
+        entry.fleaflickerRank = value as number | null;
+        break;
+      case 'fantasyprosRank':
+        entry.fantasyprosRank = value as number | null;
+        break;
+      case 'espnId':
+        entry.espnId = value as string | null;
+        break;
+      case 'fleaflickerId':
+        entry.fleaflickerId = value as number | null;
+        break;
+      case 'fantasyprosId':
+        entry.fantasyprosId = value as string | null;
+        break;
+      default:
+        break;
     }
   }
 
@@ -87,7 +102,7 @@ function merge(): MergedEntry[] {
       const key = normalizeName(p.name);
       const entry = getOrCreate(key, p.name, p.team, p.position);
       setRankField(entry, rankField, p.rank);
-      setRankField(entry, idField, (p as unknown as Record<string, unknown>).id as string | number | null ?? null);
+      setRankField(entry, idField, p.id ?? null);
       if (!entry.sources.includes(sourceName)) {
         entry.sources.push(sourceName);
       }
@@ -142,14 +157,19 @@ function merge(): MergedEntry[] {
   });
 
   process.stderr.write(`Merge: ${entries.length} total players\n`);
-  process.stderr.write(`  matched_all: ${entries.filter((e) => e.status === 'matched_all').length}\n`);
-  process.stderr.write(`  matched_two: ${entries.filter((e) => e.status === 'matched_two').length}\n`);
-  process.stderr.write(`  matched_one: ${entries.filter((e) => e.status === 'matched_one').length}\n`);
+  process.stderr.write(
+    `  matched_all: ${entries.filter((e) => e.status === 'matched_all').length}\n`,
+  );
+  process.stderr.write(
+    `  matched_two: ${entries.filter((e) => e.status === 'matched_two').length}\n`,
+  );
+  process.stderr.write(
+    `  matched_one: ${entries.filter((e) => e.status === 'matched_one').length}\n`,
+  );
 
   return entries;
 }
 
-// Run
 const merged = merge();
 fs.writeFileSync('merged-all.json', JSON.stringify(merged, null, 2));
 process.stderr.write(`Wrote ${merged.length} entries to merged-all.json\n`);

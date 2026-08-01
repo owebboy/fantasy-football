@@ -52,7 +52,7 @@ export async function scrape(): Promise<ScrapedPlayer[]> {
   const data = await resp.json();
   const players: ScrapedPlayer[] = [];
 
-  const listing = data.players || data.rows || data.items || [];
+  const listing = data.players || [];
   let seq = 0;
 
   for (const item of listing) {
