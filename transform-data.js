@@ -122,15 +122,21 @@ function calculateRankingVector(entry) {
 }
 
 // Read and parse the merged data
-const mergedData = JSON.parse(fs.readFileSync('merged-all.json', 'utf8'));
+let mergedData;
+try {
+  mergedData = JSON.parse(fs.readFileSync('merged-all.json', 'utf8'));
+} catch (err) {
+  console.error('Failed to read merged-all.json:', err.message);
+  process.exit(1);
+}
 
-// Filter for entries with ESPN rankings (ESPN is our primary source)
+// Filter for entries with Fleaflicker rankings (Fleaflicker is our primary source)
 const qualityEntries = mergedData
   .filter((entry) => {
-    // Must have ESPN ranking and basic player info
-    return entry.espnRank && entry.name && entry.team && entry.position;
+    // Must have Fleaflicker ranking and basic player info
+    return entry.fleaflickerRank && entry.name && entry.team && entry.position;
   })
-  .sort((a, b) => a.espnRank - b.espnRank);
+  .sort((a, b) => a.fleaflickerRank - b.fleaflickerRank);
 
 // Map position strings to valid positions
 const positionMap = {
@@ -157,7 +163,7 @@ qualityEntries.forEach((entry) => {
 const players = [];
 let overallRank = 1;
 
-// Take top 300 players by ESPN rank (including K/DST if they're ranked high enough)
+// Take top 300 players by Fleaflicker rank (including K/DST if they're ranked high enough)
 const topPlayers = qualityEntries.slice(0, 300);
 
 // Track position ranks

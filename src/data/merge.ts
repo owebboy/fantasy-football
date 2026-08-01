@@ -123,10 +123,10 @@ function merge(): MergedEntry[] {
     }
   }
 
-  // Sort by ESPN rank (primary), fall back to average rank
+  // Sort by Fleaflicker rank (primary), fall back to average rank
   entries.sort((a, b) => {
-    const aRank = a.espnRank ?? a.averageRank ?? 999;
-    const bRank = b.espnRank ?? b.averageRank ?? 999;
+    const aRank = a.fleaflickerRank ?? a.averageRank ?? 999;
+    const bRank = b.fleaflickerRank ?? b.averageRank ?? 999;
     return aRank - bRank;
   });
 
